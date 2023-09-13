@@ -1,0 +1,6 @@
+framework module Pods_LTY_Partner {
+  umbrella header "Pods-LTY_Partner-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,191 @@
+
+/** Classe = "UILabel"; testo = "Etichetta"; ObjectID = "1B9-IS-0d3"; */
+"1B9-IS-0d3.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "1uO-Ig-uJb"; */
+"1uO-Ig-uJb.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Reimposta password"; ObjectID = "34B-uf-WpW"; */
+"34B-uf-WpW.normalTitle" = "Reimposta password";
+
+/* Classe = "UIButton"; normalTitle = "Accesso"; ObjectID = "36W-aI-j8j"; */
+"36W-aI-j8j.normalTitle" = "Accesso";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "3Bk-Lh-fHh"; */
+"3Bk-Lh-fHh.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "5AB-lF-sqn"; */
+"5AB-lF-sqn.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "7QZ-ul-MZA"; */
+"7QZ-ul-MZA.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "8HE-cl-Vsi"; */
+"8HE-cl-Vsi.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "8bu-Mx-ijw"; */
+"8bu-Mx-ijw.text" = "Etichetta";
+
+/* Classe = "UIButton"; configuration.title = "Pulsante"; ObjectID = "9jg-cg-GwO"; */
+"9jg-cg-GwO.configuration.title" = "Pulsante";
+
+/* Classe = "UIButton"; normalTitle = "Pulsante"; ObjectID = "9jg-cg-GwO"; */
+"9jg-cg-GwO.normalTitle" = "Pulsante";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "AJX-ed-H0d"; */
+"AJX-ed-H0d.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Password dimenticata"; ObjectID = "Bha-QY-Fci"; */
+"Bha-QY-Fci.normalTitle" = "Password dimenticata";
+
+
+/* Classe = "UIButton"; normalTitle = "Registrati ora"; ObjectID = "CT9-q3-rlb"; */
+"CT9-q3-rlb.normalTitle" = "Registrati ora";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "FcJ-Ba-pWr"; */
+"FcJ-Ba-pWr.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "Fk7-XA-imr"; */
+"Fk7-XA-imr.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "GS9-JT-9k6"; */
+"GS9-JT-9k6.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "HFm-PW-TID"; */
+"HFm-PW-TID.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Verifica"; ObjectID = "HJy-04-xvm"; */
+"HJy-04-xvm.normalTitle" = "Verifica";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "HkW-dW-KUS"; */
+"HkW-dW-KUS.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "Huq-YA-LxV"; */
+"Huq-YA-LxV.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Avanti"; ObjectID = "Id7-Cv-TZK"; */
+"Id7-Cv-TZK.normalTitle" = "Avanti";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "Ihq-ph-XG2"; */
+"Ihq-ph-XG2.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Accedi"; ObjectID = "Mw7-wG-G7Z"; */
+"Mw7-wG-G7Z.normalTitle" = "Accedi";
+
+/* Classe = "UILabel"; testo = "È stato inviato un codice di 6 cifre a Ritesh@Yopmail.com"; ObjectID = "Pd2-zg-9Yj"; */
+"Pd2-zg-9Yj.text" = "È stato inviato un codice di 6 cifre a mailto:ritesh@yopmail.com";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "PwY-RN-CFl"; */
+"PwY-RN-CFl.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Inizia"; ObjectID = "Q7v-gv-szZ"; */
+"Q7v-gv-szZ.normalTitle" = "Inizia";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "QPj-25-gZr"; */
+"QPj-25-gZr.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "QdJ-v9-CAt"; */
+"QdJ-v9-CAt.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "R2k-GK-VP0"; */
+"R2k-GK-VP0.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Recupera password"; ObjectID = "RR5-eh-oXj"; */
+"RR5-eh-oXj.normalTitle" = "Recupera password";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "RTK-5o-Be8"; */
+"RTK-5o-Be8.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "RV5-43-W4t"; */
+"RV5-43-W4t.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "RYT-jq-Abh"; */
+"RYT-jq-Abh.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Non hai ricevuto l'OTP?"; ObjectID = "THp-sc-9HZ"; */
+"THp-sc-9HZ.text" = "Non hai ricevuto l'OTP?";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "TSu-ty-hk2"; */
+"TSu-ty-hk2.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "Ud9-tH-qaM"; */
+"Ud9-tH-qaM.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Seleziona lingua"; ObjectID = "Vl8-du-XdL"; */
+"Vl8-du-XdL.text" = "Seleziona lingua";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "Yyw-u6-I3O"; */
+"Yyw-u6-I3O.text" = "Etichetta";
+
+/* Classe = "UIButton"; configuration.title = "Pulsante"; ObjectID = "amN-Y1-t0u"; */
+"amN-Y1-t0u.configuration.title" = "Pulsante";
+
+/* Classe = "UIButton"; normalTitle = "Pulsante"; ObjectID = "amN-Y1-t0u"; */
+"amN-Y1-t0u.normalTitle" = "Pulsante";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "bVb-Op-CcJ"; */
+"bVb-Op-CcJ.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Annulla"; ObjectID = "bxi-bm-1Fo"; */
+"bxi-bm-1Fo.normalTitle" = "Annulla";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "dup-r3-Z6M"; */
+"dup-r3-Z6M.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "fFJ-N6-Kfh"; */
+"fFJ-N6-Kfh.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "fk1-m3-6AP"; */
+"fk1-m3-6AP.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "hFI-Ud-qM5"; */
+"hFI-Ud-qM5.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "hoa-EQ-Hgn"; */
+"hoa-EQ-Hgn.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "ih9-Ie-oTE"; */
+"ih9-Ie-oTE.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "kFP-sB-0ju"; */
+"kFP-sB-0ju.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "kNG-TX-KEz"; */
+"kNG-TX-KEz.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Benvenuto in LTY"; ObjectID = "ld2-lb-1iv"; */
+"ld2-lb-1iv.text" = "Benvenuto in LTY";
+
+/* Classe = "UIButton"; normalTitle = "Annulla"; ObjectID = "m4Z-L6-Ml3"; */
+"m4Z-L6-Ml3.normalTitle" = "Annulla";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "mVr-2v-DK3"; */
+"mVr-2v-DK3.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "nVr-pV-NLc"; */
+"nVr-pV-NLc.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "nnE-CH-NXu"; */
+"nnE-CH-NXu.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "qEo-0F-nzQ"; */
+"qEo-0F-nzQ.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Annulla"; ObjectID = "tcA-hN-VdO"; */
+"tcA-hN-VdO.normalTitle" = "Annulla";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "u09-Eg-dr9"; */
+"u09-Eg-dr9.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "vDC-zP-vZu"; */
+"vDC-zP-vZu.text" = "Etichetta";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wmC-NX-uGJ"; */
+"wmC-NX-uGJ.text" = "Etichetta";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ygP-ti-6uI"; */
+"ygP-ti-6uI.text" = "Etichetta";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zXZ-te-Omg"; */
+"zXZ-te-Omg.text" = "Etichetta";
+

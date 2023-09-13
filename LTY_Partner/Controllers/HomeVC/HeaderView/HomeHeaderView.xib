@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeHeaderView" customModule="LTY_Partner" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HomeHeaderView" customModule="LTY_Partner" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="603" height="74"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tRe-xm-5Nr">
+                    <rect key="frame" x="0.0" y="0.0" width="603" height="74"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Qw-9j-ih5">
+                            <rect key="frame" x="10" y="5" width="33" height="64"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="txw-Y7-LtW">
+                            <rect key="frame" x="563" y="26" width="30" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="UPC-i1-B3k"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="down_arrow_black"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Qc-Qa-shs">
+                            <rect key="frame" x="0.0" y="0.0" width="603" height="74"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" name="white"/>
+                    <constraints>
+                        <constraint firstItem="txw-Y7-LtW" firstAttribute="centerY" secondItem="tRe-xm-5Nr" secondAttribute="centerY" id="5yi-8n-S8h"/>
+                        <constraint firstAttribute="bottom" secondItem="8Qc-Qa-shs" secondAttribute="bottom" id="98c-2B-Bqi"/>
+                        <constraint firstItem="3Qw-9j-ih5" firstAttribute="leading" secondItem="tRe-xm-5Nr" secondAttribute="leading" constant="10" id="LPw-wK-iIs"/>
+                        <constraint firstItem="8Qc-Qa-shs" firstAttribute="top" secondItem="tRe-xm-5Nr" secondAttribute="top" id="Tk2-wQ-hCw"/>
+                        <constraint firstAttribute="trailing" secondItem="txw-Y7-LtW" secondAttribute="trailing" constant="10" id="WBu-W9-ek0"/>
+                        <constraint firstItem="8Qc-Qa-shs" firstAttribute="leading" secondItem="tRe-xm-5Nr" secondAttribute="leading" id="bMb-C8-h1b"/>
+                        <constraint firstAttribute="bottom" secondItem="3Qw-9j-ih5" secondAttribute="bottom" constant="5" id="beG-Fy-q7P"/>
+                        <constraint firstItem="3Qw-9j-ih5" firstAttribute="top" secondItem="tRe-xm-5Nr" secondAttribute="top" constant="5" id="pJe-FC-zq8"/>
+                        <constraint firstAttribute="trailing" secondItem="8Qc-Qa-shs" secondAttribute="trailing" id="pUO-58-JQ7"/>
+                        <constraint firstItem="txw-Y7-LtW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="3Qw-9j-ih5" secondAttribute="trailing" constant="10" id="wqK-wh-rfu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="tRe-xm-5Nr" secondAttribute="bottom" id="AXK-3E-5q2"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="tRe-xm-5Nr" secondAttribute="trailing" id="gPf-Uk-ePQ"/>
+                <constraint firstItem="tRe-xm-5Nr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="o6v-Or-N2m"/>
+                <constraint firstItem="tRe-xm-5Nr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="vZn-6a-0KC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnDropDown" destination="8Qc-Qa-shs" id="uwf-rm-CRe"/>
+                <outlet property="labelHeaderTitle" destination="3Qw-9j-ih5" id="ntr-5s-aCr"/>
+            </connections>
+            <point key="canvasLocation" x="87.786259541984734" y="187.32394366197184"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="down_arrow_black" width="14" height="8.5"/>
+        <namedColor name="white">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

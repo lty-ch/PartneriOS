@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="118" id="KGk-i7-Jjw" customClass="NewsLetterTVC" customModule="LTY_Partner" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="392" height="118"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="392" height="118"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lKV-Se-S8z">
+                        <rect key="frame" x="5" y="5" width="382" height="108"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxc-nR-yWf">
+                                <rect key="frame" x="15" y="15" width="352" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subscriber email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvN-La-NNE">
+                                <rect key="frame" x="15" y="43" width="94.666666666666671" height="14.333333333333336"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" name="darkGray"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAs-ER-NOp">
+                                <rect key="frame" x="325.66666666666669" y="43" width="36.333333333333314" height="14.333333333333336"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" name="darkGray"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subscriber email" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfZ-eo-ksy">
+                                <rect key="frame" x="15" y="67.333333333333329" width="210" height="14.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" name="blackColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qj-tA-QOp">
+                                <rect key="frame" x="326.66666666666669" y="67.333333333333329" width="35.333333333333314" height="14.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" name="blackColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lvN-La-NNE" firstAttribute="top" secondItem="fxc-nR-yWf" secondAttribute="bottom" constant="10" id="2bV-jU-1XJ"/>
+                            <constraint firstItem="kfZ-eo-ksy" firstAttribute="leading" secondItem="lvN-La-NNE" secondAttribute="leading" id="2ci-nu-TOV"/>
+                            <constraint firstItem="kfZ-eo-ksy" firstAttribute="width" secondItem="lKV-Se-S8z" secondAttribute="width" multiplier="0.55" id="52Z-zw-C0W"/>
+                            <constraint firstItem="NAs-ER-NOp" firstAttribute="centerY" secondItem="lvN-La-NNE" secondAttribute="centerY" id="AYl-e6-OFN"/>
+                            <constraint firstItem="5qj-tA-QOp" firstAttribute="centerY" secondItem="kfZ-eo-ksy" secondAttribute="centerY" id="BHX-TF-BaT"/>
+                            <constraint firstAttribute="trailing" secondItem="NAs-ER-NOp" secondAttribute="trailing" constant="20" id="CGd-N0-Hjk"/>
+                            <constraint firstItem="fxc-nR-yWf" firstAttribute="top" secondItem="lKV-Se-S8z" secondAttribute="top" constant="15" id="DFT-Af-fqu"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="kfZ-eo-ksy" secondAttribute="bottom" constant="10" id="DMb-Dw-cx0"/>
+                            <constraint firstAttribute="trailing" secondItem="fxc-nR-yWf" secondAttribute="trailing" constant="15" id="Npt-Np-4Iw"/>
+                            <constraint firstItem="fxc-nR-yWf" firstAttribute="leading" secondItem="lKV-Se-S8z" secondAttribute="leading" constant="15" id="cQd-LO-JPc"/>
+                            <constraint firstItem="kfZ-eo-ksy" firstAttribute="top" secondItem="lvN-La-NNE" secondAttribute="bottom" constant="10" id="uMZ-z1-ois"/>
+                            <constraint firstItem="lvN-La-NNE" firstAttribute="leading" secondItem="fxc-nR-yWf" secondAttribute="leading" id="uvc-Rr-WI3"/>
+                            <constraint firstItem="5qj-tA-QOp" firstAttribute="trailing" secondItem="NAs-ER-NOp" secondAttribute="trailing" id="vNk-G2-Aap"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="grayColor"/>
+                <constraints>
+                    <constraint firstItem="lKV-Se-S8z" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="IpX-Ht-Jfv"/>
+                    <constraint firstAttribute="bottom" secondItem="lKV-Se-S8z" secondAttribute="bottom" constant="5" id="bTJ-N9-H6m"/>
+                    <constraint firstAttribute="trailing" secondItem="lKV-Se-S8z" secondAttribute="trailing" constant="5" id="z9H-TR-Nnt"/>
+                    <constraint firstItem="lKV-Se-S8z" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="zCL-mT-cvi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblEmail" destination="kfZ-eo-ksy" id="nTs-Rh-Cjf"/>
+                <outlet property="lblName" destination="fxc-nR-yWf" id="6MB-m9-DH9"/>
+                <outlet property="lblStatus" destination="5qj-tA-QOp" id="Mnz-ww-0eH"/>
+            </connections>
+            <point key="canvasLocation" x="364.8854961832061" y="-45.070422535211272"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="blackColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="darkGray">
+            <color red="0.21568627450980393" green="0.25490196078431371" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="grayColor">
+            <color red="0.95294117647058818" green="0.95686274509803926" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

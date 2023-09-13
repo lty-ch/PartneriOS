@@ -1,0 +1,175 @@
+
+/* Classe = "UIButton"; normalTitle = "Aggiorna numero di telefono"; ObjectID = "03a-rw-9MZ"; */
+"03a-rw-9MZ.normalTitle" = "Aggiorna numero di telefono";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "05T-fO-B5t"; */
+"05T-fO-B5t.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "0db-iB-Sb8"; */
+"0db-iB-Sb8.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Ordine aziendale"; ObjectID = "2lu-ab-NRf"; */
+"2lu-ab-NRf.text" = "Ordine aziendale";
+
+/* Classe = "UIButton"; normalTitle = "Visualizza allegato ->"; ObjectID = "2zy-G1-4GB"; */
+"2zy-G1-4GB.normalTitle" = "Visualizza allegato ->";
+
+/* Classe = "UILabel"; testo = "Indirizzo"; ObjectID = "3ll-jy-SQi"; */
+"3ll-jy-SQi.text" = "Indirizzo";
+
+/* Classe = "UILabel"; testo = "Seleziona Paese"; ObjectID = "87L-IC-e0b"; */
+"87L-IC-e0b.text" = "Seleziona Paese";
+
+/* Classe = "UITabBarItem"; title = "Elemento"; ObjectID = "9o9-cs-sHl"; */
+"9o9-cs-sHl.title" = "Elemento";
+
+/* Classe = "UILabel"; testo = "Riserva aziendale"; ObjectID = "9qU-w7-Ail"; */
+"9qU-w7-Ail.text" = "Riserva aziendale";
+
+/* Classe = "UILabel"; testo = "Riserva agente"; ObjectID = "9ql-E1-vYy"; */
+"9ql-E1-vYy.text" = "Riserva agente";
+
+/* Classe = "UILabel"; testo = "Stato"; ObjectID = "AfG-tU-pA8"; */
+"AfG-tU-pA8.text" = "Stato";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "C2d-SH-iNo"; */
+"C2d-SH-iNo.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Email"; ObjectID = "Fvm-Yl-7Wf"; */
+"Fvm-Yl-7Wf.text" = "Email";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "GgA-mi-6ta"; */
+"GgA-mi-6ta.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Codice postale"; ObjectID = "HEh-fM-uDW"; */
+"HEh-fM-uDW.text" = "Codice postale";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "Irl-W9-iyB"; */
+"Irl-W9-iyB.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Aggiorna ID email"; ObjectID = "Jdl-JX-qAD"; */
+"Jdl-JX-qAD.normalTitle" = "Aggiorna ID email";
+
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "LGh-ct-jig"; */
+"LGh-ct-jig.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "MHo-C1-tGw"; */
+"MHo-C1-tGw.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "OHR-fg-JrC"; */
+"OHR-fg-JrC.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "OzN-7Q-70R"; */
+"OzN-7Q-70R.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "RJC-Br-VRT"; */
+"RJC-Br-VRT.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "TPN-67-Ska"; */
+"TPN-67-Ska.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "UIp-GJ-gxH"; */
+"UIp-GJ-gxH.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "Us9-68-hdf"; */
+"Us9-68-hdf.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "VTa-Mq-P5x"; */
+"VTa-Mq-P5x.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "WQc-mN-Vpd"; */
+"WQc-mN-Vpd.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Registrazione penale privata"; ObjectID = "aPI-9u-o8b"; */
+"aPI-9u-o8b.text" = "Registrazione penale privata";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "avb-xv-3sw"; */
+"avb-xv-3sw.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "b9r-HH-wZu"; */
+"b9r-HH-wZu.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "bqp-2K-C6T"; */
+"bqp-2K-C6T.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Informazioni bancarie"; ObjectID = "dyt-cG-oUf"; */
+"dyt-cG-oUf.normalTitle" = "Informazioni bancarie";
+
+/* Classe = "UIButton"; normalTitle = "Visualizza allegato ->"; ObjectID = "eOl-Rs-A7M"; */
+"eOl-Rs-A7M.normalTitle" = "Visualizza allegato ->";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "fCB-hF-JHd"; */
+"fCB-hF-JHd.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Modifica password"; ObjectID = "gYy-XY-5mx"; */
+"gYy-XY-5mx.normalTitle" = "Modifica password";
+
+/* Classe = "UIButton"; normalTitle = "Recupera password"; ObjectID = "hBl-PY-lrN"; */
+"hBl-PY-lrN.normalTitle" = "Recupera password";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "hPs-dB-QJr"; */
+"hPs-dB-QJr.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Informazioni azienda"; ObjectID = "hpF-T6-rHP"; */
+"hpF-T6-rHP.normalTitle" = "Informazioni azienda";
+
+/* Classe = "UILabel"; testo = "Cicero no"; ObjectID = "jde-nI-Mwl"; */
+"jde-nI-Mwl.text" = "Cicero no";
+
+/* Classe = "UILabel"; testo = "Città"; ObjectID = "kg3-i9-7si"; */
+"kg3-i9-7si.text" = "Città";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "khG-wX-blQ"; */
+"khG-wX-blQ.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "lUs-G2-DA1"; */
+"lUs-G2-DA1.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "FINMA Number"; ObjectID = "mN8-UQ-ri4"; */
+"mN8-UQ-ri4.text" = "Numero FINMA";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "mwG-m4-h4a"; */
+"mwG-m4-h4a.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "nNA-47-5Hc"; */
+"nNA-47-5Hc.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Informazioni personali"; ObjectID = "nrF-mE-xQa"; */
+"nrF-mE-xQa.normalTitle" = "Informazioni personali";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "oHR-wj-hAB"; */
+"oHR-wj-hAB.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "oMJ-zn-oMO"; */
+"oMJ-zn-oMO.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Telefono"; ObjectID = "pDG-UP-qav"; */
+"pDG-UP-qav.text" = "Telefono";
+
+/* Classe = "UIButton"; normalTitle = "Visualizza allegato ->"; ObjectID = "qU7-CM-yw5"; */
+"qU7-CM-yw5.normalTitle" = "Visualizza allegato ->";
+
+/* Classe = "UIButton"; normalTitle = "Annulla"; ObjectID = "rQa-4q-Bx6"; */
+"rQa-4q-Bx6.normalTitle" = "Annulla";
+
+/* Classe = "UILabel"; testo = "Operazione privata"; ObjectID = "sJM-I4-OCm"; */
+"sJM-I4-OCm.text" = "Operazione privata";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "tXO-62-HmL"; */
+"tXO-62-HmL.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "uY5-nl-gaQ"; */
+"uY5-nl-gaQ.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Nuovo contratto firmato"; ObjectID = "wGR-0X-xwF"; */
+"wGR-0X-xwF.text" = "Nuovo contratto firmato";
+
+/* Classe = "UILabel"; testo = "Commissione agente"; ObjectID = "xGf-DT-hQ0"; */
+"xGf-DT-hQ0.text" = "Commissione agente";
+
+/* Classe = "UILabel"; testo = "Profilo"; ObjectID = "xTI-M5-Syv"; */
+"xTI-M5-Syv.text" = "Profilo";
+
+/* Classe = "UILabel"; testo = "Nuovo contratto firmato"; ObjectID = "zaY-mR-iuI"; */
+"zaY-mR-iuI.text" = "Nuovo contratto firmato";

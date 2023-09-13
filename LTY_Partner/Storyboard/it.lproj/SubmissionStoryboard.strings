@@ -1,0 +1,261 @@
+
+/* Classe = "UILabel"; testo = "Creato da"; ObjectID = "183-fD-M36"; */
+"183-fD-M36.text" = "Creato da";
+
+/* Classe = "UILabel"; testo = "Azienda"; ObjectID = "2Cp-Sf-RV3"; */
+"2Cp-Sf-RV3.text" = "Tipo assicurativo";
+
+/* Classe = "UILabel"; testo = "Paese"; ObjectID = "2MT-sM-eqv"; */
+"2MT-sM-eqv.text" = "Paese";
+
+/* Classe = "UILabel"; testo = "Importo assicurato\n"; ObjectID = "30C-lc-NUF"; */
+"30C-lc-NUF.text" = "Importo assicurato\n";
+
+/* Classe = "UILabel"; testo = "Paese"; ObjectID = "4aC-Da-iJp"; */
+"4aC-Da-iJp.text" = "Paese";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "4g3-NF-Z9j"; */
+"4g3-NF-Z9j.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Categoria"; ObjectID = "4gq-SC-MTm"; */
+"4gq-SC-MTm.text" = "Categoria";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "5Le-Cw-IJB"; */
+"5Le-Cw-IJB.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Annulla"; ObjectID = "5Le-kL-Gds"; */
+"5Le-kL-Gds.normalTitle" = "Annulla";
+
+/* Classe = "UILabel"; testo = "Percentuale provvigione lorda del partner\n"; ObjectID = "5Sa-iz-pA9"; */
+"5Sa-iz-pA9.text" = "Percentuale provvigione lorda del partner\n";
+
+/* Classe = "UILabel"; testo = "Tipo di richiesta"; ObjectID = "6iI-xl-NgK"; */
+"6iI-xl-NgK.text" = "Tipo di richiesta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "6uD-X3-Jnd"; */
+"6uD-X3-Jnd.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "7e5-pS-wiq"; */
+"7e5-pS-wiq.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Data di nascita"; ObjectID = "8W2-38-I3V"; */
+"8W2-38-I3V.text" = "Data di nascita";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "8ip-Yv-7fP"; */
+"8ip-Yv-7fP.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "9D6-DQ-L6j"; */
+"9D6-DQ-L6j.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Partner"; ObjectID = "9IC-kR-SWu"; */
+"9IC-kR-SWu.text" = "Partner";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "9Tq-BL-vUz"; */
+"9Tq-BL-vUz.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Numero di contatto"; ObjectID = "B1V-02-lIn"; */
+"B1V-02-lIn.text" = "Numero di contatto";
+
+/* Classe = "UILabel"; testo = "Data"; ObjectID = "CDT-R0-ymq"; */
+"CDT-R0-ymq.text" = "Data";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "CFA-8C-8pk"; */
+"CFA-8C-8pk.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "Ewi-go-wwl"; */
+"Ewi-go-wwl.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Nome del gruppo"; ObjectID = "GAm-6t-Yn1"; */
+"GAm-6t-Yn1.text" = "Nome del gruppo";
+
+/* Classe = "UILabel"; testo = "Email"; ObjectID = "Hoa-d6-Gn9"; */
+"Hoa-d6-Gn9.text" = "Indirizzo e-mail";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "IBs-Ek-PUf"; */
+"IBs-Ek-PUf.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "Ix4-oS-6Cs"; */
+"Ix4-oS-6Cs.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Percentuale riserva agente\n"; ObjectID = "Kba-1r-edT"; */
+"Kba-1r-edT.text" = "Percentuale riserva conseiller\n";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "LOE-z6-Rc0"; */
+"LOE-z6-Rc0.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Percentuale riserva partner\n"; ObjectID = "LR3-zA-Zvi"; */
+"LR3-zA-Zvi.text" = "Percentuale riserva partner\n";
+
+/* Classe = "UITextField"; segnaposto = "Periodicità"; ObjectID = "Mhf-j3-XV8"; */
+"Mhf-j3-XV8.placeholder" = "Periodicità";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "PZx-wU-QbF"; */
+"PZx-wU-QbF.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "Pwk-me-Jmb"; */
+"Pwk-me-Jmb.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Numero polizza/offerta"; ObjectID = "QJB-6L-Xnb"; */
+"QJB-6L-Xnb.text" = "Numero polizza/offerta";
+/* Classe = "UILabel"; testo = "Documento di polizza"; ObjectID = "Sa6-RM-VC2"; */
+"Sa6-RM-VC2.text" = "Documento di polizza";
+
+/* Classe = "UITextField"; segnaposto = "ID polizza"; ObjectID = "W8Q-Mh-dJg"; */
+"W8Q-Mh-dJg.placeholder" = "ID polizza";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "X09-cB-U8U"; */
+"X09-cB-U8U.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "XN3-ho-iEA"; */
+"XN3-ho-iEA.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Informazioni agente"; ObjectID = "XSZ-H5-q9R"; */
+"XSZ-H5-q9R.text" = "Informazioni conseiller";
+
+/* Classe = "UILabel"; testo = "Incentivi e commissioni\n"; ObjectID = "YjE-jC-pkC"; */
+"YjE-jC-pkC.text" = "Incentivi e commissioni\n";
+
+/* Classe = "UILabel"; testo = "Accettato"; ObjectID = "Yl0-zA-mVC"; */
+"Yl0-zA-mVC.text" = "Accettato";
+
+/* Classe = "UILabel"; testo = "Polizza"; ObjectID = "ZS2-Ef-llx"; */
+"ZS2-Ef-llx.text" = "Polizza";
+
+/* Classe = "UILabel"; testo = "Commissione netta agente\n"; ObjectID = "ZYJ-Ii-POB"; */
+"ZYJ-Ii-POB.text" = "Commissione netta conseiller\n";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "aIy-TG-nCD"; */
+"aIy-TG-nCD.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Data di inizio\n"; ObjectID = "aOJ-mS-ubx"; */
+"aOJ-mS-ubx.text" = "Data di inizio\n";
+
+/* Classe = "UILabel"; testo = "ID agente"; ObjectID = "buc-Cx-dAv"; */
+"buc-Cx-dAv.text" = "Indirizzo e-mail";
+
+/* Classe = "UILabel"; testo = "Cellulare"; ObjectID = "cgt-Wj-MSj"; */
+"cgt-Wj-MSj.text" = "Cellulare";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "dzs-4l-R3z"; */
+"dzs-4l-R3z.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Invia"; ObjectID = "e8B-Ik-RiE"; */
+"e8B-Ik-RiE.normalTitle" = "Invia";
+
+/* Classe = "UILabel"; testo = "ID polizza"; ObjectID = "eZX-cu-hcS"; */
+"eZX-cu-hcS.text" = "ID polizza";
+
+/* Classe = "UILabel"; testo = "Seleziona agente"; ObjectID = "ebV-jG-1oc"; */
+"ebV-jG-1oc.text" = "Seleziona conseiller";
+
+
+/* Classe = "UILabel"; testo = "Persona assicurata\n"; ObjectID = "f0c-zX-oKw"; */
+"f0c-zX-oKw.text" = "Persona assicurata\n";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "fBU-vT-plL"; */
+"fBU-vT-plL.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "fav-JQ-dwX"; */
+"fav-JQ-dwX.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "fkk-4a-KOc"; */
+"fkk-4a-KOc.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "fn8-Hg-TeD"; */
+"fn8-Hg-TeD.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "g0w-vh-Dj5"; */
+"g0w-vh-Dj5.text" = "Etichetta";
+
+/* Classe = "UIButton"; normalTitle = "Carica ->"; ObjectID = "gDj-sM-3Xg"; */
+"gDj-sM-3Xg.normalTitle" = "Carica ->";
+
+/* Classe = "UILabel"; testo = "Data di fine\n"; ObjectID = "gXY-rC-Vn9"; */
+"gXY-rC-Vn9.text" = "Data di fine\n";
+
+/* Classe = "UILabel"; testo = "Informazioni meta proposta\n"; ObjectID = "hLx-Y9-ss1"; */
+"hLx-Y9-ss1.text" = "Informazioni meta proposta\n";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "hpg-l6-uFm"; */
+"hpg-l6-uFm.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Periodicità"; ObjectID = "iQV-Rj-wIF"; */
+"iQV-Rj-wIF.text" = "Periodicità";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "ikU-n2-AzG"; */
+"ikU-n2-AzG.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Informazioni cliente"; ObjectID = "jXh-0c-gjx"; */
+"jXh-0c-gjx.text" = "Informazioni cliente";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "koP-qC-KAq"; */
+"koP-qC-KAq.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "le3-tm-Jt2"; */
+"le3-tm-Jt2.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "llF-QM-noO"; */
+"llF-QM-noO.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "m6a-x0-hi3"; */
+"m6a-x0-hi3.text" = "Etichetta";
+/* Classe = "UILabel"; testo = "Stato"; ObjectID = "mUE-zR-wFd"; */
+"mUE-zR-wFd.text" = "Stato";
+
+/* Classe = "UILabel"; testo = "Commissione agente %\n"; ObjectID = "mbM-2f-gzR"; */
+"mbM-2f-gzR.text" = "Commissione conseiller %\n";
+
+/* Classe = "UITextField"; segnaposto = "Data di inizio commissione"; ObjectID = "mmo-Fe-6TH"; */
+"mmo-Fe-6TH.placeholder" = "Data di inizio commissione";
+
+/* Classe = "UILabel"; testo = "Indirizzo"; ObjectID = "n6x-lD-mdC"; */
+"n6x-lD-mdC.text" = "Indirizzo";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "o9v-bE-hrm"; */
+"o9v-bE-hrm.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Nome completo"; ObjectID = "ooS-II-Jgj"; */
+"ooS-II-Jgj.text" = "Nome completo";
+
+/* Classe = "UILabel"; testo = "Nome completo"; ObjectID = "pFM-Q4-bHJ"; */
+"pFM-Q4-bHJ.text" = "Nome completo";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "pL5-tH-5eA"; */
+"pL5-tH-5eA.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Tutte le proposte"; ObjectID = "qPs-Gp-5UR"; */
+"qPs-Gp-5UR.text" = "Tutte le proposte";
+
+/* Classe = "UILabel"; testo = "Telefono"; ObjectID = "qXr-Me-9pk"; */
+"qXr-Me-9pk.text" = "Telefono";
+
+/* Classe = "UILabel"; testo = "Commissione lorda agente\n"; ObjectID = "s5X-tm-dGV"; */
+"s5X-tm-dGV.text" = "Commissione lorda conseiller\n";
+
+/* Classe = "UIButton"; normalTitle = "Carica ->"; ObjectID = "upg-Nn-IvZ"; */
+"upg-Nn-IvZ.normalTitle" = "Carica ->";
+
+/* Classe = "UILabel"; testo = "Città"; ObjectID = "vAk-pt-Aok"; */
+"vAk-pt-Aok.text" = "Città";
+
+/* Classe = "UILabel"; testo = "Documenti firmati"; ObjectID = "wfJ-kg-XFx"; */
+"wfJ-kg-XFx.text" = "Documenti firmati";
+
+/* Classe = "UILabel"; testo = "Agente"; ObjectID = "wod-NM-b9T"; */
+"wod-NM-b9T.text" = "conseiller";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "xWm-2E-BrG"; */
+"xWm-2E-BrG.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "yCX-9N-bDP"; */
+"yCX-9N-bDP.text" = "Etichetta";
+
+
+/* Classe = "UILabel"; testo = "Data di inizio commissione"; ObjectID = "yqs-ZA-9pn"; */
+"yqs-ZA-9pn.text" = "Data di inizio commissione";
+
+/* Classe = "UILabel"; testo = "Etichetta"; ObjectID = "ywi-oR-aJY"; */
+"ywi-oR-aJY.text" = "Etichetta";
+
+/* Classe = "UILabel"; testo = "Email"; ObjectID = "zMV-W6-13O"; */
+"zMV-W6-13O.text" = "Email";

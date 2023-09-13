@@ -1,0 +1,870 @@
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "05c-9R-Ift"; */
+"05c-9R-Ift.text" = "Email";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "09R-RY-AP1"; */
+"09R-RY-AP1.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "0Aj-38-z38"; */
+"0Aj-38-z38.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = " Peroidic city"; ObjectID = "0Ec-UG-qgc"; */
+"0Ec-UG-qgc.text" = " Peroidic city";
+
+/* Class = "UILabel"; text = "Relation"; ObjectID = "189-oh-gEf"; */
+"189-oh-gEf.text" = "Relation";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1Wf-qE-XRN"; */
+"1Wf-qE-XRN.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Forgot Password?"; ObjectID = "1ug-H0-uj9"; */
+"1ug-H0-uj9.configuration.title" = "Forgot Password?";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1ug-H0-uj9"; */
+"1ug-H0-uj9.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "2Jj-oC-aZQ"; */
+"2Jj-oC-aZQ.text" = "Email";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2Rr-80-sHj"; */
+"2Rr-80-sHj.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2WX-Rr-eT1"; */
+"2WX-Rr-eT1.text" = "Label";
+
+/* Class = "UILabel"; text = "Insurance Type"; ObjectID = "2mc-Wr-cuR"; */
+"2mc-Wr-cuR.text" = "Insurance Type";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "36l-aU-Hge"; */
+"36l-aU-Hge.text" = "Label";
+
+/* Class = "UILabel"; text = "Interchangeable Plates Information\n"; ObjectID = "3eY-OG-PIH"; */
+"3eY-OG-PIH.text" = "Interchangeable Plates Information\n";
+
+/* Class = "UILabel"; text = "Post Code\n"; ObjectID = "3hY-lZ-m3i"; */
+"3hY-lZ-m3i.text" = "Post Code\n";
+
+/* Class = "UILabel"; text = "Funding Source\n"; ObjectID = "3vz-cC-fng"; */
+"3vz-cC-fng.text" = "Funding Source\n";
+
+/* Class = "UILabel"; text = "All Proposal"; ObjectID = "4EH-8D-Hev"; */
+"4EH-8D-Hev.text" = "All Proposal";
+
+/* Class = "UILabel"; text = "Customers"; ObjectID = "4qe-e7-058"; */
+"4qe-e7-058.text" = "Customers";
+
+/* Class = "UILabel"; text = "Selectd Date"; ObjectID = "54c-2p-yUW"; */
+"54c-2p-yUW.text" = "Selectd Date";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5S9-kJ-ABx"; */
+"5S9-kJ-ABx.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5XC-Zb-w0X"; */
+"5XC-Zb-w0X.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "5Za-kb-2cP"; */
+"5Za-kb-2cP.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5kW-2G-MnI"; */
+"5kW-2G-MnI.text" = "Label";
+
+/* Class = "UILabel"; text = "Agent"; ObjectID = "5mu-gu-u5r"; */
+"5mu-gu-u5r.text" = "Agent";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6zm-cb-XP3"; */
+"6zm-cb-XP3.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7Rh-r4-xUY"; */
+"7Rh-r4-xUY.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7mh-D4-0cx"; */
+"7mh-D4-0cx.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8Y5-2j-POe"; */
+"8Y5-2j-POe.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "No"; ObjectID = "8bY-cE-Q90"; */
+"8bY-cE-Q90.normalTitle" = "No";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8dF-18-zk2"; */
+"8dF-18-zk2.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8fW-LO-zGZ"; */
+"8fW-LO-zGZ.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8wK-5v-T2E"; */
+"8wK-5v-T2E.text" = "Label";
+
+/* Class = "UILabel"; text = "Brand and Type"; ObjectID = "9Dx-Me-uWP"; */
+"9Dx-Me-uWP.text" = "Brand and Type";
+
+/* Class = "UILabel"; text = "Kind of Vehicle"; ObjectID = "9Nm-oa-NxL"; */
+"9Nm-oa-NxL.text" = "Kind of Vehicle";
+
+/* Class = "UILabel"; text = "Cylinder Capacity\n"; ObjectID = "9Ol-gH-hL6"; */
+"9Ol-gH-hL6.text" = "Cylinder Capacity\n";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9WI-4L-ui3"; */
+"9WI-4L-ui3.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9dZ-YX-Be8"; */
+"9dZ-YX-Be8.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Register Now"; ObjectID = "9dq-Z7-LiY"; */
+"9dq-Z7-LiY.normalTitle" = "Register Now";
+
+/* Class = "UILabel"; text = "Do you want to add a car with interchangeable plates?\n"; ObjectID = "A3W-eu-mUg"; */
+"A3W-eu-mUg.text" = "Do you want to add a car with interchangeable plates?\n";
+
+/* Class = "UILabel"; text = "View Lead"; ObjectID = "A5X-hB-rHc"; */
+"A5X-hB-rHc.text" = "View Lead";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "AA9-Xh-vjS"; */
+"AA9-Xh-vjS.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "AB7-iB-MFC"; */
+"AB7-iB-MFC.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "AGP-yH-QKT"; */
+"AGP-yH-QKT.text" = "Label";
+
+/* Class = "UILabel"; text = "Driver's Information"; ObjectID = "AZ4-RA-8NS"; */
+"AZ4-RA-8NS.text" = "Driver's Information";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ApP-OB-b6B"; */
+"ApP-OB-b6B.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "B6R-bu-vTZ"; */
+"B6R-bu-vTZ.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Add Another Proposal"; ObjectID = "BFk-O7-Ktr"; */
+"BFk-O7-Ktr.normalTitle" = "Add Another Proposal";
+
+/* Class = "UILabel"; text = "Vehicle Number\n"; ObjectID = "Boy-py-oOZ"; */
+"Boy-py-oOZ.text" = "Vehicle Number\n";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "BrX-DT-ube"; */
+"BrX-DT-ube.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Buf-xL-E7o"; */
+"Buf-xL-E7o.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "C0E-vy-Zli"; */
+"C0E-vy-Zli.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Not Selected"; ObjectID = "CWU-aU-Kzp"; */
+"CWU-aU-Kzp.placeholder" = "Not Selected";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Dfl-Pf-KtM"; */
+"Dfl-Pf-KtM.text" = "Label";
+
+/* Class = "UILabel"; text = "Relation"; ObjectID = "Dp3-4s-fYx"; */
+"Dp3-4s-fYx.text" = "Relation";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Dt0-vj-WT8"; */
+"Dt0-vj-WT8.text" = "Label";
+
+/* Class = "UILabel"; text = "Agent Type"; ObjectID = "EF5-pJ-2ch"; */
+"EF5-pJ-2ch.text" = "Agent Type";
+
+/* Class = "UILabel"; text = "Insurance Type"; ObjectID = "EJL-eP-0cY"; */
+"EJL-eP-0cY.text" = "Insurance Type";
+
+/* Class = "UILabel"; text = "Dummy text -our friendly team would love to hear from you."; ObjectID = "EJM-he-JUZ"; */
+"EJM-he-JUZ.text" = "Dummy text -our friendly team would love to hear from you.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Eao-jH-LQF"; */
+"Eao-jH-LQF.text" = "Label";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "Ekl-ak-WuE"; */
+"Ekl-ak-WuE.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "Member Information"; ObjectID = "Eyd-oD-y9b"; */
+"Eyd-oD-y9b.text" = "Member Information";
+
+/* Class = "UILabel"; text = "Basic Insurance Information"; ObjectID = "F5t-0T-dJ3"; */
+"F5t-0T-dJ3.text" = "Basic Insurance Information";
+
+/* Class = "UILabel"; text = "Travel Insurance Offer\n"; ObjectID = "FQs-6h-jpV"; */
+"FQs-6h-jpV.text" = "Travel Insurance Offer\n";
+
+/* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "G9H-vw-r0N"; */
+"G9H-vw-r0N.normalTitle" = "Yes";
+
+/* Class = "UILabel"; text = "Premium Payment Method\n"; ObjectID = "GEQ-lV-knp"; */
+"GEQ-lV-knp.text" = "Premium Payment Method\n";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GgV-kW-tD4"; */
+"GgV-kW-tD4.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Gua-F5-Ryg"; */
+"Gua-F5-Ryg.text" = "Label";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "Gzp-ii-kQL"; */
+"Gzp-ii-kQL.text" = "Email";
+
+/* Class = "UILabel"; text = "Member name"; ObjectID = "H6K-Se-CsI"; */
+"H6K-Se-CsI.text" = "Member name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "HA6-VK-gli"; */
+"HA6-VK-gli.text" = "Label";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "I9I-G2-jDR"; */
+"I9I-G2-jDR.text" = "Phone";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "IEq-Ea-5oO"; */
+"IEq-Ea-5oO.text" = "Label";
+
+/* Class = "UILabel"; text = "Insurance Type"; ObjectID = "IME-eD-P3T"; */
+"IME-eD-P3T.text" = "Insurance Type";
+
+/* Class = "UILabel"; text = "View"; ObjectID = "IRV-Li-suA"; */
+"IRV-Li-suA.text" = "View";
+
+/* Class = "UILabel"; text = "Edit"; ObjectID = "IV2-0q-yce"; */
+"IV2-0q-yce.text" = "Edit";
+
+/* Class = "UIButton"; normalTitle = "Cancle"; ObjectID = "JAW-6x-jed"; */
+"JAW-6x-jed.normalTitle" = "Cancle";
+
+/* Class = "UILabel"; text = "View Proposal"; ObjectID = "JBg-q5-GKe"; */
+"JBg-q5-GKe.text" = "View Proposal";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JVo-mU-3sM"; */
+"JVo-mU-3sM.text" = "Label";
+
+/* Class = "UILabel"; text = "Full name"; ObjectID = "JWW-Ho-hf9"; */
+"JWW-Ho-hf9.text" = "Full name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JlV-bc-OQc"; */
+"JlV-bc-OQc.text" = "Label";
+
+/* Class = "UILabel"; text = "Models And Premiums"; ObjectID = "Jsk-ol-aAg"; */
+"Jsk-ol-aAg.text" = "Models And Premiums";
+
+/* Class = "UILabel"; text = "Personal Information"; ObjectID = "KLD-j5-XyL"; */
+"KLD-j5-XyL.text" = "Personal Information";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "KMp-sb-O1L"; */
+"KMp-sb-O1L.text" = "Label";
+
+/* Class = "UILabel"; text = "Leasing Company\n"; ObjectID = "KO8-aC-zx7"; */
+"KO8-aC-zx7.text" = "Leasing Company\n";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "KRl-n8-wk8"; */
+"KRl-n8-wk8.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Kf6-A8-9S9"; */
+"Kf6-A8-9S9.text" = "Label";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "Kfb-t6-cBp"; */
+"Kfb-t6-cBp.text" = "City";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "KrE-DO-Q5J"; */
+"KrE-DO-Q5J.text" = "Label";
+
+/* Class = "UILabel"; text = "Street Address"; ObjectID = "Kx1-wy-I1R"; */
+"Kx1-wy-I1R.text" = "Street Address";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "L91-7n-Ta2"; */
+"L91-7n-Ta2.text" = "Label";
+
+/* Class = "UILabel"; text = "99 CHF"; ObjectID = "LUu-xh-Sx5"; */
+"LUu-xh-Sx5.text" = "99 CHF";
+
+/* Class = "UIButton"; normalTitle = "Send All Proposals"; ObjectID = "Le4-lk-Ybt"; */
+"Le4-lk-Ybt.normalTitle" = "Send All Proposals";
+
+/* Class = "UILabel"; text = "Current Health Fund"; ObjectID = "LpQ-wN-qJa"; */
+"LpQ-wN-qJa.text" = "Current Health Fund";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "MBu-dM-Hb4"; */
+"MBu-dM-Hb4.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "MIw-Ep-QpA"; */
+"MIw-Ep-QpA.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "Mby-C7-pqZ"; */
+"Mby-C7-pqZ.normalTitle" = "Submit";
+
+/* Class = "UIButton"; normalTitle = "Send Proposal"; ObjectID = "Ms2-U9-mB4"; */
+"Ms2-U9-mB4.normalTitle" = "Send Proposal";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "N6w-9P-PQ7"; */
+"N6w-9P-PQ7.normalTitle" = "Send";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NCQ-XU-f0K"; */
+"NCQ-XU-f0K.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "No"; ObjectID = "NGZ-zl-M1S"; */
+"NGZ-zl-M1S.normalTitle" = "No";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NPj-6P-FBG"; */
+"NPj-6P-FBG.text" = "Label";
+
+/* Class = "UILabel"; text = "Current Health Fund"; ObjectID = "Nbo-2o-BIp"; */
+"Nbo-2o-BIp.text" = "Current Health Fund";
+
+/* Class = "UILabel"; text = "Personal Information"; ObjectID = "NpY-bG-sge"; */
+"NpY-bG-sge.text" = "Personal Information";
+
+/* Class = "UIButton"; normalTitle = "View"; ObjectID = "NtF-tN-49Z"; */
+"NtF-tN-49Z.normalTitle" = "View";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "OMI-kV-dUT"; */
+"OMI-kV-dUT.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "ONC-9H-v2h"; */
+"ONC-9H-v2h.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = "Annual Mileage\n"; ObjectID = "OP0-8p-4vz"; */
+"OP0-8p-4vz.text" = "Annual Mileage\n";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "OW3-oY-pKI"; */
+"OW3-oY-pKI.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ofc-XG-kAM"; */
+"Ofc-XG-kAM.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "P19-i3-HOW"; */
+"P19-i3-HOW.text" = "Label";
+
+/* Class = "UILabel"; text = "Personal Information"; ObjectID = "P2Q-p2-xyZ"; */
+"P2Q-p2-xyZ.text" = "Personal Information";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "PL0-1P-fE4"; */
+"PL0-1P-fE4.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "PsS-GE-EuZ"; */
+"PsS-GE-EuZ.text" = "Label";
+
+/* Class = "UILabel"; text = "Partial Casco Franchise\n"; ObjectID = "PsV-uM-3WY"; */
+"PsV-uM-3WY.text" = "Partial Casco Franchise\n";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Qoe-gt-kD9"; */
+"Qoe-gt-kD9.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QrX-8B-CFm"; */
+"QrX-8B-CFm.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Qrb-or-5w4"; */
+"Qrb-or-5w4.text" = "Label";
+
+/* Class = "UILabel"; text = "Personal Information"; ObjectID = "RAe-bp-TNA"; */
+"RAe-bp-TNA.text" = "Personal Information";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "REZ-4Z-LNl"; */
+"REZ-4Z-LNl.text" = "Label";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "Rsc-uC-Sh4"; */
+"Rsc-uC-Sh4.text" = "Email";
+
+/* Class = "UILabel"; text = "State"; ObjectID = "S1h-5F-oVN"; */
+"S1h-5F-oVN.text" = "State";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "S8I-L2-VZ1"; */
+"S8I-L2-VZ1.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "SFe-3m-9hi"; */
+"SFe-3m-9hi.normalTitle" = "Edit";
+
+/* Class = "UILabel"; text = "State"; ObjectID = "SNi-dQ-jhh"; */
+"SNi-dQ-jhh.text" = "State";
+
+/* Class = "UIButton"; normalTitle = "View"; ObjectID = "ST1-4b-7dP"; */
+"ST1-4b-7dP.normalTitle" = "View";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "SzA-F6-UOu"; */
+"SzA-F6-UOu.text" = "Label";
+
+/* Class = "UILabel"; text = "Full name"; ObjectID = "TSR-dJ-XTS"; */
+"TSR-dJ-XTS.text" = "Full name";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "Teg-Ye-xK5"; */
+"Teg-Ye-xK5.text" = "City";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "Tfo-fR-hUt"; */
+"Tfo-fR-hUt.text" = "City";
+
+/* Class = "UIButton"; normalTitle = "Open"; ObjectID = "Tp1-Ia-ov0"; */
+"Tp1-Ia-ov0.normalTitle" = "Open";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "TwC-4I-cob"; */
+"TwC-4I-cob.text" = "City";
+
+/* Class = "UIButton"; normalTitle = "Update email id"; ObjectID = "U4k-W1-7iF"; */
+"U4k-W1-7iF.normalTitle" = "Update email id";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UES-qF-ls1"; */
+"UES-qF-ls1.text" = "Label";
+
+/* Class = "UILabel"; text = "Nationality"; ObjectID = "UFQ-cK-2kH"; */
+"UFQ-cK-2kH.text" = "Nationality";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "UJI-zM-zKa"; */
+"UJI-zM-zKa.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "Accepted"; ObjectID = "UY5-0h-niK"; */
+"UY5-0h-niK.text" = "Accepted";
+
+/* Class = "UILabel"; text = "Current mileage"; ObjectID = "Ury-eo-vTl"; */
+"Ury-eo-vTl.text" = "Current mileage";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "V1q-Y4-gyb"; */
+"V1q-Y4-gyb.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VAa-w3-JVa"; */
+"VAa-w3-JVa.text" = "Label";
+
+/* Class = "UILabel"; text = "Total Weight\n"; ObjectID = "VG5-OQ-cou"; */
+"VG5-OQ-cou.text" = "Total Weight\n";
+
+/* Class = "UILabel"; text = "Leads ID"; ObjectID = "VJb-JD-yay"; */
+"VJb-JD-yay.text" = "Leads ID";
+
+/* Class = "UILabel"; text = "State"; ObjectID = "Vmt-Yu-qJu"; */
+"Vmt-Yu-qJu.text" = "State";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VvC-3S-luR"; */
+"VvC-3S-luR.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Vwg-Ig-3A3"; */
+"Vwg-Ig-3A3.text" = "Label";
+
+/* Class = "UILabel"; text = "Post Code\n"; ObjectID = "Vyc-bY-gCc"; */
+"Vyc-bY-gCc.text" = "Post Code\n";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "W5a-2V-8De"; */
+"W5a-2V-8De.text" = "Label";
+
+/* Class = "UILabel"; text = "RC"; ObjectID = "WIf-92-Xtc"; */
+"WIf-92-Xtc.text" = "RC";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "WMZ-DJ-wSX"; */
+"WMZ-DJ-wSX.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "WSW-rm-peL"; */
+"WSW-rm-peL.text" = "Label";
+
+/* Class = "UILabel"; text = "AgentCommision"; ObjectID = "WeD-CL-S2g"; */
+"WeD-CL-S2g.text" = "AgentCommision";
+
+/* Class = "UILabel"; text = "Post Code\n"; ObjectID = "WlS-Fb-TIL"; */
+"WlS-Fb-TIL.text" = "Post Code\n";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "XAB-5q-uk5"; */
+"XAB-5q-uk5.text" = "City";
+
+/* Class = "UILabel"; text = "Nationality"; ObjectID = "XDA-wS-Bai"; */
+"XDA-wS-Bai.text" = "Nationality";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XJA-G6-vLr"; */
+"XJA-G6-vLr.text" = "Label";
+
+/* Class = "UILabel"; text = "399 CHF"; ObjectID = "XOz-yW-hwa"; */
+"XOz-yW-hwa.text" = "399 CHF";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XYe-H6-Sw8"; */
+"XYe-H6-Sw8.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Xej-xk-MoM"; */
+"Xej-xk-MoM.text" = "Label";
+
+/* Class = "UILabel"; text = "Relation"; ObjectID = "Xf1-SQ-I6D"; */
+"Xf1-SQ-I6D.text" = "Relation";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Xiq-eu-3No"; */
+"Xiq-eu-3No.text" = "Label";
+
+/* Class = "UILabel"; text = "Casco Coverage\n"; ObjectID = "Xs0-xQ-AqB"; */
+"Xs0-xQ-AqB.text" = "Casco Coverage\n";
+
+/* Class = "UILabel"; text = "Postal code"; ObjectID = "YMO-4X-8Ct"; */
+"YMO-4X-8Ct.text" = "Postal code";
+
+/* Class = "UILabel"; text = "Nationality"; ObjectID = "YNH-4V-kqG"; */
+"YNH-4V-kqG.text" = "Nationality";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YOz-TR-lVQ"; */
+"YOz-TR-lVQ.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YbG-iD-G5e"; */
+"YbG-iD-G5e.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Z3C-SZ-RGA"; */
+"Z3C-SZ-RGA.text" = "Label";
+
+/* Class = "UILabel"; text = "Street Address"; ObjectID = "ZSq-jV-OKm"; */
+"ZSq-jV-OKm.text" = "Street Address";
+
+/* Class = "UILabel"; text = "Relation"; ObjectID = "ZeK-hK-x2V"; */
+"ZeK-hK-x2V.text" = "Relation";
+
+/* Class = "UIButton"; normalTitle = "Update phone number"; ObjectID = "ZsP-Pl-37x"; */
+"ZsP-Pl-37x.normalTitle" = "Update phone number";
+
+/* Class = "UILabel"; text = "Post Code\n"; ObjectID = "Zuo-EV-vgc"; */
+"Zuo-EV-vgc.text" = "Post Code\n";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Zx0-Mf-mTI"; */
+"Zx0-Mf-mTI.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Zzc-Dt-bUK"; */
+"Zzc-Dt-bUK.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Cancle"; ObjectID = "a9c-eZ-fzV"; */
+"a9c-eZ-fzV.normalTitle" = "Cancle";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aQc-wo-skN"; */
+"aQc-wo-skN.text" = "Label";
+
+/* Class = "UILabel"; text = "Do you want to delete this item ?"; ObjectID = "aZc-bl-D6S"; */
+"aZc-bl-D6S.text" = "Do you want to delete this item ?";
+
+/* Class = "UILabel"; text = "General Request"; ObjectID = "axZ-Y6-uOG"; */
+"axZ-Y6-uOG.text" = "General Request";
+
+/* Class = "UILabel"; text = "Do you want to delete this item ?"; ObjectID = "bS3-d7-Gq5"; */
+"bS3-d7-Gq5.text" = "Do you want to delete this item ?";
+
+/* Class = "UILabel"; text = "Assistance to people\n"; ObjectID = "bXm-1j-too"; */
+"bXm-1j-too.text" = "Assistance to people\n";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "cZZ-h1-oex"; */
+"cZZ-h1-oex.text" = "Status";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "cax-6R-dd9"; */
+"cax-6R-dd9.text" = "Email";
+
+/* Class = "UILabel"; text = "Partial Casco\n"; ObjectID = "cbH-VX-o3i"; */
+"cbH-VX-o3i.text" = "Partial Casco\n";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "cp0-Is-jS5"; */
+"cp0-Is-jS5.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "cxM-pL-YAF"; */
+"cxM-pL-YAF.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dae-na-Nfc"; */
+"dae-na-Nfc.text" = "Label";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "dij-Q0-ha7"; */
+"dij-Q0-ha7.text" = "Email";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "e4c-Ff-mC6"; */
+"e4c-Ff-mC6.text" = "Label";
+
+/* Class = "UILabel"; text = "Member Information"; ObjectID = "eKe-la-o4Y"; */
+"eKe-la-o4Y.text" = "Member Information";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eTU-6f-XSh"; */
+"eTU-6f-XSh.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eUP-9Y-V6Z"; */
+"eUP-9Y-V6Z.text" = "Label";
+
+/* Class = "UILabel"; text = "Complete Casco/Collision\n"; ObjectID = "eYw-YV-uVc"; */
+"eYw-YV-uVc.text" = "Complete Casco/Collision\n";
+
+/* Class = "UILabel"; text = "List Price\n"; ObjectID = "enO-dQ-TUX"; */
+"enO-dQ-TUX.text" = "List Price\n";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eoQ-w3-qaE"; */
+"eoQ-w3-qaE.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Not Selected"; ObjectID = "f1W-UB-GEh"; */
+"f1W-UB-GEh.placeholder" = "Not Selected";
+
+/* Class = "UILabel"; text = "Keep me signed in"; ObjectID = "fJu-Ge-VsD"; */
+"fJu-Ge-VsD.text" = "Keep me signed in";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fRY-e4-voE"; */
+"fRY-e4-voE.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "faR-p0-p4A"; */
+"faR-p0-p4A.text" = "Label";
+
+/* Class = "UILabel"; text = "Franchise RC\n"; ObjectID = "fzQ-2k-0ey"; */
+"fzQ-2k-0ey.text" = "Franchise RC\n";
+
+/* Class = "UILabel"; text = "Premium Amount "; ObjectID = "g0h-k1-2MG"; */
+"g0h-k1-2MG.text" = "Premium Amount ";
+
+/* Class = "UILabel"; text = "Don't have any account?"; ObjectID = "gC9-20-dlY"; */
+"gC9-20-dlY.text" = "Don't have any account?";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gOM-yQ-scY"; */
+"gOM-yQ-scY.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gWB-xu-34h"; */
+"gWB-xu-34h.text" = "Label";
+
+/* Class = "UILabel"; text = "Insurance Type"; ObjectID = "grY-Ky-qFN"; */
+"grY-Ky-qFN.text" = "Insurance Type";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hH5-sW-SdB"; */
+"hH5-sW-SdB.text" = "Label";
+
+/* Class = "UILabel"; text = "Driver's Licence Date"; ObjectID = "hHA-SX-kfX"; */
+"hHA-SX-kfX.text" = "Driver's Licence Date";
+
+/* Class = "UILabel"; text = "Postal code"; ObjectID = "hor-Af-SHX"; */
+"hor-Af-SHX.text" = "Postal code";
+
+/* Class = "UILabel"; text = "Blankets Information\n"; ObjectID = "hpK-uM-fzX"; */
+"hpK-uM-fzX.text" = "Blankets Information\n";
+
+/* Class = "UILabel"; text = "Nationality"; ObjectID = "hx1-vI-IaK"; */
+"hx1-vI-IaK.text" = "Nationality";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "i53-gB-Wjj"; */
+"i53-gB-Wjj.text" = "Profile";
+
+/* Class = "UILabel"; text = "Nationality"; ObjectID = "i91-76-erf"; */
+"i91-76-erf.text" = "Nationality";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "j34-dJ-Fdq"; */
+"j34-dJ-Fdq.text" = "Label";
+
+/* Class = "UILabel"; text = "Empty Weight\n"; ObjectID = "jdY-dB-GGR"; */
+"jdY-dB-GGR.text" = "Empty Weight\n";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jpP-XG-41T"; */
+"jpP-XG-41T.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "k5n-2t-VsD"; */
+"k5n-2t-VsD.normalTitle" = "Delete";
+
+/* Class = "UILabel"; text = "Agent Reserve"; ObjectID = "kAF-qQ-0iQ"; */
+"kAF-qQ-0iQ.text" = "Agent Reserve";
+
+/* Class = "UILabel"; text = "1st Release\n"; ObjectID = "kBV-Mf-JfE"; */
+"kBV-Mf-JfE.text" = "1st Release\n";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kFp-Zi-x48"; */
+"kFp-Zi-x48.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kLq-KD-IGW"; */
+"kLq-KD-IGW.text" = "Label";
+
+/* Class = "UILabel"; text = "Member name"; ObjectID = "kOG-v7-ZK3"; */
+"kOG-v7-ZK3.text" = "Member name";
+
+/* Class = "UILabel"; text = "State"; ObjectID = "kbE-w0-RET"; */
+"kbE-w0-RET.text" = "State";
+
+/* Class = "UILabel"; text = "Member name"; ObjectID = "kcP-uu-BU0"; */
+"kcP-uu-BU0.text" = "Member name";
+
+/* Class = "UILabel"; text = "Full name"; ObjectID = "kpv-1c-lb3"; */
+"kpv-1c-lb3.text" = "Full name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lG7-6b-V7a"; */
+"lG7-6b-V7a.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lXF-Vi-2kt"; */
+"lXF-Vi-2kt.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mHc-Y5-WAV"; */
+"mHc-Y5-WAV.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nQK-4y-m8x"; */
+"nQK-4y-m8x.text" = "Label";
+
+/* Class = "UILabel"; text = "Personal Information"; ObjectID = "nVH-mG-oLY"; */
+"nVH-mG-oLY.text" = "Personal Information";
+
+/* Class = "UILabel"; text = "Full name"; ObjectID = "nZo-RU-1HG"; */
+"nZo-RU-1HG.text" = "Full name";
+
+/* Class = "UILabel"; text = "Member name"; ObjectID = "nau-yM-yMq"; */
+"nau-yM-yMq.text" = "Member name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nic-YJ-uXj"; */
+"nic-YJ-uXj.text" = "Label";
+
+/* Class = "UILabel"; text = "Reception by Type\n"; ObjectID = "oKf-QT-cmf"; */
+"oKf-QT-cmf.text" = "Reception by Type\n";
+
+/* Class = "UILabel"; text = "Vehicle Information"; ObjectID = "oV2-9s-S7K"; */
+"oV2-9s-S7K.text" = "Vehicle Information";
+
+/* Class = "UILabel"; text = "Franchise"; ObjectID = "oa8-Ev-jUo"; */
+"oa8-Ev-jUo.text" = "Franchise";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ocR-Dr-OFB"; */
+"ocR-Dr-OFB.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ohu-9O-Sh3"; */
+"ohu-9O-Sh3.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ojF-UO-3gb"; */
+"ojF-UO-3gb.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Cancle"; ObjectID = "omQ-mM-Pc8"; */
+"omQ-mM-Pc8.normalTitle" = "Cancle";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "p95-yQ-qLz"; */
+"p95-yQ-qLz.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "phM-cn-LuI"; */
+"phM-cn-LuI.text" = "Label";
+
+/* Class = "UILabel"; text = "Personas to be Insured\n"; ObjectID = "pkz-iJ-uNg"; */
+"pkz-iJ-uNg.text" = "Personas to be Insured\n";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "psu-pr-Ojm"; */
+"psu-pr-Ojm.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pzD-OX-hFz"; */
+"pzD-OX-hFz.text" = "Label";
+
+/* Class = "UILabel"; text = "Date of Birth\n"; ObjectID = "q1W-Yx-t0r"; */
+"q1W-Yx-t0r.text" = "Date of Birth\n";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qEX-mc-C6Y"; */
+"qEX-mc-C6Y.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qGL-dT-ORg"; */
+"qGL-dT-ORg.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qIg-hd-NpM"; */
+"qIg-hd-NpM.text" = "Label";
+
+/* Class = "UILabel"; text = "How many childrens?"; ObjectID = "qPE-NI-6oB"; */
+"qPE-NI-6oB.text" = "How many childrens?";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "qfa-Ti-c1C"; */
+"qfa-Ti-c1C.text" = "Date";
+
+/* Class = "UILabel"; text = "Member Information"; ObjectID = "qhA-wx-316"; */
+"qhA-wx-316.text" = "Member Information";
+
+/* Class = "UILabel"; text = "399 CHF"; ObjectID = "qpj-Tu-Ekc"; */
+"qpj-Tu-Ekc.text" = "399 CHF";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qr5-5a-TbL"; */
+"qr5-5a-TbL.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "rIY-bT-5DG"; */
+"rIY-bT-5DG.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "rbQ-OL-e20"; */
+"rbQ-OL-e20.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "rcK-6f-IVj"; */
+"rcK-6f-IVj.text" = "Label";
+
+/* Class = "UILabel"; text = "Request Type"; ObjectID = "rgJ-vM-gQe"; */
+"rgJ-vM-gQe.text" = "Request Type";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "s5c-XR-ZHu"; */
+"s5c-XR-ZHu.text" = "Label";
+
+/* Class = "UILabel"; text = "Models"; ObjectID = "sOn-co-d3Z"; */
+"sOn-co-d3Z.text" = "Models";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "saB-uJ-Yav"; */
+"saB-uJ-Yav.normalTitle" = "Delete";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "sjo-BQ-KxA"; */
+"sjo-BQ-KxA.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "soI-IJ-xlq"; */
+"soI-IJ-xlq.text" = "Label";
+
+/* Class = "UILabel"; text = "Let's Login"; ObjectID = "sxf-ch-uR6"; */
+"sxf-ch-uR6.text" = "Let's Login";
+
+/* Class = "UILabel"; text = "Member Information"; ObjectID = "tUO-Gf-ndc"; */
+"tUO-Gf-ndc.text" = "Member Information";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tag-V5-Pze"; */
+"tag-V5-Pze.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "uWH-kh-8ik"; */
+"uWH-kh-8ik.normalTitle" = "Yes";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uYc-tk-s9R"; */
+"uYc-tk-s9R.text" = "Label";
+
+/* Class = "UILabel"; text = "Street Address"; ObjectID = "uhO-Hn-pac"; */
+"uhO-Hn-pac.text" = "Street Address";
+
+/* Class = "UILabel"; text = "Number of Sheets\n"; ObjectID = "unx-O8-uHx"; */
+"unx-O8-uHx.text" = "Number of Sheets\n";
+
+/* Class = "UILabel"; text = "Partner"; ObjectID = "urQ-Mi-CSZ"; */
+"urQ-Mi-CSZ.text" = "Partner";
+
+/* Class = "UILabel"; text = "Premium Amount "; ObjectID = "us8-FH-Lfh"; */
+"us8-FH-Lfh.text" = "Premium Amount ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "v5q-FD-9Ws"; */
+"v5q-FD-9Ws.text" = "Label";
+
+/* Class = "UILabel"; text = "Desired Blankets"; ObjectID = "vEl-Yc-5HI"; */
+"vEl-Yc-5HI.text" = "Desired Blankets";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vPP-9o-X9v"; */
+"vPP-9o-X9v.text" = "Label";
+
+/* Class = "UILabel"; text = "99 CHF"; ObjectID = "vdU-HB-rdL"; */
+"vdU-HB-rdL.text" = "99 CHF";
+
+/* Class = "UILabel"; text = "Compny Reserve"; ObjectID = "vn7-e1-WLP"; */
+"vn7-e1-WLP.text" = "Compny Reserve";
+
+/* Class = "UILabel"; text = "Street Address"; ObjectID = "w15-aY-2XY"; */
+"w15-aY-2XY.text" = "Street Address";
+
+/* Class = "UILabel"; text = " Peroidic city"; ObjectID = "wG8-NG-HhL"; */
+"wG8-NG-HhL.text" = " Peroidic city";
+
+/* Class = "UILabel"; text = "Full name"; ObjectID = "wat-3y-09E"; */
+"wat-3y-09E.text" = "Full name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wh8-3Z-ujw"; */
+"wh8-3Z-ujw.text" = "Label";
+
+/* Class = "UILabel"; text = "General Request"; ObjectID = "whl-Nf-sCa"; */
+"whl-Nf-sCa.text" = "General Request";
+
+/* Class = "UILabel"; text = "Delete"; ObjectID = "woa-c1-CrH"; */
+"woa-c1-CrH.text" = "Delete";
+
+/* Class = "UILabel"; text = "Gearbox"; ObjectID = "x31-y3-Tsu"; */
+"x31-y3-Tsu.text" = "Gearbox";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xAO-2h-fag"; */
+"xAO-2h-fag.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "xu8-d9-J9J"; */
+"xu8-d9-J9J.normalTitle" = "Edit";
+
+/* Class = "UILabel"; text = "How Many Adults?"; ObjectID = "y8A-CD-1Iv"; */
+"y8A-CD-1Iv.text" = "How Many Adults?";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yKG-8Q-m2p"; */
+"yKG-8Q-m2p.text" = "Label";
+
+/* Class = "UILabel"; text = "With Accident"; ObjectID = "ybr-Ku-p9e"; */
+"ybr-Ku-p9e.text" = "With Accident";
+
+/* Class = "UILabel"; text = "Agent"; ObjectID = "yhZ-bQ-kZs"; */
+"yhZ-bQ-kZs.text" = "Agent";
+
+/* Class = "UILabel"; text = "Street Address"; ObjectID = "zOG-f9-fRz"; */
+"zOG-f9-fRz.text" = "Street Address";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zVB-KO-8wg"; */
+"zVB-KO-8wg.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zVr-Ft-VOC"; */
+"zVr-Ft-VOC.text" = "Label";
+
+/* Class = "UILabel"; text = "Accessory Prices\n"; ObjectID = "zWG-yy-5FX"; */
+"zWG-yy-5FX.text" = "Accessory Prices\n";
+
+/* Class = "UILabel"; text = "Your age"; ObjectID = "zec-0J-SH0"; */
+"zec-0J-SH0.text" = "Your age";
