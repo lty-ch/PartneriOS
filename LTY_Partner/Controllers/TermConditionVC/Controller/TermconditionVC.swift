@@ -12,10 +12,7 @@ class TermconditionVC: UIViewController {
     @IBOutlet weak var lblTitle1: UILabel!
     
     @IBOutlet weak var lblTitle2: UILabel!
-    
-    @IBOutlet weak var lblTitle3: UILabel!
-    
-    @IBOutlet weak var textPassword: UITextField!
+
     
     @IBOutlet weak var reasonTextView: UITextView!
     @IBOutlet weak var btnDeleteAccount: UIButton!
@@ -80,7 +77,6 @@ class TermconditionVC: UIViewController {
 """
         }
         
-        lblTitle3.text = "• You acknowledge that you have read our".localized()
         lblTitleReason.text = "Reason for deactivating your account ?".localized()
         btnDeleteAccount.setTitle("Delete Account".localized(), for: .normal)
     }

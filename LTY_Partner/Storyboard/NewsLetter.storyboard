@@ -1241,7 +1241,7 @@
                                 <rect key="frame" x="0.0" y="107" width="393" height="745"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ARf-1r-aTK">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1043"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="949.66666666666663"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We are sorry to see you go!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSA-hm-uEx">
                                                 <rect key="frame" x="10" y="9.9999999999999982" width="373" height="19.333333333333329"/>
@@ -1266,25 +1266,14 @@ By proceeding with the account deletion, you acknowledge that you have read and 
                                                 <color key="textColor" name="gray2"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Please enter your account password to confirm your identity." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3u-qC-elj">
-                                                <rect key="frame" x="10" y="665.33333333333337" width="373" height="38.333333333333371"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <color key="textColor" name="gray2"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oef-2u-FKy">
-                                                <rect key="frame" x="10" y="715.66666666666663" width="373" height="34"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reason for deactivating your account ?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHb-PJ-kMK">
-                                                <rect key="frame" x="10" y="761.66666666666663" width="373" height="19.333333333333371"/>
+                                                <rect key="frame" x="10" y="665.33333333333337" width="373" height="19.333333333333371"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" name="gray2"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sEL-hD-res">
-                                                <rect key="frame" x="10" y="793" width="373" height="100"/>
+                                                <rect key="frame" x="10" y="699.66666666666663" width="373" height="100"/>
                                                 <color key="backgroundColor" name="grayColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="O1C-cO-Mwp"/>
@@ -1294,7 +1283,7 @@ By proceeding with the account deletion, you acknowledge that you have read and 
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ECP-pE-ZtJ">
-                                                <rect key="frame" x="10" y="943" width="373" height="50"/>
+                                                <rect key="frame" x="10" y="849.66666666666663" width="373" height="50"/>
                                                 <color key="backgroundColor" name="skyBlue"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="GdY-Xd-ao3"/>
@@ -1313,10 +1302,8 @@ By proceeding with the account deletion, you acknowledge that you have read and 
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="YLr-0X-ehy" secondAttribute="trailing" constant="10" id="0Rp-nQ-ElK"/>
                                             <constraint firstItem="sEL-hD-res" firstAttribute="trailing" secondItem="tHb-PJ-kMK" secondAttribute="trailing" id="1On-gr-aMB"/>
-                                            <constraint firstItem="A3u-qC-elj" firstAttribute="top" secondItem="YLr-0X-ehy" secondAttribute="bottom" constant="15" id="5Q9-u8-JNa"/>
                                             <constraint firstItem="ECP-pE-ZtJ" firstAttribute="top" secondItem="sEL-hD-res" secondAttribute="bottom" constant="50" id="7MT-DZ-PnC"/>
-                                            <constraint firstItem="oef-2u-FKy" firstAttribute="top" secondItem="A3u-qC-elj" secondAttribute="bottom" constant="12" id="8SO-Wd-cbH"/>
-                                            <constraint firstItem="sEL-hD-res" firstAttribute="top" secondItem="tHb-PJ-kMK" secondAttribute="bottom" constant="12" id="8fK-HR-2Fr"/>
+                                            <constraint firstItem="sEL-hD-res" firstAttribute="top" secondItem="tHb-PJ-kMK" secondAttribute="bottom" constant="15" id="8fK-HR-2Fr"/>
                                             <constraint firstItem="tHb-PJ-kMK" firstAttribute="leading" secondItem="ARf-1r-aTK" secondAttribute="leading" constant="10" id="JLw-Lm-QF1"/>
                                             <constraint firstItem="ZSA-hm-uEx" firstAttribute="top" secondItem="ARf-1r-aTK" secondAttribute="top" constant="10" id="Jqb-J3-dNM"/>
                                             <constraint firstItem="ECP-pE-ZtJ" firstAttribute="trailing" secondItem="sEL-hD-res" secondAttribute="trailing" id="N3h-gM-OLy"/>
@@ -1324,14 +1311,10 @@ By proceeding with the account deletion, you acknowledge that you have read and 
                                             <constraint firstItem="sEL-hD-res" firstAttribute="leading" secondItem="tHb-PJ-kMK" secondAttribute="leading" id="Qq8-UQ-eW0"/>
                                             <constraint firstItem="ZSA-hm-uEx" firstAttribute="leading" secondItem="ARf-1r-aTK" secondAttribute="leading" constant="10" id="RHm-Lm-LSn"/>
                                             <constraint firstAttribute="bottom" secondItem="ECP-pE-ZtJ" secondAttribute="bottom" constant="50" id="YOb-FV-jPc"/>
-                                            <constraint firstItem="oef-2u-FKy" firstAttribute="trailing" secondItem="A3u-qC-elj" secondAttribute="trailing" id="d7O-93-QX6"/>
                                             <constraint firstAttribute="trailing" secondItem="ZSA-hm-uEx" secondAttribute="trailing" constant="10" id="fEJ-eo-LHb"/>
-                                            <constraint firstItem="tHb-PJ-kMK" firstAttribute="top" secondItem="oef-2u-FKy" secondAttribute="bottom" constant="12" id="fRx-Dz-Ucq"/>
                                             <constraint firstItem="YLr-0X-ehy" firstAttribute="top" secondItem="ZSA-hm-uEx" secondAttribute="bottom" constant="10" id="nVf-Va-Km3"/>
-                                            <constraint firstAttribute="trailing" secondItem="A3u-qC-elj" secondAttribute="trailing" constant="10" id="sge-kz-uC3"/>
-                                            <constraint firstItem="A3u-qC-elj" firstAttribute="leading" secondItem="ARf-1r-aTK" secondAttribute="leading" constant="10" id="tgJ-ky-qXM"/>
+                                            <constraint firstItem="tHb-PJ-kMK" firstAttribute="top" secondItem="YLr-0X-ehy" secondAttribute="bottom" constant="15" id="u1I-8c-qVE"/>
                                             <constraint firstItem="ECP-pE-ZtJ" firstAttribute="leading" secondItem="sEL-hD-res" secondAttribute="leading" id="ubL-aP-whe"/>
-                                            <constraint firstItem="oef-2u-FKy" firstAttribute="leading" secondItem="A3u-qC-elj" secondAttribute="leading" id="xix-eC-JFf"/>
                                             <constraint firstAttribute="trailing" secondItem="tHb-PJ-kMK" secondAttribute="trailing" constant="10" id="yG9-KR-7bi"/>
                                         </constraints>
                                     </view>
@@ -1373,10 +1356,8 @@ By proceeding with the account deletion, you acknowledge that you have read and 
                         <outlet property="customNavHeight" destination="RLM-8J-V9j" id="87n-Il-blq"/>
                         <outlet property="lblTitle1" destination="ZSA-hm-uEx" id="8w2-ZC-Nfx"/>
                         <outlet property="lblTitle2" destination="YLr-0X-ehy" id="JBs-AU-78a"/>
-                        <outlet property="lblTitle3" destination="A3u-qC-elj" id="g6R-Ch-EkB"/>
                         <outlet property="lblTitleReason" destination="tHb-PJ-kMK" id="E1R-Qn-nuX"/>
                         <outlet property="reasonTextView" destination="sEL-hD-res" id="zzW-ab-p1z"/>
-                        <outlet property="textPassword" destination="oef-2u-FKy" id="b7B-3s-xoL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HSb-pj-QPV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
