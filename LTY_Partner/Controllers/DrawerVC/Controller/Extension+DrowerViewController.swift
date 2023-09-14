@@ -114,6 +114,12 @@ extension DrowerViewController:UITableViewDataSource,UITableViewDelegate{
             }
             else if indexPath.row == 14  {
                 
+                let vc = PrivacyPolicyVC.instantiate(fromAppStoryboard: .newsLetter)
+                
+                pushToVC(vc, animated: true)
+                
+            }  else if indexPath.row == 15  {
+                
                 let vc = TermconditionVC.instantiate(fromAppStoryboard: .newsLetter)
                 
                 pushToVC(vc, animated: true)
@@ -254,6 +260,12 @@ extension DrowerViewController:UITableViewDataSource,UITableViewDelegate{
                 
             }
             else if indexPath.row == 12  {
+                
+                let vc = PrivacyPolicyVC.instantiate(fromAppStoryboard: .newsLetter)
+              
+                pushToVC(vc, animated: true)
+                
+            }else if indexPath.row == 13  {
                 
                 let vc = TermconditionVC.instantiate(fromAppStoryboard: .newsLetter)
               

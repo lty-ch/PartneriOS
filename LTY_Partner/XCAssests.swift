@@ -41,6 +41,7 @@ internal enum Asset {
         internal static let arrowUp = ImageAsset(name: "up")
         internal static let menu = ImageAsset(name: "menu")
         internal static let deleteDashboard = ImageAsset(name: "deleteDashboard")
+        internal static let privacy = ImageAsset(name: "privacy")
         
         
         internal static let dashboard = ImageAsset(name: "dashboard")

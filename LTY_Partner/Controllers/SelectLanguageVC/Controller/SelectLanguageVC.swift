@@ -35,9 +35,9 @@ class SelectLanguageVC: UIViewController {
 
         selectLang.append(SelectLang(languageName: LTYText.french.localized()))
         selectLang.append(SelectLang(languageName:LTYText.english.localized()))
-        selectLang.append(SelectLang(languageName: LTYText.italian.localized()))
-        selectLang.append(SelectLang(languageName: LTYText.portuguese.localized()))
-        selectLang.append(SelectLang(languageName:LTYText.albanian.localized()))
+//        selectLang.append(SelectLang(languageName: LTYText.italian.localized()))
+//        selectLang.append(SelectLang(languageName: LTYText.portuguese.localized()))
+//        selectLang.append(SelectLang(languageName:LTYText.albanian.localized()))
 
       
         SetUpView()

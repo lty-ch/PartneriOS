@@ -406,27 +406,27 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWR-9Y-aP3">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <color key="backgroundColor" red="0.1135157868" green="0.1027600989" blue="0.030349373820000001" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.79775455298013243" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <action selector="hideDroweronclickActionBtn:" destination="8YC-0o-vlA" eventType="touchUpInside" id="1UA-fl-88g"/>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pob-41-7VC">
-                                <rect key="frame" x="0.0" y="88" width="331" height="774"/>
+                                <rect key="frame" x="0.0" y="0.0" width="331" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zBp-jQ-MrB"/>
                         <color key="backgroundColor" red="0.055963523690000003" green="0.034953963009999998" blue="0.01459066384" alpha="0.0086652728869999994" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="zBp-jQ-MrB" firstAttribute="bottom" secondItem="pob-41-7VC" secondAttribute="bottom" id="4fF-kz-vhb"/>
+                            <constraint firstAttribute="bottom" secondItem="pob-41-7VC" secondAttribute="bottom" id="4fF-kz-vhb"/>
                             <constraint firstItem="pob-41-7VC" firstAttribute="width" secondItem="BWR-9Y-aP3" secondAttribute="width" multiplier="0.8" id="LDf-Am-zQG"/>
                             <constraint firstItem="BWR-9Y-aP3" firstAttribute="leading" secondItem="zBp-jQ-MrB" secondAttribute="leading" id="QgE-wW-BD4"/>
                             <constraint firstAttribute="bottom" secondItem="BWR-9Y-aP3" secondAttribute="bottom" id="SUx-bL-WQM"/>
                             <constraint firstItem="zBp-jQ-MrB" firstAttribute="trailing" secondItem="BWR-9Y-aP3" secondAttribute="trailing" id="SrY-Vt-0h2"/>
                             <constraint firstItem="pob-41-7VC" firstAttribute="leading" secondItem="zBp-jQ-MrB" secondAttribute="leading" id="YVK-kw-nYN"/>
                             <constraint firstItem="BWR-9Y-aP3" firstAttribute="top" secondItem="2u7-a3-Fav" secondAttribute="top" id="lTT-Uq-EGN"/>
-                            <constraint firstItem="pob-41-7VC" firstAttribute="top" secondItem="zBp-jQ-MrB" secondAttribute="top" constant="40" id="vIV-7R-fe7"/>
+                            <constraint firstItem="pob-41-7VC" firstAttribute="top" secondItem="2u7-a3-Fav" secondAttribute="top" id="vIV-7R-fe7"/>
                         </constraints>
                     </view>
                     <connections>

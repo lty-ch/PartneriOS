@@ -6,13 +6,14 @@
   
 */
 
+"• Please enter your account password to confirm your identity." = "• Veuillez saisir le mot de passe de votre compte pour confirmer votre identité.";
 "active" = "ACTIF";
 "Delete Account" = "Supprimer compte";
 "View More" = "Voir plus";
 "inactive" = "INACTIF";
 "Dawnload" = "Téléchargement à l'aube";
 "pending" = "EN ATTENTE";
-
+"Privacy Policy" = "Politique de confidentialité";
 "close" = "FERMÉ";
 
 "rejected" = "REJETÉE";

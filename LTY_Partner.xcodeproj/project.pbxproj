@@ -772,6 +772,7 @@
 		68F1B8022A851348004745C0 /* AddNewTemplate+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F1B8012A851348004745C0 /* AddNewTemplate+Model.swift */; };
 		68F1B8042A851363004745C0 /* AddNewTemplate+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F1B8032A851363004745C0 /* AddNewTemplate+ViewModel.swift */; };
 		68F1B8062A8513D7004745C0 /* Extension+AddNewTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F1B8052A8513D7004745C0 /* Extension+AddNewTemplate.swift */; };
+		68F664462AB21CD80056CE30 /* PrivacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F664452AB21CD80056CE30 /* PrivacyPolicyVC.swift */; };
 		AF07099A2AA3299C0057AD32 /* SearchYourLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0709972AA3299C0057AD32 /* SearchYourLocationVC.swift */; };
 		AF07099B2AA3299C0057AD32 /* SearchLocationVC+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0709982AA3299C0057AD32 /* SearchLocationVC+Delegate.swift */; };
 		AF07099C2AA3299C0057AD32 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0709992AA3299C0057AD32 /* LocationManager.swift */; };
@@ -1243,6 +1244,7 @@
 		68F1B8012A851348004745C0 /* AddNewTemplate+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddNewTemplate+Model.swift"; sourceTree = "<group>"; };
 		68F1B8032A851363004745C0 /* AddNewTemplate+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddNewTemplate+ViewModel.swift"; sourceTree = "<group>"; };
 		68F1B8052A8513D7004745C0 /* Extension+AddNewTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+AddNewTemplate.swift"; sourceTree = "<group>"; };
+		68F664452AB21CD80056CE30 /* PrivacyPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyVC.swift; sourceTree = "<group>"; };
 		7A126E3094948A09E1977227 /* Pods-LTY_Partner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTY_Partner.debug.xcconfig"; path = "Target Support Files/Pods-LTY_Partner/Pods-LTY_Partner.debug.xcconfig"; sourceTree = "<group>"; };
 		AF0709972AA3299C0057AD32 /* SearchYourLocationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchYourLocationVC.swift; sourceTree = "<group>"; };
 		AF0709982AA3299C0057AD32 /* SearchLocationVC+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SearchLocationVC+Delegate.swift"; sourceTree = "<group>"; };
@@ -2723,6 +2725,7 @@
 		6836BD302A026F14009161C8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				68F664432AB21C7C0056CE30 /* PrivacyPolicyVC */,
 				68682EE12AA770E000612C81 /* TermConditionVC */,
 				AF0709962AA3299C0057AD32 /* Search Your Location */,
 				68F0A67C2A83E5B300C0E414 /* NewsLetterVC */,
@@ -4169,6 +4172,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		68F664432AB21C7C0056CE30 /* PrivacyPolicyVC */ = {
+			isa = PBXGroup;
+			children = (
+				68F664442AB21CB50056CE30 /* Controller */,
+			);
+			path = PrivacyPolicyVC;
+			sourceTree = "<group>";
+		};
+		68F664442AB21CB50056CE30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68F664452AB21CD80056CE30 /* PrivacyPolicyVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		AF0709962AA3299C0057AD32 /* Search Your Location */ = {
 			isa = PBXGroup;
 			children = (
@@ -4543,6 +4562,7 @@
 				1899D4082A20880200E81BEC /* EditCatOptionsModel.swift in Sources */,
 				68B6D1552A4AE2A0005BC792 /* AddRoleVC.swift in Sources */,
 				181916C92A1CADAB008119B1 /* SelectCatCell.swift in Sources */,
+				68F664462AB21CD80056CE30 /* PrivacyPolicyVC.swift in Sources */,
 				68B04C452A65576400C0AE91 /* SearchCoverModel.swift in Sources */,
 				18FC0C362A1B546F00BDD5D5 /* AgentVCModel.swift in Sources */,
 				68D3F7532A7BD34100A903D1 /* SelectInsurerVC.swift in Sources */,
