@@ -19,7 +19,14 @@ extension UserRoleDetailVC:UITableViewDelegate,UITableViewDataSource {
         
         let info = self.useCaseArr[indexPath.row]
         cell.selectionStyle = .none
-        cell.lblCategoryList.text = info.name ?? ""
+        
+        let language =  kUserDefaults.value(forKey: APPLE_LANGUAGE_KEY)
+        let result = language as! NSArray
+        
+//        if result[0] as! String == "fr" {
+//            cell.lblCategoryList.text = info.nameInFrench ?? ""
+//        }else{}
+            cell.lblCategoryList.text = info.name ?? ""
         
         cell.btnRead.tag = indexPath.row
         cell.btnRead.addTarget(self, action: #selector(self.ReadSwitchChanged(_:)), for: .valueChanged)

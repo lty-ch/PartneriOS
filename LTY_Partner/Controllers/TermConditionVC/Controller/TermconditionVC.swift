@@ -77,7 +77,7 @@ class TermconditionVC: UIViewController {
 """
         }
         
-        lblTitleReason.text = "Reason for deactivating your account ?".localized()
+        lblTitleReason.text = "Reason for deactivating your account?".localized()
         btnDeleteAccount.setTitle("Delete Account".localized(), for: .normal)
     }
     

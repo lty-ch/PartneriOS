@@ -13,6 +13,7 @@ protocol RoleAddedCallback : AnyObject {
 
 class AddRoleVC: UIViewController {
     
+    @IBOutlet weak var lblMarkDefault: UILabel!
     @IBOutlet weak var lblTitleAddRole: UILabel!
     @IBOutlet weak var textRole: UITextField!
     @IBOutlet var mainView: UIView!
@@ -61,6 +62,7 @@ class AddRoleVC: UIViewController {
             textRole.placeholder = "Add Role".localized()
             lblTitleAddRole.text = "Add Role".localized()
             lblRole.text = "Add Role".localized()
+            lblMarkDefault.text = "Mark as Default".localized()
             btnAddRole.setTitle("Add Role".localized(), for: .normal)
         }
     }

@@ -16,6 +16,10 @@ extension AppDelegate {
         var token =  kUserDefaults.string(forKey: AppKeys.token)
         if token == nil{
             kUserDefaults.set(false, forKey: AppKeys.shouldActivateFaceId)
+            
+            L102Language.setAppleLAnguageTo(lang: "fr")
+            change(selectedLanguage: "fr")
+            
             switchWelcomeScreen()
         }
         else{
@@ -39,6 +43,18 @@ extension AppDelegate {
         
         
         
+    }
+    
+
+    
+    func change(selectedLanguage: String){
+        L102Language.setAppleLAnguageTo(lang: selectedLanguage)
+//        if L102Language.currentAppleLanguage() == "en" {
+//            UIView.appearance().semanticContentAttribute = .forceLeftToRight
+//        } else {
+//            UIView.appearance().semanticContentAttribute = .forceRightToLeft
+//        }
+        Bundle.setLanguage(selectedLanguage)
     }
     
     //MARK:- Login Screen

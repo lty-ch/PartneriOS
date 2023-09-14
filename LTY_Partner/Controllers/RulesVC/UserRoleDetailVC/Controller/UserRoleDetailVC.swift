@@ -9,6 +9,8 @@ import UIKit
 
 class UserRoleDetailVC: UIViewController {
     
+    @IBOutlet weak var btnUpdate: UIButton!
+    @IBOutlet weak var lblSelectAll: UILabel!
     @IBOutlet weak var noDataFoundView: UIView!
     @IBOutlet weak var customNavHeight: NSLayoutConstraint!
     @IBOutlet weak var customNavDrower: CustomNavigationBarForDrawer!
@@ -32,6 +34,10 @@ class UserRoleDetailVC: UIViewController {
         userRoleTableView.dataSource = self
         
         customNavDrower.titleLabel.text = "Agent Role".localized()
+        btnUpdate.setTitle("Update".localized(), for: .normal)
+        
+        lblSelectAll.text = "Select All".localized()
+        
         customNavDrower.titleLabel.textAlignment = .center
         customNavDrower.leftSideMenuButtonItem.setImage(Asset.Assets.backArrow.image, for: .normal)
         customNavDrower.leftSideMenuButtonItem.addTarget(self, action: #selector(backActionBtn(_:)), for: .touchUpInside)

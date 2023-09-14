@@ -10,6 +10,7 @@ import UIKit
 class AgentTableCell: UITableViewCell {
 
     //MARK:- Outlets
+    @IBOutlet weak var centerConstant: NSLayoutConstraint!
     
     @IBOutlet weak var lblAge: UILabel!
     @IBOutlet weak var labelStatus: UILabel!
@@ -39,6 +40,15 @@ class AgentTableCell: UITableViewCell {
         super.awakeFromNib()
         
         setUpUI()
+        
+        let language =  kUserDefaults.value(forKey: APPLE_LANGUAGE_KEY)
+        let result = language as! NSArray
+        
+        if result[0] as! String == "fr" {
+            centerConstant.constant = 55
+        }else{
+            centerConstant.constant = 10
+        }
 
     }
 

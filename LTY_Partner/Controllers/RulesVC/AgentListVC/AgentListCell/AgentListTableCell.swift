@@ -18,6 +18,9 @@ class AgentListTableCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        lblRoleTitle.text = "Email".localized()
+        lblEmailtitle.text = "Role".localized()
+        
     }
 
 }

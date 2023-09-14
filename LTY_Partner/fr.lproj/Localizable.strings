@@ -6,6 +6,16 @@
   
 */
 
+"Select Category" = "Choisir une catégorie";
+"Select Subcategory" = "Sélectionnez une sous-catégorie";
+"Agent List" = "Liste des agents";
+"Mark as Default" = "Marquer par défaut";
+"Select All" = "Tout sélectionner";
+"Email" = "E-mail";
+"Role" = "Rôle";
+
+"Reason for deactivating your account?" = "Raison de la désactivation de votre compte ?";
+"We are sorry to see you go!" = "Nous sommes navrés de vous voir partir!";
 "• Please enter your account password to confirm your identity." = "• Veuillez saisir le mot de passe de votre compte pour confirmer votre identité.";
 "active" = "ACTIF";
 "Delete Account" = "Supprimer compte";
@@ -24,7 +34,7 @@
 "policy_created" = "POLITIQUE CRÉÉE";
 
 "Expired" = "Expiré";
-"English" = "Anglais";
+//"English" = "Anglais";
 "Italian" = "Italien";
 "Portuguese" = "Portugais";
 "Albanian" = "Albanais";
@@ -785,14 +795,14 @@
 "Remember" = "Se souvenir";
 "Forgot Password" = "Mot de passe oublié";
 "Login" = "Connexion";
-"Don’t have any account?" = "Vous n'avez pas de compte ?";
+"Don’t have any account?" = "Vous n'avez pas de compte?";
 "Register Now" = "S'inscrire maintenant";
 "Login Successfully" = "Connectez-vous avec succès";
 "Peroidic city" = "Ville périodique";
 "Premium Amount" = "Montant de la prime";
 "Member List" = "Liste des membres";
-"French" = "Français";
-"English" = "Anglais";
+//"French" = "Français";
+//"English" = "Anglais";
 "Italian" = "Italien";
 "Portuguese" = "Portugais";
 "Albanian" = "Albanais";
@@ -1112,7 +1122,7 @@
 "State" = "Canton";
 "City" = "Ville";
 "German" = "Allemand";
-"French" = "Français";
+//"French" = "Français";
 "Italian" = "Italien";
 "Firm Number" = "Numéro d'entreprise";
 "Circio Number" = "Numéro de Circio";

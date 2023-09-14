@@ -21,6 +21,7 @@ struct RoleDetailData:Codable {
 struct RoleDetailList:Codable {
     var useCaseId:Int?
     var name :String?
+    var nameInFrench :String?
     var permissionIds:[Int]?
     var selectedPermissionIds:[Int]?
 }

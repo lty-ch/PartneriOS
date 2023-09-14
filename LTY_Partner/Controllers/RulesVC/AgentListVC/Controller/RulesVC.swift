@@ -54,6 +54,11 @@ class RulesVC: UIViewController {
         viewAgentList.backgroundColor = Asset.Colors.grayColor.color
         lblAgentList.textColor = .black
         lblUserRules.textColor = .white
+        
+        lblAgentList.text = "Agent List".localized()
+        lblUserRules.text = "Agent Roles".localized()
+        lblAddNewRole.text = "Add new role +".localized()
+        
         agentListTableView.isHidden = true
         rolesTableView.isHidden = false
 
