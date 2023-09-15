@@ -29,23 +29,43 @@ let kPostHeaderDict = ["Content-Type":"application/json","platform":"iOS","brows
 #if DEVELOPMENT
 
 struct LTY_BASE_URL {
-    static let BASE_URL_PARTNER = "https://identity.dev.ltytech.ch/api/ims/v1/partner/"
-    static let BASE_URL_RESEND_OTP = "https://communicator.dev.ltytech.ch/api/communicator/v1/"
-    static let BASE_URL_COMMON = "https://identity.dev.ltytech.ch/api/ims/v1/config/"
-    static let BASE_URL_GETPROFILE = "https://fee.dev.ltytech.ch/api/fee/v1/get/profiles"
-    static let BASE_URL_PRODUCT = "https://fee.dev.ltytech.ch/api/fee/v1/"
-    static let BASE_URL_FEE = "https://fee.dev.ltytech.ch/api/fee/v1/"
-    static let BASE_URL_CATEGORY = "https://catalogue.dev.ltytech.ch/api/catalogue/v1/category/"
-    static let DOCUMENT_BASE_URL  = "https://document-store.dev.ltytech.ch/"
-    static let DOCUMENT_UPLOAD_URL =  "https://document-store.dev.ltytech.ch/api/document-store/v1/upload"
+    /* "https://apigateway.dev.ltytech.ch/"
+
+    static let BASE_URL_PARTNER = "https://apigateway.dev.ltytech.ch/api/ims/v1/partner/"
+    static let BASE_URL_RESEND_OTP = "https://apigateway.dev.ltytech.ch/api/communicator/v1/"
+    static let BASE_URL_COMMON = "https://apigateway.dev.ltytech.ch/api/ims/v1/config/"
+    static let BASE_URL_GETPROFILE = "https://apigateway.dev.ltytech.ch/api/fee/v1/get/profiles"
+    static let BASE_URL_PRODUCT = "https://apigateway.dev.ltytech.ch/api/fee/v1/"
+    static let BASE_URL_FEE = "https://apigateway.dev.ltytech.ch/api/fee/v1/"
+    static let BASE_URL_CATEGORY = "https://apigateway.dev.ltytech.ch/api/catalogue/v1/category/"
+    static let DOCUMENT_BASE_URL  = "https://apigateway.dev.ltytech.ch/"
+    static let DOCUMENT_UPLOAD_URL =  "https://apigateway.dev.ltytech.ch/api/document-store/v1/upload"
 
 
-    static let BASE_URL_IDENTITY = "https://identity.dev.ltytech.ch/api/ims/v1/"
-    static let BASE_URL_INSURANCE = "https://insurance-aggregator.dev.ltytech.ch/api/insurance/v1/"
-    static let BASE_URL_PRODUCT_CATEGORY = "https://catalogue.dev.ltytech.ch/api/catalogue/v1/"
-    static let BASE_URL_ROLES = "https://role-access.dev.ltytech.ch/api/role-access/v1/"
+    static let BASE_URL_IDENTITY = "https://apigateway.dev.ltytech.ch/api/ims/v1/"
+    static let BASE_URL_INSURANCE = "https://apigateway.dev.ltytech.ch/api/insurance/v1/"
+    static let BASE_URL_PRODUCT_CATEGORY = "https://apigateway.dev.ltytech.ch/api/catalogue/v1/"
+    static let BASE_URL_ROLES = "https://apigateway.dev.ltytech.ch/api/role-access/v1/"
+    */
+    
+ // /*
+    static let BASE_URL_PARTNER = "https://identity.prod.ltytech.ch/api/ims/v1/partner/"
+    static let BASE_URL_RESEND_OTP = "https://communicator.prod.ltytech.ch/api/communicator/v1/"
+    static let BASE_URL_COMMON = "https://identity.prod.ltytech.ch/api/ims/v1/config/"
+    static let BASE_URL_GETPROFILE = "https://fee.prod.ltytech.ch/api/fee/v1/get/profiles"
+    static let BASE_URL_PRODUCT = "https://fee.prod.ltytech.ch/api/fee/v1/"
+    static let BASE_URL_FEE = "https://fee.prod.ltytech.ch/api/fee/v1/"
+    static let BASE_URL_CATEGORY = "https://catalogue.prod.ltytech.ch/api/catalogue/v1/category/"
+    static let DOCUMENT_BASE_URL  = "https://document-store.prod.ltytech.ch/"
+    static let DOCUMENT_UPLOAD_URL =  "https://document-store.prod.ltytech.ch/api/document-store/v1/upload"
 
 
+    static let BASE_URL_IDENTITY = "https://identity.prod.ltytech.ch/api/ims/v1/"
+    static let BASE_URL_INSURANCE = "https://insurance-aggregator.prod.ltytech.ch/api/insurance/v1/"
+    static let BASE_URL_PRODUCT_CATEGORY = "https://catalogue.prod.ltytech.ch/api/catalogue/v1/"
+    static let BASE_URL_ROLES = "https://role-access.prod.ltytech.ch/api/role-access/v1/"
+
+//*/
 
 
 }
@@ -220,7 +240,7 @@ struct LTY_END_POINT_URL {
 //MARK:- AppKeys
 
 struct AppKeys {
-    static let refFbdb =  Database.database().reference()
+    static let refFbdb = Database.database().reference()
     static let token = "token"
     static let fcmKey = "fcmKey"
     static let email = "email"

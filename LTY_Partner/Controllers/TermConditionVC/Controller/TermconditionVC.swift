@@ -32,7 +32,7 @@ class TermconditionVC: UIViewController {
         setLocalization()
         deleteAccountViewModel.delegate = self
         btnDeleteAccount.viewCorner(8)
-        customNavDrower.titleLabel.text = "Term and Conditions".localized()
+        customNavDrower.titleLabel.text = "Delete Account".localized()
         customNavDrower.titleLabel.textAlignment = .center
         customNavDrower.leftSideMenuButtonItem.setImage(Asset.Assets.backArrow.image, for: .normal)
         customNavDrower.leftSideMenuButtonItem.addTarget(self, action: #selector(backActionBtn(_:)), for: .touchUpInside)

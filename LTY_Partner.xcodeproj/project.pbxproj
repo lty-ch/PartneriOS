@@ -113,7 +113,6 @@
 		18EDAE702A150D79006FC54A /* Extension+DrowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDAE6F2A150D79006FC54A /* Extension+DrowerViewController.swift */; };
 		18FC0C362A1B546F00BDD5D5 /* AgentVCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC0C352A1B546F00BDD5D5 /* AgentVCModel.swift */; };
 		18FC0C382A1B54F900BDD5D5 /* AgentVC+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC0C372A1B54F900BDD5D5 /* AgentVC+ViewModel.swift */; };
-		281A1FB22A65158E0066788B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 281A1FB12A65158E0066788B /* GoogleService-Info.plist */; };
 		283FE30D2A5568D400D34743 /* DocDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283FE3092A5568D400D34743 /* DocDetailVC.swift */; };
 		283FE30E2A5568D400D34743 /* DocDetailTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283FE30B2A5568D400D34743 /* DocDetailTVC.xib */; };
 		283FE30F2A5568D400D34743 /* DocDetailTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283FE30C2A5568D400D34743 /* DocDetailTVC.swift */; };
@@ -152,6 +151,7 @@
 		289E50652A5E859E00B09C7C /* Extension+AllChatMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289E50452A5E859E00B09C7C /* Extension+AllChatMethods.swift */; };
 		289E50662A5E859E00B09C7C /* ChatUserListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289E50482A5E859E00B09C7C /* ChatUserListVC.swift */; };
 		289E50682A5E85FC00B09C7C /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289E50672A5E85FC00B09C7C /* Encodable.swift */; };
+		28A003AC2AB33F6300B2F4EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28A003AB2AB33F6300B2F4EE /* GoogleService-Info.plist */; };
 		28A975CA2A4ACE7200C6DBD1 /* RolesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A975C92A4ACE7200C6DBD1 /* RolesModel.swift */; };
 		28A975CF2A4AF8C900C6DBD1 /* RolesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A975CE2A4AF8C900C6DBD1 /* RolesViewModel.swift */; };
 		28A975D22A4AF96E00C6DBD1 /* AddRoleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A975D12A4AF96E00C6DBD1 /* AddRoleViewModel.swift */; };
@@ -621,7 +621,6 @@
 		68A59B602A700C4600FDF09B /* SenderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 289E50362A5E859E00B09C7C /* SenderCell.xib */; };
 		68A59B612A700C4600FDF09B /* AgendaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DB4F6D2A6E8AC500445B31 /* AgendaStoryboard.storyboard */; };
 		68A59B622A700C4600FDF09B /* ProposalDetailPolicyTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5879EFF92A324DDA00AE20EC /* ProposalDetailPolicyTableCell.xib */; };
-		68A59B632A700C4600FDF09B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 281A1FB12A65158E0066788B /* GoogleService-Info.plist */; };
 		68A59B642A700C4600FDF09B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BE93E82A42D09A00A5FB41 /* Main.storyboard */; };
 		68A59B652A700C4600FDF09B /* Proposals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BE93DC2A42D09A00A5FB41 /* Proposals.storyboard */; };
 		68A59B662A700C4600FDF09B /* ProdunctsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181916D22A1D0A6F008119B1 /* ProdunctsTableViewController.xib */; };
@@ -888,7 +887,6 @@
 		18FC0C352A1B546F00BDD5D5 /* AgentVCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentVCModel.swift; sourceTree = "<group>"; };
 		18FC0C372A1B54F900BDD5D5 /* AgentVC+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AgentVC+ViewModel.swift"; sourceTree = "<group>"; };
 		1C2174F2DB49D76F51CF5049 /* Pods-LTY_Partner.debug development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTY_Partner.debug development.xcconfig"; path = "Target Support Files/Pods-LTY_Partner/Pods-LTY_Partner.debug development.xcconfig"; sourceTree = "<group>"; };
-		281A1FB12A65158E0066788B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		283FE3092A5568D400D34743 /* DocDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocDetailVC.swift; sourceTree = "<group>"; };
 		283FE30B2A5568D400D34743 /* DocDetailTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocDetailTVC.xib; sourceTree = "<group>"; };
 		283FE30C2A5568D400D34743 /* DocDetailTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocDetailTVC.swift; sourceTree = "<group>"; };
@@ -927,6 +925,7 @@
 		289E50452A5E859E00B09C7C /* Extension+AllChatMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+AllChatMethods.swift"; sourceTree = "<group>"; };
 		289E50482A5E859E00B09C7C /* ChatUserListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatUserListVC.swift; sourceTree = "<group>"; };
 		289E50672A5E85FC00B09C7C /* Encodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
+		28A003AB2AB33F6300B2F4EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		28A975C92A4ACE7200C6DBD1 /* RolesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RolesModel.swift; sourceTree = "<group>"; };
 		28A975CE2A4AF8C900C6DBD1 /* RolesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RolesViewModel.swift; sourceTree = "<group>"; };
 		28A975D12A4AF96E00C6DBD1 /* AddRoleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRoleViewModel.swift; sourceTree = "<group>"; };
@@ -2674,9 +2673,9 @@
 		6836BD112A025E80009161C8 /* LTY_Partner */ = {
 			isa = PBXGroup;
 			children = (
+				28A003AB2AB33F6300B2F4EE /* GoogleService-Info.plist */,
 				68F0A6752A83751D00C0E414 /* GifFiles */,
 				289865E72A6E53A300D01220 /* Utilities */,
-				281A1FB12A65158E0066788B /* GoogleService-Info.plist */,
 				68A8EF912A6973460014D58D /* Push Notifications */,
 				45B5E5092A29C7FE00258475 /* Factories */,
 				45B5E50D2A29C7FE00258475 /* ModuleViews */,
@@ -4359,9 +4358,9 @@
 				689BB3C12A8615D500D3AE5C /* SendLetterTVC.xib in Resources */,
 				283FE30E2A5568D400D34743 /* DocDetailTVC.xib in Resources */,
 				289E50582A5E859E00B09C7C /* SenderCell.xib in Resources */,
+				28A003AC2AB33F6300B2F4EE /* GoogleService-Info.plist in Resources */,
 				68DB4F6E2A6E8AC500445B31 /* AgendaStoryboard.storyboard in Resources */,
 				5879EFFB2A324DDA00AE20EC /* ProposalDetailPolicyTableCell.xib in Resources */,
-				281A1FB22A65158E0066788B /* GoogleService-Info.plist in Resources */,
 				68BE94012A42D09A00A5FB41 /* Main.storyboard in Resources */,
 				68BE93FB2A42D09A00A5FB41 /* Proposals.storyboard in Resources */,
 				181916DC2A1D0A6F008119B1 /* ProdunctsTableViewController.xib in Resources */,
@@ -4424,7 +4423,6 @@
 				68A59B602A700C4600FDF09B /* SenderCell.xib in Resources */,
 				68A59B612A700C4600FDF09B /* AgendaStoryboard.storyboard in Resources */,
 				68A59B622A700C4600FDF09B /* ProposalDetailPolicyTableCell.xib in Resources */,
-				68A59B632A700C4600FDF09B /* GoogleService-Info.plist in Resources */,
 				68A59B642A700C4600FDF09B /* Main.storyboard in Resources */,
 				68A59B652A700C4600FDF09B /* Proposals.storyboard in Resources */,
 				68A59B662A700C4600FDF09B /* ProdunctsTableViewController.xib in Resources */,
@@ -5385,8 +5383,8 @@
 				CODE_SIGN_ENTITLEMENTS = LTY_Partner/LTY_Partner.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4CK42MSB9T;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = CA37YVB749;
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
@@ -5394,6 +5392,9 @@
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "To Authenticate through FaceId";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app required location to find current addess";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app required location to find current addess";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app required location to find current addess";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs to access photos to upload photo to profile picture";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -5406,12 +5407,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYPartner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYSAPartner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Debug Development";
 		};
@@ -5485,8 +5489,8 @@
 				CODE_SIGN_ENTITLEMENTS = LTY_Partner/LTY_Partner.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4CK42MSB9T;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = CA37YVB749;
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
@@ -5494,6 +5498,9 @@
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "To Authenticate through FaceId";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app required location to find current addess";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app required location to find current addess";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app required location to find current addess";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs to access photos to upload photo to profile picture";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -5506,12 +5513,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYPartner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYSAPartner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Debug Staging";
 		};
@@ -5580,8 +5590,8 @@
 				CODE_SIGN_ENTITLEMENTS = LTY_Partner/LTY_Partner.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4CK42MSB9T;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = CA37YVB749;
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
@@ -5589,6 +5599,9 @@
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "To Authenticate through FaceId";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app required location to find current addess";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app required location to find current addess";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app required location to find current addess";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs to access photos to upload photo to profile picture";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -5601,12 +5614,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYPartner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYSAPartner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Release Development";
 		};
@@ -5675,8 +5691,8 @@
 				CODE_SIGN_ENTITLEMENTS = LTY_Partner/LTY_Partner.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4CK42MSB9T;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = CA37YVB749;
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
@@ -5684,6 +5700,9 @@
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "To Authenticate through FaceId";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app required location to find current addess";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app required location to find current addess";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app required location to find current addess";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs to access photos to upload photo to profile picture";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -5696,12 +5715,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYPartner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYSAPartner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Release Staging";
 		};
@@ -5831,8 +5853,8 @@
 				CODE_SIGN_ENTITLEMENTS = LTY_Partner/LTY_Partner.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4CK42MSB9T;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = CA37YVB749;
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
@@ -5840,6 +5862,9 @@
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "To Authenticate through FaceId";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app required location to find current addess";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app required location to find current addess";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app required location to find current addess";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs to access photos to upload photo to profile picture";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -5852,12 +5877,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYPartner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYSAPartner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -5870,12 +5898,54 @@
 				CODE_SIGN_ENTITLEMENTS = LTY_Partner/LTY_Partner.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4CK42MSB9T;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = CA37YVB749;
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To Authenticate through FaceId";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app required location to find current addess";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app required location to find current addess";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app required location to find current addess";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs to access photos to upload photo to profile picture";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYSAPartner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		68A59B872A700C4600FDF09B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LTY_Partner/LTY_Partner.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA37YVB749;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LTY_Partner copy-Info.plist";
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "To Authenticate through FaceId";
@@ -5891,46 +5961,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYPartner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYSAPartner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		68A59B872A700C4600FDF09B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = LTY_Partner/LTY_Partner.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8LD35N7G23;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "LTY_Partner copy-Info.plist";
-				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs to access photos to upload photo to profile picture";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYPartner;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -5943,10 +5982,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8LD35N7G23;
+				DEVELOPMENT_TEAM = CA37YVB749;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "LTY_Partner copy-Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To Authenticate through FaceId";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs to access photos to upload photo to profile picture";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -5959,12 +6000,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYPartner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYSAPartner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Debug Staging";
 		};
@@ -5977,10 +6021,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8LD35N7G23;
+				DEVELOPMENT_TEAM = CA37YVB749;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "LTY_Partner copy-Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To Authenticate through FaceId";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs to access photos to upload photo to profile picture";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -5993,12 +6039,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYPartner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYSAPartner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Debug Development";
 		};
@@ -6011,10 +6060,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8LD35N7G23;
+				DEVELOPMENT_TEAM = CA37YVB749;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "LTY_Partner copy-Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To Authenticate through FaceId";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs to access photos to upload photo to profile picture";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -6027,12 +6078,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYPartner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYSAPartner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -6045,10 +6099,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8LD35N7G23;
+				DEVELOPMENT_TEAM = CA37YVB749;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "LTY_Partner copy-Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To Authenticate through FaceId";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs to access photos to upload photo to profile picture";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -6061,12 +6117,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYPartner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYSAPartner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Release Staging";
 		};
@@ -6079,10 +6138,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8LD35N7G23;
+				DEVELOPMENT_TEAM = CA37YVB749;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "LTY_Partner copy-Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To Authenticate through FaceId";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs to access photos to upload photo to profile picture";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -6095,12 +6156,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYPartner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.LTYSAPartner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Release Development";
 		};

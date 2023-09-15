@@ -24,16 +24,25 @@ class PrivacyPolicyVC: UIViewController {
         customNavDrower.leftSideMenuButtonItem.addTarget(self, action: #selector(backActionBtn(_:)), for: .touchUpInside)
     }
     
-     func callPrivacyUrl() {
-        
-        let url : NSString = "https://ltypartnerprod.chawtechsolutions.ch/privacy-policy"
-        let urlStr : NSString = url.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)! as NSString
-        let searchURL : NSURL = NSURL(string: urlStr as String)!
-        
-        let requestObj = URLRequest(url: searchURL as URL)
-        myWebView.load(requestObj)
-        
-    }
+    func callPrivacyUrl() {
+   
+        let language =  kUserDefaults.value(forKey: APPLE_LANGUAGE_KEY)
+        let result = language as! NSArray
+        var poliyUrl = ""
+        if result[0] as! String == "fr" {
+            poliyUrl = "https://ltypartnerprod.chawtechsolutions.ch/fr/privacy-policy"
+        }else{
+            poliyUrl = "https://ltypartnerprod.chawtechsolutions.ch/privacy-policy"
+        }
+     
+        let url : NSString = poliyUrl as NSString
+       let urlStr : NSString = url.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)! as NSString
+       let searchURL : NSURL = NSURL(string: urlStr as String)!
+       
+       let requestObj = URLRequest(url: searchURL as URL)
+       myWebView.load(requestObj)
+       
+   }
     
     override func viewWillAppear(_ animated: Bool) {
         self.tabBarController?.tabBar.isHidden = true

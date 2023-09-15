@@ -58,7 +58,7 @@ class ServerClass: NSObject {
 //        let manager = ServerTrustManager(evaluators: ["kidyview.com": DisabledTrustEvaluator()])
         
         // Change "chawtechsolutions.ch" for Staging url
-        let manager = ServerTrustManager(evaluators: ["identity.dev.ltytech.ch": DisabledTrustEvaluator()])
+        let manager = ServerTrustManager(evaluators: ["identity.prod.ltytech.ch": DisabledTrustEvaluator()])
         
         let configuration = URLSessionConfiguration.af.default
         return Session(configuration: configuration, serverTrustManager: manager)
