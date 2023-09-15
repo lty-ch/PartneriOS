@@ -364,7 +364,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don’t have any account?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVr-pV-NLc">
-                                <rect key="frame" x="53" y="816" width="168.5" height="18"/>
+                                <rect key="frame" x="52.5" y="816" width="169" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2175,7 +2175,7 @@
                                                         <rect key="frame" x="0.0" y="90.5" width="348" height="40"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amN-Y1-t0u">
-                                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="40"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="50.5" height="40"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                                 <connections>
@@ -2183,7 +2183,7 @@
                                                                 </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ak-co-a3f">
-                                                                <rect key="frame" x="0.0" y="0.0" width="348" height="40"/>
+                                                                <rect key="frame" x="50.5" y="0.0" width="297.5" height="40"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -2233,7 +2233,7 @@
                                                         <rect key="frame" x="0.0" y="90.5" width="348" height="40"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jg-cg-GwO">
-                                                                <rect key="frame" x="0.0" y="0.0" width="70.5" height="40"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="52.5" height="40"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                                 <connections>
@@ -2241,7 +2241,7 @@
                                                                 </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjY-CL-qom">
-                                                                <rect key="frame" x="70.5" y="0.0" width="277.5" height="40"/>
+                                                                <rect key="frame" x="52.5" y="0.0" width="295.5" height="40"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -4371,13 +4371,13 @@
                                                         <rect key="frame" x="0.0" y="19759" width="374" height="60"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don’t have any account?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4n2-2I-Fvn">
-                                                                <rect key="frame" x="93.5" y="30" width="187" height="20.5"/>
+                                                                <rect key="frame" x="43.5" y="30" width="187" height="20.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w15-yv-cAJ">
-                                                                <rect key="frame" x="290.5" y="25" width="63.5" height="30"/>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w15-yv-cAJ">
+                                                                <rect key="frame" x="235.5" y="25" width="136.5" height="30"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="Login"/>
                                                                 <connections>
@@ -4389,15 +4389,14 @@
                                                             <constraint firstItem="w15-yv-cAJ" firstAttribute="centerY" secondItem="4n2-2I-Fvn" secondAttribute="centerY" id="C2z-FW-U3m"/>
                                                             <constraint firstAttribute="height" constant="60" id="EjR-Gc-aVM"/>
                                                             <constraint firstAttribute="bottom" secondItem="w15-yv-cAJ" secondAttribute="bottom" constant="5" id="H8n-lp-FJl"/>
-                                                            <constraint firstItem="w15-yv-cAJ" firstAttribute="leading" secondItem="4n2-2I-Fvn" secondAttribute="trailing" constant="10" id="HeV-dd-MKs"/>
-                                                            <constraint firstItem="w15-yv-cAJ" firstAttribute="leading" secondItem="4n2-2I-Fvn" secondAttribute="trailing" constant="10" id="XDV-Os-NwZ"/>
-                                                            <constraint firstAttribute="trailing" secondItem="w15-yv-cAJ" secondAttribute="trailing" constant="20" id="lB0-MR-iGi"/>
-                                                            <constraint firstItem="4n2-2I-Fvn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="oBx-W2-sgi" secondAttribute="leading" constant="15" id="pyw-Y1-z4l"/>
+                                                            <constraint firstItem="w15-yv-cAJ" firstAttribute="leading" secondItem="4n2-2I-Fvn" secondAttribute="trailing" constant="5" id="HeV-dd-MKs"/>
+                                                            <constraint firstAttribute="trailing" secondItem="w15-yv-cAJ" secondAttribute="trailing" constant="2" id="lB0-MR-iGi"/>
+                                                            <constraint firstItem="4n2-2I-Fvn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="oBx-W2-sgi" secondAttribute="leading" constant="2" id="pyw-Y1-z4l"/>
                                                         </constraints>
                                                     </view>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstItem="4n2-2I-Fvn" firstAttribute="centerX" secondItem="FcR-9R-1fn" secondAttribute="centerX" id="uw4-MS-KA5"/>
+                                                    <constraint firstItem="4n2-2I-Fvn" firstAttribute="centerX" secondItem="FcR-9R-1fn" secondAttribute="centerX" constant="-50" id="uw4-MS-KA5"/>
                                                 </constraints>
                                             </stackView>
                                         </subviews>
@@ -4619,7 +4618,7 @@
                                                         <rect key="frame" x="0.0" y="90.5" width="348" height="40"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOO-J9-5Pc">
-                                                                <rect key="frame" x="0.0" y="0.0" width="70.5" height="40"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="52.5" height="40"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                                 <connections>
@@ -4627,7 +4626,7 @@
                                                                 </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQE-Dx-5vt">
-                                                                <rect key="frame" x="70.5" y="0.0" width="277.5" height="40"/>
+                                                                <rect key="frame" x="52.5" y="0.0" width="295.5" height="40"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>

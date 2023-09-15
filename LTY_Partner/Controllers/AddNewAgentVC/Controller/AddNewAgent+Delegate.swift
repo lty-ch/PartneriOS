@@ -124,7 +124,7 @@ extension AddNewAgentVC : AddAgentProtocolDelegate {
             self.roleListArr = data.data?.rolesList ?? []
             if roleListArr.count == 0 {
                 
-                self.showAlertWithActions(msg: "Please add Role first.", titles: ["Yes", "Not Now"]) { (value) in
+                self.showAlertWithActions(msg: "Please add Role first.".localized(), titles: ["Yes".localized(), "Not Now".localized()]) { (value) in
                     if value == 1{
                         let vc = RulesVC.instantiate(fromAppStoryboard: .ruleStoryboard)
                         self.pushToVC(vc, animated: true)

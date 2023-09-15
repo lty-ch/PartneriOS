@@ -41,8 +41,8 @@ extension AgentVC : UITableViewDelegate,UITableViewDataSource {
         } else {
             cell.labelStatus.textColor = UIColor.red
         }
-        cell.labelStatus.text = agentListData[indexPath.row].partnerState
-        
+        cell.labelStatus.text = agentListData[indexPath.row].partnerState?.localized()
+    
 
         return cell
     }

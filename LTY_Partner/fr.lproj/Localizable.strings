@@ -6,6 +6,14 @@
   
 */
 
+"Yes" = "Oui";
+"Not Now" = "Pas maintenant";
+"Please add category commission of the agent." = "Veuillez ajouter la catégorie de commission de l'agent.";
+"Please contact your partner" = "Veuillez contacter votre partenaire";
+"Please add Category first." = "Veuillez d'abord ajouter une catégorie.";
+"Please add Customer first." = "Veuillez d'abord ajouter le client.";
+"Please add Role first." = "Veuillez d'abord ajouter un rôle.";
+
 "Select Category" = "Choisir une catégorie";
 "Select Subcategory" = "Sélectionnez une sous-catégorie";
 "Agent List" = "Liste des agents";

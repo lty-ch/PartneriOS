@@ -208,14 +208,14 @@ class ProposalVC: UIViewController, UITextFieldDelegate {
            
                 if !self.isCategoryAdded {
                     if userType == "PARTNER"{
-                        self.showAlertWithActions(msg: "Please add Category first.", titles: ["Yes", "Not Now"]) { (value) in
+                        self.showAlertWithActions(msg: "Please add Category first.".localized(), titles: ["Yes".localized(), "Not Now".localized()]) { (value) in
                             if value == 1{
                                 let vc = CategoryVC.instantiate(fromAppStoryboard: .sideMenuStoryboard)
                                 self.pushToVC(vc, animated: true)
                             }
                         }
                     }else{
-                        self.showOkAlertWithHandler("Please contact your partner") {
+                        self.showOkAlertWithHandler("Please contact your partner".localized()) {
                             self.popVC(animated: true)
                         }
                     }
@@ -224,7 +224,7 @@ class ProposalVC: UIViewController, UITextFieldDelegate {
                 }
         
             if !self.isCustomerAdded {
-                self.showAlertWithActions(msg: "Please add Customer first.", titles: ["Yes", "Not Now"]) { (value) in
+                self.showAlertWithActions(msg: "Please add Customer first.".localized(), titles: ["Yes".localized(), "Not Now".localized()]) { (value) in
                     if value == 1{
                         let vc = CustomerVC.instantiate(fromAppStoryboard: .customerStoryboard)
                         self.pushToVC(vc, animated: true)

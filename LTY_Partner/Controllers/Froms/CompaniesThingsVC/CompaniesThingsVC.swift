@@ -199,14 +199,14 @@ class CompaniesThingsVC: UIViewController {
             let userType = kUserDefaults.value(forKey: AppKeys.userType) as! String
             if !self.isCategoryAdded {
                 if userType == "PARTNER"{
-                    self.showAlertWithActions(msg: "Please add category commission of the agent.", titles: ["Yes", "Not Now"]) { (value) in
+                    self.showAlertWithActions(msg: "Please add category commission of the agent.".localized(), titles: ["Yes".localized(), "Not Now".localized()]) { (value) in
                         if value == 1{
                             let vc = AgentVC.instantiate(fromAppStoryboard: .sideMenuStoryboard)
                             self.pushToVC(vc, animated: true)
                         }
                     }
                 }else{
-                    self.showOkAlertWithHandler("Please contact your partner") {
+                    self.showOkAlertWithHandler("Please contact your partner".localized()) {
                         self.popVC(animated: true)
                     }
                 }

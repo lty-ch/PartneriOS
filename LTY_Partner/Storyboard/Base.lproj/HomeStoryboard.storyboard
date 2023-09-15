@@ -70,13 +70,13 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LGh-ct-jig">
-                                                                                <rect key="frame" x="15" y="76.5" width="11.5" height="20.5"/>
-                                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                                                <rect key="frame" x="15" y="75" width="13" height="23"/>
+                                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                                                                 <color key="textColor" red="0.3058823645" green="0.231372565" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NZm-sP-eLd">
-                                                                                <rect key="frame" x="42.5" y="74.5" width="82" height="24"/>
+                                                                                <rect key="frame" x="44" y="74.5" width="82" height="24"/>
                                                                                 <subviews>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9r-HH-wZu">
                                                                                         <rect key="frame" x="16" y="4" width="33" height="16"/>
@@ -103,8 +103,8 @@
                                                                                     <constraint firstItem="lYJ-rK-e2T" firstAttribute="centerY" secondItem="b9r-HH-wZu" secondAttribute="centerY" id="uj9-hS-ims"/>
                                                                                 </constraints>
                                                                             </view>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Signed Contract" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGR-0X-xwF">
-                                                                                <rect key="frame" x="15" y="116.5" width="120.5" height="20.5"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Signed Contract" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGR-0X-xwF">
+                                                                                <rect key="frame" x="15" y="116.5" width="120.5" height="14.5"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                                 <color key="textColor" red="0.3058823645" green="0.231372565" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <nil key="highlightedColor"/>
@@ -116,7 +116,7 @@
                                                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wGR-0X-xwF" secondAttribute="trailing" constant="5" id="Ez2-Uy-ibt"/>
                                                                             <constraint firstItem="NZm-sP-eLd" firstAttribute="top" secondItem="Z9k-bo-uKN" secondAttribute="bottom" constant="22.333333333333343" id="FA0-Oi-4Pf"/>
                                                                             <constraint firstItem="NZm-sP-eLd" firstAttribute="centerY" secondItem="LGh-ct-jig" secondAttribute="centerY" id="FfR-bF-wxL"/>
-                                                                            <constraint firstAttribute="bottom" secondItem="wGR-0X-xwF" secondAttribute="bottom" constant="20" id="IhX-YY-uIm"/>
+                                                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="wGR-0X-xwF" secondAttribute="bottom" constant="5" id="IhX-YY-uIm"/>
                                                                             <constraint firstItem="Z9k-bo-uKN" firstAttribute="leading" secondItem="u1D-fD-OT8" secondAttribute="leading" constant="15" id="JOh-UN-R5g"/>
                                                                             <constraint firstItem="wGR-0X-xwF" firstAttribute="leading" secondItem="LGh-ct-jig" secondAttribute="leading" id="SPV-No-ZPT"/>
                                                                             <constraint firstAttribute="trailing" secondItem="BeS-CD-Vqv" secondAttribute="trailing" id="cvW-kP-BYF"/>
@@ -160,13 +160,13 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHo-C1-tGw">
-                                                                                <rect key="frame" x="20" y="76.5" width="11.5" height="20.5"/>
-                                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                                                <rect key="frame" x="20" y="74.5" width="13.5" height="24"/>
+                                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                                                 <color key="textColor" red="0.30980393290000002" green="0.5176470876" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B3O-WE-rmK">
-                                                                                <rect key="frame" x="47.5" y="74.5" width="82" height="24"/>
+                                                                                <rect key="frame" x="49.5" y="74.5" width="82" height="24"/>
                                                                                 <subviews>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQc-mN-Vpd">
                                                                                         <rect key="frame" x="16" y="4" width="33" height="16"/>
@@ -193,8 +193,8 @@
                                                                                     <constraint firstItem="lEZ-2k-pVR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="WQc-mN-Vpd" secondAttribute="trailing" constant="5" id="xS8-tC-aUq"/>
                                                                                 </constraints>
                                                                             </view>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Signed Contract" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaY-mR-iuI">
-                                                                                <rect key="frame" x="20" y="116.5" width="120.5" height="20.5"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Signed Contract" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaY-mR-iuI">
+                                                                                <rect key="frame" x="20" y="116.5" width="120.5" height="14.5"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                                 <color key="textColor" red="0.30980393290000002" green="0.5176470876" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <nil key="highlightedColor"/>
@@ -203,7 +203,7 @@
                                                                         <color key="backgroundColor" name="skyBlue"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zaY-mR-iuI" secondAttribute="trailing" constant="5" id="8MP-F4-44C"/>
-                                                                            <constraint firstAttribute="bottom" secondItem="zaY-mR-iuI" secondAttribute="bottom" constant="20" id="Jft-dc-4X5"/>
+                                                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="zaY-mR-iuI" secondAttribute="bottom" constant="5" id="Jft-dc-4X5"/>
                                                                             <constraint firstItem="zaY-mR-iuI" firstAttribute="top" secondItem="B3O-WE-rmK" secondAttribute="bottom" constant="18" id="KOb-2N-m3u"/>
                                                                             <constraint firstItem="B3O-WE-rmK" firstAttribute="centerY" secondItem="MHo-C1-tGw" secondAttribute="centerY" id="LNK-Z3-Jdr"/>
                                                                             <constraint firstItem="B3O-WE-rmK" firstAttribute="leading" secondItem="MHo-C1-tGw" secondAttribute="trailing" constant="16" id="MQg-Yw-AyY"/>

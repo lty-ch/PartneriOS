@@ -9,6 +9,7 @@ import UIKit
 
 class LeadListVC: UIViewController, CustomerListProtocolDelegate {
 
+    @IBOutlet weak var widthConstant: NSLayoutConstraint!
     @IBOutlet weak var emptyView: UIView!
     @IBOutlet weak var searchView: UIView!
     @IBOutlet weak var searchBtn: UIButton!
@@ -49,6 +50,14 @@ class LeadListVC: UIViewController, CustomerListProtocolDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         tabBarController?.tabBar.isHidden = true
+        let language =  kUserDefaults.value(forKey: APPLE_LANGUAGE_KEY)
+        let result = language as! NSArray
+        
+        if result[0] as! String == "fr" {
+            widthConstant.constant = 80
+        }else{
+            widthConstant.constant = 150
+        }
         
             ApiCallingFunc(status: "")
         }
