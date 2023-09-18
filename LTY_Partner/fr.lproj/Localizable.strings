@@ -3,9 +3,11 @@
   LTY_Partner
 
   Created by shashivendra sengar on 20/06/23.
-  
+
 */
 
+"Update Phone Number" = "Mettre à jour le numéro de téléphone";
+"Update Email Address" = "Mettre à jour l'adresse e-mail";
 "Yes" = "Oui";
 "Not Now" = "Pas maintenant";
 "Please add category commission of the agent." = "Veuillez ajouter la catégorie de commission de l'agent.";

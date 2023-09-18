@@ -34,6 +34,8 @@ class AddNewCustomerVC: UIViewController, SetDrpDownText,SetInsurerList{
         }
     }
     
+    @IBOutlet weak var phoneHeightConstant: NSLayoutConstraint!
+    @IBOutlet weak var countryCodeHeightOutlets: NSLayoutConstraint!
     @IBOutlet weak var btnViewFrontDoc: UIButton!
     @IBOutlet weak var btnViewBackDoc: UIButton!
     @IBOutlet weak var lblRegisterFrontID: UILabel!
@@ -200,6 +202,9 @@ class AddNewCustomerVC: UIViewController, SetDrpDownText,SetInsurerList{
         
         
         if self.isComingFrom == "Edit" {
+            phoneHeightConstant.constant = 10
+            countryCodeHeightOutlets.constant = 10
+            
             textEmail.isUserInteractionEnabled = false
             self.btnAdd.setTitle("Update".localized(), for: .normal)
             textPhone.isUserInteractionEnabled = false
@@ -221,6 +226,8 @@ class AddNewCustomerVC: UIViewController, SetDrpDownText,SetInsurerList{
             textCountryCode.isUserInteractionEnabled = true
             headerViewHeight.constant = 70
             headerStackView.isHidden = false
+            phoneHeightConstant.constant = 10
+            countryCodeHeightOutlets.constant = 10
             
         }
         

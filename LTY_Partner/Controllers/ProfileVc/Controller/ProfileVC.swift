@@ -218,6 +218,11 @@ class ProfileVC: UIViewController, SetDrpDownText {
         
         let userType = kUserDefaults.value(forKey: AppKeys.userType)
         textPersnalInfoCCode.isUserInteractionEnabled = false
+        btnUpdateCompEmail.setTitle("Update Phone Number".localized(), for: .normal)
+        btnUpdateCompMobile.setTitle("Update Email Address".localized(), for: .normal)
+        btnUpdateCompEmail.titleLabel?.numberOfLines = 2
+        btnUpdateCompMobile.titleLabel?.numberOfLines = 2
+
         if userType as! String == "AGENT" {
             self.viewCompPO.isHidden = true
             self.viewPrivateOP.isHidden = true

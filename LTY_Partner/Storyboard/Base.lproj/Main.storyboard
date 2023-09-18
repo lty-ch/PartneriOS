@@ -2175,7 +2175,7 @@
                                                         <rect key="frame" x="0.0" y="90.5" width="348" height="40"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amN-Y1-t0u">
-                                                                <rect key="frame" x="0.0" y="0.0" width="50.5" height="40"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="52" height="40"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                                 <connections>
@@ -2183,7 +2183,7 @@
                                                                 </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ak-co-a3f">
-                                                                <rect key="frame" x="50.5" y="0.0" width="297.5" height="40"/>
+                                                                <rect key="frame" x="52" y="0.0" width="296" height="40"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -2233,7 +2233,7 @@
                                                         <rect key="frame" x="0.0" y="90.5" width="348" height="40"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jg-cg-GwO">
-                                                                <rect key="frame" x="0.0" y="0.0" width="52.5" height="40"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="52" height="40"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                                 <connections>
@@ -2241,7 +2241,7 @@
                                                                 </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjY-CL-qom">
-                                                                <rect key="frame" x="52.5" y="0.0" width="295.5" height="40"/>
+                                                                <rect key="frame" x="52" y="0.0" width="296" height="40"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -4618,7 +4618,7 @@
                                                         <rect key="frame" x="0.0" y="90.5" width="348" height="40"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOO-J9-5Pc">
-                                                                <rect key="frame" x="0.0" y="0.0" width="52.5" height="40"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="52" height="40"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                                 <connections>
@@ -4626,7 +4626,7 @@
                                                                 </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQE-Dx-5vt">
-                                                                <rect key="frame" x="52.5" y="0.0" width="295.5" height="40"/>
+                                                                <rect key="frame" x="52" y="0.0" width="296" height="40"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
