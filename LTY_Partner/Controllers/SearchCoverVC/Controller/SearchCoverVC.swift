@@ -107,6 +107,7 @@ class SearchCoverVC: UIViewController,UITextFieldDelegate, CategoryListProtocolD
         
         btnAgents.setTitleColor(Asset.Colors.blackColor.color, for: .normal)
         btnAgents.setTitle("Agent Analytics".localized(), for: .normal)
+        btnAgents.titleLabel?.numberOfLines = 2
         btnAgents.viewCorner(8)
         
         btnCustomers.setTitleColor(Asset.Colors.blackColor.color, for: .normal)
