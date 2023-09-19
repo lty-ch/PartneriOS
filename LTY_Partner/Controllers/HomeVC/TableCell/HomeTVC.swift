@@ -24,8 +24,15 @@ class HomeTVC: UITableViewCell {
     @IBOutlet weak var btnUpdateAgenda: UIButton!
     @IBOutlet weak var btnAddCalender: UIButton!
 
+    @IBOutlet weak var lblAddCalender: UILabel!
+    @IBOutlet weak var lblUpdate: UILabel!
+    @IBOutlet weak var lblDelete: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
+        self.lblDelete.text = "Delete".localized()
+        self.lblUpdate.text = "Update".localized()
+        self.lblAddCalender.text = "Add Calender".localized()
+        
         self.lblHeadingJoiness.text = "Joiness".localized()
         self.lblHeadingMeetingHour.text = "Meeting Hours".localized()
         self.lblHeadingTask.text = "Task".localized()

@@ -218,8 +218,8 @@ class ProfileVC: UIViewController, SetDrpDownText {
         
         let userType = kUserDefaults.value(forKey: AppKeys.userType)
         textPersnalInfoCCode.isUserInteractionEnabled = false
-        btnUpdateCompEmail.setTitle("Update Phone Number".localized(), for: .normal)
-        btnUpdateCompMobile.setTitle("Update Email Address".localized(), for: .normal)
+        btnUpdateCompEmail.setTitle("Update Email Address".localized(), for: .normal)
+        btnUpdateCompMobile.setTitle("Update Phone Number".localized(), for: .normal)
         btnUpdateCompEmail.titleLabel?.numberOfLines = 2
         btnUpdateCompMobile.titleLabel?.numberOfLines = 2
 

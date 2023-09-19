@@ -18,6 +18,7 @@ class PrivacyPolicyVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         callPrivacyUrl()
+        setDrowerHeight() 
         customNavDrower.titleLabel.text = "Privacy Policy".localized()
         customNavDrower.titleLabel.textAlignment = .center
         customNavDrower.leftSideMenuButtonItem.setImage(Asset.Assets.backArrow.image, for: .normal)

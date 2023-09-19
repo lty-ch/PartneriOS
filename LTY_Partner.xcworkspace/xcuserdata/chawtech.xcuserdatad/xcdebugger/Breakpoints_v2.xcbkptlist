@@ -68,5 +68,389 @@
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33DDF006-C2A3-494E-8602-7EAEB6E374EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/AddProposal/Controllers/SixthViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "311"
+            endingLineNumber = "311"
+            landmarkName = "requestNativeImageUpload(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E816ED98-DC56-484F-9786-15E6F741EA57"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/AddProposal/Controllers/SixthViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
+            landmarkName = "requestNativeImageUpload(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E816ED98-DC56-484F-9786-15E6F741EA57 - e43e26f57413e028"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LTY_Partner.SixthViewController.requestNativeImageUpload(Swift.String) -&gt; ()"
+                  moduleName = "LTY_Partner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chawtech/Desktop/Lty_ClientGit/PartneriOS/LTY_Partner/Controllers/AddProposal/Controllers/SixthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295"
+                  offsetFromSymbolStart = "1334">
+               </Location>
+               <Location
+                  uuid = "E816ED98-DC56-484F-9786-15E6F741EA57 - 24981e93d111fc28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in LTY_Partner.SixthViewController.requestNativeImageUpload(Swift.String) -&gt; ()"
+                  moduleName = "LTY_Partner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chawtech/Desktop/Lty_ClientGit/PartneriOS/LTY_Partner/Controllers/AddProposal/Controllers/SixthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "296"
+                  endingLineNumber = "296"
+                  offsetFromSymbolStart = "220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60DA6F09-242F-4D7C-A07A-CDC94D097564"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/OtpVerifyScreen/ViewModel/OtpVerifyViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
+            landmarkName = "resendPasswordApi(param:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F35BA14C-37AC-4AA7-8676-2CAB3FF20C7E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/OtpVerifyScreen/ViewModel/OtpVerifyViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "resendPasswordApi(param:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF7C4484-B3FA-4795-8A5E-E3ADA3D416E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/OtpVerifyScreen/ViewModel/OtpVerifyViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "resendPasswordApi(param:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4B735BB-CAE2-42F6-909D-DF4DB3A68FAD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/OtpVerifyScreen/Controller/OtpVerifyVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "verifyActionBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61B8C02E-5C1C-4236-9672-39B9C47A3015"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/OtpVerifyScreen/ViewModel/OtpVerifyViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "networkServiceCall(param:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F3C1249-750C-4557-80B5-F6349ABB75C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/OtpVerifyScreen/ViewModel/OtpVerifyViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "networkServiceCall(param:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D05E9118-337C-443D-B99C-7B77F1227827"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/OtpVerifyScreen/ViewModel/OtpVerifyViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "networkServiceCall(param:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A046ACB5-B492-46C7-9379-911434D44CB2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/OtpVerifyScreen/ViewModel/OtpVerifyViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "networkServiceCall(param:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A046ACB5-B492-46C7-9379-911434D44CB2 - b08c95c4daffbdc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;LTY_Partner.OtpVerifyModel&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LTY_Partner.OtpVerifyViewModel.networkServiceCall(param: LTY_Partner.OTPVerifyParams) -&gt; ()"
+                  moduleName = "LTY_Partner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chawtech/Desktop/Lty_ClientGit/PartneriOS/LTY_Partner/Controllers/OtpVerifyScreen/ViewModel/OtpVerifyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "3118">
+               </Location>
+               <Location
+                  uuid = "A046ACB5-B492-46C7-9379-911434D44CB2 - c5cdb6f889e2c41c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Array&lt;LTY_Partner.OtpVerifyModel&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LTY_Partner.OtpVerifyViewModel.networkServiceCall(param: LTY_Partner.OTPVerifyParams) -&gt; ()"
+                  moduleName = "LTY_Partner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chawtech/Desktop/Lty_ClientGit/PartneriOS/LTY_Partner/Controllers/OtpVerifyScreen/ViewModel/OtpVerifyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "38">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67545042-6283-41EC-917E-478F1EED03DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/OtpVerifyScreen/ViewModel/OtpVerifyViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "networkServiceCall(param:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF280929-BD22-41DB-8259-42672B688C4B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/OtpVerifyScreen/Controller/Extension+OtpVerifyVCDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "setOtpData(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB3110F1-88D7-42AF-A268-AAE2A737EE63"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/OtpVerifyScreen/Controller/Extension+OtpVerifyVCDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "setOtpData(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDE7839E-FD4D-40F5-B7A3-9A3A863B5EA7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/OtpVerifyScreen/Controller/Extension+OtpVerifyVCDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "callApiServices()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE20F809-007A-4EAF-8B8A-B3F3109E8D1F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/OtpVerifyScreen/Controller/Extension+OtpVerifyVCDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "callApiServices()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D71A2228-E9B3-45E9-A754-32A16F0BE256"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/OtpVerifyScreen/Controller/Extension+OtpVerifyVCDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "callApiServices()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93CFFD47-B9F0-47F5-B8F5-48AE3E34A5AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/OtpVerifyScreen/ViewModel/OtpVerifyViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
+            landmarkName = "profileDetailApi(param:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3F34A35-5EEC-4472-9D0C-64F0E1CA6B5A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/OtpVerifyScreen/ViewModel/OtpVerifyViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "profileDetailApi(param:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B3F34A35-5EEC-4472-9D0C-64F0E1CA6B5A - 6f2282fe3d801a0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LTY_Partner.OtpVerifyViewModel.profileDetailApi(param: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
+                  moduleName = "LTY_Partner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chawtech/Desktop/Lty_ClientGit/PartneriOS/LTY_Partner/Controllers/OtpVerifyScreen/ViewModel/OtpVerifyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "559">
+               </Location>
+               <Location
+                  uuid = "B3F34A35-5EEC-4472-9D0C-64F0E1CA6B5A - ef5605a73165f5ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;LTY_Partner.ProfileModel, Swift.Error&gt;) -&gt; () in LTY_Partner.OtpVerifyViewModel.profileDetailApi(param: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
+                  moduleName = "LTY_Partner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chawtech/Desktop/Lty_ClientGit/PartneriOS/LTY_Partner/Controllers/OtpVerifyScreen/ViewModel/OtpVerifyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "204"
+                  endingLineNumber = "204"
+                  offsetFromSymbolStart = "3152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

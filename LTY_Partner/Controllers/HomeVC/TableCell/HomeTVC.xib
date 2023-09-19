@@ -161,8 +161,8 @@
                                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1HJ-ex-nUY">
                                                 <rect key="frame" x="0.0" y="0.0" width="128" height="40"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Calender" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0y-9l-UuL">
-                                                        <rect key="frame" x="27" y="4" width="101" height="32"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Calender" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0y-9l-UuL">
+                                                        <rect key="frame" x="32" y="4" width="86" height="32"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                         <color key="textColor" name="white"/>
                                                         <nil key="highlightedColor"/>
@@ -185,16 +185,16 @@
                                                 </subviews>
                                                 <color key="backgroundColor" name="blueColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="trailing" secondItem="E0y-9l-UuL" secondAttribute="trailing" id="AGz-cd-i6z"/>
                                                     <constraint firstItem="E0y-9l-UuL" firstAttribute="top" secondItem="1HJ-ex-nUY" secondAttribute="top" constant="4" id="DDO-El-bla"/>
                                                     <constraint firstItem="Dm4-56-fzC" firstAttribute="leading" secondItem="1HJ-ex-nUY" secondAttribute="leading" id="Dsp-YL-aE9"/>
                                                     <constraint firstItem="rBd-fg-oMT" firstAttribute="centerY" secondItem="1HJ-ex-nUY" secondAttribute="centerY" id="HxM-GJ-jYx"/>
                                                     <constraint firstItem="rBd-fg-oMT" firstAttribute="leading" secondItem="1HJ-ex-nUY" secondAttribute="leading" constant="10" id="ZBE-BA-gcb"/>
                                                     <constraint firstAttribute="bottom" secondItem="E0y-9l-UuL" secondAttribute="bottom" constant="4" id="aaH-IG-ilY"/>
                                                     <constraint firstAttribute="bottom" secondItem="Dm4-56-fzC" secondAttribute="bottom" id="bjX-KW-puc"/>
+                                                    <constraint firstAttribute="trailing" secondItem="E0y-9l-UuL" secondAttribute="trailing" constant="10" id="g5b-QI-Q69"/>
                                                     <constraint firstItem="Dm4-56-fzC" firstAttribute="top" secondItem="1HJ-ex-nUY" secondAttribute="top" id="gFQ-Ot-WWx"/>
                                                     <constraint firstAttribute="trailing" secondItem="Dm4-56-fzC" secondAttribute="trailing" id="q2p-mx-Sqg"/>
-                                                    <constraint firstItem="E0y-9l-UuL" firstAttribute="leading" secondItem="rBd-fg-oMT" secondAttribute="trailing" constant="5" id="y43-NT-PSX"/>
+                                                    <constraint firstItem="E0y-9l-UuL" firstAttribute="leading" secondItem="rBd-fg-oMT" secondAttribute="trailing" constant="10" id="y43-NT-PSX"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
@@ -213,7 +213,7 @@
                                                             <color key="titleColor" name="darkGray"/>
                                                         </state>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Update" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFe-D6-pTe">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Update" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFe-D6-pTe">
                                                         <rect key="frame" x="32" y="4" width="86" height="32"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                         <color key="textColor" name="white"/>
@@ -258,7 +258,7 @@
                                                             <color key="titleColor" name="darkGray"/>
                                                         </state>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delete" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fa2-jD-Eyj">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delete" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fa2-jD-Eyj">
                                                         <rect key="frame" x="32" y="4" width="90" height="32"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                         <color key="textColor" name="white"/>
@@ -323,7 +323,9 @@
                 <outlet property="btnAddCalender" destination="Dm4-56-fzC" id="GFB-RM-4GR"/>
                 <outlet property="btnDeleteAgenda" destination="gox-Kw-PrU" id="bor-ht-StJ"/>
                 <outlet property="btnUpdateAgenda" destination="dMi-kx-bqb" id="6e8-IV-ECk"/>
+                <outlet property="lblAddCalender" destination="E0y-9l-UuL" id="qqu-Li-ytJ"/>
                 <outlet property="lblDate" destination="75Y-R8-Pvf" id="VUz-Zg-jlf"/>
+                <outlet property="lblDelete" destination="fa2-jD-Eyj" id="wyH-H1-74s"/>
                 <outlet property="lblHeadingDate" destination="PkL-Fk-L3R" id="a23-2y-nlx"/>
                 <outlet property="lblHeadingJoiness" destination="vy2-8e-tEt" id="TGP-mR-qTU"/>
                 <outlet property="lblHeadingMeetingHour" destination="9yv-hb-qBS" id="hge-kq-bIs"/>
@@ -331,6 +333,7 @@
                 <outlet property="lblJoinee" destination="jEN-5I-mUc" id="xp0-QJ-8A8"/>
                 <outlet property="lblMeetingHours" destination="5gh-M0-cqQ" id="H4Z-gf-skd"/>
                 <outlet property="lblTask" destination="pqL-6G-meI" id="zHb-b7-3Jp"/>
+                <outlet property="lblUpdate" destination="YFe-D6-pTe" id="itG-Ui-yVL"/>
             </connections>
             <point key="canvasLocation" x="212.21374045801525" y="5.2816901408450709"/>
         </tableViewCell>
