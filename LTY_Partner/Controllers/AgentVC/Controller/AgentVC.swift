@@ -16,9 +16,7 @@ class AgentVC: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var searchCloseBtn: UIButton!
     @IBOutlet weak var searchView: UIView!
     @IBOutlet weak var AddNewView: UIView!
-    @IBOutlet weak var commisionView: UIView!
     @IBOutlet weak var labelAddNew: UILabel!
-    @IBOutlet weak var labelCommesion: UILabel!
     @IBOutlet weak var tableViewAgentVC: UITableView!
     @IBOutlet weak var customNavigationBarForDrawer: CustomNavigationBar!
     
@@ -52,7 +50,6 @@ class AgentVC: UIViewController, UITextFieldDelegate {
         UIView.animate(withDuration: 0.1) {
             //self.searchBtn.setImage(UIImage.init(named: "accept"), for: .normal)
             self.searchView.isHidden = false
-            self.commisionView.isHidden = true
             self.AddNewView.isHidden = true
             self.searchCloseBtn.isHidden = false
             self.searchBtn.isHidden = true
@@ -71,7 +68,6 @@ class AgentVC: UIViewController, UITextFieldDelegate {
         UIView.animate(withDuration: 0.1) {
             //self.searchBtn.setImage(UIImage.init(named: "accept"), for: .normal)
             self.searchView.isHidden = true
-            self.commisionView.isHidden = false
             self.AddNewView.isHidden = false
             self.searchCloseBtn.isHidden = true
             self.searchBtn.isHidden = false
@@ -153,17 +149,13 @@ class AgentVC: UIViewController, UITextFieldDelegate {
     func setUpView() {
         searchView.viewCorner(6)
         AddNewView.viewCorner(6)
-        commisionView.viewCorner(6)
         
         labelAddNew.font = FontSize.size14
-        labelCommesion.font = FontSize.size14
         labelAddNew.textColor = Asset.Colors.whiteColor.color
-        labelCommesion.textColor = Asset.Colors.lightBlue.color
         
         
         searchView.backgroundColor = Asset.Colors.grayColor.color
         AddNewView.backgroundColor = Asset.Colors.blueColor.color
-        commisionView.backgroundColor = Asset.Colors.lightSkyBlue.color
 
         
         customNavigationBarForDrawer.titleLabel.text = "Agents".localized()

@@ -10,7 +10,9 @@ import UIKit
 class AgentCommissionVC: UIViewController {
 
     //MARK:- Outlets
-    
+    @IBOutlet weak var labelCommesion: UILabel!
+    @IBOutlet weak var commisionView: UIView!
+
     @IBOutlet weak var customNavHeight: NSLayoutConstraint!
     @IBOutlet weak var agentCommissionTableView: UITableView!
     @IBOutlet weak var noDataFoundView: UIView!
@@ -25,6 +27,7 @@ class AgentCommissionVC: UIViewController {
         super.viewDidLoad()
         setDrowerHeight()
         setUpTableView()
+        setUpView()
         agentCommissionViewModel.delegate = self
 
         customNavigationBar.titleLabel.text = "Commission List".localized()
@@ -46,6 +49,20 @@ class AgentCommissionVC: UIViewController {
 
     }
   
+    // MARK:- setUpView
+    
+    func setUpView() {
+        commisionView.viewCorner(6)
+        
+        labelCommesion.font = FontSize.size14
+        labelCommesion.textColor = Asset.Colors.lightBlue.color
+        labelCommesion.text = "Manage Commissions".localized()
+        
+        
+        commisionView.backgroundColor = Asset.Colors.lightSkyBlue.color
+
+
+    }
     
     //MARK:- check InternetConnection
     
@@ -90,4 +107,10 @@ class AgentCommissionVC: UIViewController {
         agentCommissionTableView.register(UINib(nibName: "AgentCommTableViewCell", bundle: Bundle.main), forCellReuseIdentifier: "AgentCommTableViewCell") 
     }
 
+    @IBAction func onClickManageCommission(_ sender: UIButton) {
+        let vc = ManageCommissionVC.instantiate(fromAppStoryboard: .sideMenuStoryboard)
+       // vc.agentListData = self.agentListData
+        self.pushToVC(vc, animated: true)
+    }
+    
 }

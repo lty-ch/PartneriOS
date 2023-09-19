@@ -6,6 +6,7 @@
 
 */
 
+"Manage Commissions" = "Commission nement";
 "Update Phone Number" = "Mettre à jour le numéro de téléphone";
 "Update Email Address" = "Mettre à jour l'adresse e-mail";
 "Yes" = "Oui";
@@ -812,7 +813,7 @@
 "Premium Amount" = "Montant de la prime";
 "Member List" = "Liste des membres";
 //"French" = "Français";
-//"English" = "Anglais";
+"English" = "Anglais";
 "Italian" = "Italien";
 "Portuguese" = "Portugais";
 "Albanian" = "Albanais";
@@ -1132,7 +1133,7 @@
 "State" = "Canton";
 "City" = "Ville";
 "German" = "Allemand";
-//"French" = "Français";
+"French" = "Français";
 "Italian" = "Italien";
 "Firm Number" = "Numéro d'entreprise";
 "Circio Number" = "Numéro de Circio";
