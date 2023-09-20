@@ -31,6 +31,7 @@ class ManageCommissionVC: UIViewController {
     var categoryViewModel = CategoryViewModel()
     var subCategoryViewModel = SubCatagoryViewModel()
     
+    
 // MARK:- Outlets
     @IBOutlet weak var textAgentType: CustomTextField!
  
