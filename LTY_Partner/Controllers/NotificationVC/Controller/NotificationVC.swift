@@ -72,7 +72,7 @@ class NotificationVC: UIViewController {
             menuVC.view.layoutIfNeeded()
             menuVC.view.frame=CGRect(x: 0 - UIScreen.main.bounds.size.width - 100, y: 0, width: UIScreen.main.bounds.size.width - 100, height: UIScreen.main.bounds.size.height);
             
-            UIView.animate(withDuration: 0.3, animations: { () -> Void in
+            UIView.animate(withDuration: 0.4, animations: { () -> Void in
                 menuVC.view.frame=CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width , height: UIScreen.main.bounds.size.height);
             }, completion:nil)
             self.navigationController?.navigationBar.isHidden = true

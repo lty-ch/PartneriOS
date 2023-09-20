@@ -104,21 +104,21 @@
                                 <rect key="frame" x="10" y="596" width="394" height="250"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oYT-gT-RMY">
-                                        <rect key="frame" x="117" y="16" width="160" height="10"/>
+                                        <rect key="frame" x="117" y="16" width="160" height="8"/>
                                         <color key="backgroundColor" systemColor="systemGray3Color"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="10" id="NzS-aF-ZsE"/>
+                                            <constraint firstAttribute="height" constant="8" id="NzS-aF-ZsE"/>
                                             <constraint firstAttribute="width" constant="160" id="fOJ-zs-LBz"/>
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vl8-du-XdL">
-                                        <rect key="frame" x="20" y="66" width="127.5" height="21"/>
+                                        <rect key="frame" x="20" y="44" width="127.5" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="jYl-jr-kRl">
-                                        <rect key="frame" x="20" y="111" width="354" height="115"/>
+                                        <rect key="frame" x="20" y="85" width="354" height="145"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </tableView>
                                 </subviews>
@@ -126,11 +126,11 @@
                                 <constraints>
                                     <constraint firstItem="jYl-jr-kRl" firstAttribute="leading" secondItem="wnv-L8-7Tu" secondAttribute="leading" constant="20" id="2Dz-fP-McG"/>
                                     <constraint firstItem="oYT-gT-RMY" firstAttribute="top" secondItem="wnv-L8-7Tu" secondAttribute="top" constant="16" id="7ly-Z6-sLl"/>
-                                    <constraint firstItem="Vl8-du-XdL" firstAttribute="top" secondItem="oYT-gT-RMY" secondAttribute="bottom" constant="40" id="8ga-5R-mS6"/>
-                                    <constraint firstItem="jYl-jr-kRl" firstAttribute="top" secondItem="Vl8-du-XdL" secondAttribute="bottom" constant="24" id="9Lp-vV-A1B"/>
+                                    <constraint firstItem="Vl8-du-XdL" firstAttribute="top" secondItem="oYT-gT-RMY" secondAttribute="bottom" constant="20" id="8ga-5R-mS6"/>
+                                    <constraint firstItem="jYl-jr-kRl" firstAttribute="top" secondItem="Vl8-du-XdL" secondAttribute="bottom" constant="20" id="9Lp-vV-A1B"/>
                                     <constraint firstItem="Vl8-du-XdL" firstAttribute="leading" secondItem="wnv-L8-7Tu" secondAttribute="leading" constant="20" id="AFg-G4-PIf"/>
                                     <constraint firstItem="oYT-gT-RMY" firstAttribute="centerX" secondItem="wnv-L8-7Tu" secondAttribute="centerX" id="IAX-oQ-deX"/>
-                                    <constraint firstAttribute="bottom" secondItem="jYl-jr-kRl" secondAttribute="bottom" constant="24" id="dJt-OT-7WH"/>
+                                    <constraint firstAttribute="bottom" secondItem="jYl-jr-kRl" secondAttribute="bottom" constant="20" id="dJt-OT-7WH"/>
                                     <constraint firstAttribute="trailing" secondItem="jYl-jr-kRl" secondAttribute="trailing" constant="20" id="jid-8q-cES"/>
                                     <constraint firstAttribute="height" constant="250" id="v7I-eA-c5d"/>
                                 </constraints>

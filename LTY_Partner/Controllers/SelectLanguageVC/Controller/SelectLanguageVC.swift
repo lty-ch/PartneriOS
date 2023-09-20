@@ -64,7 +64,7 @@ class SelectLanguageVC: UIViewController {
      //   view.backgroundColor = Asset.Colors.lightBlack.color
         self.navigationController?.navigationBar.isHidden = true
         btnBack.setImage(Asset.Assets.backArrow.image, for: .normal)
-        labelSelectLanguage.textColor = Asset.Colors.darkGrayColor.color
+        labelSelectLanguage.textColor = Asset.Colors.blackColor.color
         
 //        let tap = UITapGestureRecognizer(target: self, action: #selector(self.dismissPopUp(_:)))
 //        mainView.addGestureRecognizer(tap)

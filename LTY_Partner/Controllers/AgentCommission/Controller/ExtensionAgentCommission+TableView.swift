@@ -33,8 +33,8 @@ extension AgentCommissionVC : UITableViewDelegate,UITableViewDataSource {
             cell.btnDelete.tag = indexPath.row
             cell.btnDelete.addTarget(self, action: #selector(btnDeleteAction(sender:)), for: .touchUpInside)
             
-//            cell.btnEdit.tag = indexPath.row
-//            cell.btnEdit.addTarget(self, action: #selector(btnEditAction(sender:)), for: .touchUpInside)
+            cell.btnEdit.tag = indexPath.row
+            cell.btnEdit.addTarget(self, action: #selector(btnEditAction(sender:)), for: .touchUpInside)
 
         return cell
     }

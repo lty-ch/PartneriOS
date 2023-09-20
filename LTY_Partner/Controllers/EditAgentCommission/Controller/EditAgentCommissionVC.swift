@@ -53,10 +53,10 @@ class EditAgentCommissionVC: UIViewController {
     // MARK:- func set Data
     func SetData () {
         for item in editAgentCommissionData{
-            textCompReserve.text = "\(String(describing: item.CompnyReserve ?? 0.0))"
+            //textCompReserve.text = "\(String(describing: item.CompnyReserve ?? 0.0))"
             textSelectagent.text = "\(String(describing: item.agentName!))"
             textAgentReserve.text = "\(String(describing: item.agentReserve ?? 0.0))"
-            textSelectSubCat.text = "\(String(describing: item.subCategoryName!))"
+           // textSelectSubCat.text = "\(String(describing: item.subCategoryName!))"
             textSelectCategory.text = "\(String(describing: item.categoryName!))"
             textAgentCommission.text = "\(String(describing: item.agentCommission ?? 0.0))"
         }
@@ -153,20 +153,24 @@ class EditAgentCommissionVC: UIViewController {
         let agentReserveComm = Int(textAgentReserve.text ?? "")
         let companyReserve = Int(textCompReserve.text ?? "")
         let  agentCommission = Int(textAgentCommission.text ?? "")
+        /*
+     //   if textAgentReserve.text != "" || textCompReserve.text != "" || textAgentCommission.text != "" {
+            
         
-        if textAgentReserve.text != "" || textCompReserve.text != "" || textAgentCommission.text != "" {
+        if agentReserveComm ?? 0 > 100 {
+            self.ShowAlert(message: "agent Reserve should not be greater than 100".localized())
+            return
+        }
+        
+        else if companyReserve ?? 0 > 100 {
+            self.ShowAlert(message: "company Reserve should not be greater than 100".localized())
+            return
             
-            if agentReserveComm ?? 0 > 100 {
-                self.ShowAlert(message: "agent Reserve should not be greater than 100".localized())
-                return
-            }
-            
-            else if companyReserve ?? 0 > 100 {
-                self.ShowAlert(message: "company Reserve should not be greater than 100".localized())
-                return
-                
-            }
-            else if agentCommission ?? 0 > 100 {
+        }
+        */
+            if textAgentCommission.text != "" {
+
+           if agentCommission ?? 0 > 100 {
                 self.ShowAlert(message: "agent Commission should not be greater than 100".localized())
                 return
                 
@@ -186,6 +190,8 @@ class EditAgentCommissionVC: UIViewController {
     func checkInternetConnection() {
         if internetConnection.isConnectedToNetwork() == true{
             let token = kUserDefaults.value(forKey: "token")
+            self.textCompReserve.text = ""
+            
             let param:[String:Any] = ["feeId":feedId.self,"commissionDetails":["agentReserve":textAgentReserve.text,"companyReserve":textCompReserve.text,"agentCommission":textAgentCommission.text]]
             editAgentCommViewModel.updateCommissionListApi(param: param)
             

@@ -69,6 +69,8 @@ class ManageCommissionVC: UIViewController {
         let param :[String:Any]  = ["partnerId":PartnerId]
         categoryViewModel.productCategoryListApi(param: param, url: LTY_END_POINT_URL.getCategoryNew)
         
+        self.txtAgentReserve.text = "10"
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -110,7 +112,7 @@ class ManageCommissionVC: UIViewController {
                 let lName = item.lastName?.capitalized   ?? ""
                 
                 self.textAgentType.text = "\(fName ) \(lName)"
-                self.txtAgentReserve.text = "\(item.commissionDetails?.agentReserve ?? 0.0)"
+               // self.txtAgentReserve.text = "\(item.commissionDetails?.agentReserve ?? 0.0)"
                 self.txtAgentCommession.text = "\(item.commissionDetails?.agentCommission ?? 0.0)"
                 self.txtCompREserve.text = "\(item.commissionDetails?.companyReserve ?? 0.0)"
             }
@@ -267,15 +269,16 @@ class ManageCommissionVC: UIViewController {
         let companyReserve = Int(txtCompREserve.text ?? "")
         let  agentCommission = Int(txtAgentCommession.text ?? "")
         
-        if agentReserve ?? 0 > 99 {
-            self.showMsg(msg: "it should not be greater than 99".localized())
-        }
-     
-        else if companyReserve ?? 0 > 99 {
-            self.showMsg(msg: "it should not be greater than 99".localized())
-            
-        }
-        else if agentCommission ?? 0 > 99 {
+//        if agentReserve ?? 0 > 99 {
+//            self.showMsg(msg: "it should not be greater than 99".localized())
+//        }
+//
+//        else if companyReserve ?? 0 > 99 {
+//            self.showMsg(msg: "it should not be greater than 99".localized())
+//
+//        }
+//        else
+        if agentCommission ?? 0 > 99 {
             self.showMsg(msg: "it should not be greater than 99".localized())
             
         }
@@ -288,7 +291,9 @@ class ManageCommissionVC: UIViewController {
     
     func checkInternet() {
         if internetConnection.isConnectedToNetwork() == true {
-       
+            self.txtAgentReserve.text = "10"
+            self.txtCompREserve.text = ""
+            
             let param : [String:Any] = ["agentId":self.agentId,"agentName":textAgentType.text,"categoryId":self.catId,"categoryName":self.categoryName ,"categoryNameInFrench":self.categoryNameInFrench,"subCategoryId":self.subcatId,"subCategoryName":"","commissionType":"PERCENTAGE","commissionDetails":["agentReserve":txtAgentReserve.text,"companyReserve":txtCompREserve.text,"agentCommission":txtAgentCommession.text]]
             
             manageCommessionViewModel.addAgentCommission(param:param)
