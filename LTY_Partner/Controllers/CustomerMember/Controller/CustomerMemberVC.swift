@@ -621,7 +621,7 @@ extension CustomerMemberVC: UITableViewDelegate, UITableViewDataSource {
             cell.cellTypeLbl.text = info.memberType ?? ""
             
             cell.cellViewBtn.tag = indexPath.row
-            cell.cellViewBtn.addTarget(self, action: #selector(viewAction(sender:)), for: .touchUpInside)
+            cell.cellViewBtn.addTarget(self, action: #selector(viewAction(_:)), for: .touchUpInside)
             
             return cell
             
@@ -677,7 +677,7 @@ extension CustomerMemberVC: UITableViewDelegate, UITableViewDataSource {
         self.present(actionSheetAlertController, animated: true, completion: nil)
         
     }
-    @objc func viewAction(sender: UIButton){
+    @objc func viewAction(_ sender: UIButton){
         let buttonTag = sender.tag
         DispatchQueue.main.async {
             let vc = CustomerProfileVC.instantiate(fromAppStoryboard: .customerStoryboard)
