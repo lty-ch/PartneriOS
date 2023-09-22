@@ -31,9 +31,9 @@ class PrivacyPolicyVC: UIViewController {
         let result = language as! NSArray
         var poliyUrl = ""
         if result[0] as! String == "fr" {
-            poliyUrl = "https://ltypartnerprod.chawtechsolutions.ch/fr/privacy-policy"
+            poliyUrl = "https://lty.ch/privacy-policy/"
         }else{
-            poliyUrl = "https://ltypartnerprod.chawtechsolutions.ch/privacy-policy"
+            poliyUrl = "https://lty.ch/privacy-policy/"
         }
      
         let url : NSString = poliyUrl as NSString

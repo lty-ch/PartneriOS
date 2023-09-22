@@ -36,7 +36,7 @@
       "size" : "38x38"
     },
     {
-      "filename" : "ItunesArtwork@2x 4.png",
+      "filename" : "iTunesArtwork@3x 1.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "3x",
@@ -71,21 +71,21 @@
       "size" : "60x60"
     },
     {
-      "filename" : "ItunesArtwork@2x 3.png",
+      "filename" : "iTunesArtwork@3x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "64x64"
     },
     {
-      "filename" : "ItunesArtwork@2x 2.png",
+      "filename" : "iTunesArtwork@1x 1.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "3x",
       "size" : "64x64"
     },
     {
-      "filename" : "ItunesArtwork@2x 1.png",
+      "filename" : "iTunesArtwork@1x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
@@ -106,7 +106,7 @@
       "size" : "83.5x83.5"
     },
     {
-      "filename" : "ItunesArtwork@2x.png",
+      "filename" : "iTunesArtwork@2x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
