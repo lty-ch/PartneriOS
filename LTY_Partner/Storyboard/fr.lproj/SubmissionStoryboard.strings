@@ -36,7 +36,7 @@
 "6uD-X3-Jnd.text" = "Label";
 
 /* Class = "UILabel"; text = "Final Policy Number\n"; ObjectID = "71I-lm-oGK"; */
-"71I-lm-oGK.text" = "Numéro de police final";
+"71I-lm-oGK.text" = "N° de police final";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "7e5-pS-wiq"; */
 "7e5-pS-wiq.text" = "Label";
@@ -156,7 +156,7 @@
 "e8B-Ik-RiE.normalTitle" = "Valider";
 
 /* Class = "UILabel"; text = "Policy Id"; ObjectID = "eZX-cu-hcS"; */
-"eZX-cu-hcS.text" = "Numéro de police final";
+"eZX-cu-hcS.text" = "N° de police final";
 
 /* Class = "UILabel"; text = "Selectd Date"; ObjectID = "ebV-jG-1oc"; */
 "ebV-jG-1oc.text" = "Date sélectionnée";

@@ -131,10 +131,16 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         
         print("user npt")
-        /*
+        DispatchQueue.main.async{
+            if let tabBarController = UIApplication.shared.windows.filter({$0.isKeyWindow}).first?.rootViewController as? UITabBarController {
+                tabBarController.selectedIndex = 1
+            }
+        }
+        
+       
         //let vc = WorkChatDetailChatVC.instantiate(fromAppStoryboard: .chatStoryboard)
         // vc.nNotificationID = notificationID
-        
+       /*
         let storyboard = UIStoryboard(name: "MessageStoryboard", bundle: nil)
 
          // instantiate the view controller we want to show from storyboard

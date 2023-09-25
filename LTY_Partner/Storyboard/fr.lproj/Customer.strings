@@ -19,7 +19,7 @@
 "3DH-Bc-Dag.text" = "Email";
 
 /* Class = "UILabel"; text = "Type"; ObjectID = "3LO-Ui-Y2M"; */
-"3LO-Ui-Y2M.text" = "Taper";
+"3LO-Ui-Y2M.text" = "Type";
 
 /* Class = "UILabel"; text = "Country"; ObjectID = "3gw-EF-9mJ"; */
 "3gw-EF-9mJ.text" = "Pays";
@@ -197,7 +197,7 @@
 "Qj7-y9-Ca5.text" = "Sous-catégorie";
 
 /* Classe = "UILabel"; texte = "Numéro de police"; ObjectID = "RBe-6C-Eef"; */
-"RBe-6C-Eef.text" = "Numéro de police";
+"RBe-6C-Eef.text" = "N° de police";
 
 /* Classe = "UIButton"; titre normal = "Non"; ObjectID = "RLu-As-8yw"; */
 "RLu-As-8yw.normalTitle" = "Non";
@@ -291,7 +291,7 @@
 "bpD-Sf-qar.text" = "Étiquette";
 
 /* Classe = "UILabel"; texte = "Numéro de police"; ObjectID = "bwj-lo-t0L"; */
-"bwj-lo-t0L.text" = "Numéro de police";
+"bwj-lo-t0L.text" = "N° de police";
 
 /* Classe = "UILabel"; texte = "Étiquette"; ObjectID = "bzK-zR-tlZ"; */
 "bzK-zR-tlZ.text" = "Étiquette";

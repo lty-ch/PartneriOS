@@ -251,7 +251,7 @@
 "Are you currently insured as a motor vehicle owner?" = " Êtes-vous actuellement assuré en qualité de détenteur de véhicules automobiles?";
 "Holder Name" = "Nom du titulaire";
 "Company Name" = "Nom de l'entreprise";
-"Policy Number" = "Numéro de police";
+"Policy Number" = "N° de police";
 "Will this offer replace an existing policy with another company?" = "Cette offre remplacera-t-elle une police existante auprès d'une autre compagnie ?";
 "Was your driving license withdrawn?" = "Votre permis de conduire a-t-il été retiré ?";
 "Reason" = "Raison";
@@ -313,7 +313,7 @@
 
 "Remarks"  = "Remarques";
 
-"Company Name/Policy Number"  = "Nom de l’entreprise/numéro de police";
+"Company Name/Policy Number"  = "Nom de l’entreprise/n° de police";
 "What is the reason for this non-insurance (if age over 35)?"  = "Quelle est la raison de cette non-assurance (si âge supérieur à 35 ans) ?";
 "Specify the Claims"  = "Préciser les revendications";
 "Member Information"  = "Informations sur les membres";
@@ -690,7 +690,7 @@
 "Upload Register ID (Front)" = "Télécharger votre pièce d'identité recto (avant)";
 "Upload Register ID (Back)" = "Télécharger votre pièce d'identité verso (arrière)";
 "Insurer Company" = "Compagnie d'assurance";
-"Policy No" = "Numéro de police";
+"Policy No" = "N° de police";
 "Insurance Company" = "Compagnie d'assurance";
 "Insurance Product" = "Produit d'assurance";
 "Insurance Coverage" = "Couverture d'assurance";
@@ -700,7 +700,7 @@
 "Periodicity" = "Fréquence de paiement";
 "Premium Amount" = "Montant de la prime";
 "Start Date" = "Date de début";
-"Product Management" = "Gestion des produits";
+"Product Management" = "Produits";
 "End Date" = "Date de fin";
 "Upload Policy Document" = "Télécharger le document de police";
 "Type" = "Type";
@@ -790,7 +790,7 @@
 "User List" = "Liste des utilisateurs";
 
 
-"Type" = "Taper";
+"Type" = "Type";
 "Agent" = "Conseiller";
 "Total Files Added" = "Total de fichiers ajoutés";
 "Last File Added On" = "Dernier fichier Ajouter";
@@ -1057,7 +1057,7 @@
 "Document"= "Document";
 "Image"= "Image";
 "Please select what would you like to upload?"= "Veuillez sélectionner ce que vous souhaitez télécharger";
-"Please enter your Policy Id."= "Veuillez entrer votre numéro de police";
+"Please enter your Policy Id."= "Veuillez entrer votre n° de police";
 "Please enter frequency."= "Veuillez entrer la fréquence";
 "Please enter Commission start date."= "Veuillez entrer la date de début de commission";
 "Proposal Sent successfully"= "Proposition envoyée avec succès";
@@ -1166,7 +1166,7 @@
 "Set Password" = "Envoyer mot de passe";
 "Already have an account?" = "Avez-vous déjà un compte?";
 "Login" = "Connectez-vous";
-"Home" = "Maison";
+"Home" = "Accueil";
 "Yes" = "Oui";
 "No" = "Non";
 "Today" = "Aujourd'hui";
@@ -1179,7 +1179,7 @@
 "Insurance Company" = "Compagnie d'assurance";
 "Agents" = "conseiller";
 "Customers" = "Clients";
-"Manage Proposal" = "Gérer les propositions";
+"Manage Proposal" = "Gestion des offres";
 "Financial Statements" = "Etat financier";
 "Gestion des lettres" = "Gestion des lettres";
 "Pistes" = "Pistes";
@@ -1247,7 +1247,7 @@
 "No" = "Non";
 "Logout" = "Se déconnecter";
 "Are yor sure want to Logout" = "Êtes-vous sûr de vouloir vous déconnecter";
-"Home" = "Maison";
+"Home" = "Accueil";
 "Search" = "Rechercher";
 "Profile" = "Profil";
 "Notification" = "Notification";

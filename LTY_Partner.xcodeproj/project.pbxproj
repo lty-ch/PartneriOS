@@ -5388,6 +5388,7 @@
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "LTY Business";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
@@ -5495,6 +5496,7 @@
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "LTY Business";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
@@ -5597,6 +5599,7 @@
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "LTY Business";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
@@ -5699,6 +5702,7 @@
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "LTY Business";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
@@ -5862,6 +5866,7 @@
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "LTY Business";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
@@ -5908,6 +5913,7 @@
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "LTY Business";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "To set appointments in calendar";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs permission to access camera to take profile picture";
