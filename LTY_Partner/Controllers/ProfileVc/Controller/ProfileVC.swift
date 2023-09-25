@@ -1513,6 +1513,18 @@ class ProfileVC: UIViewController, SetDrpDownText {
             return
         }
         
+//        guard newPassword.isPasswordHasEightCharacter(password: textNewPass.text!) else
+//        {
+//            self.ShowAlert(message: LTY_AlterText.messagePassEightCharValidation, title: LTY_AlterText.newPassword)
+//            return
+//        }
+//
+//        guard newPassword.isPasswordHasNumberAndCharacter(password: textNewPass.text!) else
+//        {
+//            self.ShowAlert(message: LTY_AlterText.messagePassNumberAndCharValidation, title: LTY_AlterText.newPassword)
+//            return
+//        }
+        
      
         guard let confirmPassword = textConfirmPass.text ,!confirmPassword.isEmpty else {
             self.ShowAlert(message: LTY_AlterText.messageconfirmPass, title: LTY_AlterText.confirmPass)

@@ -77,6 +77,12 @@ class ChangePasswordVC: UIViewController, ProfileProtocolDelegate {
             return
         }
         
+        guard newPassword.isPasswordValidation(password: newPasswordTxt.text!) else
+        {
+            self.ShowAlert(message: LTY_AlterText.messagePassValidation, title: LTY_AlterText.newPassword)
+            return
+        }
+        
         let partnerId = kUserDefaults.value(forKey: "partnerID")
         
         let param:[String:Any] = ["partnerId":partnerId ?? "","oldPassword":self.oldPasswordTxt.text!,"newPassword":self.newPasswordTxt.text!]

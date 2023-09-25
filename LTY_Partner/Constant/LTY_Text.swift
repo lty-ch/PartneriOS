@@ -365,7 +365,11 @@ struct LTY_AlterText{
     static let messageConfrimPassValidation = "Confirm password should be match"
     static let changePassword = "Your new password must be different from tha old password"
 
-    static let messagePassValidation = "Password must contain at least one upper case,lowere case, number and special characters and 8 characters long"
+    static let messagePassValidation = "Password must contain at least one uppercase letter, one lowercase letter, one number, one special character, and be at least 8 characters long."
+    
+    static let messagePassEightCharValidation = "Password must be at least 8 characters long."
+    static let messagePassNumberAndCharValidation = "Password must contain number and characters."
+    static let messagePassFirstCharCapitalValidation = "Password must contain number and characters."
     
     static let oldPassword = "Old Password"
     static let newPassword = "New Password"

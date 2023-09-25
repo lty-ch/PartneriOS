@@ -1332,7 +1332,7 @@
 "Please enter your Legal Entity" = "Veuillez entrer votre entité légale.";
 "Confirm password should be match" = "La confirmation du mot de passe doit correspondre";
 "Your new password must be different from tha old password" = "Votre nouveau mot de passe doit être différent de l'ancien.";
-"Password must contain at least one upper case,lowere case, number and special characters and 8 characters long" = "Le mot de passe doit contenir au moins une lettre majuscule, une lettre minuscule, un chiffre, un caractère spécial et doit comporter 8 caractères.";
+"Password must contain at least one uppercase letter, one lowercase letter, one number, one special character, and be at least 8 characters long." = "Le mot de passe doit contenir au moins une lettre majuscule, une lettre minuscule, un chiffre, un caractère spécial et comporter au moins 8 caractères.";
 "Old Password" = "Ancien mot de passe";
 "New Password" = "Nouveau mot de passe";
 "Please enter your old password" = "Veuillez entrer votre ancien mot de passe.";

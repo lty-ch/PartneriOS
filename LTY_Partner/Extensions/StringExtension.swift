@@ -24,11 +24,15 @@ extension String {
     }
     
     func isPasswordValidation (password: String) -> Bool {
-        let passRegEx = "(?=[^a-z]*[a-z])(?=[^0-9]*[0-9])[a-zA-Z0-9!@#$%^&*]{8,}"
+//        let passRegEx = "(?=[^a-z]*[a-z])(?=[^0-9]*[0-9])[a-zA-ZÀ-ÿ0-9!@#$%^&*]{8,}"
+//        let passRegEx = "^(?=.*[A-Z])(?=.*[!@#$%^&*])(?=.*[0-9])(?=.*[a-z]).{8}$"
+        let passRegEx = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[d$@$!%*?&#~`^:;<,>./])[A-Za-zÀ-ÿ\\dd$@$!%*?&#~`^:;<,>./]{8,}"
+        //"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[a-zA-Z\\d]{8,}$"
+        //~`! @#$%^&*()_-+={[}]|\:;"'<,>.?/
         let passwordTest = NSPredicate(format: "SELF MATCHES %@", passRegEx)
         return passwordTest.evaluate(with: password)
     }
-    
+
     func isValidUrl(url: String) -> Bool {
         let urlRegEx = "^(https?://)?(www\\.)?([-a-z0-9]{1,63}\\.)*?[a-z0-9][-a-z0-9]{0,61}[a-z0-9]\\.[a-z]{2,6}(/[-\\w@\\+\\.~#\\?&/=%]*)?$"
         let urlTest = NSPredicate(format:"SELF MATCHES %@", urlRegEx)
