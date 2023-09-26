@@ -24,7 +24,7 @@
 "1tc-Nb-Adt.normalTitle" = "Valider";
 
 /* Class = "UILabel"; text = "Policy visibility\n"; ObjectID = "218-5A-jft"; */
-"218-5A-jft.text" = "Visibilité des politiques";
+"218-5A-jft.text" = "Visibilité de l'offre";
 
 /* Class = "UITextField"; placeholder = "Enter agent commission"; ObjectID = "28O-i4-Qcd"; */
 "28O-i4-Qcd.placeholder" = "Entrez la commission de l'conseiller";
@@ -51,7 +51,7 @@
 "4e5-kC-vqp.normalTitle" = " ";
 
 /* Class = "UILabel"; text = "Insurance Company"; ObjectID = "4uD-sG-vVV"; */
-"4uD-sG-vVV.text" = "Compagnie d'assurance";
+"4uD-sG-vVV.text" = "Produits";
 
 /* Class = "UILabel"; text = "Commission"; ObjectID = "5Md-WG-TZ2"; */
 "5Md-WG-TZ2.text" = "Commission";
@@ -111,7 +111,7 @@
 "AdO-Ve-2qK.text" = "Montant de la prime";
 
 /* Class = "UILabel"; text = "Policy Visibility"; ObjectID = "AvG-u4-rq9"; */
-"AvG-u4-rq9.text" = "Visibilité des politiques";
+"AvG-u4-rq9.text" = "Visibilité de l'offre";
 
 /* Class = "UITextField"; placeholder = "Not Selected"; ObjectID = "CC7-D5-3SL"; */
 "CC7-D5-3SL.placeholder" = "Non séléctionné";
@@ -171,7 +171,7 @@
 "I05-rd-oj2.placeholder" = "Entrez la commission de l'conseiller";
 
 /* Class = "UILabel"; text = "Partner Gross Commission "; ObjectID = "I1T-YG-rfM"; */
-"I1T-YG-rfM.text" = "Commission brute du partenaire ";
+"I1T-YG-rfM.text" = "Commission brute partenaire";
 
 /* Class = "UIButton"; normalTitle = "Add Proposal"; ObjectID = "I8N-mT-jCR"; */
 "I8N-mT-jCR.normalTitle" = "Ajouter une proposition";
@@ -189,7 +189,7 @@
 "JN8-ZT-Yqh.placeholder" = "Non séléctionné";
 
 /* Class = "UILabel"; text = "Partner Gross Commission %: 00"; ObjectID = "JuI-oD-d2e"; */
-"JuI-oD-d2e.text" = "Commission brute du partenaire %: 00";
+"JuI-oD-d2e.text" = "Commission brute partenaire %: 00";
 
 /* Class = "UITextField"; placeholder = "dd/mm/yyyy"; ObjectID = "JuW-oe-TSx"; */
 "JuW-oe-TSx.placeholder" = "jj/mm/aaaa";
@@ -216,10 +216,10 @@
 "Pag-A5-9If.text" = "Label";
 
 /* Class = "UILabel"; text = "Insurance Company"; ObjectID = "Pe0-v5-Y1q"; */
-"Pe0-v5-Y1q.text" = "Compagnie d'assurance";
+"Pe0-v5-Y1q.text" = "Produits";
 
 /* Class = "UILabel"; text = "All Proposal"; ObjectID = "Psd-bx-FiE"; */
-"Psd-bx-FiE.text" = "Toutes les propositions";
+"Psd-bx-FiE.text" = "Toutes les Gestion des offres";
 
 /* Class = "UILabel"; text = "Partner Gross Commission %"; ObjectID = "Q1v-u7-BVo"; */
 "Q1v-u7-BVo.text" = "Pourcentage brut de commission du partenaire";
@@ -298,7 +298,7 @@
 /* Class = "UILabel"; text = "Type Of Insurance"; ObjectID = "Ye4-lV-7Rg"; */
 "Ye4-lV-7Rg.text" = "Type d'assurance";
 /* Class = "UILabel"; text = "Insurance Company"; ObjectID = "Yua-Wh-r6N"; */
-"Yua-Wh-r6N.text" = "Compagnie d'assurance";
+"Yua-Wh-r6N.text" = "Produits";
 
 /* Class = "UILabel"; text = "Agent Reserve "; ObjectID = "Z5Q-Im-Gzx"; */
 "Z5Q-Im-Gzx.text" = "Réserve de l'conseiller";
@@ -331,7 +331,7 @@
 "b4M-dq-gYJ.text" = "Produit d'assurance";
 
 /* Class = "UITextField"; placeholder = "Enter partner gross commission"; ObjectID = "bNr-dt-FGt"; */
-"bNr-dt-FGt.placeholder" = "Entrez la commission brute du partenaire";
+"bNr-dt-FGt.placeholder" = "Entrez la Commission brute partenaire";
 
 /* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "bPY-mx-Adu"; */
 "bPY-mx-Adu.normalTitle" = "Continuer";
@@ -343,7 +343,7 @@
 "bqe-QH-SCW.text" = "Étiquette clé";
 
 /* Class = "UILabel"; text = "Compagnie d'assurance"; ObjectID = "cHV-Iq-ekS"; */
-"cHV-Iq-ekS.text" = "Compagnie d'assurance";
+"cHV-Iq-ekS.text" = "Produits";
 
 /* Class = "UILabel"; text = "Address"; ObjectID = "dBn-8T-h7E"; */
 "dBn-8T-h7E.text" = "Adresse";
@@ -402,7 +402,7 @@
 "i50-Y0-LIr.normalTitle" = "Valider";
 
 /* Class = "UITextField"; placeholder = "Select members"; ObjectID = "i6C-l0-aqb"; */
-"i6C-l0-aqb.placeholder" = "Sélectionner des membres";
+"i6C-l0-aqb.placeholder" = "Sélectionnez des membres";
 
 /* Class = "UITextField"; placeholder = "Enter"; ObjectID = "iE8-zy-RDt"; */
 "iE8-zy-RDt.placeholder" = "Entrer";

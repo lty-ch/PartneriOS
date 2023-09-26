@@ -27,43 +27,43 @@ extension LeadProposalsVC : UICollectionViewDelegate,UICollectionViewDataSource 
         if self.status == "CLOSED" || self.status == "ACCEPTED" {
             cell.btnSend.isHidden = true
             if info.proposalState == "OFFER_CREATED"{
-                cell.lblAccepted.text = "Pending"
+                cell.lblAccepted.text = "Pending".localized()
                 cell.lblAccepted.textColor = .systemYellow
                 cell.imageAccepted.image = UIImage(named: "pending")
             } else if info.proposalState == "SIGNED_DOCS" {
-                cell.lblAccepted.text = "Accepted"
+                cell.lblAccepted.text = "Accepted".localized()
                 cell.imageAccepted.image = UIImage(named: "accept_1")
                 cell.lblAccepted.textColor = Asset.Colors.greenColor.color
             } else if info.proposalState == "POLICY_CREATED" {
-                cell.lblAccepted.text = "Policy Created"
+                cell.lblAccepted.text = "Policy Created".localized()
                 cell.imageAccepted.image = UIImage(named: "pending")
                 cell.lblAccepted.textColor = .systemOrange
             } else {
-                cell.lblAccepted.text = "REJECTED"
+                cell.lblAccepted.text = "REJECTED".localized()
                 cell.imageAccepted.image = UIImage(named: "reject_1")
                 cell.lblAccepted.textColor = .systemRed
             }
         } else {
             cell.btnSend.isHidden = true
             if info.proposalState == "OFFER_CREATED"{
-                cell.lblAccepted.text = "Pending"
+                cell.lblAccepted.text = "Pending".localized()
                 cell.imageAccepted.image = UIImage(named: "pending")
                 cell.lblAccepted.textColor = .systemYellow
             } else if info.proposalState == "SIGNED_DOCS" {
-                cell.lblAccepted.text = "Accepted"
+                cell.lblAccepted.text = "Accepted".localized()
                 cell.imageAccepted.image = UIImage(named: "accept_1")
                 cell.lblAccepted.textColor = Asset.Colors.greenColor.color
             } else if info.proposalState == "POLICY_CREATED" {
-                cell.lblAccepted.text = "Policy Created"
+                cell.lblAccepted.text = "Policy Created".localized()
                 cell.imageAccepted.image = UIImage(named: "pending")
                 cell.lblAccepted.textColor = .systemOrange
             }  else if info.proposalState == "PROPOSAL_SAVED" {
-                cell.lblAccepted.text = "Saved"
+                cell.lblAccepted.text = "Saved".localized()
                 cell.imageAccepted.image = UIImage(named: "pending")
                 cell.lblAccepted.textColor = .systemOrange
                 cell.btnSend.isHidden = false
             } else {
-                cell.lblAccepted.text = "REJECTED"
+                cell.lblAccepted.text = "REJECTED".localized()
                 cell.imageAccepted.image = UIImage(named: "reject_1")
                 cell.lblAccepted.textColor = .systemRed
             }

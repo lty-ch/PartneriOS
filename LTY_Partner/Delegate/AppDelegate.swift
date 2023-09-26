@@ -131,34 +131,55 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         
         print("user npt")
-        DispatchQueue.main.async{
-            if let tabBarController = UIApplication.shared.windows.filter({$0.isKeyWindow}).first?.rootViewController as? UITabBarController {
-                tabBarController.selectedIndex = 1
-            }
-        }
-        
-       
-        //let vc = WorkChatDetailChatVC.instantiate(fromAppStoryboard: .chatStoryboard)
-        // vc.nNotificationID = notificationID
-       /*
-        let storyboard = UIStoryboard(name: "MessageStoryboard", bundle: nil)
+//        DispatchQueue.main.async{
+//            
+//            if let rootViewController = self.window?.rootViewController as? UINavigationController {
+//                let storyboard: UIStoryboard = UIStoryboard(name: "LeadStoryboard", bundle: nil) // Replace with your storyboard name
+//                if let specificViewController = storyboard.instantiateViewController(withIdentifier: "LeadListVC") as? LeadListVC {
+//                    rootViewController.pushViewController(specificViewController, animated: true)
+//                }
+//            }else{
+//                
+//                guard var rootViewController = (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.window?.rootViewController else {
+//                    return
+//                }
+//                
+//                let storyboard = UIStoryboard(name: "LeadStoryboard", bundle: nil)
+//                
+//                
+//                if  let conversationVC = storyboard.instantiateViewController(withIdentifier: "LeadListVC") as? LeadListVC,
+//                    let tabBarController = rootViewController as? UITabBarController,
+//                    let navController = tabBarController.selectedViewController as? UINavigationController {
+//                    
+//                    // we can modify variable of the new view controller using notification data
+//                    // (eg: title of notification)
+//                    // conversationVC.senderDisplayName = response.notification.request.content.title
+//                    // you can access custom data of the push notification by using userInfo property
+//                    // response.notification.request.content.userInfo
+//                    navController.pushViewController(conversationVC, animated: true)
+//                }
+//                
+//            }
+//                /*
+//                print(" not a rootvc")
+//                
+//                
+//                guard let window = UIApplication.shared.keyWindow else { return }
+//
+//                let storyboard: UIStoryboard = UIStoryboard(name: "LeadStoryboard", bundle: nil)
+//                  let yourVC = storyboard.instantiateViewController(withIdentifier: "LeadListVC") as! LeadListVC
+//                  
+//                  let navController = UINavigationController(rootViewController: yourVC)
+//                  navController.modalPresentationStyle = .fullScreen
+//
+//                  window.rootViewController = navController
+//                  window.makeKeyAndVisible()
+//                
+//            }
+//                 */
+//            
+//        }
 
-         // instantiate the view controller we want to show from storyboard
-         // root view controller is tab bar controller
-         // the selected tab is a navigation controller
-         // then we push the new view controller to it
-         if  let conversationVC = storyboard.instantiateViewController(withIdentifier: "WorkChatDetailChatVC") as? WorkChatDetailChatVC,
-             let tabBarController = self.window?.rootViewController as? UITabBarController,
-             let navController = tabBarController.selectedViewController as? UINavigationController {
-
-                 // we can modify variable of the new view controller using notification data
-                 // (eg: title of notification)
-                // conversationVC.senderDisplayName = response.notification.request.content.title
-                 // you can access custom data of the push notification by using userInfo property
-                 // response.notification.request.content.userInfo
-                 navController.pushViewController(conversationVC, animated: true)
-         }
-       */
         completionHandler()
     }
   

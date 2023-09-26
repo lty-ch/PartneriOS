@@ -45,7 +45,7 @@
 "3Vk-k9-RJK.normalTitle" = "Voir la pièce jointe ->";
 
 /* Class = "UITextField"; placeholder = "Select Insurance Company"; ObjectID = "45o-Cc-6VT"; */
-"45o-Cc-6VT.placeholder" = "Sélectionner une compagnie d'assurance";
+"45o-Cc-6VT.placeholder" = "Sélectionnez une Produits";
 
 /* Class = "UITextField"; placeholder = "Select Agent"; ObjectID = "46q-cV-HOY"; */
 "46q-cV-HOY.placeholder" = "Selectionner un conseiller";
@@ -97,7 +97,7 @@
 "9dl-fy-cqq.text" = "Étiquette";
 
 /* Class = "UILabel"; text = "Select Insurance Product"; ObjectID = "9lo-hV-MxV"; */
-"9lo-hV-MxV.text" = "Sélectionner un produit d'assurance";
+"9lo-hV-MxV.text" = "Sélectionnez un produit d'assurance";
 
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "AZ8-VM-7Ep"; */
@@ -116,7 +116,7 @@
 "CxR-Of-9S4.text" = "Étiquette";
 
 /* Class = "UITextField"; placeholder = "Select Insurance Product"; ObjectID = "DRw-Uw-udV"; */
-"DRw-Uw-udV.placeholder" = "Sélectionner un produit d'assurance";
+"DRw-Uw-udV.placeholder" = "Sélectionnez un produit d'assurance";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "DTa-QY-HGp"; */
 "DTa-QY-HGp.text" = "Étiquette";
@@ -128,7 +128,7 @@
 "E48-ne-MzX.text" = "Étiquette";
 
 /* Class = "UITextField"; placeholder = "Select Insurance Product"; ObjectID = "FPl-Fq-jUG"; */
-"FPl-Fq-jUG.placeholder" = "Sélectionner un produit d'assurance";
+"FPl-Fq-jUG.placeholder" = "Sélectionnez un produit d'assurance";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "FnG-do-Rud"; */
 "FnG-do-Rud.text" = "Étiquette";
@@ -183,7 +183,7 @@
 "LQF-dD-Ew0.text" = "Étiquette";
 
 /* Class = "UILabel"; text = "Select Agent"; ObjectID = "Lag-gu-QDP"; */
-"Lag-gu-QDP.text" = "Sélectionner un conseiller";
+"Lag-gu-QDP.text" = "Sélectionnez un conseiller";
 
 /* Class = "UITextField"; placeholder = "Compny Reserve"; ObjectID = "LeE-ge-LBV"; */
 "LeE-ge-LBV.placeholder" = "Réserve de l'entreprise";
@@ -236,7 +236,7 @@
 "QcR-MF-5hH.text" = "Casier judiciaire privé";
 
 /* Class = "UITextField"; placeholder = "Select Insurance Company"; ObjectID = "Qua-rt-3Ia"; */
-"Qua-rt-3Ia.placeholder" = "Sélectionner une compagnie d'assurance";
+"Qua-rt-3Ia.placeholder" = "Sélectionnez une Produits";
 
 /* Class = "UITextField"; placeholder = "Agent Commission"; ObjectID = "RUy-HA-nc1"; */
 "RUy-HA-nc1.placeholder" = "Commission de l'conseiller";
@@ -288,8 +288,8 @@
 /* Class = "UILabel"; text = "Numéro de Cicero"; ObjectID = "UxI-jC-ibf"; */
 "UxI-jC-ibf.text" = "Numéro Cicero";
 
-/* Class = "UILabel"; text = "Sélectionner le pays"; ObjectID = "VCt-oJ-0l1"; */
-"VCt-oJ-0l1.text" = "Sélectionner le pays";
+/* Class = "UILabel"; text = "Sélectionnez le pays"; ObjectID = "VCt-oJ-0l1"; */
+"VCt-oJ-0l1.text" = "Sélectionnez le pays";
 
 /* Class = "UILabel"; text = "Swift / BIC"; ObjectID = "VMh-qD-9G2"; */
 "VMh-qD-9G2.text" = "Swift / BIC";
@@ -300,8 +300,8 @@
 /* Class = "UILabel"; text = "Informations sur l'entreprise"; ObjectID = "W2v-UG-nVQ"; */
 "W2v-UG-nVQ.text" = "Informations sur l'entreprise";
 
-/* Class = "UIButton"; normalTitle = "Sélectionner une catégorie +"; ObjectID = "WDU-Fz-gf4"; */
-"WDU-Fz-gf4.normalTitle" = "Sélectionner une catégorie +";
+/* Class = "UIButton"; normalTitle = "Sélectionnez une catégorie +"; ObjectID = "WDU-Fz-gf4"; */
+"WDU-Fz-gf4.normalTitle" = "Sélectionnez une catégorie +";
 
 /* Class = "UILabel"; text = "Voulez-vous supprimer cet élément ?"; ObjectID = "WRY-UT-FPf"; */
 "WRY-UT-FPf.text" = "Voulez-vous supprimer cet élément ?";
@@ -315,8 +315,8 @@
 /* Class = "UILabel"; text = "État"; ObjectID = "WcP-Zq-CNG"; */
 "WcP-Zq-CNG.text" = "État";
 
-/* Class = "UITextField"; placeholder = "Sélectionner un agent"; ObjectID = "XTQ-ur-IXE"; */
-"XTQ-ur-IXE.placeholder" = "Sélectionner un conseiller";
+/* Class = "UITextField"; placeholder = "Sélectionnez un agent"; ObjectID = "XTQ-ur-IXE"; */
+"XTQ-ur-IXE.placeholder" = "Sélectionnez un conseiller";
 
 
 /* Class = "UILabel"; text = "Étiquette"; ObjectID = "Xas-G9-np2"; */
@@ -355,8 +355,8 @@
 /* Class = "UILabel"; text = "Étiquette"; ObjectID = "a6Y-6u-7eZ"; */
 "a6Y-6u-7eZ.text" = "Étiquette";
 
-/* Class = "UILabel"; text = "Sélectionner un agent"; ObjectID = "aGv-Hl-WmB"; */
-"aGv-Hl-WmB.text" = "Sélectionner un conseiller";
+/* Class = "UILabel"; text = "Sélectionnez un agent"; ObjectID = "aGv-Hl-WmB"; */
+"aGv-Hl-WmB.text" = "Sélectionnez un conseiller";
 
 /* Class = "UILabel"; text = "Modifier"; ObjectID = "ar8-wm-rjZ"; */
 "ar8-wm-rjZ.text" = "Modificatrice";
@@ -401,11 +401,11 @@
 "dTr-f0-b30.text" = "Code postal";
 
 
-/* Class = "UILabel"; text = "Sélectionner une catégorie"; ObjectID = "dWv-wN-VIj"; */
-"dWv-wN-VIj.text" = "Sélectionner une catégorie";
+/* Class = "UILabel"; text = "Sélectionnez une catégorie"; ObjectID = "dWv-wN-VIj"; */
+"dWv-wN-VIj.text" = "Sélectionnez une catégorie";
 
-/* Class = "UITextField"; placeholder = "Sélectionner un agent"; ObjectID = "dec-zB-h3e"; */
-"dec-zB-h3e.placeholder" = "Sélectionner un conseiller";
+/* Class = "UITextField"; placeholder = "Sélectionnez un agent"; ObjectID = "dec-zB-h3e"; */
+"dec-zB-h3e.placeholder" = "Sélectionnez un conseiller";
 
 /* Class = "UILabel"; text = "Étiquette"; ObjectID = "dj6-UI-Czd"; */
 "dj6-UI-Czd.text" = "Étiquette";
@@ -447,8 +447,8 @@
 /* Class = "UILabel"; text = "Étiquette"; ObjectID = "gQt-cx-bBC"; */
 "gQt-cx-bBC.text" = "Étiquette";
 
-/* Class = "UILabel"; text = "Sélectionner une sous-catégorie"; ObjectID = "gjA-S6-xdD"; */
-"gjA-S6-xdD.text" = "Sélectionner une sous-catégorie";
+/* Class = "UILabel"; text = "Sélectionnez une sous-catégorie"; ObjectID = "gjA-S6-xdD"; */
+"gjA-S6-xdD.text" = "Sélectionnez une sous-catégorie";
 
 /* Class = "UILabel"; text = "Email"; ObjectID = "gky-91-57A"; */
 "gky-91-57A.text" = "Email";
@@ -504,8 +504,8 @@
 /* Class = "UILabel"; text = "Étiquette"; ObjectID = "nTc-yb-65g"; */
 "nTc-yb-65g.text" = "Étiquette";
 
-/* Class = "UILabel"; text = "Sélectionner une catégorie"; ObjectID = "o3f-mH-lSN"; */
-"o3f-mH-lSN.text" = "Sélectionner une catégorie";
+/* Class = "UILabel"; text = "Sélectionnez une catégorie"; ObjectID = "o3f-mH-lSN"; */
+"o3f-mH-lSN.text" = "Sélectionnez une catégorie";
 
 /* Class = "UILabel"; text = "Supprimer"; ObjectID = "o4X-kz-Pss"; */
 "o4X-kz-Pss.text" = "Supprimer";

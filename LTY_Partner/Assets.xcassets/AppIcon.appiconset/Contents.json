@@ -50,14 +50,14 @@
       "size" : "40x40"
     },
     {
-      "filename" : "Icon-App-40x40@3x.png",
+      "filename" : "Icon-App-60x60@2x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
-      "filename" : "Icon-App-60x60@2x.png",
+      "filename" : "Icon-App-40x40@3x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
@@ -71,7 +71,7 @@
       "size" : "60x60"
     },
     {
-      "filename" : "app_launcher_partner_128 1.png",
+      "filename" : "app_launcher_partner_128.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
@@ -106,7 +106,7 @@
       "size" : "83.5x83.5"
     },
     {
-      "filename" : "ItunesArtwork@2x.png",
+      "filename" : "iTunesArtwork@2x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"

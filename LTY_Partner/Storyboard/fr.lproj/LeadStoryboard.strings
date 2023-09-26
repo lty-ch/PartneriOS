@@ -48,7 +48,7 @@
 "3vz-cC-fng.text" = " Source de financement\n";
 
 /* Class = "UILabel"; text = "All Proposal"; ObjectID = "4EH-8D-Hev"; */
-"4EH-8D-Hev.text" = "Toutes les propositions";
+"4EH-8D-Hev.text" = "Toutes les Gestion des offres";
 
 /* Class = "UILabel"; text = "Customers"; ObjectID = "4qe-e7-058"; */
 "4qe-e7-058.text" = "Clients";
@@ -273,7 +273,7 @@
 "LUu-xh-Sx5.text" = "99 CHF";
 
 /* Class = "UIButton"; normalTitle = "Send All Proposals"; ObjectID = "Le4-lk-Ybt"; */
-"Le4-lk-Ybt.normalTitle" = "Envoyer toutes les propositions";
+"Le4-lk-Ybt.normalTitle" = "Envoyer toutes les Gestion des offres";
 
 /* Class = "UILabel"; text = "Current Health Fund"; ObjectID = "LpQ-wN-qJa"; */
 "LpQ-wN-qJa.text" = "Fonds de santé actuel";
@@ -404,7 +404,7 @@
 "UJI-zM-zKa.text" = "Numéro de téléphone";
 
 /* Class = "UILabel"; text = "Accepted"; ObjectID = "UY5-0h-niK"; */
-"UY5-0h-niK.text" = "Accepté";
+"UY5-0h-niK.text" = "Acceptée";
 
 /* Class = "UILabel"; text = "Current mileage"; ObjectID = "Ury-eo-vTl"; */
 "Ury-eo-vTl.text" = "Kilométrage actuel";

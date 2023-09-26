@@ -17,8 +17,8 @@
 /* Class = "UILabel"; text = "Adresse"; ObjectID = "3ll-jy-SQi"; */
 "3ll-jy-SQi.text" = "Adresse";
 
-/* Class = "UILabel"; text = "Sélectionner un pays"; ObjectID = "87L-IC-e0b"; */
-"87L-IC-e0b.text" = "Sélectionner un pays";
+/* Class = "UILabel"; text = "Sélectionnez un pays"; ObjectID = "87L-IC-e0b"; */
+"87L-IC-e0b.text" = "Sélectionnez un pays";
 
 /* Class = "UITabBarItem"; title = "Élément"; ObjectID = "9o9-cs-sHl"; */
 "9o9-cs-sHl.title" = "Élément";
@@ -163,7 +163,7 @@
 "uY5-nl-gaQ.text" = "Étiquette";
 
 /* Class = "UILabel"; text = "Nouveau contrat signé"; ObjectID = "wGR-0X-xwF"; */
-"wGR-0X-xwF.text" = "Nouveau contrat signé";
+"wGR-0X-xwF.text" = "Nouveau contrats signés";
 
 /* Class = "UILabel"; text = "Commission de l'agent"; ObjectID = "xGf-DT-hQ0"; */
 "xGf-DT-hQ0.text" = "Commission de l'conseiller";
@@ -172,5 +172,5 @@
 "xTI-M5-Syv.text" = "Profil";
 
 /* Class = "UILabel"; text = "Nouveau contrat signé"; ObjectID = "zaY-mR-iuI"; */
-"zaY-mR-iuI.text" = "Nouveau contrat signé";
+"zaY-mR-iuI.text" = "Nouveau contrats signés";
 

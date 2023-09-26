@@ -21,6 +21,7 @@ class NotificationVC: UIViewController {
         super.viewDidLoad()
         
         setDrowerHeight()
+    
         notifiacationTable.delegate = self
         notifiacationTable.dataSource = self
         notificationViewModel.delegate = self
@@ -37,7 +38,7 @@ class NotificationVC: UIViewController {
 
     }
     override func viewWillAppear(_ animated: Bool) {
-        
+        self.tabBarController?.tabBar.isHidden = false
         let partnerId = kUserDefaults.value(forKey: AppKeys.partnerID) as! String
         let param : [String:Any] = ["userId":partnerId]
         notificationViewModel.notificationListApi(param: param)
@@ -52,6 +53,7 @@ class NotificationVC: UIViewController {
         }
     }
     override func viewWillDisappear(_ animated: Bool) {
+        self.tabBarController?.tabBar.isHidden = true
         if showNavDrower == true {
             showNavDrower = false
 
@@ -110,7 +112,8 @@ extension NotificationVC : UITableViewDelegate,UITableViewDataSource{
         let info = notificationListArr[indexPath.row]
         cell.lblTitle.text = info.title ?? ""
         cell.lblDiscription.text = info.body ?? ""
-    
+        
+    /*
         var createdDate = "\(info.createdOn ?? "")"
         createdDate = createdDate.components(separatedBy: "T")[0]
         cell.lblDate.text = returnDOB(date: createdDate)
@@ -129,7 +132,7 @@ extension NotificationVC : UITableViewDelegate,UITableViewDataSource{
             cell.lblTime.text = "\(outTime)"
           //  arrayTimes[index] = outTime
         }
-        
+        */
       
         return cell
     }
@@ -138,4 +141,33 @@ extension NotificationVC : UITableViewDelegate,UITableViewDataSource{
         return UITableView.automaticDimension
     }
     
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //deep_link
+        let info = notificationListArr[indexPath.row]
+        
+        if info.deep_link == "LEAD"{
+            
+            let vc = LeadListVC.instantiate(fromAppStoryboard: .leadStoryboard)
+            self.pushToVC(vc, animated: true)
+            
+        } else if info.deep_link == "PROPOSAL"{
+            
+            let vc = ProposalVC.instantiate(fromAppStoryboard: .proposalStoryboard)
+            self.pushToVC(vc, animated: true)
+            
+        } else if info.deep_link == "PROFILE"{
+            
+            let vc = ProfileVC.instantiate(fromAppStoryboard: .home)
+            vc.isCommingFrom = "Notification"
+            self.pushToVC(vc, animated: true)
+            
+        }else if info.deep_link == "USER"{
+            
+            let vc = CustomerVC.instantiate(fromAppStoryboard: .customerStoryboard)
+            self.pushToVC(vc, animated: true)
+            
+        }
+
+    }
 }

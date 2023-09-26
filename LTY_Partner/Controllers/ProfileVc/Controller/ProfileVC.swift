@@ -437,6 +437,16 @@ class ProfileVC: UIViewController, SetDrpDownText {
             customNavigationBarForDrawer.leftSideMenuButtonItem.setImage(Asset.Assets.backArrow.image, for: .normal)
             customNavigationBarForDrawer.leftSideMenuButtonItem.addTarget(self, action: #selector(backActionBtn(_:)), for: .touchUpInside)
         }
+        else if isCommingFrom == "Notification"{
+            customNavigationBarForDrawer.titleLabel.text = "Profile".localized()
+            txtCompReserve.isUserInteractionEnabled = true
+            txtAgentReserve.isUserInteractionEnabled = true
+            txtAgentCommision.isUserInteractionEnabled = true
+            tabBarController?.tabBar.isHidden = true
+            
+            customNavigationBarForDrawer.leftSideMenuButtonItem.setImage(Asset.Assets.backArrow.image, for: .normal)
+            customNavigationBarForDrawer.leftSideMenuButtonItem.addTarget(self, action: #selector(backActionBtn(_:)), for: .touchUpInside)
+        }
         else {
             
             txtCompReserve.isUserInteractionEnabled = true

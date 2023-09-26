@@ -109,8 +109,8 @@
 /* Class = "UILabel"; text = "Étiquette"; ObjectID = "Ud9-tH-qaM"; */
 "Ud9-tH-qaM.text" = "Étiquette";
 
-/* Class = "UILabel"; text = "Sélectionner la langue"; ObjectID = "Vl8-du-XdL"; */
-"Vl8-du-XdL.text" = "Sélectionner la langue";
+/* Class = "UILabel"; text = "Sélectionnez la langue"; ObjectID = "Vl8-du-XdL"; */
+"Vl8-du-XdL.text" = "Sélectionnez la langue";
 
 /* Class = "UILabel"; text = "Étiquette"; ObjectID = "Yyw-u6-I3O"; */
 "Yyw-u6-I3O.text" = "Étiquette";

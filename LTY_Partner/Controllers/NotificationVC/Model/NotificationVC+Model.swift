@@ -19,4 +19,5 @@ struct NotificationData :Codable {
 
 struct NotificationList :Codable {
     let title, body, createdOn: String?
+    let deep_link : String?
 }

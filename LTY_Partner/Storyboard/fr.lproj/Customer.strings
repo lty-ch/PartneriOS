@@ -87,8 +87,8 @@
 /* Classe = "UILabel"; texte = "Étiquette"; ObjectID = "ETk-CM-5RT"; */
 "ETk-CM-5RT.text" = "Étiquette";
 
-/* Classe = "UITextField"; placeholder = "Sélectionner un agent"; ObjectID = "EyH-iv-eeE"; */
-"EyH-iv-eeE.placeholder" = "Sélectionner un conseiller";
+/* Classe = "UITextField"; placeholder = "Sélectionnez un agent"; ObjectID = "EyH-iv-eeE"; */
+"EyH-iv-eeE.placeholder" = "Sélectionnez un conseiller";
 
 /* Classe = "UILabel"; texte = "Étiquette"; ObjectID = "FId-XI-GCt"; */
 "FId-XI-GCt.text" = "Étiquette";
@@ -318,7 +318,7 @@
 "eA7-ST-NL2.text" = "Étiquette";
 
 /* Classe = "UILabel"; texte = "Accepté"; ObjectID = "eHo-Ml-5NK"; */
-"eHo-Ml-5NK.text" = "Accepté";
+"eHo-Ml-5NK.text" = "Acceptée";
 
 /* Classe = "UILabel"; texte = "Étiquette"; ObjectID = "ehH-GB-dR2"; */
 "ehH-GB-dR2.text" = "Étiquette";
@@ -439,7 +439,7 @@
 "vkT-PV-o3X.text" = "Nom complet";
 
 /* Classe = "UILabel"; texte = "Accepté"; ObjectID = "wCA-Y3-dUE"; */
-"wCA-Y3-dUE.text" = "Accepté";
+"wCA-Y3-dUE.text" = "Acceptée";
 
 /* Classe = "UILabel"; texte = "Étiquette"; ObjectID = "wKJ-F2-wwj"; */
 "wKJ-F2-wwj.text" = "Étiquette";

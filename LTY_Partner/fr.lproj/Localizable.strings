@@ -21,7 +21,7 @@
 "Select Subcategory" = "Sélectionnez une sous-catégorie";
 "Agent List" = "Liste des agents";
 "Mark as Default" = "Marquer par défaut";
-"Select All" = "Tout sélectionner";
+"Select All" = "Tout Sélectionnez";
 "Email" = "E-mail";
 "Role" = "Rôle";
 
@@ -37,12 +37,12 @@
 "Privacy Policy" = "Politique de confidentialité";
 "close" = "FERMÉ";
 
-"rejected" = "REJETÉE";
+"rejected" = "Refusée";
 
-"saved" = "ENREGISTRÉ";
-"accepted" = "Accepté";
-"rejected" = "REJETÉE";
-"policy_created" = "POLITIQUE CRÉÉE";
+"saved" = "Enregistrée";
+"accepted" = "Acceptée";
+"rejected" = "Refusée";
+"policy_created" = "Police active";
 
 "Expired" = "Expiré";
 //"English" = "Anglais";
@@ -65,7 +65,7 @@
 
 "your account approval is pending " = "Votre demande d'approbation de compte est en attente.";
 "Code" = "Code";
-"Company Phone" = "Téléphone de l'entreprise";
+"Company Phone" = "Téléphone";
 "Company Email" = "Courriel de l'entreprise";
 
 "Company PO" = "Bon de commande de l'entreprise";
@@ -320,7 +320,7 @@
 
 "Applicant's Data (Animal Owner)"  = "Données du demandeur (propriétaire d'animaux)";
 "Desired Start of Insurance"  = "Début souhaité de l'assurance";
-"Date of birth (min. month/year)"  = "Date de naissance (min. mois/année)";
+"Date of birth (min. month/year)"  = "Date de naissance (min. Mensuel/année)";
 "Email"  = "E-mail";
 "Color"  = "Couleur";
 "Gender"  = "Genre";
@@ -336,8 +336,8 @@
 "Desired Insurance Coverage"  = "Couverture d'assurance souhaitée";
 "Monthly Premium"  = "Prime mensuelle";
 "Electronic chip number (if available)"  = "N° de la puce électronique (si disponible)";
-"Deductive Per Calender Year (Dog)"  = "Déductive par année civile (chien)";
-"Deductive Per Calender Year (Cat)"  = "Déductive par année civile (Cat)";
+"Deductive Per Calender Year (Dog)"  = "Déductive par annuel civile (chien)";
+"Deductive Per Calender Year (Cat)"  = "Déductive par annuel civile (Cat)";
 
 "Personal Data"  = "Données personnelles";
 "Date of Birth"  = "Date de naissance";
@@ -370,7 +370,7 @@
 "Start of the Contract:"  = "Début du Contrat :";
 "Effective Date "  = "Date d'effet";
 "Proposal Questions"  = "Questions de la proposition";
-"Have you or has an “insured person” insured for legal protection in the last three years and has the policy been canceled by the insurance company?"  = "Avez-vous ou un « assuré » a-t-il assuré une protection juridique au cours des trois dernières années et le contrat a-t-il été résilié par la compagnie d'assurance ?";
+"Have you or has an “insured person” insured for legal protection in the last three years and has the policy been canceled by the insurance company?"  = "Avez-vous ou un « assuré » a-t-il assuré une protection juridique au cours des trois dernières années et le contrat a-t-il été résilié par la Produits ?";
 
 "Reason for terminating the contract?"  = "Motif de la résiliation du contrat?";
 "From which company?"  = "Auprès de quelle société?";
@@ -395,7 +395,7 @@
 "Supporting documents/estimates of the object"  = "Pièces justificatives/estimations de l’objet";
 "Effective Date"  = "Date d'effet";
 "Are you or were you in the past insured for the branches offered? If so, with which company, police no?"  = "Êtes-vous ou avez-vous été assuré dans le passé pour les branches proposées ? Si oui, avec quelle compagnie, police non ?";
-"Quiz (Concerns The Last 5 Years)"  = "Questionnaire (concerne les 5 dernières années)";
+"Quiz (Concerns The Last 5 Years)"  = "Questionnaire (concerne les 5 dernières annuel)";
 "Have you suffered any claims in the proposed branches?"  = "Avez-vous subi des sinistres dans les succursales proposées ?";
 "Marital Status"  = "Êtat civil";
 "Were you refused an insurance proposal for the branches offered or was its acceptance/continuation of the contract dependent on aggravated conditions?"  = "Une proposition d'assurance pour les branches proposées vous a-t-elle été refusée ou l'acceptation/la poursuite du contrat était-elle conditionnée à des conditions aggravées ?";
@@ -452,7 +452,7 @@
 
 
 "Proposal Questions"  = "Questions de la proposition";
-"Have you or has an “insured person” insured for legal protection in the last three years and has the policy been canceled by the insurance company?"  = "Avez-vous ou un « assuré » a-t-il assuré une protection juridique au cours des trois dernières années et le contrat a-t-il été résilié par la compagnie d'assurance ?";
+"Have you or has an “insured person” insured for legal protection in the last three years and has the policy been canceled by the insurance company?"  = "Avez-vous ou un « assuré » a-t-il assuré une protection juridique au cours des trois dernières années et le contrat a-t-il été résilié par la Produits ?";
 "Is a person to be insured currently involved in litigation or has it been in the last three years or do you know that a person to be insured will soon be?"  = "Une personne à assurer est-elle actuellement impliquée dans un litige ou l'a-t-elle été au cours des trois dernières années ou savez-vous qu'une personne à assurer le sera bientôt ?";
 "Duration of the contract"  = "Durée du contrat";
 "Start Date"  = "Date de début";
@@ -571,20 +571,20 @@
 "Customer Data"  = "Données du client";
 "Full Name"  = "Nom complet";
 "Insurance coverage" = "Couvertures d'assurances";
-"Selected Products" = "Sélectionner les produits";
+"Selected Products" = "Sélectionnez les produits";
 "Type of product" = "Type de produit";
 "Proposal Basic Info" = "Informations de base de la proposition";
-"Proposal Shared" = "Propositions partagées";
+"Proposal Shared" = "Gestion des offres partagées";
 "Contract Signed" = "Contrats signés";
 "Total Amount" = "Prime totale";
 "Total Income" = "Revenu total";
 "Insurance Branch" = "Branche d'assurance";
 "Insurance Coverage" = "Couvertures d'assurances";
-"Please select Insurance Company." = "Veuillez sélectionner une compagnie d'assurance.";
-"Please select Insurance Branch." = "Veuillez sélectionner une branche d'assurance.";
-"Please select Insurance Coverage." = "Veuillez sélectionner une Couvertures d'assurances.";
-"Please select Insurance Company first." = "Veuillez d'abord sélectionner une compagnie d'assurance.";
-"Please select Insurance Branch first." = "Veuillez d'abord sélectionner une branche d'assurance.";
+"Please select Insurance Company." = "Veuillez Sélectionnez une Produits.";
+"Please select Insurance Branch." = "Veuillez Sélectionnez une branche d'assurance.";
+"Please select Insurance Coverage." = "Veuillez Sélectionnez une Couvertures d'assurances.";
+"Please select Insurance Company first." = "Veuillez d'abord Sélectionnez une Produits.";
+"Please select Insurance Branch first." = "Veuillez d'abord Sélectionnez une branche d'assurance.";
 
 "User blocked Successfully." = "Utilisateur bloqué avec succès.";
 "User Unblocked Successfully." = "Utilisateur débloqué avec succès.";
@@ -597,11 +597,11 @@
 "Phone" = "Téléphone";
 "Total Amount" = "Prime totale";
 "Agent" = "Conseiller";
-"Proposal Shared" = "Propositions partagées";
+"Proposal Shared" = "Gestion des offres partagées";
 "Contract Signed" = "Contrats signés";
 "Total Income" = "Revenu Total";
-"Select Insurance Company" = "Sélectionner une compagnie d'assurance";
-"Select Insurance Product" = "Sélectionner un produits d'assurance";
+"Select Insurance Company" = "Sélectionnez une Produits";
+"Select Insurance Product" = "Sélectionnez un produits d'assurance";
 "Proposal / Lead" = "Proposition / Piste";
 "Sign / Proposal" = "Signe / Proposition";
 
@@ -610,9 +610,9 @@
 "Sign / Lead" = "Signe / Piste";
 
 "Agenda" = "Agenda";
-"Event Saved" = "Événement enregistré";
-"Select Member" = "Sélectionner un membre";
-"Select All" = "Tout sélectionner";
+"Event Saved" = "Événement enregistrée";
+"Select Member" = "Sélectionnez un membre";
+"Select All" = "Tout Sélectionnez";
 "Done" = "Valider";
 "Delete" = "Supprimer";
 "Update" = "Mettre à jour";
@@ -642,7 +642,7 @@
 "News Letter Templates" = "Modèles de bulletins d'information";
 "Send News Letter" = "Envoyer le bulletin d'information";
 "Choose Template" = "Choisir un modèle";
-"Select All" = "Tout sélectionner" ;
+"Select All" = "Tout Sélectionnez" ;
 "Template  name" = "Nom du modèle";
 "Template settings" = "Paramètres du modèle";
 "Template title" = "Titre du modèle";
@@ -667,7 +667,7 @@
 "Update email id" = "Modifier l'identifiant e-mail";
 "You don't have write permissions. Please contact your partner" = "Vous n'avez pas les permissions d'écriture. Veuillez contacter votre partenaire";
 "Add Customer  + " = "Ajouter un client +";
-"Select Agent" = "Sélectionner le conseiller";
+"Select Agent" = "Sélectionnez le conseiller";
 "Registration Id (Front)" = "Identifiant d'inscription (avant)";
 "Registration Id (Back)" = "Identifiant d'inscription (arrière)";
 "View" = "Voir";
@@ -689,9 +689,9 @@
 "View Attachment" = "Voir la pièce jointe";
 "Upload Register ID (Front)" = "Télécharger votre pièce d'identité recto (avant)";
 "Upload Register ID (Back)" = "Télécharger votre pièce d'identité verso (arrière)";
-"Insurer Company" = "Compagnie d'assurance";
+"Insurer Company" = "Produits";
 "Policy No" = "N° de police";
-"Insurance Company" = "Compagnie d'assurance";
+"Insurance Company" = "Produits";
 "Insurance Product" = "Produit d'assurance";
 "Insurance Coverage" = "Couverture d'assurance";
 "Type Of Insurance" = "Type d'assurance";
@@ -716,9 +716,9 @@
 "Are you sure want to delete." = "Êtes-vous sûr de vouloir supprimer ?";
 "Added" = "Ajouté";
 "Unknown error occurred." = "Une erreur inconnue s'est produite.";
-"Event Saved" = "Événement enregistré";
-"Select All" = "Tout sélectionner";
-"Insurance Company" = "Compagnie d'assurance";
+"Event Saved" = "Événement enregistrée";
+"Select All" = "Tout Sélectionnez";
+"Insurance Company" = "Produits";
 "Insurance Coverage" = "Couvertures d'assurances";
 "Insurance Coverage" = "Couvertures d'assurances";
 "Commission" = "Commission";
@@ -731,11 +731,12 @@
 "Role" = "Rôle";
 "Please enter valid Business Website." = "Veuillez entrer un site web d'entreprise valide.";
 "POLICY CREATED" = "POLICE CRÉÉE";
-"Select Member" = "Sélectionner un membre";
+"Policy Created" = "Police active";
+"Select Member" = "Sélectionnez un membre";
 "Selected Categories" = "Catégories sélectionnées";
 "Data is not Available." = "Les données ne sont pas disponibles.";
 "The data couldn’t be read because it isn’t in the correct format." = "Les données n'ont pas pu être lues car elles ne sont pas au format correct.";
-"Please choose member." = "Veuillez choisir un membre.";
+"Please choose member." = "Veuillez Membre.";
 "Over All" = "Ensemble";
 "Analysis" = "Analyse";
 "Data Analysis & Extraction" = "Analyse des chiffres";
@@ -779,10 +780,10 @@
 "Image" = "Image";
 "Document" = "Document";
 "No Camera" = "Pas d'appareil photo";
-"Select Mode" = "Sélectionner le mode";
+"Select Mode" = "Sélectionnez le mode";
 "Take Photo" = "Prendre une photo";
 "Sorry, this device has no camera" = "Désolé, cet appareil n'a pas de caméra";
-"Please select what would you like to upload?" = "Veuillez sélectionner ce que vous souhaitez télécharger ?";
+"Please select what would you like to upload?" = "Veuillez Sélectionnez ce que vous souhaitez télécharger ?";
 "Upload New File" = "Télécharger un nouveau fichier";
 "Document Details" = "Détails du document";
 "Uploaded by" = "Téléchargé par";
@@ -834,7 +835,7 @@
 "End Date" = "Date de fin";
 "Key Tag" = "Mots clefs";
 "Type of Product" = "Genre de produit";
-"Insurance Company" = "Compagnie d'assurance";
+"Insurance Company" = "Produits";
 "Insurance Product" = "Produit d'assurance";
 "Insurance Product" = "Produit d'assurance";
 "Choose Agent" = "Choisir un conseiller";
@@ -847,20 +848,20 @@
 
 "Offer Number" = "Numéro d'offre";
 "Type of Policy" = "Genre de police";
-"Key Tag" = "Étiquette clé";
+
 "Insurance Type" = "Genre d'assurance";
 "End Date" = "Date de fin";
 "Start Date" = "Date de début";
 
 "Periodicity" = "Fréquence de paiement";
-"Insurance Company" = "Compagnie d'assurance";
+"Insurance Company" = "Produits";
 "Premium Amount" = "Montant de la prime";
 "Total Amount" = "Prime totale";
 "Choose Agent" = "Choisir un conseiller";
 "Insurance Product" = "Produit d'assurance";
 "Insurance Product" = "Produit d'assurance";
 
-"Partner Gross Commission" = "Commission brute du partenaire";
+"Partner Gross Commission" = "Commission brute partenaire";
 "Partner Reserve" = "Réserve du partenaire";
 "Agent Reserve" = "Réserve de l'conseiller";
 
@@ -881,7 +882,7 @@
 
 "Send" = "Envoyer";
 
-"All Proposal" = "Toutes les propositions";
+"All Proposal" = "Toutes les Gestion des offres";
 "Offer ID" = "ID de l'offre";
 "Agent" = "Conseiller";
 "Customer" = "Client";
@@ -898,17 +899,17 @@
 "Review Proposal" = "Examiner la proposition";
 "Proposal sent successfully" = "Proposition envoyée avec succès";
 "Not Selected" = "Non sélectionné";
-"Month" = "Mois";
-"Quarter" = "Trimestre";
+"Month" = "Mensuel";
+"Quarter" = "Trimestriel";
 "Semester" = "Semestriel";
-"Year" = "Année";
-"Please select Insurance Company first." = "Veuillez d'abord sélectionner la compagnie d'assurance.";
-"Please select Insurance Product first." = "Veuillez d'abord sélectionner le produit d'assurance.";
+"Year" = "Annuel";
+"Please select Insurance Company first." = "Veuillez d'abord Sélectionnez la Produits.";
+"Please select Insurance Product first." = "Veuillez d'abord Sélectionnez le produit d'assurance.";
 "Please enter total amount." = "Veuillez saisir le Prime totale.";
 "Please enter premium amount." = "Veuillez saisir le montant de la prime.";
-"Please select periodicity." = "Veuillez sélectionner la Fréquence de paiement.";
-"Please select Agent." = "Veuillez Sélectionner le conseiller.";
-"Please select Products." = "Veuillez sélectionner produit.";
+"Please select periodicity." = "Veuillez Sélectionnez la Fréquence de paiement.";
+"Please select Agent." = "Veuillez Sélectionnez le conseiller.";
+"Please select Products." = "Veuillez Sélectionnez produit.";
 "Private" = "Privé";
 "All" = "Tous";
 "Wade Warren" = "Wade Warren";
@@ -919,11 +920,11 @@
 "Albert Flores" = "Albert Flores";
 "Private" = "Privé";
 "Group" = "Groupe";
-"Please select policy visibility." = "Veuillez sélectionner la visibilité de la police.";
+"Please select policy visibility." = "Veuillez Sélectionnez la visibilité de la police.";
 "Please enter Product features" = "Veuillez saisir les caractéristiques du produit.";
 "Please upload policy docs." = "Veuillez télécharger les documents de la police.";
 "Please enter Product benefits" = "Veuillez saisir les avantages du produit.";
-"Add Proposal" = "Créer une proposition";
+"Add Proposal" = "Créer une offre";
 "Insurance Coverage" = "Couvertures d'assurances";
 "Please fill amount." = "Veuillez remplir le montant.";
 "Title" = "Titre";
@@ -949,7 +950,7 @@
 "Company modification" = "Modification de l'entreprise";
 "Existing policy" = "Police existante";
 "New Offer" = "Nouvelle offre";
-"Please select insurance type." = "Veuillez sélectionner le genre d'assurance.";
+"Please select insurance type." = "Veuillez Sélectionnez le genre d'assurance.";
 "Please enter offer number." = "Veuillez saisir le numéro de l'offre.";
 "Please enter start date." = "Veuillez saisir la date de début.";
 "Please enter end date." = "Veuillez entrer la date de fin.";
@@ -987,7 +988,7 @@
 "Unassigned" = "Non attribué";
 "Coverage deleted Successfully." = "Couverture supprimée avec succès.";
 "Company deleted Successfully." = "Entreprise supprimée avec succès.";
-"Please select agent." = "Veuillez Sélectionner le conseiller.";
+"Please select agent." = "Veuillez Sélectionnez le conseiller.";
 "name" = "nom";
 "General" = "Général";
 "Contracts" = "Contrats";
@@ -996,7 +997,7 @@
 "Contract Detail" = "Détail du contrat";
 "No doc to download" = "Aucun document à télécharger";
 
-"Insurance Company" = "Compagnie d'assurance";
+"Insurance Company" = "Produits";
 "Customer" = "Client";
 "Add New Customer" = "Ajouter un nouveau client";
 "Edit Customer" = "Modifier le client";
@@ -1006,20 +1007,20 @@
 "Male" = "Masculin";
 "Female" = "Féminin";
 "Neutral" = "Non spécifié";
-"ALL PROPOSAL" = "TOUTES LES PROPOSITIONS";
-"ACCEPTED" = "ACCEPTÉ";
+"ALL PROPOSAL" = "TOUTES LES GESTION DES OFFERS";
+"ACCEPTED" = "ACCEPTÉE";
 "PENDING" = "EN ATTENTE";
-"REJECTED" = "REJETÉ";
+"REJECTED" = "Refusée";
 "Proposal" = "Proposition";
-"Rejected" = "Rejeté";
-"Accepted" = "Accepté";
+"Rejected" = "Refusée";
+"Accepted" = "Acceptée";
 "Pending" = "En attente";
-"Add Proposal" = "Créer une proposition";
+"Add Proposal" = "Créer une offre";
 
 "Add Products" = "Ajouter produits";
 
 "Do you want to delete this User ?" = "Souhaitez-vous supprimer cet utilisateur ?";
-"Send Proposals" = "Envoyer des propositions";
+"Send Proposals" = "Envoyer des Gestion des offres";
 "You have no proposals saved to send." = "Vous n'avez aucune proposition enregistrée à envoyer.";
 "Are you sure you want to delete this Proposal ?" = "Êtes-vous sûr de vouloir supprimer cette proposition ?";
 "Yes" = "Oui";
@@ -1039,33 +1040,33 @@
 "Term Life Request" = "Demande d'assurance vie temporaire";
 "General Request" = "Demande générale";
 "Travel Insurance Offer" = "Offre d'assurance voyage";
-"Send Proposals" = "Envoyer des propositions";
-"Select Agent" = "Sélectionner le conseiller";
+"Send Proposals" = "Envoyer des Gestion des offres";
+"Select Agent" = "Sélectionnez le conseiller";
 
 "Contract submission" = "Proposition envoyé";
-"Completed" = "Complété";
+"Completed" = "Terminée";
 "Pending" = "En attente";
-"All contracts submission" = "Toutes les propositions envoyé";
+"All contracts submission" = "Toutes les Gestion des offres envoyé";
 
 "Upload ->" = "Télécharger ->";
 "Take Photo" = "Prendre une photo";
 "Upload Photo"= "Télécharger une photo";
 "Delete"= "Supprimer";
-"Select Mode"= "Sélectionner le mode";
+"Select Mode"= "Sélectionnez le mode";
 "Sorry, this device has no camera"= "Désolé, cet appareil ne dispose pas de caméra";
 "No Camera"= "Pas de caméra";
 "Document"= "Document";
 "Image"= "Image";
-"Please select what would you like to upload?"= "Veuillez sélectionner ce que vous souhaitez télécharger";
+"Please select what would you like to upload?"= "Veuillez Sélectionnez ce que vous souhaitez télécharger";
 "Please enter your Policy Id."= "Veuillez entrer votre n° de police";
 "Please enter frequency."= "Veuillez entrer la fréquence";
 "Please enter Commission start date."= "Veuillez entrer la date de début de commission";
 "Proposal Sent successfully"= "Proposition envoyée avec succès";
 "Submission Details"= "Détails de soumission";
-"Month"= "Mois";
-"Quarter"= "Trimestre";
+"Month"= "Mensuel";
+"Quarter"= "Trimestriel";
 "Semester"= "Semestriel";
-"Year"= "Année";
+"Year"= "Annuel";
 "File uploaded successfully." = "Fichier téléchargé avec succès.";
 
    //MARK:- ForgotPassVC Text
@@ -1107,12 +1108,12 @@
 "Set Password" = "Envoyer mot de passe";
 "Bank info" = "Informations bancaires";
 "Roles & access"= "Rôles & accès";
-"Select Profile" = "Sélectionner un profil";
+"Select Profile" = "Sélectionnez un profil";
 "Date of birth" = "Date de naissance";
 "First Name" = "Prénom";
 "Last Name" = "Nom";
 "Agent Name" = "Nom de l'conseiller";
-"Select Gender" = "Sélectionner le genre";
+"Select Gender" = "Sélectionnez le genre";
 "Marital Status" = "Êtat civil";
 "Legal Entity" = "Entité légale";
 "Personal User" = "Données personnelles";
@@ -1143,11 +1144,11 @@
 "Post Code" = "Code postal";
 "Language" = "Langue";
 "Nationality" = "Nationalité";
-"Select Country" = "Sélectionner un pays";
-"Select State" = "Sélectionner le canton";
-"Select City" = "Sélectionner une ville";
-"Select Language" = "Sélectionner une langue";
-"Select Nationality" = "Sélectionner une nationalité";
+"Select Country" = "Sélectionnez pays";
+"Select State" = "Sélectionnez canton";
+"Select City" = "Sélectionnez ville";
+"Select Language" = "Sélectionnez la langue";
+"Select Nationality" = "Sélectionnez une nationalité";
 "Company Name" = "Nom de l'entreprise";
 "Business Website" = "Site web de l'entreprise";
 "IBAN" = "IBAN";
@@ -1156,7 +1157,7 @@
 "Address" = "Adresse";
 "Post Code" = "Code postal";
 "Country" = "Pays";
-"Select Country" = "Sélectionner un pays";
+"Select Country" = "Sélectionnez pays";
 "Password" = "Mot de passe";
 "Password" = "Mot de passe";
 "Confirm Password" = "Confirmer le mot de passe";
@@ -1174,15 +1175,15 @@
 "Monthly" = "Mensuel";
 "Customer date" = "Date du client";
 "New Signed Contract" = "Nouveaux contrats signés";
-"New Registered customers" = "Nouveaux clients enregistrés";
+"New Registered customers" = "Nouveaux clients enregistrées";
 "Dashboard" = "Tableau de bord";
-"Insurance Company" = "Compagnie d'assurance";
+"Insurance Company" = "Produits";
 "Agents" = "conseiller";
 "Customers" = "Clients";
 "Manage Proposal" = "Gestion des offres";
 "Financial Statements" = "Etat financier";
 "Gestion des lettres" = "Gestion des lettres";
-"Pistes" = "Pistes";
+"Pistes" = "Leads";
 "Soumissions" = "Soumissions";
 "Company info" = "Informations sur l'entreprise";
 "Roles & access" = "Rôles & accès";
@@ -1223,16 +1224,16 @@
 //"Main category" = "Catégorie principale";
 "Insurance Coverage" = "Couvertures d'assurances";
 "Commission" = "Commission";
-"Insurance Company" = "Compagnie d'assurance";
-"Select Insurance Company +" = "Sélectionnez la compagnie d'assurance +";
+"Insurance Company" = "Produits";
+"Select Insurance Company +" = "Sélectionnez la Produits +";
 "Add Products" = "Ajouter produits";
 //"Main Category" = "Catégorie principale";
 "Insurance Product" = "Produit d'assurance";
 "Insurance Coverage" = "Couverture d'assurance";
 "Commission" = "Commission";
-"Select Agent" = "Sélectionner le conseiller";
-"Select Insurance Company" = "Sélectionner une compagnie d'assurance";
-"Select Insurance Product" = "Sélectionner un produit d'assurance";
+"Select Agent" = "Sélectionnez le conseiller";
+"Select Insurance Company" = "Sélectionnez une Produits";
+"Select Insurance Product" = "Sélectionnez un produit d'assurance";
 "Agent Reserve %" = "Réserve collaborateur %";
 "Company Reserve %" = "Réserve compagnie %";
 "Agent Commission %" = "Commission collaborateur %";
@@ -1281,8 +1282,8 @@
 "Please enter your email id" = "Veuillez entrer votre adresse e-mail";
 "Date of birth" = "Date de naissance";
 "Please enter your Date of birth" = "Veuillez entrer votre date de naissance";
-"Select Profile" = "Sélectionner un profil";
-"Please select profile" = "Veuillez sélectionner un profil";
+"Select Profile" = "Sélectionnez un profil";
+"Please select profile" = "Veuillez Sélectionnez un profil";
 "Agent Reserve" = "Réserve d'conseiller";
 "Please enter Agent Reserve" = "Veuillez entrer la réserve d'conseiller";
 "Company Reserve" = "Réserve de l'entreprise";
@@ -1304,22 +1305,22 @@
 "Address" = "Adresse";
 "Please enter valid address." = "Veuillez entrer une adresse valide.";
 "Agent Name" = "Nom de l'conseiller";
-"Please select agent name." = "Veuillez Sélectionner le nom de l'conseiller.";
+"Please select agent name." = "Veuillez Sélectionnez le nom de l'conseiller.";
 "Country" = "Pays";
-"Please select your country." = "Veuillez sélectionner votre pays.";
+"Please select your country." = "Veuillez Sélectionnez votre pays.";
 "State" = "Canton";
-"Please select your state." = "Veuillez sélectionner votre canton.";
+"Please select your state." = "Veuillez Sélectionnez votre canton.";
 "City" ="Ville";
-"Please select your city." = "Veuillez sélectionner votre ville.";
+"Please select your city." = "Veuillez Sélectionnez votre ville.";
 "Post Code" = "Code postal";
 "Please enter your postCode" = "Veuillez entrer votre code postal";
 "Language" = "Langue";
 "Maritail Status" = "État civil";
 "Please enter your maritail status" = "Veuillez entrer votre état civil";
 
-"Please select your language." = "Veuillez sélectionner votre langue";
+"Please select your language." = "Veuillez Sélectionnez votre langue";
 "Nationality" = "Nationalité";
-"Please select your nationality." = "Veuillez sélectionner votre nationalité.";
+"Please select your nationality." = "Veuillez Sélectionnez votre nationalité.";
 "Company Name" = "Nom de l'entreprise";
 "Please enter your company name." = "Veuillez entrer le nom de votre entreprise.";
 "Company website" = "Site web de l'entreprise";

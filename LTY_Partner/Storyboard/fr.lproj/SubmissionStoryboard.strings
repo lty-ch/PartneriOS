@@ -18,7 +18,7 @@
 "4g3-NF-Z9j.text" = "Label";
 
 /* Class = "UILabel"; text = "Insurance Company"; ObjectID = "4gq-SC-MTm"; */
-"4gq-SC-MTm.text" = "Compagnie d'assurance";
+"4gq-SC-MTm.text" = "Produits";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "5Le-Cw-IJB"; */
 "5Le-Cw-IJB.text" = "Label";
@@ -27,7 +27,7 @@
 "5Le-kL-Gds.normalTitle" = "Annuler";
 
 /* Class = "UILabel"; text = "Partner Gross Commission %\n"; ObjectID = "5Sa-iz-pA9"; */
-"5Sa-iz-pA9.text" = "% de commission brute du partenaire";
+"5Sa-iz-pA9.text" = "% de Commission brute partenaire";
 
 /* Class = "UILabel"; text = "Request Type"; ObjectID = "6iI-xl-NgK"; */
 "6iI-xl-NgK.text" = "type de demande";
@@ -96,7 +96,7 @@
 "Mhf-j3-XV8.placeholder" = "Périodicité";
 
 /* Class = "UILabel"; text = "Accepted "; ObjectID = "OM3-8K-by5"; */
-"OM3-8K-by5.text" = "Accepté";
+"OM3-8K-by5.text" = "Acceptée";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "PZx-wU-QbF"; */
 "PZx-wU-QbF.text" = "Label";
@@ -126,7 +126,7 @@
 "YjE-jC-pkC.text" = "Primes et commissions";
 
 /* Class = "UILabel"; text = "Accepted"; ObjectID = "Yl0-zA-mVC"; */
-"Yl0-zA-mVC.text" = "Accepté";
+"Yl0-zA-mVC.text" = "Acceptée";
 
 /* Class = "UILabel"; text = "Policy"; ObjectID = "ZS2-Ef-llx"; */
 "ZS2-Ef-llx.text" = "Politique";
@@ -186,7 +186,7 @@
 "gXY-rC-Vn9.text" = "Date de fin";
 
 /* Class = "UILabel"; text = "Proposal Meta Information\n"; ObjectID = "hLx-Y9-ss1"; */
-"hLx-Y9-ss1.text" = "Méta-informations de la proposition";
+"hLx-Y9-ss1.text" = "Méta-Informations de l'offre";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "hpg-l6-uFm"; */
 "hpg-l6-uFm.text" = "Label";
@@ -237,7 +237,7 @@
 "pL5-tH-5eA.text" = "Label";
 
 /* Class = "UILabel"; text = "All Proposal"; ObjectID = "qPs-Gp-5UR"; */
-"qPs-Gp-5UR.text" = "Toutes les propositions";
+"qPs-Gp-5UR.text" = "Toutes les Gestion des offres";
 
 /* Class = "UILabel"; text = "Phone"; ObjectID = "qXr-Me-9pk"; */
 "qXr-Me-9pk.text" = "Téléphone";
