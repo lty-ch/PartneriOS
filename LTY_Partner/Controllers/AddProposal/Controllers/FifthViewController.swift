@@ -9,6 +9,7 @@ import UIKit
 
 class FifthViewController: UIViewController {
     
+    @IBOutlet weak var lblProductData: UILabel!
     @IBOutlet weak var btnCancel: UIButton!
     @IBOutlet weak var btnNext: UIButton!
     @IBOutlet weak var btnDone: UIButton!
@@ -17,15 +18,42 @@ class FifthViewController: UIViewController {
     @IBOutlet weak var nextbtnStackView: UIStackView!
     @IBOutlet weak var doneStackView: UIStackView!
     @IBOutlet weak var featuresTextView: UITextView!
+    
     var isComingFrom = ""
     var delegate : updateProposalData?
     var updateDelegate : updateProposalEditDataFromMainListing?
     var placeholderLabel : UILabel!
+    
+    var productsToSendInAPIArr = NSMutableArray()
+    var selectedProductsArr = NSMutableArray()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         setLocalizationText()
+        
+        let productDetails = addProposalDic["productDetails"] as! NSMutableDictionary
+        let prodList = productDetails["productList"] as! NSMutableArray
+        self.selectedProductsArr = prodList
+        self.productsToSendInAPIArr = prodList
+        var arr = NSMutableArray()
+        let language =  kUserDefaults.value(forKey: APPLE_LANGUAGE_KEY)
+        let result = language as! NSArray
+
+        for items in prodList {
+            let item = items as! NSMutableDictionary
+            
+            if result[0] as! String == "fr" {
+                arr.add("\(item["productNameInFrench"] ?? "") - \(item["amount"] ?? 0)\n")
+            }else{
+              //  arr.add(item["productName"] ?? "")
+                arr.add("\(item["productName"] ?? "") - \(item["amount"] ?? 0)\n")
+            }
+          
+        }
+        
+    
+        self.lblProductData.text = arr.componentsJoined(by: ",")
         
     }
     

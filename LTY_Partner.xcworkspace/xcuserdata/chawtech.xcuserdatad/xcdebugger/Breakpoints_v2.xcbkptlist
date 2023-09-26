@@ -530,38 +530,6 @@
             endingLineNumber = "138"
             landmarkName = "userNotificationCenter(_:didReceive:withCompletionHandler:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "59B034AC-88D8-4567-9C16-D1F2197F37A3 - 679354f737829a16"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in LTY_Partner.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
-                  moduleName = "LTY_Partner"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/chawtech/Desktop/Lty_ClientGit/PartneriOS/LTY_Partner/Delegate/AppDelegate.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "138"
-                  endingLineNumber = "138"
-                  offsetFromSymbolStart = "740">
-               </Location>
-               <Location
-                  uuid = "59B034AC-88D8-4567-9C16-D1F2197F37A3 - 679354f737829a16"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in LTY_Partner.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
-                  moduleName = "LTY_Partner"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/chawtech/Desktop/Lty_ClientGit/PartneriOS/LTY_Partner/Delegate/AppDelegate.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "138"
-                  endingLineNumber = "138"
-                  offsetFromSymbolStart = "920">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -594,6 +562,54 @@
             endingLineNumber = "169"
             landmarkName = "userNotificationCenter(_:didReceive:withCompletionHandler:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E32BAAC0-3322-45D2-9F9B-313741E96BAB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTY_Partner/Controllers/AddProposal/Controllers/FifthViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E32BAAC0-3322-45D2-9F9B-313741E96BAB - ec2179f6e05ce567"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LTY_Partner.FifthViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LTY_Partner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chawtech/Desktop/Lty_ClientGit/PartneriOS/LTY_Partner/Controllers/AddProposal/Controllers/FifthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "312">
+               </Location>
+               <Location
+                  uuid = "E32BAAC0-3322-45D2-9F9B-313741E96BAB - ec2179f6e05ce567"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LTY_Partner.FifthViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LTY_Partner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chawtech/Desktop/Lty_ClientGit/PartneriOS/LTY_Partner/Controllers/AddProposal/Controllers/FifthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "632">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
