@@ -49,7 +49,7 @@ class OtpVerifyViewModel {
                     else {
                         DispatchQueue.main.async {
                             SwiftLoader.hide()
-                            self.delegate?.popupMsg(msg: "Data is not Available.")
+                            self.delegate?.popupMsg(msg: "Data is not Available.".localized())
                         }
                     }
                 }else{
@@ -63,7 +63,7 @@ class OtpVerifyViewModel {
             else{
                 DispatchQueue.main.async {
                     SwiftLoader.hide()
-                    self.delegate?.popupMsg(msg: "The data couldn’t be read because it isn’t in the correct format.")
+                    self.delegate?.popupMsg(msg: "The data couldn’t be read because it isn’t in the correct format.".localized())
                 }
             }
 
@@ -96,7 +96,7 @@ class OtpVerifyViewModel {
             else{
                 DispatchQueue.main.async {
                     SwiftLoader.hide()
-                    self.delegate?.popupMsg(msg: "The data couldn’t be read because it isn’t in the correct format.")
+                    self.delegate?.popupMsg(msg: "The data couldn’t be read because it isn’t in the correct format.".localized())
                 }
             }
 

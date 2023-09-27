@@ -199,8 +199,10 @@ struct LTY_END_POINT_URL {
     static let updateProposal = "update/proposal"
     static let getCommission = "get/commission"
     static let validateOfferId = "validate/offer-id"
+    static let validatePolicyId = "validate/policy-id"
     
     static let viewProposal = "get/proposal"
+    static let viewProposalByOfferID = "get/proposal/offer-id"
 
     //MARK:- leads End Point
     static let partnerLeadsList = "get/partner/leads"

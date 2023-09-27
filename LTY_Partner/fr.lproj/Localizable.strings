@@ -6,6 +6,20 @@
 
 */
 
+"Do you want to replace Policy Id ?" = "Voulez-vous remplacer l'ID de stratégie ?";
+"Ploicy Id Already Exist." = "L'identifiant politique existe déjà.";
+"Existing policy" = "Politique existante";
+"Accompany your customers more efficiently!" = "Accompagne plus efficacement tes clients !";
+
+"Enjoy personalized support!" = "Bénéficie d’un support personnalisé !";
+
+ "Take advantage of a 100% digital platform for managing your agents and customers." = "Profite d’une plateforme 100% digital pour le management de tes agents et de tes clients.";
+
+"You cannot modify commission of Existing Contract. " = "Vous ne pouvez pas modifier la commission du contrat existant.";
+"Modify Contract" = "Modifier le contrat";
+"Modify Commission" = "Modifier la Commission";
+"View" = "Vue";
+"Data is not Available." = "Les données ne sont pas disponibles";
 "Manage Commissions" = "Commission nement";
 "Update Phone Number" = "Mettre à jour le numéro de téléphone";
 "Update Email Address" = "Mettre à jour l'adresse e-mail";
@@ -26,7 +40,7 @@
 "Role" = "Rôle";
 
 "Reason for deactivating your account?" = "Raison de la désactivation de votre compte ?";
-"We are sorry to see you go!" = "Nous sommes navrés de vous voir partir!";
+"We are sorry to see you go!" = "Nous sommes tristes de vous voir partir !";
 "• Please enter your account password to confirm your identity." = "• Veuillez saisir le mot de passe de votre compte pour confirmer votre identité.";
 "active" = "ACTIF";
 "Delete Account" = "Supprimer compte";

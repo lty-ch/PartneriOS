@@ -117,7 +117,7 @@ class FirstViewController: UIViewController, AddPropsalMemberListProtocolDelegat
             policyBtn.isUserInteractionEnabled = true
             memberBtn.isUserInteractionEnabled = true
         }
-        if isComingFrom == "EditVC" || isComingFrom == "ProposalVC" || isComingFrom == "LeadProposalVC" || isComingFrom == "ForEditProposal"{
+        if isComingFrom == "EditVC" || isComingFrom == "ProposalVC" || isComingFrom == "LeadProposalVC" || isComingFrom == "ForEditProposal" || isComingFrom == "ContractVC" {
             setData()
             doneBtnStackView.isHidden = false
             nextBtnStackView.isHidden = true

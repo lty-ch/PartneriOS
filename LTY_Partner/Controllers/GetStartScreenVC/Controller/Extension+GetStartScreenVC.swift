@@ -25,26 +25,27 @@ extension GetStartScreenVC :UICollectionViewDelegate,UICollectionViewDataSource 
         if indexPath.row == 0 {
             
             //            let gifImage = UIImage.gif(name: "family-insurance")
-         
-            cell.imgImage.image = UIImage(named: "ab-testing")
-            cell.imgImage.contentMode = .scaleAspectFit
-           // cell.topView.backgroundColor = Asset.Colors.skyBlue.color
             
+            cell.imgImage.image = UIImage(named: "step01")
+            cell.imgImage.contentMode = .scaleAspectFit
+            cell.lblTitle.text = LTYText.text_getStartVCTitle1.localized()
+            cell.lblSubTitle.text = "Accompany your customers more efficiently!".localized()
         }
         else if indexPath.row == 1 {
-          
-            cell.imgImage.image = UIImage(named:"customer-help-centre")
-            cell.imgImage.contentMode = .scaleAspectFit
             
-           // cell.topView.backgroundColor = Asset.Colors.lightOrange.color
+            cell.imgImage.image = UIImage(named:"step02")
+            cell.imgImage.contentMode = .scaleAspectFit
+            cell.lblTitle.text = LTYText.text_getStartVCTitle2.localized()
+            cell.lblSubTitle.text = "Enjoy personalized support!".localized()
         }
         else if indexPath.row == 2 {
-      
-            cell.imgImage.image = UIImage(named: "family-safety")
+            
+            cell.imgImage.image = UIImage(named: "step03")
             //UIImage(name: "family-safety")
             cell.imgImage.contentMode = .scaleAspectFit
             
-            //cell.topView.backgroundColor = Asset.Colors.lightGreen.color
+            cell.lblTitle.text = LTYText.text_getStartVCTitle3.localized()
+            cell.lblSubTitle.text = "Take advantage of a 100% digital platform for managing your agents and customers.".localized()
         }
         
         return cell
@@ -62,39 +63,23 @@ extension GetStartScreenVC :UICollectionViewDelegate,UICollectionViewDataSource 
         
         let indexValue = indexPath.item //Int(scrollView.contentOffset.x) / Int(scrollView.frame.width)
         pageControl?.currentPage = indexValue
-        if indexValue == 0 {
-            labelTitle.text = LTYText.text_getStartVCTitle1.localized()
-            labelSubTitle.text = LTYText.text_getStartVCSubTitle1.localized()
-        }
-        else if indexValue == 1 {
-            labelTitle.text = LTYText.text_getStartVCTitle2.localized()
-            labelSubTitle.text = LTYText.text_getStartVCSubTitle2.localized()
-        }
-        else if indexValue == 2{
-            labelTitle.text = LTYText.text_getStartVCTitle3.localized()
-            labelSubTitle.text = LTYText.text_getStartVCSubTitle3.localized()
-        }
+        /*
+         if indexValue == 0 {
+         labelTitle.text = LTYText.text_getStartVCTitle1.localized()
+         //  labelSubTitle.text = LTYText.text_getStartVCSubTitle1.localized()
+         labelSubTitle.text = "Accompany your customers more efficiently!".localized()
+         }
+         else if indexValue == 1 {
+         labelTitle.text = LTYText.text_getStartVCTitle2.localized()
+         // labelSubTitle.text = LTYText.text_getStartVCSubTitle2.localized()
+         labelSubTitle.text = "Enjoy personalized support!".localized()
+         }
+         else if indexValue == 2{
+         labelTitle.text = LTYText.text_getStartVCTitle3.localized()
+         // labelSubTitle.text = LTYText.text_getStartVCSubTitle3.localized()
+         labelSubTitle.text = "Take advantage of a 100% digital platform for managing your agents and customers.".localized()
+         }
+         */
     }
-    
-    
-//    func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) {
-//        
-//        let indexValue = Int(scrollView.contentOffset.x) / Int(scrollView.frame.width)
-//        pageControl?.currentPage = indexValue
-//        //pageControl?.currentPage = Int(scrollView.contentOffset.x) / Int(scrollView.frame.width)
-//        
-//        if indexValue == 0 {
-//            labelTitle.text = LTYText.text_getStartVCTitle1.localized()
-//            labelSubTitle.text = LTYText.text_getStartVCSubTitle1.localized()
-//        }
-//        else if indexValue == 1 {
-//            labelTitle.text = LTYText.text_getStartVCTitle2.localized()
-//            labelSubTitle.text = LTYText.text_getStartVCSubTitle2.localized()
-//        }
-//        else if indexValue == 2{
-//            labelTitle.text = LTYText.text_getStartVCTitle3.localized()
-//            labelSubTitle.text = LTYText.text_getStartVCSubTitle3.localized()
-//        }
-//    }
     
 }

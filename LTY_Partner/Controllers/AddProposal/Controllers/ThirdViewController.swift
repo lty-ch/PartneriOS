@@ -208,7 +208,7 @@ class ThirdViewController: UIViewController {
             
         }
         
-        if isComingFrom == "EditVC" || isComingFrom == "ProposalVC" || isComingFrom == "LeadProposalVC" || isComingFrom == "ForEditProposal" {
+        if isComingFrom == "EditVC" || isComingFrom == "ProposalVC" || isComingFrom == "LeadProposalVC" || isComingFrom == "ForEditProposal" || isComingFrom == "ContractVC" {
             setData()
             doneStackView.isHidden = false
             nextBtnStackView.isHidden = true

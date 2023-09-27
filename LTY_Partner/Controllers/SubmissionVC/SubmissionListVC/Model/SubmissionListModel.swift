@@ -57,7 +57,7 @@ struct SubmissionMetadata:Codable  {
 }
 
 struct SubmissionPolicyDetails:Codable  {
-    let policyId, policyType, startDate, endDate: String?
+    let policyId, offerId, policyType, startDate, endDate: String?
     let keyTags: [String]?
     let periodicity: String?
     let premiumAmount: Int?

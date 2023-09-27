@@ -175,9 +175,9 @@ class ServerClass: NSObject {
 //
     func sendMultipartRequestToServer(urlString:String,fileName:String,  sendJson:[String:Any], imageUrl:URL?, successBlock:@escaping (  _ response: JSON)->Void , errorBlock: @escaping ( _ error: NSError) -> Void )
     {
-        
-        var headerField : HTTPHeaders = [:]
-   
+        let token = kUserDefaults.object(forKey: "token") as! String
+        var headerField : HTTPHeaders = ["Access-Token":token]
+
         AF.upload(multipartFormData: { multipartFormData in
             for (key,value) in sendJson {
                 if let temp = value as? NSArray {

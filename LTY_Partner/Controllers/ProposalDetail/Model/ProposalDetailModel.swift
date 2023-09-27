@@ -7,6 +7,17 @@
 
 import Foundation
 
+struct ValidatePolicyId : Codable{
+    let status: String?
+    let data: ValidatePolicyIdData?
+    let error: CatError?
+}
+
+struct ValidatePolicyIdData : Codable {
+    let isValid, linkedWithSameUser: Bool?
+}
+
+
 struct commissionModel: Codable {
     let status: String?
     let data: commissionDataClass?

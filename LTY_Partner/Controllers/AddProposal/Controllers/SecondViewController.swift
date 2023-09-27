@@ -122,7 +122,7 @@ class SecondViewController: UIViewController ,UITextFieldDelegate{
         }else{
             insuranceBtn.isUserInteractionEnabled = true
         }
-        if isComingFrom == "EditVC" || isComingFrom == "ProposalVC" || isComingFrom == "LeadProposalVC" || isComingFrom == "ForEditProposal" {
+        if isComingFrom == "EditVC" || isComingFrom == "ProposalVC" || isComingFrom == "LeadProposalVC" || isComingFrom == "ForEditProposal" || isComingFrom == "ContractVC" {
             setData()
             self.offerNumberTxt.isUserInteractionEnabled = false
             collectionView.isHidden = false
@@ -168,7 +168,10 @@ class SecondViewController: UIViewController ,UITextFieldDelegate{
             textPolicyType.text = "Modification of the offer".localized()
             btnSelectPolicy.isUserInteractionEnabled = true
             
+        }else if isComingFrom == "ContractVC" {
+            textPolicyType.text = "Existing policy".localized()
         }
+        
         else {
             textPolicyType.text = "New Offer".localized()
             btnSelectPolicy.isUserInteractionEnabled = false

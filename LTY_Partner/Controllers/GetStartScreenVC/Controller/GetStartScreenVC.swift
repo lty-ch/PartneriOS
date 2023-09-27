@@ -18,7 +18,8 @@ class GetStartScreenVC: UIViewController {
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var collectionView: UICollectionView!
     
-    var images = ["family-insurance","man-working-on-ab-testing","support-center"]
+    //var images = ["family-insurance","man-working-on-ab-testing","support-center"]
+    var images = ["step01","step02","step03"]
     //MARK:- Did load func
     
     override func viewDidLoad() {
@@ -44,10 +45,10 @@ class GetStartScreenVC: UIViewController {
     func setUpView () {
         self.pageControl.numberOfPages = 3
         btnGetStarted.viewCorner(8)
-        labelTitle.textColor = Asset.Colors.gray1.color
-        labelTitle.font = UIFont(name:"Helvetica",size:20)
-        labelSubTitle.font = UIFont(name:"Helvetica",size:14)
-        labelSubTitle.textColor = Asset.Colors.lightGray.color
+//        labelTitle.textColor = Asset.Colors.gray1.color
+//        labelTitle.font = UIFont(name:"Helvetica",size:20)
+//        labelSubTitle.font = UIFont(name:"Helvetica",size:14)
+//        labelSubTitle.textColor = Asset.Colors.lightGray.color
         self.navigationController?.navigationBar.isHidden = true
         
         btnBack.setImage(Asset.Assets.backArrow.image, for: .normal)
@@ -55,8 +56,8 @@ class GetStartScreenVC: UIViewController {
         btnGetStarted.backgroundColor = Asset.Colors.lightBlue.color
         btnGetStarted.titleLabel?.textColor = Asset.Colors.whiteColor.color
         btnGetStarted.setTitle(LTYText.text_GetStarted.localized(), for: .normal)
-        labelTitle.text = LTYText.text_getStartVCTitle1.localized()
-        labelSubTitle.text = LTYText.text_getStartVCSubTitle1.localized()
+//        labelTitle.text = LTYText.text_getStartVCTitle1.localized()
+//        labelSubTitle.text = LTYText.text_getStartVCSubTitle1.localized()
     }
     
     

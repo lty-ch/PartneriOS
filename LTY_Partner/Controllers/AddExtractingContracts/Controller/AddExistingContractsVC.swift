@@ -368,44 +368,45 @@ class AddExistingContractsVC: UIViewController, ExistingContractProtocol {
     func checkValidation() {
         
         guard let policyNo = textPolicyNo.text, !policyNo.isEmpty else {
-            self.ShowAlert(message:"Please enter policy number")
+            self.ShowAlert(message:"Please enter policy number".localized())
             return
         }
         guard let catName = lblCategory.text, !catName.isEmpty else {
-             self.ShowAlert(message:"Please select Category")
+            self.ShowAlert(message:"Please select Category".localized())
             return
         }
         guard let subCat = lblsubCategory.text, !subCat.isEmpty else {
-             self.ShowAlert(message:"Please select Sub Category")
+            self.ShowAlert(message:"Please select Sub Category".localized())
             return
         }
         guard let insuranceProduct = lblInsuredProduct.text, !insuranceProduct.isEmpty else {
-             self.ShowAlert(message:"Please select Insurance product")
+            self.ShowAlert(message:"Please select Insurance product".localized())
             return
         }
         guard let insuranceType = lblTypeOfInsurance.text, !insuranceType.isEmpty else {
-             self.ShowAlert(message:"Please select insurance Type")
+            self.ShowAlert(message:"Please select insurance Type".localized())
             return
         }
         guard let agentName = lblAgentName.text, !agentName.isEmpty else {
-             self.ShowAlert(message:"Please select agent")
+            self.ShowAlert(message:"Please select agent".localized())
             return
         }
         guard let perodicity = lblPeriodicity.text, !perodicity.isEmpty else {
-             self.ShowAlert(message:"Please select perodicity ")
+            self.ShowAlert(message:"Please select perodicity ".localized())
             return
         }
    
         
         if startDate == ""{
-            self.ShowAlert(message:"Please enter start date")
+            self.ShowAlert(message:"Please enter start date".localized())
         }
         if endDate == ""{
-            self.ShowAlert(message:"Please enter end date")
+            self.ShowAlert(message:"Please enter end date".localized())
         }
    
         if uploadDocArr.count == 0 {
-            self.ShowAlert(message:"Please upload document")
+          //  uploadDocArr.append("https://picsum.photos/200/300")
+            self.ShowAlert(message:"Please upload document".localized())
         }
         
         let userType = kUserDefaults.value(forKey: AppKeys.userType)

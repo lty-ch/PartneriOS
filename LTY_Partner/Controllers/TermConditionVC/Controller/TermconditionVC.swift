@@ -47,17 +47,13 @@ class TermconditionVC: UIViewController {
         
         if result[0] as! String == "fr" {
             lblTitle2.text = """
-        Veuillez noter qu'une fois que vous aurez choisi de désactiver ou de supprimer votre compte chez LTY, votre compte ne sera plus disponible et vous ne pourrez plus l'activer ou l'utiliser.
+        
+        Veuillez noter que si vous choisissez de désactiver ou de supprimer votre compte chez LTY, votre compte ne sera plus disponible et vous ne pourrez plus l'activer ou l'utiliser à nouveau.
+        Suppression du compte :
+        Si vous souhaitez demander la suppression de votre compte, assurez-vous d'avoir lu et compris ce qui suit :
+        Il ne doit pas y avoir de demandes d'assurance en cours, d'annulations de police, de remboursements ou d'autres demandes en cours associées à votre compte. Vous ne pourrez pas accéder ou demander l'accès à l'historique de vos polices d'assurance, à l'historique de vos sinistres, aux polices sauvegardées, aux méthodes de paiement sauvegardées, ni utiliser aucun des services offerts par LTY. Vous devrez créer un nouveau compte si vous souhaitez utiliser nos services à l'avenir. LTY se réserve le droit de refuser la suppression de votre compte si vous avez des obligations financières en suspens, des réclamations d'assurance non résolues ou d'autres problèmes liés à votre compte. En procédant à la suppression du compte, vous reconnaissez avoir lu et compris nos conditions.
 
-        Suppression de compte :
-
-        Si vous souhaitez procéder à une demande de suppression de compte, veuillez vous assurer d'avoir lu et compris ce qui suit :
-
-        Il ne devrait y avoir aucune réclamation d’assurance en attente, aucune annulation de police, aucun remboursement ou autre demande en attente associée à votre compte.
-        Vous avez épuisé ou n'avez pas l'intention d'utiliser les points de fidélité, récompenses ou bonus associés à votre compte. Veuillez noter qu'une fois votre compte supprimé, vous ne pourrez plus accéder à de telles récompenses.
-        Vous ne pourrez pas accéder ou demander l'accès à l'historique de vos polices d'assurance, à votre historique de réclamations, à vos polices enregistrées, à vos méthodes de paiement enregistrées, ni utiliser l'un des services proposés par LTY. Vous devrez créer un nouveau compte si vous souhaitez utiliser nos services à l'avenir.
-        LTY se réserve le droit de refuser la suppression de votre compte si vous avez des obligations financières impayées, des réclamations d'assurance non résolues ou d'autres problèmes liés à votre compte.
-        En procédant à la suppression du compte, vous reconnaissez avoir lu et compris notre Politique de confidentialité.
+        Raison de la suppression de votre compte ?
         """
         }
         else {

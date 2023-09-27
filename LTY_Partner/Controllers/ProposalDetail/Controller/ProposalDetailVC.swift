@@ -158,6 +158,8 @@ class ProposalDetailVC: UIViewController {
     var proposaldetailVM = ProposalDetailViewModel()
     var commissionData : commissionDataClass?
     var proposalId = ""
+    var userId = ""
+    var offerId = ""
     var catDic = NSMutableDictionary()
     var fromWhichVC = ""
     
@@ -201,8 +203,7 @@ class ProposalDetailVC: UIViewController {
                 self.agentEmailStackView.isHidden = false
                 let param: [String:Any] = ["proposalId": self.proposalId]
                 self.viewProposalApi(param: param)
-            }
-            else {
+            } else {
                 shouldEditProposal = true
                 addProposalDic.setValue(self.proposalId, forKey: "proposalId")
                 self.hideEditBtns(isHidden: false)
@@ -212,7 +213,11 @@ class ProposalDetailVC: UIViewController {
                 self.viewProposalApi(param: param)
             }
         }
-        
+//        else if self.fromWhichVC == "ContractVC"{
+//            shouldEditProposal = true
+//            let param: [String:Any] = ["offerId": self.offerId, "userId": self.userId]
+//            self.viewProposalByOfferIdApi(param: param)
+//        }
     }
     
     func setLocalization() {
@@ -635,6 +640,42 @@ class ProposalDetailVC: UIViewController {
             SwiftLoader.show(animated: true)
 
             Services.shareInstance.postRequestApi(url: LTY_BASE_URL.BASE_URL_INSURANCE + LTY_END_POINT_URL.viewProposal, method: "POST", passToken: true, expecting:ViewProposalModel.self, dataDict: param) { response
+                
+                in
+
+                print(response)
+                switch response {
+                
+                case .success(let result):
+                    SwiftLoader.hide()
+
+                   
+                    
+                    DispatchQueue.main.async {
+                        self.createDicForSettingData(data: result.data!)
+
+                    }
+
+                case .failure(let error):
+                    SwiftLoader.hide()
+                    DispatchQueue.main.async {
+                        
+                        
+                        self.ShowAlert(message: error.localizedDescription)
+                        
+                    }
+                }
+
+            
+            }
+
+        }
+    
+    func viewProposalByOfferIdApi (param:[String:Any]) {
+            
+            SwiftLoader.show(animated: true)
+
+            Services.shareInstance.postRequestApi(url: LTY_BASE_URL.BASE_URL_INSURANCE + LTY_END_POINT_URL.viewProposalByOfferID, method: "POST", passToken: true, expecting:ViewProposalModel.self, dataDict: param) { response
                 
                 in
 

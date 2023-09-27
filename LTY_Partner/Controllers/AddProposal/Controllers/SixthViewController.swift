@@ -35,7 +35,7 @@ class SixthViewController: UIViewController {
         super.viewDidLoad()
 
         setLocalizationText()
-        if isComingFrom == "ProposalVC" || isComingFrom == "ForEditProposal" || isComingFrom == "EditVC"{
+        if isComingFrom == "ProposalVC" || isComingFrom == "ForEditProposal" || isComingFrom == "EditVC" || isComingFrom == "ContractVC" {
             self.setData()
         }
     }
@@ -188,7 +188,7 @@ extension SixthViewController : UINavigationControllerDelegate, UIDocumentMenuDe
             
             alert.addAction(UIAlertAction(title: "Cancel".localized(), style: UIAlertAction.Style.cancel, handler: nil))
             
-            let uploadphoto = UIAlertAction(title: "Upload Photo", style: UIAlertAction.Style.default, handler: {(action) in
+            let uploadphoto = UIAlertAction(title: "Upload Photo".localized(), style: UIAlertAction.Style.default, handler: {(action) in
                 self.picker.delegate = self
                 self.picker.allowsEditing = false
                 self.picker.sourceType = .photoLibrary
@@ -309,6 +309,7 @@ extension SixthViewController : UINavigationControllerDelegate, UIDocumentMenuDe
                     
                 }else{
                     self.ShowAlert(message: json["error"]["serverErrorMessage"].stringValue)
+                    
                 }
                 DispatchQueue.main.async {
                     //self.tbleView.reloadData()

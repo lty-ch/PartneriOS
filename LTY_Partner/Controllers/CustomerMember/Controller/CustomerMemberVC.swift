@@ -633,13 +633,19 @@ extension CustomerMemberVC: UITableViewDelegate, UITableViewDataSource {
         
         
         let actionSheetAlertController: UIAlertController = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
-            var menuArr = ["View","Modify Commission"]
+        var menuArr = [String]()
+        if self.contractListArr[sender.tag].policyDetails?.offerId == nil && self.contractListArr[sender.tag].policyDetails?.policyId == nil {
+             menuArr = ["View".localized(),"Modify Commission".localized()]
+        }else{
+             menuArr = ["View".localized(),"Modify Commission".localized(),"Modify Contract".localized()]
+        }
+      
      
         for cat in menuArr {
             let action = UIAlertAction(title: cat, style: .default) { (action) in
               
                 
-                if cat == "View" {
+                if cat == "View".localized() {
                     let vc = ContractDetailVC.instantiate(fromAppStoryboard: .customerStoryboard)
                     
                     let info = self.contractListArr[sender.tag]
@@ -651,11 +657,23 @@ extension CustomerMemberVC: UITableViewDelegate, UITableViewDataSource {
                     let contractDoc = info.contractDoc ?? []
                     vc.contractDictArr.append(ContractDetailModel.init(totalAmount:info.policyDetails?.totalAmount ?? 0, category:info.policyDetails?.categoryDetails?.categoryName ?? "", subCategory:info.policyDetails?.categoryDetails?.subCategoryName ?? "", name: fName + " " + lName, endDate: info.policyDetails?.endDate ?? "", startDate:  info.policyDetails?.startDate ?? "", sumAssured: "", totalDuration: "", personCovered: "", benifits:info.policyDetails?.productBenefits ?? "", premiumTerm: info.policyDetails?.premiumAmount ?? 0, periodicity:  info.policyDetails?.periodicity ?? "", email:  info.memberDetails?.email ?? "", agentName:  info.agentDetails?.agentName ?? "", policyNumber:  info.policyDetails?.policyId ?? "", policyName:info.policyDetails?.policyType ?? "", signedDoc: signedDocs, policyDoc: policyDocs,contractDoc: contractDoc))
                     self.pushToVC(vc, animated: true)
+                    
+                } else if cat == "Modify Contract".localized() {
+                    let vc = ProposalDetailVC.instantiate(fromAppStoryboard: .proposalStoryboard)
+//                    vc.userId = self.contractListArr[sender.tag].memberDetails?.memberId ?? ""
+//                    vc.offerId = self.contractListArr[sender.tag].policyDetails?.offerId ?? ""
+                    vc.proposalId = self.contractListArr[sender.tag].proposalId ?? ""
+                    vc.fromWhichVC = "ContractVC"
+                    UserDefaults.standard.set("no", forKey: "fromLead")
+                    self.pushToVC(vc, animated: true)
                 } else {
+                    
                     let info = self.contractListArr[sender.tag]
                     if info.offerType == "EXISTING" {
-                        self.ShowAlert(message: "You cannot modify commission of Existing Contract. ")
+                        self.ShowAlert(message: "You cannot modify commission of Existing Contract. ".localized())
+                        
                     }else {
+                        
                         let vc = ModifyCommissionVC.instantiate(fromAppStoryboard: .customerStoryboard)
                         let info = self.contractListArr[sender.tag]
                         vc.contractDic = info

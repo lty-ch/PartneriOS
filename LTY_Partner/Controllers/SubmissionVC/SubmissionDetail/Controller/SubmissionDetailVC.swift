@@ -71,6 +71,7 @@ class SubmissionDetailVC: UIViewController, UITextFieldDelegate {
     let periodicityArr = [["Month".localized(), "12"],["Quarter".localized(), "4"],["Semester".localized(), "2"],["Year".localized(), "1"]]
     var memberId = ""
     var userId = ""
+    var shouldOverride = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -432,8 +433,11 @@ class SubmissionDetailVC: UIViewController, UITextFieldDelegate {
                 return
             }
             
-            let param : [String:Any] = ["proposalId": self.proposalId, "policyId": self.textPolicyId.text!, "commissionDate": self.commissionStartDate, "frequency": self.textPeriodicity.text!, "contractDoc": self.policyDocArr]
-            self.submitSubmissionProposalApi(param: param)
+            let param : [String:Any] = ["policyId": self.textPolicyId.text!, "userId":self.memberId]
+            self.validatePolicyIdApi(param: param)
+            
+//            let param : [String:Any] = ["proposalId": self.proposalId, "policyId": self.textPolicyId.text!, "commissionDate": self.commissionStartDate, "frequency": self.textPeriodicity.text!, "contractDoc": self.policyDocArr]
+//            self.submitSubmissionProposalApi(param: param)
             return
         }
 
@@ -453,15 +457,71 @@ class SubmissionDetailVC: UIViewController, UITextFieldDelegate {
                 return
             }
             
-            let param : [String:Any] = ["proposalId": self.proposalId, "policyId": self.textPolicyId.text!, "commissionDate": self.commissionStartDate, "frequency": self.textPeriodicity.text!, "contractDoc": self.docArr]
-            self.submitSubmissionProposalApi(param: param)
+            let param : [String:Any] = ["policyId": self.textPolicyId.text!, "userId":self.memberId]
+            self.validatePolicyIdApi(param: param)
+            
+//            let param : [String:Any] = ["proposalId": self.proposalId, "policyId": self.textPolicyId.text!, "commissionDate": self.commissionStartDate, "frequency": self.textPeriodicity.text!, "contractDoc": self.docArr]
+//            self.submitSubmissionProposalApi(param: param)
         }
         else{
             self.ShowAlert(message: LTY_AlterText.messageNoWriteAccess.localized())
             
         }
         
-     
+    }
+
+    
+    func validatePolicyIdApi (param:[String:Any]) {
+        
+        SwiftLoader.show(animated: true)
+        
+        Services.shareInstance.postRequestApi(url: LTY_BASE_URL.BASE_URL_INSURANCE + LTY_END_POINT_URL.validatePolicyId, method: "POST", passToken: true, expecting:ValidatePolicyId.self, dataDict: param) { response
+            
+            in
+            print(response)
+            switch response {
+                
+            case .success(let result):
+                SwiftLoader.hide()
+                
+                if result.status == "SUCCESS" {
+                    DispatchQueue.main.async {
+                        if result.data?.isValid == true {
+                            let param : [String:Any] = ["proposalId": self.proposalId, "policyId": self.textPolicyId.text!, "commissionDate": self.commissionStartDate, "frequency": self.textPeriodicity.text!, "contractDoc": self.docArr,"needToOverride":self.shouldOverride]
+                            self.submitSubmissionProposalApi(param: param)
+                        }else{
+                            if result.data?.linkedWithSameUser == true {
+                                self.showAlertWithActions(msg: "Do you want to replace Policy Id ?".localized(), titles: ["Yes".localized(), "No".localized()]) { (value) in
+                                    if value == 1{
+                                        self.shouldOverride = true
+                                        
+                                        let param : [String:Any] = ["proposalId": self.proposalId, "policyId": self.textPolicyId.text!, "commissionDate": self.commissionStartDate, "frequency": self.textPeriodicity.text!, "contractDoc": self.docArr,"needToOverride":self.shouldOverride]
+                                        
+                                        self.submitSubmissionProposalApi(param: param)
+                                    }
+                                }
+                            }else{
+                                self.ShowAlert(message: "Ploicy Id Already Exist.".localized())
+                            }
+                        }
+                    }
+                } else {
+                    DispatchQueue.main.async {
+                        self.ShowAlert(message: result.error?.serverErrorMessage ?? "")
+                    }
+                }
+                
+                
+            case .failure(let error):
+                SwiftLoader.hide()
+                DispatchQueue.main.async {
+                    
+                    self.ShowAlert(message: error.localizedDescription)
+                    
+                }
+            }
+        }
+        
     }
     
 
