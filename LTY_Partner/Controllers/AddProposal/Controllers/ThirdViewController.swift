@@ -187,7 +187,7 @@ class ThirdViewController: UIViewController {
         self.btnNext.setTitle("Next".localized(), for: .normal)
         self.lblTitle.text = "Type of product".localized()
         self.categoryLbl.text = "Insurance Company".localized()
-        self.subCategoryLbl.text = "Insurance Branch".localized()
+        self.subCategoryLbl.text = "Insurance Product".localized()
         self.insuranceProductLbl.text = "Insurance Coverage".localized()
         self.chooseAgentLbl.text = "Choose Agent".localized()
         self.periodictyLbl.text = "Periodicity:".localized()
@@ -262,8 +262,18 @@ class ThirdViewController: UIViewController {
         self.subcatId = catDetails["subCategoryId"] as! String
         self.catId = catDetails["categoryId"] as! String
         
-        self.categoryTxt.text = catDetails["categoryName"] as? String
-        self.subCategoryTxt.text = catDetails["subCategoryName"] as? String
+        
+        let language =  kUserDefaults.value(forKey: APPLE_LANGUAGE_KEY)
+        let result = language as! NSArray
+        
+        if result[0] as! String == "fr" {
+            self.categoryTxt.text = catDetails["categoryNameInFrench"] as? String
+            self.subCategoryTxt.text = catDetails["subCategoryNameInFrench"] as? String
+        }else{
+            self.categoryTxt.text = catDetails["categoryName"] as? String
+            self.subCategoryTxt.text = catDetails["subCategoryName"] as? String
+        }
+    
        // self.insuranceProductTxt.text = catDetails["categoryName"] as? String
         self.chooseAgentTxt.text = addProposalDic["agentName"] as? String
         self.agentId = addProposalDic["agentId"] as? String ?? ""
@@ -276,8 +286,9 @@ class ThirdViewController: UIViewController {
         self.selectedProductsArr = prodList
         self.productsToSendInAPIArr = prodList
         var arr = NSMutableArray()
-        let language =  kUserDefaults.value(forKey: APPLE_LANGUAGE_KEY)
-        let result = language as! NSArray
+        
+//        let language =  kUserDefaults.value(forKey: APPLE_LANGUAGE_KEY)
+//        let result = language as! NSArray
 
         for items in prodList {
             let item = items as! NSMutableDictionary

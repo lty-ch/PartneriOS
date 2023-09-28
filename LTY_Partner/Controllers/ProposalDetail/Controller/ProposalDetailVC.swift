@@ -358,16 +358,28 @@ class ProposalDetailVC: UIViewController {
         policynumberLbl.text = addProposalDic["offerId"] as? String
         //key tag
         let catDetails = addProposalDic["categoryDetails"] as! NSMutableDictionary
-        catLcbl.text = catDetails["categoryName"] as? String
-        subcatLcbl.text = catDetails["subCategoryName"] as? String
+        
+        
+        let language =  kUserDefaults.value(forKey: APPLE_LANGUAGE_KEY)
+        let result = language as! NSArray
+        
+        if result[0] as! String == "fr" {
+            catLcbl.text = catDetails["categoryNameInFrench"] as? String
+            subcatLcbl.text = catDetails["subCategoryNameInFrench"] as? String
+        }else{
+            catLcbl.text = catDetails["categoryName"] as? String
+            subcatLcbl.text = catDetails["subCategoryName"] as? String
+        }
+
+ 
         
         let productDetails = addProposalDic["productDetails"] as! NSMutableDictionary
         let prodList = productDetails["productList"] as! NSMutableArray
         var arr = NSMutableArray()
         self.insuranceProductLcbl.text = ""
-        let language =  kUserDefaults.value(forKey: APPLE_LANGUAGE_KEY)
-        let result = language as! NSArray
-        
+//        let language =  kUserDefaults.value(forKey: APPLE_LANGUAGE_KEY)
+//        let result = language as! NSArray
+//        
     
         for items in prodList {
             let item = items as! NSMutableDictionary
@@ -431,8 +443,10 @@ class ProposalDetailVC: UIViewController {
         
         self.catDic.setValue(catDetails["categoryId"] ?? "", forKey: "categoryId")
         self.catDic.setValue(catDetails["categoryName"] ?? "", forKey: "categoryName")
+        self.catDic.setValue(catDetails["categoryNameInFrench"] ?? "", forKey: "categoryNameInFrench")
         self.catDic.setValue(catDetails["subCategoryId"] ?? "", forKey: "subCategoryId")
         self.catDic.setValue(catDetails["subCategoryName"] ?? "", forKey: "subCategoryName")
+        self.catDic.setValue(catDetails["subCategoryNameInFrench"] ?? "", forKey: "subCategoryNameInFrench")
         
         let userType = kUserDefaults.value(forKey: AppKeys.userType)
         let sourceId = kUserDefaults.value(forKey: AppKeys.sourceId)
@@ -873,7 +887,12 @@ class ProposalDetailVC: UIViewController {
         self.insuranceProductLcbl.text = ""
         for items in prodList {
 //            arr.add(items.productName ?? "")
-            self.insuranceProductLcbl.text! += "\(items.productName ?? "") - \(items.amount ?? 0)\n"
+            if result[0] as! String == "fr" {
+                self.insuranceProductLcbl.text! += "\(items.productNameInFrench ?? "") - \(items.amount ?? 0)\n"
+            }else{
+                self.insuranceProductLcbl.text! += "\(items.productName ?? "") - \(items.amount ?? 0)\n"
+            }
+          
         }
        // self.insuranceProductLcbl.text = arr.componentsJoined(by: ",")
         

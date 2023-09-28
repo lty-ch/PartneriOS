@@ -1413,14 +1413,15 @@ class ProfileVC: UIViewController, SetDrpDownText {
         let compPostCode    = textCompPost.text ?? ""
         let compCountry     = textCCountry.text ?? ""
         
-        let profileImage1 = kUserDefaults.value(forKey: AppKeys.profile) as! String
-        
-        if profileImage1.isEmpty == false{
-            profileImage = profileImage1
-        }else{
-           profileImage = ""
+        if kUserDefaults.value(forKey: AppKeys.profile) != nil {
+            let profileImage1 = kUserDefaults.value(forKey: AppKeys.profile) as! String
+            
+            if profileImage1.isEmpty == false{
+                profileImage = profileImage1
+            }else{
+                profileImage = ""
+            }
         }
-        
 
         
         if isComming == "Edit_agent_detail"{

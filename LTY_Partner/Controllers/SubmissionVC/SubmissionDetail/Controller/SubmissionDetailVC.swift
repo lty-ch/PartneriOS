@@ -77,9 +77,12 @@ class SubmissionDetailVC: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
         var commisionDate = commissionStartDate
-        commisionDate = commisionDate.components(separatedBy: "T")[0]
-        textCommissionStartDate.text = returnDOB(date: commisionDate) == "0" ? "" : returnDOB(date: commisionDate)
-        
+        if commisionDate == ""{
+            textCommissionStartDate.text = ""
+        }else {
+            commisionDate = commisionDate.components(separatedBy: "T")[0]
+            textCommissionStartDate.text = returnDOB(date: commisionDate) == "" ? "" : returnDOB(date: commisionDate)
+        }
         uploadDocTable.register(UINib(nibName: "ProposalDetailPolicyTableCell", bundle: Bundle.main), forCellReuseIdentifier: "ProposalDetailPolicyTableCell")
         textCommissionStartDate.delegate = self
         setDrowerHeight()
@@ -241,11 +244,15 @@ class SubmissionDetailVC: UIViewController, UITextFieldDelegate {
 
                     if !self.isPending {
                         
-                        var commissionDate = info?.commissionDetails?.commissionDate ?? ""
-                        commissionDate = commissionDate.components(separatedBy: "T")[0]
-                        
-                        self.textCommissionStartDate.text = returnDOB(date: commissionDate)
-                        
+                       
+                            var commissionDate = info?.commissionDetails?.commissionDate ?? ""
+                        if commissionDate == ""{
+                            self.textCommissionStartDate.text = ""
+                        }else{
+                            commissionDate = commissionDate.components(separatedBy: "T")[0]
+                            
+                            self.textCommissionStartDate.text = returnDOB(date: commissionDate)
+                        }
                         self.textPeriodicity.text = info?.policyDetails?.periodicity ?? ""
                         self.textPolicyId.text = info?.policyDetails?.policyId ?? ""
 //                        self.textCommissionStartDate = info?.commissionDetails

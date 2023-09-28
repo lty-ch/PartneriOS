@@ -88,9 +88,11 @@ class DrowerViewController: UIViewController {
         var imageView : UIImageView
         imageView  = UIImageView(frame:CGRect(x: 10, y: 10, width: 60, height: 60))
         
-        if  let userImage = kUserDefaults.value(forKey: AppKeys.profile) {
-            imageView.sd_setImage(with: URL(string:userImage as! String), placeholderImage: UIImage(named: "user"))
-
+        if kUserDefaults.value(forKey: AppKeys.profile) != nil {
+            if  let userImage = kUserDefaults.value(forKey: AppKeys.profile) {
+                imageView.sd_setImage(with: URL(string:userImage as! String), placeholderImage: UIImage(named: "user"))
+                
+            }
         }else{
             imageView.image  = UIImage(named: "user")
 

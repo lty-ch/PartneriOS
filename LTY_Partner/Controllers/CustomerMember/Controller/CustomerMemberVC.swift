@@ -634,7 +634,7 @@ extension CustomerMemberVC: UITableViewDelegate, UITableViewDataSource {
         
         let actionSheetAlertController: UIAlertController = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         var menuArr = [String]()
-        if self.contractListArr[sender.tag].policyDetails?.offerId == nil && self.contractListArr[sender.tag].policyDetails?.policyId == nil {
+        if self.contractListArr[sender.tag].policyDetails?.offerId == nil || self.contractListArr[sender.tag].policyDetails?.policyId == nil {
              menuArr = ["View".localized(),"Modify Commission".localized()]
         }else{
              menuArr = ["View".localized(),"Modify Commission".localized(),"Modify Contract".localized()]

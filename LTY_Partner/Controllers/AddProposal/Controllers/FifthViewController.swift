@@ -31,29 +31,7 @@ class FifthViewController: UIViewController {
         super.viewDidLoad()
 
         setLocalizationText()
-        
-        let productDetails = addProposalDic["productDetails"] as! NSMutableDictionary
-        let prodList = productDetails["productList"] as! NSMutableArray
-        self.selectedProductsArr = prodList
-        self.productsToSendInAPIArr = prodList
-        var arr = NSMutableArray()
-        let language =  kUserDefaults.value(forKey: APPLE_LANGUAGE_KEY)
-        let result = language as! NSArray
 
-        for items in prodList {
-            let item = items as! NSMutableDictionary
-            
-            if result[0] as! String == "fr" {
-                arr.add("\(item["productNameInFrench"] ?? "") - \(item["amount"] ?? 0)\n")
-            }else{
-              //  arr.add(item["productName"] ?? "")
-                arr.add("\(item["productName"] ?? "") - \(item["amount"] ?? 0)\n")
-            }
-          
-        }
-        
-    
-        self.lblProductData.text = arr.componentsJoined(by: ",")
         
     }
     
@@ -71,18 +49,58 @@ class FifthViewController: UIViewController {
         super.viewWillAppear(animated)
         if isComingFrom == "EditVC" || isComingFrom == "ProposalVC" || isComingFrom == "LeadProposalVC" || isComingFrom == "ForEditProposal" || isComingFrom == "ContractVC" {
             setData()
+           // SetProductNameData()
             doneStackView.isHidden = false
             nextbtnStackView.isHidden = true
         }else {
             doneStackView.isHidden = true
             nextbtnStackView.isHidden = false
+            SetProductNameData()
         }
         self.tabBarController?.tabBar.isHidden = true
     }
     
+    func SetProductNameData(){
+        
+        let productDetails = addProposalDic["productDetails"] as! NSMutableDictionary
+        let prodList = productDetails["productList"] as! NSMutableArray
+        self.selectedProductsArr = prodList
+        self.productsToSendInAPIArr = prodList
+        var arr = NSMutableArray()
+        let language =  kUserDefaults.value(forKey: APPLE_LANGUAGE_KEY)
+        let result = language as! NSArray
+        
+        let catDetails = addProposalDic["categoryDetails"] as! NSMutableDictionary
+        //arr.add("\("Insurance Product".localized()) \("-") \(String(describing: catDetails["subCategoryName"] ?? "" ))\n")
+        arr.add(" \(String(describing: catDetails["subCategoryName"] ?? "" ))\n")
+        
+        for items in prodList {
+            let item = items as! NSMutableDictionary
+            
+            if result[0] as! String == "fr" {
+                arr.add("\(item["productNameInFrench"] ?? "") - \(item["amount"] ?? 0)\n")
+            }else{
+              //  arr.add(item["productName"] ?? "")
+                arr.add("\(item["productName"] ?? "") - \(item["amount"] ?? 0)\n")
+            }
+          
+        }
+        
+//        let catDetails = addProposalDic["categoryDetails"] as! NSMutableDictionary
+//        catLcbl.text = catDetails["categoryName"] as? String
+        //subcatLcbl.text = catDetails["subCategoryName"] as? String
+    
+       // self.lblProductData.text = arr.componentsJoined(by: ",")
+        self.featuresTextView.text = arr.componentsJoined(by: ",")
+    }
+    
+    
     func setData() {
         let keyFeatures = addProposalDic["keyFeatures"] as? String
-        self.featuresTextView.text = keyFeatures?.html2String
+        //if
+        let newString = keyFeatures?.replacingOccurrences(of: ",", with: "\("\n")")
+        
+        self.featuresTextView.text = newString?.html2String//keyFeatures?.html2String
      }
     
 
