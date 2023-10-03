@@ -19,8 +19,8 @@ class GetStartedCVC: UICollectionViewCell {
         topView.viewCorner(10)
         
        // lblTitle.textColor = Asset.Colors.gray1.color
-        lblTitle.font = UIFont(name:"Helvetica",size:20)
-        lblSubTitle.font = UIFont(name:"Helvetica",size:14)
+        lblTitle.font = UIFont(name:"Helvetica",size:14)
+//        lblSubTitle.font = UIFont(name:"Helvetica",size:14)
        // lblSubTitle.textColor = Asset.Colors.lightGray.color
     }
 

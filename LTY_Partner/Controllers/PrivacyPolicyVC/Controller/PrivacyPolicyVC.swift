@@ -30,6 +30,7 @@ class PrivacyPolicyVC: UIViewController {
         let language =  kUserDefaults.value(forKey: APPLE_LANGUAGE_KEY)
         let result = language as! NSArray
         var poliyUrl = ""
+    https://lty.ch/privacy-policy/
         if result[0] as! String == "fr" {
             poliyUrl = "https://lty.ch/privacy-policy/"
         }else{

@@ -5,15 +5,16 @@
   Created by shashivendra sengar on 20/06/23.
 
 */
-
+"Logout from this device only." = "Se déconnecter de cet appareil uniquement.";
+"Logout from all devices." = "Déconnectez-vous de tous les appareils.";
 "Do you want to replace Policy Id ?" = "Voulez-vous remplacer l'ID de stratégie ?";
 "Ploicy Id Already Exist." = "L'identifiant politique existe déjà.";
 "Existing policy" = "Politique existante";
-"Accompany your customers more efficiently!" = "Accompagne plus efficacement tes clients !";
+"Accompany your customers more efficiently!" = "Accompagne plus efficacement tes clients !";
 
 "Enjoy personalized support!" = "Bénéficie d’un support personnalisé !";
 
- "Take advantage of a 100% digital platform for managing your agents and customers." = "Profite d’une plateforme 100% digital pour le management de tes agents et de tes clients.";
+ "Take advantage of a 100% digital platform for managing your agents and customers." = "Profite d’une plateforme 100% digitale pour le management de tes courtiers et de tes clients.";
 
 "You cannot modify commission of Existing Contract. " = "Vous ne pouvez pas modifier la commission du contrat existant.";
 "Modify Contract" = "Modifier le contrat";

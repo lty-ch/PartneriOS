@@ -28,15 +28,15 @@ extension GetStartScreenVC :UICollectionViewDelegate,UICollectionViewDataSource 
             
             cell.imgImage.image = UIImage(named: "step01")
             cell.imgImage.contentMode = .scaleAspectFit
-            cell.lblTitle.text = LTYText.text_getStartVCTitle1.localized()
-            cell.lblSubTitle.text = "Accompany your customers more efficiently!".localized()
+//            cell.lblTitle.text = LTYText.text_getStartVCTitle1.localized()
+            cell.lblTitle.text = "Accompany your customers more efficiently!".localized()
         }
         else if indexPath.row == 1 {
             
             cell.imgImage.image = UIImage(named:"step02")
             cell.imgImage.contentMode = .scaleAspectFit
-            cell.lblTitle.text = LTYText.text_getStartVCTitle2.localized()
-            cell.lblSubTitle.text = "Enjoy personalized support!".localized()
+//            cell.lblTitle.text = LTYText.text_getStartVCTitle2.localized()
+            cell.lblTitle.text = "Enjoy personalized support!".localized()
         }
         else if indexPath.row == 2 {
             
@@ -44,8 +44,8 @@ extension GetStartScreenVC :UICollectionViewDelegate,UICollectionViewDataSource 
             //UIImage(name: "family-safety")
             cell.imgImage.contentMode = .scaleAspectFit
             
-            cell.lblTitle.text = LTYText.text_getStartVCTitle3.localized()
-            cell.lblSubTitle.text = "Take advantage of a 100% digital platform for managing your agents and customers.".localized()
+//            cell.lblTitle.text = LTYText.text_getStartVCTitle3.localized()
+            cell.lblTitle.text = "Take advantage of a 100% digital platform for managing your agents and customers.".localized()
         }
         
         return cell

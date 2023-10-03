@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -298,7 +298,7 @@
                                                                     <constraint firstItem="aG9-0N-9JR" firstAttribute="centerY" secondItem="Yem-V6-GWv" secondAttribute="centerY" id="sxU-kQ-bTZ"/>
                                                                 </constraints>
                                                             </view>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proposal Shared" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zH9-J8-dK7">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proposal Shared" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zH9-J8-dK7">
                                                                 <rect key="frame" x="20" y="116.33333333333331" width="93" height="20.333333333333343"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                 <color key="textColor" name="blueColor"/>
@@ -446,7 +446,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Vn-tI-yy5">
-                                                                <rect key="frame" x="36" y="74.333333333333314" width="82" height="24"/>
+                                                                <rect key="frame" x="20" y="74.333333333333314" width="82" height="24"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u8c-2l-Se9">
                                                                         <rect key="frame" x="16" y="4.3333333333333703" width="33" height="15.666666666666664"/>
@@ -483,6 +483,7 @@
                                                         <color key="backgroundColor" red="0.97541660070000002" green="0.85862761740000004" blue="0.82497131820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lda-6i-fo3" secondAttribute="trailing" constant="5" id="3FN-vK-OcO"/>
+                                                            <constraint firstItem="Wiv-ju-8UE" firstAttribute="leading" secondItem="8Vn-tI-yy5" secondAttribute="leading" id="BLh-xG-ZOj"/>
                                                             <constraint firstItem="8Vn-tI-yy5" firstAttribute="centerY" secondItem="Wiv-ju-8UE" secondAttribute="centerY" id="BVS-6h-IKt"/>
                                                             <constraint firstItem="lda-6i-fo3" firstAttribute="leading" secondItem="Wiv-ju-8UE" secondAttribute="leading" id="G0L-v3-hqn"/>
                                                             <constraint firstItem="qDw-AP-vWP" firstAttribute="top" secondItem="Ggn-dJ-GOT" secondAttribute="top" constant="20" id="RCe-ya-IYJ"/>
@@ -491,7 +492,6 @@
                                                             <constraint firstAttribute="bottom" secondItem="lda-6i-fo3" secondAttribute="bottom" constant="20" id="eqE-wj-2Tt"/>
                                                             <constraint firstItem="8Vn-tI-yy5" firstAttribute="top" secondItem="qDw-AP-vWP" secondAttribute="bottom" constant="22.333333333333343" id="frY-8O-uTO"/>
                                                             <constraint firstItem="Wiv-ju-8UE" firstAttribute="leading" secondItem="qDw-AP-vWP" secondAttribute="leading" id="ibv-Ou-PMn"/>
-                                                            <constraint firstItem="8Vn-tI-yy5" firstAttribute="leading" secondItem="Wiv-ju-8UE" secondAttribute="trailing" constant="16" id="nVk-Z2-v2b"/>
                                                             <constraint firstItem="qDw-AP-vWP" firstAttribute="leading" secondItem="Ggn-dJ-GOT" secondAttribute="leading" constant="20" id="rhz-dd-2wz"/>
                                                         </constraints>
                                                     </view>
