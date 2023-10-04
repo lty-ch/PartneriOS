@@ -295,7 +295,7 @@ extension ThirdPillarFormVC : SetThirdPillarProtectionData {
                 self.lblPersnalInfoagent.text = data.data?.agentName   ?? ""
                 self.lblMemberInfoFullName.text = data.data?.memberName
                 self.lblMemberInfoRelation.text = data.data?.relation  ?? ""
-                self.lblMemberInfoInsuranceType.text = data.data?.insuranceType ?? ""
+                self.lblMemberInfoInsuranceType.text = data.data?.insuranceType?.localized() ?? ""
                 
                 
                 let responseData = data.data?.metadata?.personalDetails

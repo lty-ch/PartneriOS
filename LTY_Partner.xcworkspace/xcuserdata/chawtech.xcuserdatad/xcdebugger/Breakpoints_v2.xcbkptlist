@@ -286,8 +286,8 @@
             filePath = "LTY_Partner/Controllers/ProposalDetail/Controller/ProposalDetailVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "696"
-            endingLineNumber = "696"
+            startingLineNumber = "697"
+            endingLineNumber = "697"
             landmarkName = "viewProposalByOfferIdApi(param:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -302,10 +302,42 @@
             filePath = "LTY_Partner/Controllers/ProposalDetail/Controller/ProposalDetailVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "692"
-            endingLineNumber = "692"
+            startingLineNumber = "693"
+            endingLineNumber = "693"
             landmarkName = "viewProposalByOfferIdApi(param:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "51F66C55-F8AB-4D7C-A872-91D2F0161CFF - c792284bdc04c260"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LTY_Partner.ProposalDetailVC.viewProposalByOfferIdApi(param: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
+                  moduleName = "LTY_Partner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chawtech/Desktop/Lty_ClientGit/PartneriOS/LTY_Partner/Controllers/ProposalDetail/Controller/ProposalDetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "693"
+                  endingLineNumber = "693"
+                  offsetFromSymbolStart = "91">
+               </Location>
+               <Location
+                  uuid = "51F66C55-F8AB-4D7C-A872-91D2F0161CFF - f3fff8added8de96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;LTY_Partner.ViewProposalModel, Swift.Error&gt;) -&gt; () in LTY_Partner.ProposalDetailVC.viewProposalByOfferIdApi(param: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
+                  moduleName = "LTY_Partner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chawtech/Desktop/Lty_ClientGit/PartneriOS/LTY_Partner/Controllers/ProposalDetail/Controller/ProposalDetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "697"
+                  endingLineNumber = "697"
+                  offsetFromSymbolStart = "4356">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -334,8 +366,8 @@
             filePath = "LTY_Partner/Controllers/ProposalDetail/Controller/ProposalDetailVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "525"
-            endingLineNumber = "525"
+            startingLineNumber = "526"
+            endingLineNumber = "526"
             landmarkName = "editActionBtn(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -398,8 +430,8 @@
             filePath = "LTY_Partner/Controllers/ProposalDetail/Controller/ProposalDetailVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "878"
-            endingLineNumber = "878"
+            startingLineNumber = "879"
+            endingLineNumber = "879"
             landmarkName = "setDataFromAPI(data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -414,8 +446,8 @@
             filePath = "LTY_Partner/Controllers/ProposalDetail/Controller/ProposalDetailVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "881"
-            endingLineNumber = "881"
+            startingLineNumber = "882"
+            endingLineNumber = "882"
             landmarkName = "setDataFromAPI(data:)"
             landmarkType = "7">
          </BreakpointContent>

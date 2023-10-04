@@ -119,7 +119,7 @@ extension HomeVC : UITableViewDelegate,UITableViewDataSource{
             
             cell.cellMailLbl.text = info.memberDetails?.email
             cell.cellPhoneLbl.text = info.memberDetails?.mobile
-            cell.requestType.text = info.metadata?.type
+            cell.requestType.text = info.metadata?.type?.localized()
             var createdOnStr = info.createdOn ?? ""
             createdOnStr = createdOnStr.components(separatedBy: "T")[0]
             cell.date.text = returnDob(date: createdOnStr)
@@ -142,7 +142,7 @@ extension HomeVC : UITableViewDelegate,UITableViewDataSource{
             let fName = info.memberDetails?.firstName?.capitalized   ?? ""
             let lName = info.memberDetails?.lastName?.capitalized   ?? ""
             cell.cellAgentNameLbl.text = fName + " " + lName
-            cell.lblType.text = info.insuranceType ?? ""
+            cell.lblType.text = info.insuranceType?.localized() ?? ""
             cell.lblAgentName.text = info.agentDetails?.agentName ?? "Unassigned".localized()
             cell.lblPolicyNo.text = info.policyDetails?.policyId ?? ""
             cell.lblSubCat.text = info.policyDetails?.categoryDetails?.subCategoryName ?? ""

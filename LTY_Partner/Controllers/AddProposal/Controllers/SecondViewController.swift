@@ -145,6 +145,7 @@ class SecondViewController: UIViewController ,UITextFieldDelegate{
        // textPolicyType.text = addProposalDic["policyType"] as? String
         self.insurnceType = addProposalDic["insuranceType"] as! String
         self.typeOfInsuranceTxt.text = addProposalDic["insuranceType"] as? String
+        self.typeOfInsuranceTxt.text = self.typeOfInsuranceTxt.text?.localized()
         self.offerNumberTxt.text = addProposalDic["offerId"] as? String
         
         var startDateStr = addProposalDic["startDate"] as? String
@@ -346,9 +347,9 @@ class SecondViewController: UIViewController ,UITextFieldDelegate{
         for cat in dropDownElememnt {
             
             
-            let action = UIAlertAction(title: cat, style: .default) { (action) in
+            let action = UIAlertAction(title: cat.localized(), style: .default) { (action) in
                 
-                self.typeOfInsuranceTxt.text = cat
+                self.typeOfInsuranceTxt.text = cat.localized()
                 self.insurnceType = cat
                 
             }

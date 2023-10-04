@@ -341,7 +341,7 @@ extension LegalProtectionVC : LegalProtectionProtocolData {
                 self.lblPersnalInfoagent.text = persnalInfo?.agentName   ?? ""
                 self.lblMemberInfoFullName.text = data.data?.memberName
                 self.lblMemberInfoRelation.text = data.data?.relation  ?? ""
-                self.lblMemberInfoInsuranceType.text = data.data?.insuranceType ?? ""
+                self.lblMemberInfoInsuranceType.text = data.data?.insuranceType?.localized() ?? ""
                 
                 let basicInfo = data.data?.memberDetails
                 let fname =  basicInfo?.firstName?.capitalized   ?? ""

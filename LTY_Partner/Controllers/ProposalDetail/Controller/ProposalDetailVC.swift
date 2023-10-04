@@ -340,8 +340,9 @@ class ProposalDetailVC: UIViewController {
      
         
         lblInsuranceType.text = addProposalDic["insuranceType"] as? String
+        lblInsuranceType.text = lblInsuranceType.text?.localized()
         policyTypeLbl.text = addProposalDic["policyType"] as? String
-        
+        policyTypeLbl.text = policyTypeLbl.text?.localized()
         
         var startDate =  addProposalDic["startDate"] as? String
         startDate = startDate?.components(separatedBy: "T")[0]
@@ -857,8 +858,8 @@ class ProposalDetailVC: UIViewController {
         
         
         
-        lblInsuranceType.text = data.insuranceType ?? ""
-        policyTypeLbl.text = data.policyDetails?.policyType ?? ""
+        lblInsuranceType.text = data.insuranceType?.localized() ?? ""
+        policyTypeLbl.text = data.policyDetails?.policyType?.localized() ?? ""
         
         var startDate = "\(data.policyDetails?.startDate ?? "")"
         startDate = startDate.components(separatedBy: "T")[0]
@@ -1000,8 +1001,9 @@ extension ProposalDetailVC: updateProposalData, AddPropsalProtocolDelegate, Prop
     func updateEditedDataFromMainListing() {
         
         lblInsuranceType.text = addProposalDic["insuranceType"] as? String
+        lblInsuranceType.text = lblInsuranceType.text?.localized()
         policyTypeLbl.text = addProposalDic["policyType"] as? String
-        
+        policyTypeLbl.text = policyTypeLbl.text?.localized()
         var startDate =  addProposalDic["startDate"] as? String
         startDate = startDate?.components(separatedBy: "T")[0]
         startDateLbl.text = returnDOB(date: startDate ?? "")

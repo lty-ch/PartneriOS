@@ -598,7 +598,7 @@ extension MotorVehicleFormVC : MotorVehicleProtocolData {
                 self.lblPersnalInfoagent.text = persnalInfo?.agentName   ?? ""
                 self.lblMemberInfoFullName.text = data.data?.memberName
                 self.lblMemberInfoRelation.text = data.data?.relation  ?? ""
-                self.lblInsuranceType.text = data.data?.insuranceType ?? ""
+                self.lblInsuranceType.text = data.data?.insuranceType?.localized() ?? ""
 
                 let basicInfo = data.data?.memberDetails
                 let fname =  basicInfo?.firstName?.capitalized   ?? ""

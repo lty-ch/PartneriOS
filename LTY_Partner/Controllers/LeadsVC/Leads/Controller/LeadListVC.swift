@@ -206,7 +206,7 @@ extension LeadListVC: UITableViewDelegate, UITableViewDataSource {
         
         cell.cellMailLbl.text = info.memberDetails?.email
         cell.cellPhoneLbl.text = "\(info.memberDetails?.countryCode ?? "") \(info.memberDetails?.mobile ?? "")"
-        cell.requestType.text = info.metadata?.type
+        cell.requestType.text = info.metadata?.type?.localized()
         var createdOnStr = info.createdOn ?? ""
         createdOnStr = createdOnStr.components(separatedBy: "T")[0]
         cell.date.text = returnDOB(date: createdOnStr)
