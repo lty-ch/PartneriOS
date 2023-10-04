@@ -48,8 +48,8 @@ struct LTY_BASE_URL {
     
     */
     
-   /* "https://apigateway.dev.ltytech.ch/"
-
+   // "https://apigateway.dev.ltytech.ch/"
+/*
     static let BASE_URL_PARTNER = "https://apigateway.dev.ltytech.ch/api/ims/v1/partner/"
     static let BASE_URL_RESEND_OTP = "https://apigateway.dev.ltytech.ch/api/communicator/v1/"
     static let BASE_URL_COMMON = "https://apigateway.dev.ltytech.ch/api/ims/v1/config/"

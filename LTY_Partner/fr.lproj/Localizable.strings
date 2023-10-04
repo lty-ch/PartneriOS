@@ -5,6 +5,23 @@
   Created by shashivendra sengar on 20/06/23.
 
 */
+//["HEALTH", "TRAVEL", "BUILDING", "MOTOR_VEHICLE", "RC_HOUSEHOLD", "LEGAL_PROTECTION", "CONSTRUCTION", "QUOTATION_REQUEST", "HOUSING_RENTAL", "ANIMAL", "THIRD_PILLAR"]
+//["BUSINESS_LEGAL_PROTECTION", "BUSINESS_INSURANCE_OFFER", "BUSINESS_COMPANY_THINGS"]
+
+"HEALTH" = "SANTÉ";
+"TRAVEL" = "VOYAGE";
+"BUILDING" = "BÂTIMENT";
+"MOTOR_VEHICLE" = "VÉHICULE À MOTEUR";
+"RC_HOUSEHOLD" = "RC_MÉNAGE";
+"LEGAL_PROTECTION" = "PROTECTION LÉGALE";
+"CONSTRUCTION" = "CONSTRUCTION";
+"QUOTATION_REQUEST" = "DEMANDE DE DEVIS";
+"HOUSING_RENTAL" = "LOGEMENT_RENTAL";
+"ANIMAL" = "ANIMAL";
+"THIRD_PILLAR" = "TROISIÈME_PILLIER";
+"BUSINESS_LEGAL_PROTECTION" = "BUSINESS_LEGAL_PROTECTION";
+"BUSINESS_INSURANCE_OFFER" = "BUSINESS_INSURANCE_OFFER";
+"BUSINESS_COMPANY_THINGS" = "BUSINESS_COMPANY_THINGS";
 "Logout from this device only." = "Se déconnecter de cet appareil uniquement.";
 "Logout from all devices." = "Déconnectez-vous de tous les appareils.";
 "Do you want to replace Policy Id ?" = "Voulez-vous remplacer l'ID de stratégie ?";
@@ -878,6 +895,7 @@
 
 "Partner Gross Commission" = "Commission brute partenaire";
 "Partner Reserve" = "Réserve du partenaire";
+"Partner reserve " = "Réserve du partenaire";
 "Agent Reserve" = "Réserve de l'conseiller";
 
 "Choose member(s)" = "Choisir le(s) membre(s)";

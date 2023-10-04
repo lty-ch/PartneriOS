@@ -243,16 +243,16 @@ class ProposalDetailVC: UIViewController {
         self.insuranceProductLBL.text = "Insurance coverage".localized()
         self.subCatLbl.text = "Insurance Product".localized()
         
-        self.partnerGrossCommLbl.text = "Partner Gross Commission ".localized()
+        self.partnerGrossCommLbl.text = "Partner Gross Commission".localized()
         self.PartnerReserveLbl.text = "Partner reserve ".localized()
-        self.AgentReservLbl.text = "Agent Reserve ".localized()
+        self.AgentReservLbl.text = "Agent Reserve".localized()
      
         self.chooseMembLbl.text = "Customers".localized()
         self.polictVisbiLbl.text = "Policy visibility".localized()
         self.AttcahDocLbl.text = "Attached Documents".localized()
         self.partnerCommLbl.text = "Partner commission".localized()
         self.abentCommLbl.text = "Agent commission".localized()
-        self.agentGrossLbl.text = "Agent Gross Commission ".localized()
+        self.agentGrossLbl.text = "Agent Gross Commission".localized()
         
         self.tiltleCustomerInfo.text = "Agent, Group & Customer Information".localized()
         self.lblDocumentInfoTitle.text = "Policy Document’s & Information".localized()

@@ -249,7 +249,7 @@ extension LeadListVC: UITableViewDelegate, UITableViewDataSource {
 extension LeadListVC : checkInsuranceTypeDelegate, checkProposalDelegate{
     func checkInsuranceType(index: Int, insuranceType: String) {
         
-        if insuranceType == "HEALTH"{
+        if insuranceType == "HEALTH" || insuranceType == "HEALTH".localized(){
 //            let vc = HealthInsuranceVC.instantiate(fromAppStoryboard: .leadStoryboard)
 //            let info = leadListArr[index]
 //            vc.leadId = info.leadId ?? ""
@@ -261,21 +261,21 @@ extension LeadListVC : checkInsuranceTypeDelegate, checkProposalDelegate{
             vc.status = info.status ?? ""
             pushToVC(vc, animated: true)
             
-        }else if insuranceType == "TERM_LIFE"{
+        }else if insuranceType == "TERM_LIFE" || insuranceType == "TERM_LIFE".localized(){
             let vc = TermLifeVC.instantiate(fromAppStoryboard: .leadStoryboard)
             let info = leadListArr[index]
             vc.leadId = info.leadId ?? ""
            // vc.agentId = info.agentId ?? ""
             pushToVC(vc, animated: true)
             
-        }else if insuranceType == "GENERAL"{
+        }else if insuranceType == "GENERAL" || insuranceType == "GENERAL".localized(){
             let vc = GeneralRequestVC.instantiate(fromAppStoryboard: .leadStoryboard)
             let info = leadListArr[index]
             vc.leadId = info.leadId ?? ""
             //vc.agentId = info.agentId ?? ""
             pushToVC(vc, animated: true)
             
-        }else if insuranceType == "TRAVEL"{
+        }else if insuranceType == "TRAVEL" || insuranceType == "TRAVEL".localized(){
 //            let vc = TravelInsuranceVC.instantiate(fromAppStoryboard: .leadStoryboard)
 //            let info = leadListArr[index]
 //            vc.leadId = info.leadId ?? ""
@@ -287,7 +287,7 @@ extension LeadListVC : checkInsuranceTypeDelegate, checkProposalDelegate{
             vc.status = info.status ?? ""
             pushToVC(vc, animated: true)
             
-        }else if insuranceType == "BUILDING"{
+        }else if insuranceType == "BUILDING" || insuranceType == "BUILDING".localized(){
             let vc = BuildingFormVC.instantiate(fromAppStoryboard: .Forms)
             let info = leadListArr[index]
             vc.leadId = info.leadId ?? ""
@@ -295,7 +295,7 @@ extension LeadListVC : checkInsuranceTypeDelegate, checkProposalDelegate{
             vc.status = info.status ?? ""
             pushToVC(vc, animated: true)
             
-        }else if insuranceType == "BUSINESS_LEGAL_PROTECTION"{
+        }else if insuranceType == "BUSINESS_LEGAL_PROTECTION" || insuranceType == "BUSINESS_LEGAL_PROTECTION".localized(){
             let vc = LegalProtectionBusinessFormVC.instantiate(fromAppStoryboard: .Forms)
             let info = leadListArr[index]
             vc.leadId = info.leadId ?? ""
@@ -303,7 +303,7 @@ extension LeadListVC : checkInsuranceTypeDelegate, checkProposalDelegate{
             vc.agentId = info.agentId ?? ""
             pushToVC(vc, animated: true)
             
-        }else if insuranceType == "THIRD_PILLAR"{
+        }else if insuranceType == "THIRD_PILLAR" || insuranceType == "THIRD_PILLAR".localized(){
             let vc = ThirdPillarFormVC.instantiate(fromAppStoryboard: .Forms)
             let info = leadListArr[index]
             vc.leadId = info.leadId ?? ""
@@ -311,14 +311,14 @@ extension LeadListVC : checkInsuranceTypeDelegate, checkProposalDelegate{
             vc.agentId = info.agentId ?? ""
             pushToVC(vc, animated: true)
             
-        } else if insuranceType == "BUSINESS_COMPANY_THINGS"{
+        } else if insuranceType == "BUSINESS_COMPANY_THINGS" || insuranceType == "BUSINESS_COMPANY_THINGS".localized(){
             let vc = CompaniesThingsVC.instantiate(fromAppStoryboard: .Forms)
             let info = leadListArr[index]
             vc.leadId = info.leadId ?? ""
             vc.status = info.status ?? ""
             vc.agentId = info.agentId ?? ""
             pushToVC(vc, animated: true)
-        }else if insuranceType == "ANIMAL"{
+        }else if insuranceType == "ANIMAL" || insuranceType == "ANIMAL".localized(){
             let vc = AnimalFormVC.instantiate(fromAppStoryboard: .Forms)
             let info = leadListArr[index]
             vc.leadId = info.leadId ?? ""
@@ -326,7 +326,7 @@ extension LeadListVC : checkInsuranceTypeDelegate, checkProposalDelegate{
             vc.agentId = info.agentId ?? ""
             pushToVC(vc, animated: true)
             
-        }else if insuranceType == "RC_HOUSEHOLD"{
+        }else if insuranceType == "RC_HOUSEHOLD" || insuranceType == "RC_HOUSEHOLD".localized(){
             let vc = HouseHoldRcVC.instantiate(fromAppStoryboard: .Forms)
             let info = leadListArr[index]
             vc.leadId = info.leadId ?? ""
@@ -334,7 +334,7 @@ extension LeadListVC : checkInsuranceTypeDelegate, checkProposalDelegate{
             vc.agentId = info.agentId ?? ""
             pushToVC(vc, animated: true)
             
-        }else if insuranceType == "HOUSING_RENTAL"{
+        }else if insuranceType == "HOUSING_RENTAL" || insuranceType == "HOUSING_RENTAL".localized(){
             let vc = HousingRentalVC.instantiate(fromAppStoryboard: .Forms)
             let info = leadListArr[index]
             vc.leadId = info.leadId ?? ""
@@ -342,14 +342,14 @@ extension LeadListVC : checkInsuranceTypeDelegate, checkProposalDelegate{
             vc.agentId = info.agentId ?? ""
             pushToVC(vc, animated: true)
             
-        }else if insuranceType == "QUOTATION_REQUEST"{
+        }else if insuranceType == "QUOTATION_REQUEST" || insuranceType == "QUOTATION_REQUEST".localized(){
             let vc = QuotationFormVC.instantiate(fromAppStoryboard: .Forms)
             let info = leadListArr[index]
             vc.leadId = info.leadId ?? ""
             vc.agentId = info.agentId ?? ""
             pushToVC(vc, animated: true)
             
-        }else if insuranceType == "LEGAL_PROTECTION"{
+        }else if insuranceType == "LEGAL_PROTECTION" || insuranceType == "LEGAL_PROTECTION".localized(){
             let vc = LegalProtectionVC.instantiate(fromAppStoryboard: .Forms)
             let info = leadListArr[index]
             vc.leadId = info.leadId ?? ""
@@ -357,7 +357,7 @@ extension LeadListVC : checkInsuranceTypeDelegate, checkProposalDelegate{
             vc.agentId = info.agentId ?? ""
             pushToVC(vc, animated: true)
             
-        }else if insuranceType == "MOTOR_VEHICLE"{
+        }else if insuranceType == "MOTOR_VEHICLE" || insuranceType == "MOTOR_VEHICLE".localized(){
             let vc = MotorVehicleFormVC.instantiate(fromAppStoryboard: .Forms)
             let info = leadListArr[index]
             vc.leadId = info.leadId ?? ""
@@ -365,7 +365,7 @@ extension LeadListVC : checkInsuranceTypeDelegate, checkProposalDelegate{
             vc.agentId = info.agentId ?? ""
             pushToVC(vc, animated: true)
             
-        }else if insuranceType == "CONSTRUCTION"{
+        }else if insuranceType == "CONSTRUCTION" || insuranceType == "CONSTRUCTION".localized(){
             let vc = ConstructionVC.instantiate(fromAppStoryboard: .Forms)
             let info = leadListArr[index]
             vc.leadId = info.leadId ?? ""
