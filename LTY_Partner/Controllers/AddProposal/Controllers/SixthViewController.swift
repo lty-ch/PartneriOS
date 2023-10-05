@@ -299,7 +299,7 @@ extension SixthViewController : UINavigationControllerDelegate, UIDocumentMenuDe
                 let success = json["status"].stringValue
                 if success  == "SUCCESS"
                 {
-                    let url = json["data"]["docUrl"].stringValue
+                    let url = json["data"]["key"].stringValue
                     self.policyDocsArr.add(url)
                     DispatchQueue.main.async {
                         self.showToast(message: "Image upload successfully.", font: FontSize.size14!)
@@ -410,9 +410,15 @@ extension SixthViewController: UICollectionViewDelegate, UICollectionViewDataSou
          let pathExtention = filename.pathExtension
          
         if pathExtention == "pdf" || pathExtention == "docx" || pathExtention == "doc"{
-             if let url = URL(string:policyDocsArr[indexPath.row] as! String) {
-                 UIApplication.shared.open(url)
-             }
+            
+            let vc = ViewAttachmentsVC.instantiate(fromAppStoryboard: .home)
+            let info = policyDocsArr[indexPath.row] as! String
+            vc.attachmentStr = info
+            self.presentVC(vc, animated: true, presentationStyle: .pageSheet)
+
+//             if let url = URL(string:policyDocsArr[indexPath.row] as! String) {
+//                 UIApplication.shared.open(url)
+//             }
          }else{
              let vc = ViewImageVC.instantiate(fromAppStoryboard: .proposalStoryboard)
              vc.image = policyDocsArr[indexPath.row] as! String

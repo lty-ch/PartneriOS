@@ -66,16 +66,15 @@ extension ProposalDetailVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = policyTableView.dequeueReusableCell(withIdentifier: "ProposalDetailPolicyTableCell", for: indexPath) as! ProposalDetailPolicyTableCell
-        
-//        cell.cellLbl.text = (self.policyDocsArr[indexPath.row] as! String)
-        let data = (self.policyDocsArr[indexPath.row] as! String)
-        if let lastSlashIndex = data.lastIndex(of: "/") {
-            let fileName = String(data[data.index(after: lastSlashIndex)...])
-            cell.cellLbl.text = fileName
-            //            print("File Name: \(fileName)")
-        } else {
-            print("Invalid URL format")
-        }
+                cell.cellLbl.text = (self.policyDocsArr[indexPath.row] as! String)
+//        let data = (self.policyDocsArr[indexPath.row] as! String)
+//        if let lastSlashIndex = data.lastIndex(of: "/") {
+//            let fileName = String(data[data.index(after: lastSlashIndex)...])
+//            cell.cellLbl.text = fileName
+//            //            print("File Name: \(fileName)")
+//        } else {
+//            print("Invalid URL format")
+//        }
         cell.selectionStyle = .none
         return cell
     }
@@ -92,10 +91,15 @@ extension ProposalDetailVC: UITableViewDelegate, UITableViewDataSource {
         let pathExtention = filename.pathExtension
         
         if pathExtention == "pdf" || pathExtention == "docx" || pathExtention == "doc"{
-            //hideImageView(isHidden: true)
-            if let url = URL(string:policyDocsArr[indexPath.row] as! String) {
-                UIApplication.shared.open(url)
-            }
+            
+            let vc = ViewAttachmentsVC.instantiate(fromAppStoryboard: .home)
+            let info = policyDocsArr[indexPath.row] as! String
+            vc.attachmentStr = info
+            self.presentVC(vc, animated: true, presentationStyle: .pageSheet)
+
+//            if let url = URL(string:policyDocsArr[indexPath.row] as! String) {
+//                UIApplication.shared.open(url)
+//            }
         }else{
             let vc = ViewImageVC.instantiate(fromAppStoryboard: .proposalStoryboard)
             vc.image = policyDocsArr[indexPath.row] as! String

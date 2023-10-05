@@ -174,23 +174,26 @@ class CustomerProfileVC: UIViewController {
             self.registerFrontId = registrationIdArr[0] ?? ""
             self.registerBackId = registrationIdArr[1] ?? ""
             
-            let data = self.registerFrontId
-            if let lastSlashIndex = data.lastIndex(of: "/") {
-                let fileName = String(data[data.index(after: lastSlashIndex)...])
-                self.lblRegistrationIdFront.text = fileName
-                //            print("File Name: \(fileName)")
-            } else {
-                print("Invalid URL format")
-            }
+                self.lblRegistrationIdFront.text = self.registerFrontId
+//            let data = self.registerFrontId
+//            if let lastSlashIndex = data.lastIndex(of: "/") {
+//                let fileName = String(data[data.index(after: lastSlashIndex)...])
+//                self.lblRegistrationIdFront.text = fileName
+//                //            print("File Name: \(fileName)")
+//            } else {
+//                print("Invalid URL format")
+//            }
             
-            let data1 = self.registerBackId
-            if let lastSlashIndex = data1.lastIndex(of: "/") {
-                let fileName = String(data1[data1.index(after: lastSlashIndex)...])
-                self.lblRegistrationIdBack.text = fileName
-                //            print("File Name: \(fileName)")
-            } else {
-                print("Invalid URL format")
-            }
+                self.lblRegistrationIdFront.text = self.registerBackId
+                
+//            let data1 = self.registerBackId
+//            if let lastSlashIndex = data1.lastIndex(of: "/") {
+//                let fileName = String(data1[data1.index(after: lastSlashIndex)...])
+//                self.lblRegistrationIdBack.text = fileName
+//                //            print("File Name: \(fileName)")
+//            } else {
+//                print("Invalid URL format")
+//            }
         }
       
     }
@@ -201,9 +204,15 @@ class CustomerProfileVC: UIViewController {
         let pathExtention = filename.pathExtension
         
         if pathExtention == "pdf" || pathExtention == "docx" || pathExtention == "doc"{
-            if let url = URL(string:registerFrontId) {
-                UIApplication.shared.open(url)
-            }
+            
+            
+            let vc = ViewAttachmentsVC.instantiate(fromAppStoryboard: .home)
+            vc.attachmentStr = registerFrontId
+            self.presentVC(vc, animated: true, presentationStyle: .pageSheet)
+            
+//            if let url = URL(string:registerFrontId) {
+//                UIApplication.shared.open(url)
+//            }
         }else{
             
           
@@ -227,9 +236,13 @@ class CustomerProfileVC: UIViewController {
         let pathExtention = filename.pathExtension
         
         if pathExtention == "pdf" || pathExtention == "docx" || pathExtention == "doc"{
-            if let url = URL(string:registerBackId) {
-                UIApplication.shared.open(url)
-            }
+            
+            let vc = ViewAttachmentsVC.instantiate(fromAppStoryboard: .home)
+            vc.attachmentStr = registerBackId
+            self.presentVC(vc, animated: true, presentationStyle: .pageSheet)
+//            if let url = URL(string:registerBackId) {
+//                UIApplication.shared.open(url)
+//            }
         }else{
             let vc = ViewAttachmentsVC.instantiate(fromAppStoryboard: .home)
             vc.attachmentStr = registerBackId//self.textPrivateCriminalRecord.text!

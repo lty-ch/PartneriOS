@@ -35,9 +35,14 @@ extension AddExistingContractsVC : UITableViewDelegate,UITableViewDataSource  {
         let pathExtention = filename.pathExtension
         
         if pathExtention == "pdf" || pathExtention == "docx" || pathExtention == "doc"{
-            if let url = URL(string:uploadDocArr[indexPath.row] as! String) {
-                UIApplication.shared.open(url)
-            }
+            
+            let vc = ViewAttachmentsVC.instantiate(fromAppStoryboard: .home)
+            let info = uploadDocArr[indexPath.row] as! String
+            vc.attachmentStr = info
+            self.presentVC(vc, animated: true, presentationStyle: .pageSheet)
+//            if let url = URL(string:uploadDocArr[indexPath.row] as! String) {
+//                UIApplication.shared.open(url)
+//            }
         }else{
             let vc = ViewImageVC.instantiate(fromAppStoryboard: .proposalStoryboard)
             vc.image = uploadDocArr[indexPath.row] as! String

@@ -583,29 +583,29 @@ extension SubmissionDetailVC: UITableViewDelegate, UITableViewDataSource {
         if tableView == self.uploadDocTable {
             let cell = uploadDocTable.dequeueReusableCell(withIdentifier: "ProposalDetailPolicyTableCell", for: indexPath) as! ProposalDetailPolicyTableCell
             
-//            cell.cellLbl.text = (self.docArr[indexPath.row])
-            let data = (self.docArr[indexPath.row] as! String)
-            if let lastSlashIndex = data.lastIndex(of: "/") {
-                let fileName = String(data[data.index(after: lastSlashIndex)...])
-                cell.cellLbl.text = fileName
-                //            print("File Name: \(fileName)")
-            } else {
-                print("Invalid URL format")
-            }
+           cell.cellLbl.text = (self.docArr[indexPath.row])
+//            let data = (self.docArr[indexPath.row] as! String)
+//            if let lastSlashIndex = data.lastIndex(of: "/") {
+//                let fileName = String(data[data.index(after: lastSlashIndex)...])
+//                cell.cellLbl.text = fileName
+//                //            print("File Name: \(fileName)")
+//            } else {
+//                print("Invalid URL format")
+//            }
             cell.selectionStyle = .none
             return cell
         } else {
             let cell = uploadDocTable.dequeueReusableCell(withIdentifier: "ProposalDetailPolicyTableCell", for: indexPath) as! ProposalDetailPolicyTableCell
             
-//            cell.cellLbl.text = (self.policyDocArr[indexPath.row])
-            let data = (self.policyDocArr[indexPath.row] as! String)
-            if let lastSlashIndex = data.lastIndex(of: "/") {
-                let fileName = String(data[data.index(after: lastSlashIndex)...])
-                cell.cellLbl.text = fileName
-                //            print("File Name: \(fileName)")
-            } else {
-                print("Invalid URL format")
-            }
+            cell.cellLbl.text = (self.policyDocArr[indexPath.row])
+//            let data = (self.policyDocArr[indexPath.row] as! String)
+//            if let lastSlashIndex = data.lastIndex(of: "/") {
+//                let fileName = String(data[data.index(after: lastSlashIndex)...])
+//                cell.cellLbl.text = fileName
+//                //            print("File Name: \(fileName)")
+//            } else {
+//                print("Invalid URL format")
+//            }
             cell.selectionStyle = .none
             return cell
         }
@@ -628,10 +628,13 @@ extension SubmissionDetailVC: UITableViewDelegate, UITableViewDataSource {
          let pathExtention = filename.pathExtension
          
         if pathExtention == "pdf" || pathExtention == "docx" || pathExtention == "doc"{
-             //hideImageView(isHidden: true)
-             if let url = URL(string:filename as String) {
-                 UIApplication.shared.open(url)
-             }
+           
+            let vc = ViewAttachmentsVC.instantiate(fromAppStoryboard: .home)
+            vc.attachmentStr = filename as String
+            self.presentVC(vc, animated: true, presentationStyle: .pageSheet)
+//             if let url = URL(string:filename as String) {
+//                 UIApplication.shared.open(url)
+//             }
          }else{
              let vc = ViewImageVC.instantiate(fromAppStoryboard: .proposalStoryboard)
              vc.image = filename as String
@@ -826,7 +829,7 @@ extension SubmissionDetailVC : UINavigationControllerDelegate, UIDocumentMenuDel
             if success  == "SUCCESS"
             {
                 self.policyDocArr.removeAll()
-                let url = json["data"]["docUrl"].stringValue
+                let url = json["data"]["key"].stringValue
                 
                 self.policyDocArr.append(url)
                 DispatchQueue.main.async {

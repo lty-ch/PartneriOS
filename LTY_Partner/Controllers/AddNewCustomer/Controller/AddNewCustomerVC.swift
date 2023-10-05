@@ -1271,24 +1271,26 @@ class AddNewCustomerVC: UIViewController, SetDrpDownText,SetInsurerList{
             textShowInsurerDoc.text = arr.componentsJoined(by: ",")
             
            // memberIdArr =
-            
-            let data = self.registerFrontId
-            if let lastSlashIndex = data.lastIndex(of: "/") {
-                let fileName = String(data[data.index(after: lastSlashIndex)...])
-                self.textShowFrontDoc.text = fileName
-                //            print("File Name: \(fileName)")
-            } else {
-                print("Invalid URL format")
-            }
-            
-            let data1 = self.registerBackId
-            if let lastSlashIndex = data1.lastIndex(of: "/") {
-                let fileName = String(data1[data1.index(after: lastSlashIndex)...])
-                self.textShowBackDoc.text = fileName
-                //            print("File Name: \(fileName)")
-            } else {
-                print("Invalid URL format")
-            }
+                self.textShowFrontDoc.text = self.registerFrontId
+//            let data = self.registerFrontId
+//            if let lastSlashIndex = data.lastIndex(of: "/") {
+//                let fileName = String(data[data.index(after: lastSlashIndex)...])
+//                self.textShowFrontDoc.text = fileName
+//                //            print("File Name: \(fileName)")
+//            } else {
+//                print("Invalid URL format")
+//            }
+//
+                
+                self.textShowFrontDoc.text = self.registerBackId
+//            let data1 = self.registerBackId
+//            if let lastSlashIndex = data1.lastIndex(of: "/") {
+//                let fileName = String(data1[data1.index(after: lastSlashIndex)...])
+//                self.textShowBackDoc.text = fileName
+//                //            print("File Name: \(fileName)")
+//            } else {
+//                print("Invalid URL format")
+//            }
         }
         //  self.textShowDoc.text = self.customerObj?.registrationId ?? ""
     }

@@ -15,6 +15,9 @@ class ViewAttachmentsVC: UIViewController, WKUIDelegate {
     
     @IBOutlet weak var btnDawnload: UIButton!
     var attachmentStr = ""
+    var dawnloadStringUrl = ""
+    var showImageViewModel = ShowImageViewModel()
+
     var webView: WKWebView!
     /*
     override func loadView() {
@@ -29,30 +32,68 @@ class ViewAttachmentsVC: UIViewController, WKUIDelegate {
 
         self.btnDawnload.layer.cornerRadius = 5
         self.btnDawnload.setTitle("Dawnload".localized(), for: .normal)
-        myWebView.uiDelegate = self
-        self.dsa()
+//        myWebView.uiDelegate = self
+       // self.dsa()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        myWebView.uiDelegate = self
+        showImageViewModel.delegate = self
+
+        let param : [String:Any] = ["key":attachmentStr ]
+        showImageViewModel.ViewImageApi(param: param)
+    }
+    
     
     @IBAction func btnDawnloadaction(_ sender: UIButton) {
         
-        let myHTTPUrl = self.attachmentStr
+       // let myHTTPUrl = self.attachmentStr
+        let myHTTPUrl = self.dawnloadStringUrl
         savefile(urlString: myHTTPUrl,viewController: self)
     }
     
-    public func dsa() {
+    public func dsa(_ url:String) {
         
-        let url : NSString = self.attachmentStr as NSString
-        let urlStr : NSString = url.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)! as NSString
-        let searchURL : NSURL = NSURL(string: urlStr as String)!
+//        let url : NSString = url as NSString//self.attachmentStr as NSString
+//        let urlStr : NSString = url.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)! as NSString
+//        let searchURL : NSURL = NSURL(string: urlStr as String)!
+//
+//        let requestObj = URLRequest(url: searchURL as URL)
         
-        let requestObj = URLRequest(url: searchURL as URL)
-        myWebView.load(requestObj)
+        let myURL = URL(string:url)
+        let myRequest = URLRequest(url: myURL!)
+
+        myWebView.load(myRequest)
         
     }
     
    
 }
 
+extension ViewAttachmentsVC : ShowImageViewProtocolDelegate{
+    func showImage(data: ShowImageModel) {
+        print(data)
+        DispatchQueue.main.async {
+//            let myURL = URL(string:"https://lty-devaccount-data-s3.s3.eu-central-2.amazonaws.com/dev/app/document-store/739381bd-9412-4a93-b699-de9a336e3d0c.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231005T125019Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAUASVP7SX4UD2PHDF%2F20231005%2Feu-central-2%2Fs3%2Faws4_request&X-Amz-Signature=108ef589ecceaa65d44cfca075d89bde3522037f381552cb2c2e0f981dbb569e")
+//                   let myRequest = URLRequest(url: myURL!)
+//            self.myWebView.load(myRequest)
+            
+            self.dawnloadStringUrl = data.data?.preSignedUrl ?? ""
+            self.dsa(data.data?.preSignedUrl ?? "")
+        }
+       
+    
+    
+    }
+    
+    func popupMsg(msg: String) {
+        DispatchQueue.main.async {
+            self.ShowAlert(message: msg)
+        }
+    }
+    
+    
+}
 extension ViewAttachmentsVC {
     
     func getCurrentMillis()->Int64 {

@@ -327,7 +327,7 @@ extension DocDetailVC : UINavigationControllerDelegate, UIDocumentMenuDelegate, 
             if success  == "SUCCESS"
             {
 //                self.policyDocArr.removeAll()
-//                let url = json["data"]["docUrl"].stringValue
+//                let url = json["data"]["key"].stringValue
 //
 //                self.policyDocArr.append(url)
                 DispatchQueue.main.async {

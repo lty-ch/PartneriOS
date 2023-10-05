@@ -207,7 +207,7 @@ extension AddExistingContractsVC : UINavigationControllerDelegate, UIDocumentMen
             if success  == "SUCCESS"
             {
                 self.uploadDocArr.removeAll()
-                let url = json["data"]["docUrl"].stringValue
+                let url = json["data"]["key"].stringValue
                 let docName = json["data"]["docName"].stringValue
 
                 self.uploadDocArr.append(url)

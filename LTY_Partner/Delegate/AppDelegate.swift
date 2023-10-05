@@ -131,6 +131,12 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         
         print("user npt")
+//        let content = response.notification.request.content.userInfo
+//           print(content)
+//           if let aps = content["aps"] as? [String: AnyObject] {
+//               let myValue = aps["deepLink"]
+//               // DO STUFF, in myValue you will find your custom data
+//           }
 //        DispatchQueue.main.async{
 //
 //            if let rootViewController = self.window?.rootViewController as? UINavigationController {

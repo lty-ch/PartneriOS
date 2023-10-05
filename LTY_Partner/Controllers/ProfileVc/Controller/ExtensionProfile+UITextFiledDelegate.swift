@@ -212,7 +212,7 @@ extension ProfileVC : UINavigationControllerDelegate, UIDocumentMenuDelegate, UI
             
             if success  == "SUCCESS"{
                 
-                let url = json["data"]["docUrl"].stringValue
+                let url = json["data"]["key"].stringValue
                 
                 DispatchQueue.main.async {
                     self.profileImage = url
@@ -249,7 +249,7 @@ extension ProfileVC : UINavigationControllerDelegate, UIDocumentMenuDelegate, UI
                 let success = json["status"].stringValue
                 if success  == "SUCCESS"
                 {
-                    let url = json["data"]["docUrl"].stringValue
+                    let url = json["data"]["key"].stringValue
                     DispatchQueue.main.async {
                         if self.selectedTxtFieldTag == 601{
                             print("CriminalRecord")

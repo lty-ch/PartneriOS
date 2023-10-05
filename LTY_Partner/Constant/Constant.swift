@@ -39,6 +39,8 @@ struct LTY_BASE_URL {
     static let BASE_URL_CATEGORY = "https://catalogue.dev.ltytech.ch/api/catalogue/v1/category/"
     static let DOCUMENT_BASE_URL  = "https://document-store.dev.ltytech.ch/"
     static let DOCUMENT_UPLOAD_URL =  "https://document-store.dev.ltytech.ch/api/document-store/v1/upload"
+    static let SHOW_DOCUMENT_URL =  "https://document-store.dev.ltytech.ch/api/document-store/v1/get/presigned"
+  
      
 
     static let BASE_URL_IDENTITY = "https://identity.dev.ltytech.ch/api/ims/v1/"
@@ -59,7 +61,7 @@ struct LTY_BASE_URL {
     static let BASE_URL_CATEGORY = "https://apigateway.dev.ltytech.ch/api/catalogue/v1/category/"
     static let DOCUMENT_BASE_URL  = "https://apigateway.dev.ltytech.ch/"
     static let DOCUMENT_UPLOAD_URL =  "https://apigateway.dev.ltytech.ch/api/document-store/v1/upload"
-
+    static let SHOW_DOCUMENT_URL =  "https://apigateway.dev.ltytech.ch/api/document-store/v1/get/presigned"
 
     static let BASE_URL_IDENTITY = "https://apigateway.dev.ltytech.ch/api/ims/v1/"
     static let BASE_URL_INSURANCE = "https://apigateway.dev.ltytech.ch/api/insurance/v1/"
@@ -77,7 +79,7 @@ struct LTY_BASE_URL {
     static let BASE_URL_CATEGORY = "https://catalogue.prod.ltytech.ch/api/catalogue/v1/category/"
     static let DOCUMENT_BASE_URL  = "https://document-store.prod.ltytech.ch/"
     static let DOCUMENT_UPLOAD_URL =  "https://document-store.prod.ltytech.ch/api/document-store/v1/upload"
-
+   static let SHOW_DOCUMENT_URL =  "https://document-store.prod.ltytech.ch/api/document-store/v1/get/presigned"
 
     static let BASE_URL_IDENTITY = "https://identity.prod.ltytech.ch/api/ims/v1/"
     static let BASE_URL_INSURANCE = "https://insurance-aggregator.prod.ltytech.ch/api/insurance/v1/"
@@ -100,6 +102,7 @@ struct LTY_BASE_URL {
     static let BASE_URL_CATEGORY = "https://catalogue.stage.ltytech.ch/api/catalogue/v1/category/"
     static let DOCUMENT_BASE_URL  = "https://document-store.stage.ltytech.ch/"
     static let DOCUMENT_UPLOAD_URL =  "https://document-store.stage.ltytech.ch/api/document-store/v1/upload"
+    static let SHOW_DOCUMENT_URL =  "https://document-store.stage.ltytech.ch/api/document-store/v1/get/presigned"
 
 
     static let BASE_URL_IDENTITY = "https://identity.stage.ltytech.ch/api/ims/v1/"

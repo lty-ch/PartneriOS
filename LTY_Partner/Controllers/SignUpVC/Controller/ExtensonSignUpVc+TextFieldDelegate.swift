@@ -197,7 +197,7 @@ extension SignUpVC : UINavigationControllerDelegate, UIDocumentMenuDelegate, UID
             let success = json["status"].stringValue
             if success  == "SUCCESS"
             {
-                let url = json["data"]["docUrl"].stringValue
+                let url = json["data"]["key"].stringValue
                 DispatchQueue.main.async {
                     tf.text = url
                 }

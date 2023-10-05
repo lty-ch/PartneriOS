@@ -192,23 +192,24 @@ extension AddNewCustomerVC : UITextFieldDelegate,UINavigationControllerDelegate,
             let success = json["status"].stringValue
             if success  == "SUCCESS"
             {
-                let url = json["data"]["docUrl"].stringValue
+                let url = json["data"]["key"].stringValue
                 if tf == self.textShowFrontDoc {
                     self.registerFrontId = url
                 } else {
                     self.registerBackId = url
                 }
-                let data = url
-                if let lastSlashIndex = data.lastIndex(of: "/") {
-                    let fileName = String(data[data.index(after: lastSlashIndex)...])
-                    DispatchQueue.main.async {
-                        tf.text = fileName
-                    }
-                    
-                    //            print("File Name: \(fileName)")
-                } else {
-                    print("Invalid URL format")
-                }
+                tf.text = url
+//                let data = url
+//                if let lastSlashIndex = data.lastIndex(of: "/") {
+//                    let fileName = String(data[data.index(after: lastSlashIndex)...])
+//                    DispatchQueue.main.async {
+//                        tf.text = fileName
+//                    }
+//
+//                    //            print("File Name: \(fileName)")
+//                } else {
+//                    print("Invalid URL format")
+//                }
                 
                 
             } else {

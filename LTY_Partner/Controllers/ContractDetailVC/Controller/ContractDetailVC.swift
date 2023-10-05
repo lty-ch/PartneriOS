@@ -419,14 +419,14 @@ extension ContractDetailVC : UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = docTableView.dequeueReusableCell(withIdentifier: "ContractDocCell", for: indexPath) as! ContractDocCell
         cell.selectionStyle = .none
-        
-        let data = self.downloadStr[indexPath.row]
-        if let lastSlashIndex = data.lastIndex(of: "/") {
-            let fileName = String(data[data.index(after: lastSlashIndex)...])
-            cell.cellLbl.text = fileName          //            print("File Name: \(fileName)")
-        } else {
-            print("Invalid URL format")
-        }
+        cell.cellLbl.text = (self.downloadStr[indexPath.row] as! String)
+//        let data = self.downloadStr[indexPath.row]
+//        if let lastSlashIndex = data.lastIndex(of: "/") {
+//            let fileName = String(data[data.index(after: lastSlashIndex)...])
+//            cell.cellLbl.text = fileName          //            print("File Name: \(fileName)")
+//        } else {
+//            print("Invalid URL format")
+//        }
         
        // cell.cellLbl.text = self.downloadStr[indexPath.row]
         
@@ -444,9 +444,15 @@ extension ContractDetailVC : UITableViewDelegate,UITableViewDataSource{
         let pathExtention = filename.pathExtension
         
         if pathExtention == "pdf" || pathExtention == "docx" || pathExtention == "doc"{
-            if let url = URL(string:downloadStr[sender.tag] as! String) {
-                UIApplication.shared.open(url)
-            }
+            
+            let vc = ViewAttachmentsVC.instantiate(fromAppStoryboard: .home)
+            let info = downloadStr[sender.tag]  as! String
+            vc.attachmentStr = info
+            self.presentVC(vc, animated: true, presentationStyle: .pageSheet)
+            
+//            if let url = URL(string:downloadStr[sender.tag] as! String) {
+//                UIApplication.shared.open(url)
+//            }
         }else{
             let vc = ViewImageVC.instantiate(fromAppStoryboard: .proposalStoryboard)
             vc.image = downloadStr[sender.tag] as! String

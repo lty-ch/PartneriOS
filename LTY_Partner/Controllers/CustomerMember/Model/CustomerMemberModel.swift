@@ -75,6 +75,6 @@ struct CustMemberDocDataClass:Codable {
 // MARK: - DocList
 struct CustMemberDocDocList:Codable {
     let id: Int?
-    let userId, memberId, docName, docUrl: String?
+    let userId, memberId, docName, docUrl, key: String?
     let uploadedOn, uploadedBy: String?
 }

@@ -259,6 +259,8 @@
 		684109E22A40460F00E9D3A0 /* custMemberContractCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684109D92A40460F00E9D3A0 /* custMemberContractCell.swift */; };
 		684109E62A40560E00E9D3A0 /* SubmissionDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684109E52A40560E00E9D3A0 /* SubmissionDetailVC.swift */; };
 		684990EA2A03F31800918D80 /* ForgotPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684990E92A03F31800918D80 /* ForgotPassVC.swift */; };
+		6849C76D2ACEC6BB00976AAC /* ShowImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6849C76C2ACEC6BB00976AAC /* ShowImageViewModel.swift */; };
+		6849C76F2ACEC6CE00976AAC /* ShowImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6849C76E2ACEC6CE00976AAC /* ShowImageModel.swift */; };
 		68523CE82A039023007B7320 /* GetStartScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68523CE72A039023007B7320 /* GetStartScreenVC.swift */; };
 		68523CED2A039502007B7320 /* GetStartedCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68523CEB2A039502007B7320 /* GetStartedCVC.swift */; };
 		68523CEE2A039502007B7320 /* GetStartedCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68523CEC2A039502007B7320 /* GetStartedCVC.xib */; };
@@ -1043,6 +1045,8 @@
 		684109D92A40460F00E9D3A0 /* custMemberContractCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = custMemberContractCell.swift; sourceTree = "<group>"; };
 		684109E52A40560E00E9D3A0 /* SubmissionDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmissionDetailVC.swift; sourceTree = "<group>"; };
 		684990E92A03F31800918D80 /* ForgotPassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassVC.swift; sourceTree = "<group>"; };
+		6849C76C2ACEC6BB00976AAC /* ShowImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageViewModel.swift; sourceTree = "<group>"; };
+		6849C76E2ACEC6CE00976AAC /* ShowImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageModel.swift; sourceTree = "<group>"; };
 		68523CE72A039023007B7320 /* GetStartScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartScreenVC.swift; sourceTree = "<group>"; };
 		68523CEB2A039502007B7320 /* GetStartedCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedCVC.swift; sourceTree = "<group>"; };
 		68523CEC2A039502007B7320 /* GetStartedCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GetStartedCVC.xib; sourceTree = "<group>"; };
@@ -2509,7 +2513,9 @@
 		45A098832A28875D00D46E84 /* ViewAttachments */ = {
 			isa = PBXGroup;
 			children = (
-				45A098842A28877800D46E84 /* ViewAttachmentsVC.swift */,
+				6849C76B2ACEC68C00976AAC /* Model */,
+				6849C7692ACEC67700976AAC /* ViewModel */,
+				6849C76A2ACEC68200976AAC /* Controller */,
 			);
 			path = ViewAttachments;
 			sourceTree = "<group>";
@@ -3065,6 +3071,30 @@
 				686CAF302A0E46080056FA32 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6849C7692ACEC67700976AAC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6849C76C2ACEC6BB00976AAC /* ShowImageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6849C76A2ACEC68200976AAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				45A098842A28877800D46E84 /* ViewAttachmentsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6849C76B2ACEC68C00976AAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6849C76E2ACEC6CE00976AAC /* ShowImageModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		68523CE62A038FBA007B7320 /* GetStartScreenVC */ = {
@@ -4587,6 +4617,7 @@
 				AF3DE5432A4182E20097F106 /* ContractDetailModel.swift in Sources */,
 				186DA82B2A1D553000F0DBF6 /* Extension+ManageAgentVCDelegate.swift in Sources */,
 				45B5E52A2A29FA2500258475 /* FirstViewController.swift in Sources */,
+				6849C76F2ACEC6CE00976AAC /* ShowImageModel.swift in Sources */,
 				68ACFD652A80D0340047D48D /* AnimalFormVC.swift in Sources */,
 				18EDAE632A14BF6A006FC54A /* UIStoryboardExtension.swift in Sources */,
 				688B02A72A33323100CA814B /* LeadListModel.swift in Sources */,
@@ -4681,6 +4712,7 @@
 				289E504B2A5E859E00B09C7C /* AllUsersVC.swift in Sources */,
 				181916DD2A1D0A6F008119B1 /* ProdunctsTableViewController.swift in Sources */,
 				68D64F7B2A5FEAD900E6462F /* FinStatementCell.swift in Sources */,
+				6849C76D2ACEC6BB00976AAC /* ShowImageViewModel.swift in Sources */,
 				455186CA2A2E0AB3004A5C79 /* MemberSelectVC.swift in Sources */,
 				1840BACA2A1611BC0084F853 /* NotificationVC.swift in Sources */,
 				684109C92A4044F800E9D3A0 /* SubmissionListTableViewCell.swift in Sources */,
@@ -5385,7 +5417,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = CA37YVB749;
-				EXCLUDED_ARCHS = arm64;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "LTY Business";
@@ -5493,7 +5525,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = CA37YVB749;
-				EXCLUDED_ARCHS = arm64;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "LTY Business";
@@ -5596,7 +5628,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = CA37YVB749;
-				EXCLUDED_ARCHS = arm64;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "LTY Business";
@@ -5699,7 +5731,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = CA37YVB749;
-				EXCLUDED_ARCHS = arm64;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "LTY Business";
@@ -5863,7 +5895,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = CA37YVB749;
-				EXCLUDED_ARCHS = arm64;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "LTY Business";
@@ -5910,7 +5942,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = CA37YVB749;
-				EXCLUDED_ARCHS = arm64;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LTY_Partner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "LTY Business";
