@@ -3,18 +3,17 @@
   LTY_Partner
 
   Created by shashivendra sengar on 20/06/23.
- self.lblTitleDriverEffectiveDate.text = "Effective Date".localized()
- self.lblTitleDriverType.text = "Type".localized()
- self.lblTitleDriverInfo.text = "Driver's Information".localized()
- self.lblHeadingMotarVichileInsurance.text = "Motor Vehicle Insuarance".localized()
- "Building Insurance"
- self.lblTitleYearConstruction.text = "Year of construction".localized()
- self.lblTitleSumInsured.text = "Sum insured".localized()if
- self.lblTitleCompAndpolicyNo.text = "Which company and policy number?".localized()
- self.lblTitleClaimasDamage.text = "Please specify the claims (damage, responsible, date, amount)".localized()
- 
+
 */
-// "In"
+"Effective Date" = "Date d'entrée en vigueur";
+"Type" = "Type";
+"Driver's Information" = "Informations du conducteur";
+"Motor Vehicle Insuarance" = "Assurance véhicule automobile";
+"Building Insurance" = "Assurance bâtiment";
+"Year of construction" = "Année de construction";
+"Sum insured" = "Somme assurée";
+"Which company and policy number?" = "Quelle entreprise et quel numéro de police ?";
+"Please specify the claims (damage, responsible, date, amount)" = "Veuillez préciser les sinistres (dommages, responsable, date, montant)";
 
 "HEALTH" = "SANTÉ";
 "TRAVEL" = "VOYAGE";
