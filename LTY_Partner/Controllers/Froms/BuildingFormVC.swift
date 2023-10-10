@@ -9,6 +9,20 @@ import UIKit
 
 class BuildingFormVC: UIViewController {
 // MarK:- Title Outlets
+    
+    @IBOutlet weak var reasonOfConstructionView: UIView!
+    @IBOutlet weak var companyPolicyView: UIView!
+    @IBOutlet weak var clameDamageView: UIView!
+    @IBOutlet weak var lblTitleCompAndpolicyNo: UILabel!
+    @IBOutlet weak var lblTitleClaimasDamage: UILabel!
+    @IBOutlet weak var lblTitleYearConstruction: UILabel!
+    @IBOutlet weak var lblTitleSumInsured: UILabel!
+    @IBOutlet weak var lblCompAndPolicyNo: UILabel!
+    @IBOutlet weak var lblClaimDamage: UILabel!
+    @IBOutlet weak var lblSumInsured: UILabel!
+    @IBOutlet weak var lblYearConstruction: UILabel!
+    @IBOutlet weak var lblHeadingBuildingInsurance: UILabel!
+    
     @IBOutlet weak var lblTitlePersnalInfo: UILabel!
     
     @IBOutlet weak var lblTitlePersnalInfoFullName: UILabel!
@@ -140,6 +154,15 @@ class BuildingFormVC: UIViewController {
     }
     
     func setLocalization () {
+        
+        self.lblTitleCompAndpolicyNo.text = "Which company and policy number?".localized()
+        self.lblTitleClaimasDamage.text = "Please specify the claims (damage, responsible, date, amount)".localized()
+        
+        self.lblTitleYearConstruction.text = "Year of construction".localized()
+        self.lblTitleSumInsured.text = "Sum insured".localized()
+        
+        self.lblHeadingBuildingInsurance.text = "Building Insurance".localized()
+        
         self.lblTitlePersnalInfo.text = "Personal Information".localized()
         self.lblTitlePersnalInfoFullName.text = "Full Name".localized()
         self.lblTitlePersnalInfoEmail.text = "Email".localized()
@@ -152,7 +175,7 @@ class BuildingFormVC: UIViewController {
         self.lblTitlePersnalInfoagent.text = "Agent".localized()
         self.lblTitleMemberInfoFullName.text = "Member name".localized()
         self.lblTitleMemberInfoRelation.text = "Relation".localized()
-        self.lblTitleMemberInfoInsuranceType.text = "insurance Type".localized()
+        self.lblTitleMemberInfoInsuranceType.text = "Insurance Type".localized()
 
       
         
@@ -186,7 +209,7 @@ class BuildingFormVC: UIViewController {
         self.lblHeadingQuestion.text = "Questionnaire (concerns the last 5 years)".localized()
 
         self.titlePastInsured.text = "Are you or were you in the past insured for the branches offered? If so, with which company, police no?".localized()
-        self.titleClaimDetails.text = "If not, what is the reason for this conclusion (change of ownership, new construction,…)?".localized()
+        self.titleClaimDetails.text = "what is the reason for this conclusion (change of ownership, new construction,…)?".localized()
         self.titleReason.text = "Have you suffered any claims in the proposed branches?".localized()
         self.titleAnyClaims.text = "Has there been any sanitation work carried out on the water network (all water pipes) or flat roofs of buildings to be insured in the last five years?".localized()
         self.titleRemarks.text = "Remarks".localized()
@@ -327,8 +350,13 @@ extension BuildingFormVC : SetBuildingInsuranceData {
         if data.status == "SUCCESS"{
             DispatchQueue.main.async {
                 
+                self.clameDamageView.isHidden = true
+                self.reasonOfConstructionView.isHidden = true
+                self.companyPolicyView.isHidden = true
                 
                 let persnalInfo = data.data?.memberDetails
+                
+               
                 let fName =  persnalInfo?.firstName?.capitalized   ?? ""
                 let lName =  persnalInfo?.lastName?.capitalized    ?? ""
                 
@@ -349,6 +377,7 @@ extension BuildingFormVC : SetBuildingInsuranceData {
                 
                 
                 let basicInfo = data.data?.memberDetails
+                self.civilStatusLblLbl.text = data.data?.metadata?.personalDetails.civilStatus
                 let fname =  basicInfo?.firstName?.capitalized   ?? ""
                 let lname =  basicInfo?.lastName?.capitalized    ?? ""
                 
@@ -360,6 +389,8 @@ extension BuildingFormVC : SetBuildingInsuranceData {
                 self.nationalityLbl.text = basicInfo?.country  ?? ""
                 self.dobLbl.text = basicInfo?.dob  ?? ""
                 
+                self.lblSumInsured.text = data.data?.metadata?.sumInsured ?? ""
+                self.lblYearConstruction.text = data.data?.metadata?.yearOfConstruction ?? ""
                 
                 
                 self.buildingTypeLbl.text = data.data?.metadata?.buildingType ?? ""
@@ -380,11 +411,29 @@ extension BuildingFormVC : SetBuildingInsuranceData {
                 self.numberOfTradeLbl.text = data.data?.metadata?.noOfTrade ?? ""
                 self.commerceAreaLbl.text = data.data?.metadata?.commercialArea ?? ""
                 
-                self.reason.text = data.data?.metadata?.reason ?? ""
-                self.claimDetails.text = data.data?.metadata?.claimDetails ?? ""
+        
+               // self.claimDetails.text = data.data?.metadata?.claimDetails ?? ""
                 self.anyClaims.text = data.data?.metadata?.anyClaims ?? ""
                 self.remarks.text = data.data?.metadata?.remarks ?? ""
+                
+                self.reason.text = data.data?.metadata?.reason ?? ""
+                if self.reason.text == "yes" {
+                    self.clameDamageView.isHidden = false
+                    self.lblClaimDamage.text = data.data?.metadata?.damage ?? ""
+                }else{
+                    self.clameDamageView.isHidden = true
+                }
                 self.pastInsured.text = data.data?.metadata?.pastInsured ?? ""
+                if  self.pastInsured.text == "yes"{
+                    self.reasonOfConstructionView.isHidden = true
+                    self.companyPolicyView.isHidden = false
+                    self.lblCompAndPolicyNo.text = data.data?.metadata?.companyName ?? ""
+                    
+                }else{
+                    self.reasonOfConstructionView.isHidden = false
+                    self.claimDetails.text = data.data?.metadata?.claimDetails ?? ""
+                    self.companyPolicyView.isHidden = true
+                }
             }
         }else{
             DispatchQueue.main.async {

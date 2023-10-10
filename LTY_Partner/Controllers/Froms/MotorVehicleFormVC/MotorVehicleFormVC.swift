@@ -9,6 +9,13 @@ import UIKit
 
 class MotorVehicleFormVC: UIViewController {
     
+    @IBOutlet weak var lblDriverType: UILabel!
+    @IBOutlet weak var lblDriverEffectiveDate: UILabel!
+    @IBOutlet weak var lblTitleDriverEffectiveDate: UILabel!
+    @IBOutlet weak var lblTitleDriverType: UILabel!
+    @IBOutlet weak var lblTitleDriverInfo: UILabel!
+    @IBOutlet weak var lblHeadingMotarVichileInsurance: UILabel!
+    
     @IBOutlet weak var personalEffectAmountView: UIView!
     @IBOutlet weak var damageAmountView: UIView!
     @IBOutlet weak var damageDateView: UIView!
@@ -334,6 +341,13 @@ class MotorVehicleFormVC: UIViewController {
     
     
     func setLocalization() {
+        
+        
+        self.lblTitleDriverEffectiveDate.text = "Effective Date".localized()
+        self.lblTitleDriverType.text = "Type".localized()
+        self.lblTitleDriverInfo.text = "Driver's Information".localized()
+        self.lblHeadingMotarVichileInsurance.text = "Motor Vehicle Insuarance".localized()
+        
         self.lblTitlePersnalInfo.text = "Personal Information".localized()
 
         self.lblTitlePersnalInfoFullName.text = "Full Name".localized()
@@ -425,7 +439,7 @@ class MotorVehicleFormVC: UIViewController {
         self.quizDateTitle.text = "Date".localized()
         self.quizAccidentAmountTitle.text = "Amount".localized()
         self.quizResponsibleTitle.text = "Responsible".localized()
-        self.quizResponsibleTypeTitle.text = "Responsible Type".localized()
+        self.quizResponsibleTypeTitle.text = "In".localized()
         self.quizCascoTitle.text = "Independently of the existence of a casco, have the vehicles belonging to you or driven by yourself already suffered damage?".localized()
         self.quizCascoDamageTypeTitle.text = "Damage Type".localized()
         self.quizCascoDateTitle.text = "Date".localized()
@@ -606,7 +620,12 @@ extension MotorVehicleFormVC : MotorVehicleProtocolData {
                 self.lblMemberInfoFullName.text = fname + " " + lname
                 
                 let metadata = data.data?.metadata
+                self.lblDriverType.text = metadata?.reqType ?? ""
+                
+                
+                
                 let info = data.data?.metadata?.personalDetails
+                self.lblDriverEffectiveDate.text = info?.effectiveDate ?? ""
                 let personalfname =  info?.firstName?.capitalized   ?? ""
                 let personallname =  info?.lastName?.capitalized    ?? ""
                 self.lblFullName.text = personalfname + " " + personallname

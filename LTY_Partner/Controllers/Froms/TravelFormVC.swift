@@ -112,7 +112,7 @@ class TravelFormVC: UIViewController {
         self.lblTitlePersnalInfoagent.text = "Agent".localized()
         self.lblTitleMemberInfoFullName.text = "Member name".localized()
         self.lblTitleMemberInfoRelation.text = "Relation".localized()
-        self.lblTitleMemberInfoInsuranceType.text = "insurance Type".localized()
+        self.lblTitleMemberInfoInsuranceType.text = "Insurance Type".localized()
 
 
         self.personsToBeInsuredlblTitle.text = "Persons to be Insured ".localized()

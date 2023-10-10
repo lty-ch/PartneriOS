@@ -49,6 +49,8 @@ class ViewAttachmentsVC: UIViewController, WKUIDelegate {
         
        // let myHTTPUrl = self.attachmentStr
         let myHTTPUrl = self.dawnloadStringUrl
+      //  let x = myHTTPUrl.components(separatedBy: "?")[0]
+        //let myHTTPUrl = "https://lty-platform.s3.eu-central-2.amazonaws.com/dev/document-store/98204d8d-b122-479f-9de3-c792e9c47900.pdf"
         savefile(urlString: myHTTPUrl,viewController: self)
     }
     

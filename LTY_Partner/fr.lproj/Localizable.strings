@@ -3,10 +3,18 @@
   LTY_Partner
 
   Created by shashivendra sengar on 20/06/23.
-
+ self.lblTitleDriverEffectiveDate.text = "Effective Date".localized()
+ self.lblTitleDriverType.text = "Type".localized()
+ self.lblTitleDriverInfo.text = "Driver's Information".localized()
+ self.lblHeadingMotarVichileInsurance.text = "Motor Vehicle Insuarance".localized()
+ "Building Insurance"
+ self.lblTitleYearConstruction.text = "Year of construction".localized()
+ self.lblTitleSumInsured.text = "Sum insured".localized()if
+ self.lblTitleCompAndpolicyNo.text = "Which company and policy number?".localized()
+ self.lblTitleClaimasDamage.text = "Please specify the claims (damage, responsible, date, amount)".localized()
+ 
 */
-//["HEALTH", "TRAVEL", "BUILDING", "MOTOR_VEHICLE", "RC_HOUSEHOLD", "LEGAL_PROTECTION", "CONSTRUCTION", "QUOTATION_REQUEST", "HOUSING_RENTAL", "ANIMAL", "THIRD_PILLAR"]
-//["BUSINESS_LEGAL_PROTECTION", "BUSINESS_INSURANCE_OFFER", "BUSINESS_COMPANY_THINGS"]
+// "In"
 
 "HEALTH" = "SANTÉ";
 "TRAVEL" = "VOYAGE";
@@ -521,7 +529,7 @@
 "Commercial area in m2"  = "Surface commerciale en m2";
 "Questionnaire (concerns the last 5 years)"  = "Questionnaire (concerne les 5 dernières années";
 "Are you or were you in the past insured for the branches offered? If so, with which company, police no?"  = "Êtes-vous ou avez-vous été assuré dans le passé pour les branches proposées ? Si oui, avec quelle compagnie, police non ?";
-"If not, what is the reason for this conclusion (change of ownership, new construction,…)?"  = "Si non, quelle est la raison de cette conclusion (changement de propriétaire, nouvelle construction,…)";
+"what is the reason for this conclusion (change of ownership, new construction,…)?"  = "quelle est la raison de cette conclusion (changement de propriétaire, nouvelle construction,…)";
 "Have you suffered any claims in the proposed branches?"  = "Avez-vous subi des sinistres dans les succursales proposées ?";
 "Has there been any sanitation work carried out on the water network (all water pipes) or flat roofs of buildings to be insured in the last five years?"  = "Y-a-t-il eu des travaux d'assainissement effectués au réseau d'eau (toutes conduites d'eau) ou toit plat de bâtiments à assurer au cours des cinq dernières années?";
 "Remarks"  = "Remarques";

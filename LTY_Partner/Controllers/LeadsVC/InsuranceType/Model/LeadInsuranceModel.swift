@@ -132,7 +132,7 @@ struct BuildingDataClass:Codable {
     let leadId, partnerId, partnerName, agentId: String?
     let agentName: String?
     let memberDetails: BuildingMemberDetails?
-    let memberId, memberName, relation, insuranceType: String?
+    let memberId, memberName, relation,insuranceType: String?
     let metadata: BuildingMetadata?
     let status: String?
     let proposalCount: Int?
@@ -153,14 +153,32 @@ struct BuildingMemberDetails :Codable{
 
 // MARK: - Metadata
 struct BuildingMetadata :Codable{
+    let personalDetails: BuildingPersonalDetails
     let type: String?
     let buildingType, securityMeasures, heatingSystem, sumInsured: String?
     let yearOfConstruction, typeOfConstruction, typeOfRoof: String?
     let benefits: [String]?
     let sum, franchise, use, noOfApartment: String?
     let noOfTrade, commercialArea, pastInsured, companyName: String?
-    let reason, anyClaims, claimDetails, remarks: String?
+    let reason, anyClaims, claimDetails, remarks, damage: String?
 }
+
+
+struct BuildingPersonalDetails:Codable {
+    let title, firstName, lastName: String?
+    let email, countryCode, mobile, fax: String?
+    let residencePermit: String?
+    let dob: String?
+    let streetNo: String?
+    let address: String?
+    let gender, city: String?
+    let nationality: String?
+    let postCode, maritalStatus: String?
+    let civilStatus: String?
+    let occupation, bankCc: String?
+    let duration, effectiveDate: String?
+}
+
 
 //MARK:- business legal protection
 
