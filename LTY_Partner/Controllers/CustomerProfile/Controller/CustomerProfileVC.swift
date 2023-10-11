@@ -184,7 +184,7 @@ class CustomerProfileVC: UIViewController {
 //                print("Invalid URL format")
 //            }
             
-                self.lblRegistrationIdFront.text = self.registerBackId
+                self.lblRegistrationIdBack.text = self.registerBackId
                 
 //            let data1 = self.registerBackId
 //            if let lastSlashIndex = data1.lastIndex(of: "/") {

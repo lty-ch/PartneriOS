@@ -5305,10 +5305,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FWr-6G-F7v">
-                                <rect key="frame" x="39.333333333333343" y="255.66666666666666" width="314.33333333333326" height="340.66666666666674"/>
+                                <rect key="frame" x="19.666666666666657" y="191.66666666666666" width="353.66666666666674" height="468.66666666666674"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QfL-U6-QaN">
-                                        <rect key="frame" x="0.0" y="0.0" width="314.33333333333331" height="340.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="353.66666666666669" height="468.66666666666669"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -5325,7 +5325,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6p0-Pf-QBw">
-                                <rect key="frame" x="333.66666666666669" y="235.66666666666666" width="40" height="39.999999999999972"/>
+                                <rect key="frame" x="353.33333333333331" y="171.66666666666666" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="Ix7-4z-zM8"/>
                                     <constraint firstAttribute="height" constant="40" id="yWL-fq-d5Y"/>
@@ -5341,9 +5341,9 @@
                         <color key="backgroundColor" red="0.29411764709999999" green="0.33333333329999998" blue="0.38823529410000002" alpha="0.50591895689999999" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="FWr-6G-F7v" firstAttribute="centerX" secondItem="cX1-zG-zL4" secondAttribute="centerX" id="7t9-da-a4x"/>
-                            <constraint firstItem="FWr-6G-F7v" firstAttribute="height" secondItem="cX1-zG-zL4" secondAttribute="height" multiplier="0.4" id="8SJ-jx-qyg"/>
+                            <constraint firstItem="FWr-6G-F7v" firstAttribute="height" secondItem="cX1-zG-zL4" secondAttribute="height" multiplier="0.55" id="8SJ-jx-qyg"/>
                             <constraint firstItem="6p0-Pf-QBw" firstAttribute="top" secondItem="FWr-6G-F7v" secondAttribute="top" constant="-20" id="Oig-1M-vtd"/>
-                            <constraint firstItem="FWr-6G-F7v" firstAttribute="width" secondItem="cX1-zG-zL4" secondAttribute="width" multiplier="0.8" id="S14-aP-Mnl"/>
+                            <constraint firstItem="FWr-6G-F7v" firstAttribute="width" secondItem="cX1-zG-zL4" secondAttribute="width" multiplier="0.9" id="S14-aP-Mnl"/>
                             <constraint firstItem="FWr-6G-F7v" firstAttribute="centerY" secondItem="cX1-zG-zL4" secondAttribute="centerY" id="fSz-0Y-mD4"/>
                             <constraint firstItem="6p0-Pf-QBw" firstAttribute="trailing" secondItem="FWr-6G-F7v" secondAttribute="trailing" constant="20" id="uj1-TC-eWo"/>
                         </constraints>

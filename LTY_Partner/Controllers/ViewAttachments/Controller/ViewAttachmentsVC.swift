@@ -19,6 +19,10 @@ class ViewAttachmentsVC: UIViewController, WKUIDelegate {
     var showImageViewModel = ShowImageViewModel()
 
     var webView: WKWebView!
+    
+    @IBOutlet weak var customNavDrower: CustomNavigationBarForDrawer!
+    @IBOutlet weak var customNavHeight: NSLayoutConstraint!
+    
     /*
     override func loadView() {
         let webConfiguration = WKWebViewConfiguration()
@@ -32,10 +36,33 @@ class ViewAttachmentsVC: UIViewController, WKUIDelegate {
 
         self.btnDawnload.layer.cornerRadius = 5
         self.btnDawnload.setTitle("Dawnload".localized(), for: .normal)
+        
+        setDrowerHeight()
+        customNavDrower.titleLabel.text = "".localized()
+        customNavDrower.titleLabel.textAlignment = .center
+        customNavDrower.leftSideMenuButtonItem.setImage(Asset.Assets.backArrow.image, for: .normal)
+        customNavDrower.leftSideMenuButtonItem.addTarget(self, action: #selector(backActionBtn(_:)), for: .touchUpInside)
 //        myWebView.uiDelegate = self
        // self.dsa()
     }
     
+    //MARK:- backAction Btn
+    
+    @objc func backActionBtn(_ sender: UIButton) {
+        self.dismiss(animated: true)
+        
+    }
+    
+    //MARK:- set navigationDrower Height
+    
+    func setDrowerHeight() {
+        if UIDevice.current.hasNotch {
+            customNavHeight.constant = DroverHeight.haveNotch
+        } else {
+            customNavHeight.constant = DroverHeight.dontHaveNotch
+            
+        }
+    }
     override func viewWillAppear(_ animated: Bool) {
         myWebView.uiDelegate = self
         showImageViewModel.delegate = self

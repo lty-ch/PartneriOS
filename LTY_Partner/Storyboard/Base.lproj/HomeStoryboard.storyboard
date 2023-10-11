@@ -328,7 +328,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Mt-mb-lWE" customClass="CustomNavigationBarForDrawer" customModule="LTY_Partner" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Mt-mb-lWE" customClass="CustomNavigationBarForDrawer" customModule="LTY_Partner" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -388,6 +388,8 @@
                     </view>
                     <connections>
                         <outlet property="btnDawnload" destination="sgF-S5-Zmy" id="KrC-SQ-48l"/>
+                        <outlet property="customNavDrower" destination="4Mt-mb-lWE" id="w7v-lP-9rY"/>
+                        <outlet property="customNavHeight" destination="l3f-2U-Mlb" id="Bho-L3-AY8"/>
                         <outlet property="myWebView" destination="60I-pk-Gay" id="DXS-E7-4tF"/>
                         <outlet property="vieww" destination="DdJ-SZ-twG" id="n46-yE-Pui"/>
                     </connections>
