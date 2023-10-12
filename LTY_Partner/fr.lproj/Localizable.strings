@@ -3,9 +3,12 @@
   LTY_Partner
 
   Created by shashivendra sengar on 20/06/23.
-
+ "Font No."
+ "Due Date"
 */
 
+"Font No." = "Numéro de police";
+"Due Date" = "Date d'échéance";
 "Coverage" = "Couverture";
 "Previous Company ?" = "Entreprise précédente ?";
 "Personal Information" = "Informations personnelles";
@@ -414,14 +417,14 @@
 "Business"  = "Entreprise";
 "Email"  = "E-mail";
 "Phone"  = "Téléphone";
-"Street/No. "  = "Rue/n°";
+"Street/No."  = "Adresse°";
 "Responsible"  = "Responsable";
 "Start of the Contract:"  = "Début du Contrat :";
 "Proposal Questions"  = "Questions de la proposition";
 "Have you or has an “insured person” insured for legal protection in the last three years and has the policy been canceled by the insurance company?"  = "Avez-vous ou un « assuré » a-t-il assuré une protection juridique au cours des trois dernières années et le contrat a-t-il été résilié par la Produits ?";
 
-"Reason for terminating the contract?"  = "Motif de la résiliation du contrat?";
-"From which company?"  = "Auprès de quelle société?";
+"Reason for terminating the contract?"  = "Raison de la résiliation du contrat ?";
+"From which company?"  = "Compagnie/n° de police";
 "For what risks?"  = "Pour quels risques?";
 "Is a person to be insured currently involved in litigation or has it been in the last three years or do you know that a person to be insured will soon be?"  = "Une personne à assurer est-elle actuellement impliquée dans un litige ou l'a-t-elle été au cours des trois dernières années ou savez-vous qu'une personne à assurer le sera bientôt ?";
 "Duration of the contract"  = "Durée du contrat";

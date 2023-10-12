@@ -141,7 +141,7 @@ class LegalProtectionBusinessFormVC: UIViewController {
         self.lblTitleMemberInfoInsuranceType.text = "insurance Type".localized()
         
         self.titleLblProposalType.text = "Proposal Type".localized()
-        self.titleLblFontData.text = "Font Data".localized()
+        self.titleLblFontData.text = "Font No.".localized()
         self.titleLblReplcaeFonts.text = "Replace font(s)".localized()
         self.lblHeadingCompData.text = "Company Data".localized()
         self.titleLblBusiness.text = "Business".localized()
@@ -151,7 +151,7 @@ class LegalProtectionBusinessFormVC: UIViewController {
         self.titleLblZipLocation.text = "ZIP Location".localized()
         self.titleLblResponsible.text = "Responsible".localized()
         self.titleLblSatrtOfContract.text = "Start of the Contract:".localized()
-        self.titleLblEffectiveDate.text = "Effective Date ".localized()
+        self.titleLblEffectiveDate.text = "Effective Date".localized()
         self.lblHeadingProposalQuestion.text = "Proposal Questions".localized()
         self.titleLblInsuredPerson.text = "Have you or has an “insured person” insured for legal protection in the last three years and has the policy been canceled by the insurance company?".localized()
 
@@ -161,7 +161,7 @@ class LegalProtectionBusinessFormVC: UIViewController {
         self.titleLblInsuredCurrently.text = "Is a person to be insured currently involved in litigation or has it been in the last three years or do you know that a person to be insured will soon be?".localized()
         self.lblHEadingDurationContract.text = "Duration of the contract".localized()
         self.titleLblStartDate.text = "Start Date".localized()
-        self.titleLblEndDate.text = "End Date".localized()
+        self.titleLblEndDate.text = "Due Date".localized()
         self.titleLblExpiryDate.text = "Expire Date".localized()
     }
     
@@ -179,7 +179,7 @@ class LegalProtectionBusinessFormVC: UIViewController {
     func floatingButton(){
         let btn = UIButton(type: .custom)
         let width = UIScreen.main.bounds.width - 20
-        let height = UIScreen.main.bounds.height - 50
+        let height = UIScreen.main.bounds.height - 80
         btn.frame = CGRect(x: 10, y: height, width: width, height: 50)
         btn.setTitle("Add Proposal".localized(), for: .normal)
         btn.backgroundColor = #colorLiteral(red: 0.2343253941, green: 0.4656714117, blue: 0.891181947, alpha: 1)

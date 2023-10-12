@@ -158,7 +158,7 @@ class CompaniesThingsVC: UIViewController {
         self.titleLblStreetNo.text = "Street/No. ".localized()
         self.titleLblZipLocation.text = "ZIP Location".localized()
         self.titleLblEmail.text = "Email".localized()
-        self.titleLblEffectiveDate.text = "Effective Date ".localized()
+        self.titleLblEffectiveDate.text = "Effective Date".localized()
         self.titleLblPhone.text = "Phone".localized()
         self.lblHeadingCompanyData.text = "Company Data".localized()
         self.titleLblBusiness.text = "Business".localized()
@@ -168,7 +168,7 @@ class CompaniesThingsVC: UIViewController {
     func floatingButton(){
         let btn = UIButton(type: .custom)
         let width = UIScreen.main.bounds.width - 20
-        let height = UIScreen.main.bounds.height - 50
+        let height = UIScreen.main.bounds.height - 80
         btn.frame = CGRect(x: 10, y: height, width: width, height: 50)
         btn.setTitle("Add Proposal".localized(), for: .normal)
         btn.backgroundColor = #colorLiteral(red: 0.2343253941, green: 0.4656714117, blue: 0.891181947, alpha: 1)
