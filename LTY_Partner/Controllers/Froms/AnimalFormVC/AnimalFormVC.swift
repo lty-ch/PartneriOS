@@ -151,7 +151,7 @@ class AnimalFormVC: UIViewController {
         self.titleLblPhoneNumber.text = "Phone Number".localized()
         self.titleLnsuranceStartDate.text = "Insurance Start Date".localized()
         self.titleLblInsuredAnimal.text = "Insured Animal".localized()
-        self.titleLblEffectiveDate.text = "Effective Date".localized()
+        self.titleLblEffectiveDate.text = "Start Date".localized()
         self.lblHeadingDesiredInurance.text = "Desired Insurance Coverage".localized()
         self.titleLblMonthlyPremium.text = "Monthly Premium".localized()
         self.titleLblElectronicChipNo.text = "Electronic chip number (if available)".localized()

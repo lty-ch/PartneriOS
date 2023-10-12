@@ -153,7 +153,7 @@ extension ViewAttachmentsVC {
                 }
 
                 if let statusCode = (response as? HTTPURLResponse)?.statusCode {
-                    print("Successfully downloaded. Status code: \(statusCode)")
+                    print("downloaded failed. Status code: \(statusCode)")
                     if statusCode == 200 {
                         DispatchQueue.main.async {
                             self.showOkAlert("File downloaded successfully.")

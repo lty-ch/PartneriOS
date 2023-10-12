@@ -9,6 +9,8 @@ import UIKit
 
 class ConstructionVC: UIViewController {
     
+    @IBOutlet weak var reasonView: UIView!
+    @IBOutlet weak var discriptionView: UIView!
     @IBOutlet weak var installationTypeView: UIView!
     @IBOutlet weak var boreholesView: UIView!
     @IBOutlet weak var numberView: UIView!
@@ -292,10 +294,10 @@ class ConstructionVC: UIViewController {
         self.basicProjectAddressTitle.text = "Address".localized()
         self.basicProjectEffectiveDateTitle.text = "Effective Date".localized()
 
-        self.natureOfWorkTitle.text = "NATURE OF WORK".localized()
+        self.natureOfWorkTitle.text = "TYPE OF CONSTRUCTION NATURE OF WORK".localized()
         self.natureOfWorkConstructionTypeTitle.text = "Type of Construction".localized()
 
-        self.natureOfWorkOperatedHoursitle.text = "Is the building inhabited and/or operated during the works?".localized()
+        self.natureOfWorkOperatedHoursitle.text = "descripton".localized()
         self.natureOfWorkExplanationTitle.text = "Brief explanation".localized()
 
         self.constructionProjectTitle.text = "Construction project address".localized()
@@ -558,8 +560,12 @@ extension ConstructionVC : ConstructionProtocolData {
                 self.lblPolicyHolderAddress.text = poliyHolderDeatils?.address ?? ""
                 
                 self.lblNatureOfWorkConstructionType.text = basicInfo?.typeOfConstruction ?? ""
-//                self.lblOperatedDuringWorks.text = basicInfo?.typeOfConstruction ?? ""
-//                self.lblExplanation.text = basicInfo?.typeOfConstruction ?? ""
+                if self.lblNatureOfWorkConstructionType.text == "other" {
+                    self.discriptionView.isHidden = false
+//                                    self.lblOperatedDuringWorks.text = basicInfo?.typeOfConstruction ?? ""
+//                                    self.lblExplanation.text = basicInfo?.typeOfConstruction ?? ""
+                }
+
                 
                 let projectAddressDetails = basicInfo?.projectAddressDetails
                 self.lblConstructionLandRegistryNumber.text = projectAddressDetails?.landRegistryNo ?? ""
@@ -666,11 +672,17 @@ extension ConstructionVC : ConstructionProtocolData {
                 self.lblDuringTransformations.text = basicInfo?.changesToStructure ?? ""
                 self.lblRoofWork.text = basicInfo?.roofWork ?? ""
                 self.lblDangerZone.text = basicInfo?.dangerZone ?? ""
+                self.lblDangerZoneSpecification.text = basicInfo?.dangerZone ?? ""
                 self.lblNeighbourThirdParty.text = basicInfo?.conditionOfThirdPartyWork ?? ""
                 self.lblSbbLiability.text = basicInfo?.statutoryCivilLiability ?? ""
                 self.lblSbbLiabilityAgreement.text = basicInfo?.agreement ?? ""
                 self.lblRequirements.text = basicInfo?.requirements ?? ""
-                self.lblRequirementsReason.text = basicInfo?.why ?? ""
+                if self.lblRequirements.text == "yes" || self.lblRequirements.text == "Yes"{
+                    self.reasonView.isHidden = false
+                    self.lblRequirementsReason.text = basicInfo?.why ?? ""
+                }
+                
+                
                 self.lblMaps.text = basicInfo?.maps ?? ""
                 self.lblQuotation.text = basicInfo?.quotation ?? ""
                 self.lblReports.text = basicInfo?.reports ?? ""

@@ -124,8 +124,14 @@ class CustomerProfileVC: UIViewController {
     }
     
     func setUpCustomerListView() {
-        if ((customerListObj?.profilePic) != nil) {
-            self.imgImage.sd_setImage(with: URL(string: customerListObj?.profilePic ?? ""), placeholderImage:UIImage(named: "user"))
+        if customerListObj?.gender == "Male"{
+            if ((customerListObj?.profilePic) != nil) {
+                self.imgImage.sd_setImage(with: URL(string: customerListObj?.profilePic ?? ""), placeholderImage:UIImage(named: "user_male"))
+            }
+        }else{
+            if ((customerListObj?.profilePic) != nil) {
+                self.imgImage.sd_setImage(with: URL(string: customerListObj?.profilePic ?? ""), placeholderImage:UIImage(named: "user_female"))
+            }
         }
         let fName = customerListObj?.firstName?.capitalized   ?? ""
         let lName = customerListObj?.lastName?.capitalized   ?? ""
@@ -149,8 +155,14 @@ class CustomerProfileVC: UIViewController {
     }
     
     func setUpCustomerMemberView() {
-        if ((memberObj?.profilePic) != nil) {
-            self.imgImage.sd_setImage(with: URL(string: memberObj?.profilePic ?? ""), placeholderImage:UIImage(named: "user"))
+        if memberObj?.gender == "Male"{
+            if ((memberObj?.profilePic) != nil) {
+                self.imgImage.sd_setImage(with: URL(string: memberObj?.profilePic ?? ""), placeholderImage:UIImage(named: "user_male"))
+            }
+        }else{
+            if ((memberObj?.profilePic) != nil) {
+                self.imgImage.sd_setImage(with: URL(string: memberObj?.profilePic ?? ""), placeholderImage:UIImage(named: "user_female"))
+            }
         }
         let fName = memberObj?.firstName?.capitalized   ?? ""
         let lName = memberObj?.lastName?.capitalized   ?? ""

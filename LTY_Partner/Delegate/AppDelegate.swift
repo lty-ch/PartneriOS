@@ -131,6 +131,30 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         
         print("user npt")
+        
+        
+        if let userInfo = response.notification.request.content.userInfo as? [String:Any]{
+            let feedDataString = changeToString(value: userInfo["deepLink"])
+            //   let dataType = changeToString(value: userInfo["type"])
+            
+            
+//            let feedData = stringJsonToObject(from: feedDataString)
+//
+//            if feedData.isEmpty { return }
+//
+//            let feed_type = changeToString(value: feedData[AppKey.kFeed_Type])
+//
+//            if feed_type == FeedType.memory {
+//                let vc = MemoriesFeedsDetailsVC.instantiateViewController(.Business)
+//                vc.memoryDetails = feedData
+//                homeInstance?.navigationController?.pushViewController(vc, animated: true)
+//
+//            }
+        }
+        
+
+
+        
 //        let content = response.notification.request.content.userInfo
 //           print(content)
 //           if let aps = content["aps"] as? [String: AnyObject] {
@@ -187,6 +211,31 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
 //        }
 
         completionHandler()
+    }
+    
+    func changeToString(value : Any?) -> String{
+        if value == nil{return ""}
+        if "\(value!)".lowercased() == "null" || "\(value!)".lowercased() == "<null>"{return ""}
+        return "\(value!)"
+    }
+    
+    func stringJsonToObject(from string: String) -> [String:Any] {
+    //    let string = "[{\"form_id\":3465,\"canonical_name\":\"df_SAWERQ\",\"form_name\":\"Activity 4 with Images\",\"form_desc\":null}]"
+        var object = [String:Any]()
+        let data = string.data(using: .utf8)!
+        do {
+            if let jsonObj = try JSONSerialization.jsonObject(with: data, options : .allowFragments) as? Dictionary<String,Any>
+            {
+                object = jsonObj
+               print(jsonObj) // use the json here
+            } else {
+                print("bad json")
+            }
+        } catch let error as NSError {
+            print(error)
+        }
+        
+        return object
     }
   
 }

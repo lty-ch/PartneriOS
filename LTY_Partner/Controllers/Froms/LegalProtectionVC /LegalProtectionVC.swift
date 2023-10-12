@@ -9,6 +9,25 @@ import UIKit
 
 class LegalProtectionVC: UIViewController {
     
+    
+    @IBOutlet weak var viewTitleProposalRisk: UIView!
+    @IBOutlet weak var viewTitleProposalCompany: UIView!
+    @IBOutlet weak var viewTitleProposalContract: UIView!
+    
+    @IBOutlet weak var lblTitleProposalRisk: UILabel!
+    @IBOutlet weak var lblTitleProposalCompany: UILabel!
+    @IBOutlet weak var lblTitleProposalContract: UILabel!
+    
+    @IBOutlet weak var lblProposalRisk: UILabel!
+    @IBOutlet weak var lblProposalCompany: UILabel!
+    @IBOutlet weak var lblProposalContract: UILabel!
+    
+    @IBOutlet weak var coverAddressView: UIView!
+    @IBOutlet weak var coverNumberView: UIView!
+    @IBOutlet weak var lblNumber: UILabel!
+    @IBOutlet weak var lblCoverAddress: UILabel!
+    @IBOutlet weak var lbTitleCoverAddress: UILabel!
+    @IBOutlet weak var lblTitleNumber: UILabel!
     // MarK:- Title Outlets
     @IBOutlet weak var lblTitlePersnalInfo: UILabel!
 
@@ -134,6 +153,7 @@ class LegalProtectionVC: UIViewController {
         }else{
             floatingButton()
         }
+        setLocalization()
         customNavDrower.titleLabel.text = "Basic Insurance information".localized()
         customNavDrower.titleLabel.textAlignment = .center
         customNavDrower.leftSideMenuButtonItem.setImage(Asset.Assets.backArrow.image, for: .normal)
@@ -143,6 +163,14 @@ class LegalProtectionVC: UIViewController {
     }
     
     func setLocalization() {
+        
+        
+        self.lblTitleProposalRisk.text = "For what risks ?".localized()
+        self.lblTitleProposalCompany.text = "From which company ?".localized()
+        self.lblTitleProposalContract.text = "Reason for terminating the contract?".localized()
+        
+        self.lbTitleCoverAddress.text = "Address".localized()
+        self.lblTitleNumber.text = "Number".localized()
         
         self.lblTitlePersnalInfo.text = "Personal Information".localized()
         self.lblTitlePersnalInfoFullName.text = "Full Name".localized()
@@ -170,7 +198,7 @@ class LegalProtectionVC: UIViewController {
         self.TitleLblGender.text = "Gender".localized()
         self.TitleLblMaterialStatus.text = "Marital status".localized()
 
-        self.TitleLblBusiness.text = "Marital status".localized()
+       // self.TitleLblBusiness.text = "Marital status".localized()
         self.TitleLblEmail.text = "E-mail".localized()
         self.TitleLblphone.text = "Phone".localized()
         self.TitleLblFax.text = "Fax".localized()
@@ -180,7 +208,7 @@ class LegalProtectionVC: UIViewController {
         self.TitleLblzipLocation.text = "ZIP Location".localized()
         self.TitleLblOccupation.text = "Occupation".localized()
         self.TitleLblBankCC.text = "Bank/CC".localized()
-        self.TitleLblEffectiveDate.text = "Effective Date ".localized()
+        self.TitleLblEffectiveDate.text = "Effective Date".localized()
         self.lblHeadingCobtract.text = "Contract data".localized()
         self.TitleLblContract.text = "Contract".localized()
         self.lblHeadingTypeCover.text = "Type of Covers".localized()
@@ -354,7 +382,25 @@ extension LegalProtectionVC : LegalProtectionProtocolData {
                 self.lblReplcaeFonts.text = insuranceInfo?.replaceFont ?? ""
                 self.lblContract.text = insuranceInfo?.contractData ?? ""
                 self.lblCoverType.text = insuranceInfo?.typeOfCovers ?? ""
+             
+                if self.lblCoverType.text == "building"{
+                    self.coverNumberView.isHidden = false
+                    self.coverAddressView.isHidden = false
+                }
+                self.lblNumber.text = insuranceInfo?.number ?? ""
+                self.lblCoverAddress.text = insuranceInfo?.address ?? ""
+
                 self.lblInsuredPerson.text = insuranceInfo?.insuredForLegal ?? ""
+                if self.lblInsuredPerson.text == "yes" {
+                    self.viewTitleProposalRisk.isHidden = false
+                    self.viewTitleProposalCompany.isHidden = false
+                    self.viewTitleProposalContract.isHidden = false
+
+                    self.lblProposalRisk.text = insuranceInfo?.insuredDetails?.risk ?? ""
+                    self.lblProposalCompany.text = insuranceInfo?.insuredDetails?.company ?? ""
+                    self.lblProposalContract.text = insuranceInfo?.insuredDetails?.reason ?? ""
+
+                }
                 self.lblInsuredCurrently.text = insuranceInfo?.involvedInLitigation ?? ""
                 self.lblStartDate.text = insuranceInfo?.startDate ?? ""
                 self.lblEndDate.text = insuranceInfo?.endDate ?? ""

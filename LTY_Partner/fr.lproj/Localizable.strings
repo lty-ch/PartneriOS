@@ -5,6 +5,20 @@
   Created by shashivendra sengar on 20/06/23.
 
 */
+
+"Coverage" = "Couverture";
+"Previous Company ?" = "Entreprise précédente ?";
+"Personal Information" = "Informations personnelles";
+"Basic Insurance information" = "Informations de base sur l'assurance";
+"Work In Progress" = "Travail en cours";
+"descripton" = "Description";
+"TYPE OF CONSTRUCTION NATURE OF WORK" = "TYPE DE CONSTRUCTION";
+"Marital status" = "État civil";
+"Reason for terminating the contract?" = "Raison de la résiliation du contrat ?";
+"From which company ?" = "Compagnie/n° de police";
+"For what risks ?" = "Pour quels risques ?";
+"Address" = "Adresse";
+"Number" = "Nombre";
 "Effective Date" = "Date d'entrée en vigueur";
 "Type" = "Type";
 "Driver's Information" = "Informations du conducteur";
@@ -12,7 +26,7 @@
 "Building Insurance" = "Assurance bâtiment";
 "Year of construction" = "Année de construction";
 "Sum insured" = "Somme assurée";
-"Which company and policy number?" = "Quelle entreprise et quel numéro de police ?";
+"Which company and policy number?" = "Quelle compagnie et n°de police ?";
 "Please specify the claims (damage, responsible, date, amount)" = "Veuillez préciser les sinistres (dommages, responsable, date, montant)";
 
 "HEALTH" = "SANTÉ";
@@ -114,13 +128,12 @@
 "Cicerio no" =  "Cicerio no";
 "View Attachment ->" = "Voir la pièce jointe ->";
 
-"Basic Project Data" = "Données de base du projet";
-"POLICYHOLDER" = "TITULAIRE DE LA POLICE";
+"Basic Project Data" = "Données du projet";
+"POLICYHOLDER" = "ASSURÉ";
 "Full Name" = "Nom complet";
 "Email" = "Adresse électronique";
 "Phone Number" = "N° de téléphone";
 "Address" = "Adresse";
-"Effective Date" = "Date d'effet";
 
 "NATURE OF WORK" = "NATURE DES TRAVAUX";
 "Type of Construction" = "Genre de construction";
@@ -130,15 +143,15 @@
 
 "Construction project address" = "Adresse du projet de construction";
 "Land Registry Number" = "Numéro du cadastre";
-"Street Number" = "Numéro de rue";
+"Street Number" = "Adresse";
 "Location" = "Emplacement";
 "Postal Code" = "Code postal";
 "Beginning of the roadworks (from the installation of the site and / or the demolitions, preparatory work)" = "Début des travaux (dés l'installation du chantier et / ou les démolitions, travaux préparatoires)";
 "End of the works (end of works, acceptance or occupation of the building or part of the building)" = "Fin des travaux (fin des travaux, réception ou occupation du bâtiment ou partie du bâtiment)";
 
 "WORK IN PROGRESS" = "TRAVAUX EN COURS";
-"Are the works accepted all at once or in stages?" = "Les travaux sont réceptionnés en une fois ou par étapes?";
-"Has the work already started?" = "Les travaux ont déjà débuté?";
+"Are the works accepted all at once or in stages?" = "Les œuvres sont-elles acceptées en une seule fois ou par étapes ?";
+"Has the work already started?" = "Les travaux ont-ils déjà commencé ?";
 "known loss?" = "perte connue ?";
 
 "ARCHITECT" = "ARCHITECTE";
@@ -167,11 +180,11 @@
 "OWNER PARTICIPATION" = "PARTICIPATION DU PROPRIÉTAIRE";
 "Is the owner actively involved in excavation work or work on load-bearing structures without adequate liability insurance? (the drawing up of plans, the direction of the works and the interior fittings are insured without premium supplements)" = "Le propriétaire participe-t-il activement aux travaux d'excavation ou aux travaux sur les structures porteuses sans assurance responsabilité adéquate ? (l'élaboration des plans, la direction des travaux et les aménagements intérieurs sont assurés sans suppléments de prime)";
 
-"NEIGHBORHOOD" = "VOISINAGE";
-"Does the contracting authority own works on the plot or in the immediate vicinity of the work carried out?" = "L'autorité contractante possède-t-elle des ouvrages sur le terrain ou à proximité immédiate des travaux effectués ?";
+"NEIGHBORHOOD" = "QUARTIER";
+"Does the contracting authority own works on the plot or in the immediate vicinity of the work carried out?" = "Le pouvoir adjudicateur est-il propriétaire des travaux sur le terrain ou à proximité immédiate des travaux réalisés ?";
 "Which one?" = "Lesquels ?";
 
-"Risk issues" = "Problèmes de risque";
+"Risk issues" = "Questions relatives aux risques";
 "Total Cost of Project Works* (In CHF)(* Positions 1 to 4 usual of the CFC Construction Costs Code including the fees and the client's own services. Are not taken into consideration: costs for preliminary studies, competitions, land acquisition, connection taxes, financing costs and taxes)" = "Coût total des travaux du projet* (en CHF)(Positions 1 à 4 usuelles du Code des frais de construction CFC y compris les honoraires et les propres prestations du maître de l'ouvrage. Ne sont pas pris en considération: les frais pour les études préliminaires, concours, acquisition du terrain, taxes de raccordement, frais de financement et taxe)";
 "Civil engineering project" = "Projet de génie civil";
 "Distance to the nearest tertiary structure, existing or under construction (buildings, tramway or railway installations, works of art are considered to be works)" = "Distance jusqu'à l'ouvrasge de ters le plus proche, existant ou en construction (sont considérés comme ouvrages les bâtiments, les installations de tramway ou de chemin de fer, les ouvrages d'art)";
@@ -179,15 +192,15 @@
 "Topography (the most sloping place of the natural ground between the external walls (facades) located downstream and upstream)" = "Topographie (l'endroit le plus en pente du sol naturel entre les murs extérieurs (façades) situés en aval et en amont)";
 "Land to build" = "Terrain à bâtir";
 "Earthwork / full-body excavation" = "Terrassement / excavation en pleine masse";
-"Depth of Excavation" = "Profondeur de l'excavation";
+"Depth of Excavation" = "Profondeur d'excavation";
 "Upper floors (ES) (All floors located entirely or partially (more than half the height) above the natural terrain must be taken into consideration, even if they are not affected by the works)" = "Étages supérieurs (ES) (Tous les étages situés entièrement ou partiellement (plus de la moitié de la hauteur) au-dessus du terrain naturel doivent être pris en considération, même s'ils ne sont pas touchés par les travaux)";
 "Search" = "Rechercher";
-"Execution of the excavation" = "Exécution de la fouille";
+"Execution of the excavation" = "'Exécution des fouilles";
 "Technique" = "Technique";
 "Lowering of the water table" = "Abaissement de la nappe phréatique";
-"Structure foundations / Special foundations" = "Fondations de l'ouvrage / Fondations spéciales";
-"Stalling" = "Décrotage";
-"Underpinning and/or lower cutting (e.g. building, pipeline, retaining wall)" = "Soutènement et/ou recoupe inférieure (par exemple, bâtiment, canalisation, mur de soutènement)";
+"Structure foundations / Special foundations" = "Fondations de structure / Fondations spéciales";
+"Stalling" = "Stabulation";
+"Underpinning and/or lower cutting (e.g. building, pipeline, retaining wall)" = "Reprise en sous-œuvre et/ou coupe inférieure(P.ex. bâtiment, canalisation, mur de soutènement)";
 "Are drillings for geothermal probes carried out?" = "Des forages pour des sondes géothermiques sont-ils réalisés ?";
 "Number" = "Nombre";
 "Depth of boreholes" = "Profondeur des forages";
@@ -197,11 +210,11 @@
 "Changes to the load-bearing structure" = "Modifications de la structure porteuse";
 "During transformations: modifications of the load-bearing Structure (modification of the structure's statics) are carried out (the creation of openings for doors, windows, elevators does not fall under the notion of modification of the load-bearing structure)" = "Lors de transformations: des modifications de la structure porteuse (modification de la statique de l'ouvrage) sont réalisées (la création d'ouvertures pour portes, fenêtres, ascenseurs ne tombent pas sous la notion de modification de la structure porteuse)";
 
-"Roof work" = "Travaux sur la toiture";
+"Roof work" = "Travaux de toiture";
 "Work on the roof is carried out during (Raising, laying or complete replacement of tiles, roofing or waterproofing)" = "Des travaux sur la toiture sont exécutés pendant des agrandissements/transformations/rénovations
 (surélévation, pose ou remplacement complet des tuiles, de la couverture ou de l'étanchéité)";
 
-"Danger zone" = "Zone de danger";
+"Danger zone" = "Zone dangereuse";
 "The structure is located in a danger zone of avalanches, falling rocks, rockslides, water (high water, flooding, wave shocks), difficult terrain (slides, land settling). Specify if applicable:" = "L’ouvrage se trouve dans une zone de danger d’avalanches, de chutes de pierres, d’éboulement de rochers, d’eaux (hautes eaux, inondation, chocs de vagues), de terrain difficile (glissement, tassement de terrain). Préciser le cas échéant:";
 "Specifications" = "Spécifications";
 
@@ -229,7 +242,7 @@
 "Full Name" = "Nom complet";
 "Address" = "Adresse";
 "Date of Birth" = "Date de naissance";
-"Nationality/Permit" = "Nationalité/Permis";
+"Nationality/License" = "Nationalité";
 "Driving License Date" = "Date de permis de conduire";
 "Payment Method" = "Mode de paiement";
 "Source of Funding" = "Source de financement";
@@ -329,18 +342,17 @@
 "Full Name"  = "Nom et prénom";
 "Address"  = "Adresse";
 "Date of Birth"  = "Date de naissance";
-"Nationality/Permit"  = "National/Permis";
+"RC complementary covers" = "Couvertures complémentaires « RC »";
 "Marital Status"  = "Êtat civil";
 "Duration"  = "Durée";
-"Effective Date"  = "Date d'effet";
-"Furniture Inventory"  = "Inventaire du Mobilier";
+"Effective Date"  = "Date d'entrée en vigueur ";
+"Furniture Inventory"  = "Inventaire de meubles";
 "PLACE OF RISK"  = "LIEU DE RISQUE";
 "Bonus Protection"  = "Protection bonus";
 "Sum insured"  = "Somme d'assurance";
 "Type of Construction"  = "Genre de construction";
-"Benefits"  = "Avantages";
+"Benefits"  = "Couvertures";
 "Civil Liability"  = "Responsabilité civile";
-"Sum"  = "Somme";
 "Franchise Sum"  = "Somme de la franchise";
 "Are You the Owner?"  = "Êtes-vous le propriétaire?";
 "“RC” complementary covers"  = "Couvertures complémentaires RC";
@@ -358,20 +370,19 @@
 "Member Information"  = "Informations sur les membres";
 
 "Applicant's Data (Animal Owner)"  = "Données du demandeur (propriétaire d'animaux)";
-"Desired Start of Insurance"  = "Début souhaité de l'assurance";
+"Desired Start of Insurance"  = "Début D’assurance Souhaité";
 "Date of birth (min. month/year)"  = "Date de naissance (min. Mensuel/année)";
 "Email"  = "E-mail";
 "Color"  = "Couleur";
 "Gender"  = "Genre";
 "Breed"  = "Race";
 "Zip Code"  = "Zip Code";
-"Street Number"  = "Numéro de rue";
-"Pet's Name"  = "Le nom de l'animal de compagnie";
+"Street Number"  = "Adresse";
+"Pet's Name"  = "Nom de l'animal";
 "Last Name"  = "Nom";
 "First Name"  = "Prénom";
 "Insurance Start Date"  = "Date de début d'assurance";
 "Insured Animal"  = "Animal assuré";
-"Effective Date"  = "Date d'effet";
 "Desired Insurance Coverage"  = "Couverture d'assurance souhaitée";
 "Monthly Premium"  = "Prime mensuelle";
 "Electronic chip number (if available)"  = "N° de la puce électronique (si disponible)";
@@ -391,7 +402,7 @@
 "First Name"  = "Prénom";
 "Professional Situation"  = "Situation professionnelle";
 "Postal Code "  = "Code Postal";
-"Nationality/Permit"  = "Nationalité/Permis";
+
 "Do you want a premium or a lump sum ?"  = "Souhaitez-vous une prime ou un montant forfaitaire ?";
 "Street Address"  = "Adresse de la rue";
 "Payment Method"  = "Mode de paiement";
@@ -404,10 +415,8 @@
 "Email"  = "E-mail";
 "Phone"  = "Téléphone";
 "Street/No. "  = "Rue/n°";
-"ZIP Location"  = "NPA/Localité";
 "Responsible"  = "Responsable";
 "Start of the Contract:"  = "Début du Contrat :";
-"Effective Date "  = "Date d'effet";
 "Proposal Questions"  = "Questions de la proposition";
 "Have you or has an “insured person” insured for legal protection in the last three years and has the policy been canceled by the insurance company?"  = "Avez-vous ou un « assuré » a-t-il assuré une protection juridique au cours des trois dernières années et le contrat a-t-il été résilié par la Produits ?";
 
@@ -424,15 +433,14 @@
 "Date of Birth"  = "Date de naissance";
 "Address"  = "Adresse";
 "Remarks"  = "Remarques";
-"Benefits"  = "Avantages";
+"Benefits"  = "Couvertures";
 "Full Name"  = "Nom et prénom";
 "Duration"  = "Durée";
 "Type Of Objects"  = "Genre d'objets";
 "Object Type"  = "Genre d'objet";
 "Sums insured"  = "Sommes assurées";
-"Nationality / License"  = "Nationalité / Licence";
+
 "Supporting documents/estimates of the object"  = "Pièces justificatives/estimations de l’objet";
-"Effective Date"  = "Date d'effet";
 "Are you or were you in the past insured for the branches offered? If so, with which company, police no?"  = "Êtes-vous ou avez-vous été assuré dans le passé pour les branches proposées ? Si oui, avec quelle compagnie, police non ?";
 "Quiz (Concerns The Last 5 Years)"  = "Questionnaire (concerne les 5 dernières annuel)";
 "Have you suffered any claims in the proposed branches?"  = "Avez-vous subi des sinistres dans les succursales proposées ?";
@@ -458,9 +466,7 @@
 "Company Liability Insurance"  = "Assurance responsabilité civile de l'entreprise";
 "Start of the Contract:"  = "Début du Contrat";
 "Street/No. "  = "Rue/n°";
-"ZIP Location"  = "NPA/Localité";
 "Email"  = "E-mail";
-"Effective Date "  = "Date d'effet";
 "Phone"  = "Téléphone";
 "Company Data"  = "Les données de la compagnie";
 "Business"  = "Entreprise";
@@ -477,13 +483,12 @@
 "E-mail"  = "E-mail";
 "Phone"  = "Téléphone";
 "Fax"  = "Fax";
-"Residence permit"  = "Autorisation de séjour";
+"Residence permit"  = "Permis de résidenceZ";
 "Nationality"  = "Nationalité";
 "Street/No. "  = "Rue/n°";
-"ZIP Location"  = "NPA/Localité";
+"ZIP Location"  = "Code postal";
 "Occupation"  = "Profession";
 "Bank/CC"  = "Banque/CC";
-"Effective Date "  = "Date d'effet";
 "Contract data"  = "Données du contrat";
 "Contract"  = "Contract";
 "Type of Covers"  = "Genre de couvertures";
@@ -507,9 +512,8 @@
 
 "Address"  = "Adresse";
 "Date of Birth "  = "Date de naissance";
-"Nationality/Permit"  = "Nationalité/Permis";
+
 "Civil Status"  = "État civil ";
-"Effective Date "  = "Date d'effet";
 "Duration"  = "Durée";
 "General Data"  = "Données générales";
 "Building Type"  = "Genre de bâtiment";
@@ -520,7 +524,7 @@
 "Benefits (CHF deductible)"  = "Prestations (franchise CHF)";
 "Benifits"  = "Avantages";
 "Building Civil Liability"  = "Responsabilité Civile d'Immeuble";
-"Sum"  = "Somme";
+"Sum"  = "SOMME D'ASSURANCE";
 "Franchise CHF"  = "Franchise CHF";
 "Use (PPE,…)"  = "Utiliser (EPI,…)";
 "Number of apartments"  = "Nombre d'appartements";
@@ -547,9 +551,8 @@
 
 "Address"  = "Adresse";
 "Date of Birth"  = "Date de naissance";
-"Nationality/License"  = "Nationalité/Permis";
+"Nationality/License"  = "Nationalité";
 "Duration"  = "Durée";
-"Effective Date "  = "Date d'effet";
 "Cover Type"  = "Genre de couverture";
 "Add Insurance Coverage" = "Ajouter une couverture d'assurance";
 "Policy ID"  = "ID de stratégie";
@@ -567,7 +570,7 @@
 "Existing Font"  = "Police existante";
 "Payment Method"  = "Mode de paiement";
 "Desired start"  = "Début souhaité";
-"Premium due date"  = "Echéance de la prime";
+"Premium due date"  = "Date d'échéance de la prime";
 "Applicant/Tenant Data"  = "Données du demandeur/locataire";
 "Language"  = "Langue";
 "Full Name"  = "Nom complet";
@@ -577,35 +580,31 @@
 "Address"  = "Adresse";
 "Zip Code"  = "Code postal";
 "Nationality"  = "Nationalité";
-"Residence Permit"  = "Autorisation de séjour";
-"Effective Date"  = "Date d'effet";
+"Residence Permit"  = "Permis de résidence";
 "Full Name"  = "Nom complet";
 "Date of Birth"  = "Date de naissance";
 "Email"  = "Email";
 "Phone Number"  = "N° de téléphone";
 "Occupation"  = "Profession";
-"LOCATION OF THE RENTED OBJECT" = "EMPLACEMENT DE L'OBJET LOUÉ";
+"LOCATION OF THE RENTED OBJECT" = "LOCALISATION DE L'OBJET LOUÉ";
 "Address"  = "Adresse";
-"Zip Location"  = "NPA/Localité";
+"Zip Location"  = "Code postal";
 "Lessor/Owner"  = "Bailleur/Propriétaire";
 "Lessor"  = "Bailleur";
 "Phone Number"  = "N° de téléphone";
 "Email"  = "Email";
-"Street Number"  = "Numéro de rue";
-"Contact Person"  = "Interlocuteur";
-"Zip Location"  = "NPA/Localité";
+"Street Number"  = "Adresse";
+"Contact Person"  = "Personne de contact";
 "Stewardship"  = "Gérance";
 "Management"  = "Direction";
 "Phone Number"  = "N° de téléphone";
 "Email"  = "Email";
-"Street Number"  = "Numéro de rue";
-"Contact Person"  = "Interlocuteur";
-"Zip Location"  = "NPA/Localité";
+"Street Number"  = "Adresse";
 "Rent Security"  = "Sécurité du loyer";
 "Monthly rent in CHF:"  = "Loyer mensuel en CHF :";
 "Amount of the deposit (rental guarantee) in CHF:"  = "Montant de la caution (garantie locative) en CHF :";
-"Questions relating to the proposal"  = "Questions se rapportant à la proposition";
-"Are you currently being sued? Are other people involved in the lease currently being sued?"  = "Faites-vous actuellement l'objet de poursuites? D'autres personnes participant au contrat de bail font-elles actuellement l'objet de poursuites?";
+"Questions relating to the proposal"  = "Questions Relatives À La Proposition";
+"Are you currently being sued? Are other people involved in the lease currently being sued?"  = "Êtes-vous actuellement poursuivi? D’autres personnes impliquées dans le bail sont-elles actuellement poursuivies ?";
 "Pattern"  = "Motif";
 "Customer Data"  = "Données du client";
 "Full Name"  = "Nom complet";
@@ -747,8 +746,8 @@
 "Total Files Added" = "Nombre total de fichiers ajoutés";
 "Last File Added On" = "Dernier fichier Ajouter";
 "Added By" = "Ajouté par";
-
-
+"Deductive Per Calender Year(Dog)" = "FRANCHISE PAR ANNÉE CIVILE(Chiens)";
+"Deductive Per Calender Year(Cat)" = "FRANCHISE PAR ANNÉE CIVILE(Chats)";
 
 "Update phone number" = "Mettre à jour le N° de téléphone";
 "Update email id" = "Mettre à jour l'identifiant e-mail";
