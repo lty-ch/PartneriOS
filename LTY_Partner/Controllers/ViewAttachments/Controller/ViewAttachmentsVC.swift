@@ -78,16 +78,20 @@ class ViewAttachmentsVC: UIViewController, WKUIDelegate {
         let myHTTPUrl = self.dawnloadStringUrl
       //  let x = myHTTPUrl.components(separatedBy: "?")[0]
         //let myHTTPUrl = "https://lty-platform.s3.eu-central-2.amazonaws.com/dev/document-store/98204d8d-b122-479f-9de3-c792e9c47900.pdf"
-        savefile(urlString: myHTTPUrl,viewController: self)
+        //savefile(urlString: myHTTPUrl,viewController: self)
+        let url = URL(string: myHTTPUrl)
+        FileDownloader.loadFileAsync(url: url!) { (path, error) in
+            print("PDF File downloaded to : \(path!)")
+            DispatchQueue.main.async {
+                self.showOkAlert("File downloaded successfully.")
+            }
+         
+        }
+        
     }
     
     public func dsa(_ url:String) {
-        
-//        let url : NSString = url as NSString//self.attachmentStr as NSString
-//        let urlStr : NSString = url.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)! as NSString
-//        let searchURL : NSURL = NSURL(string: urlStr as String)!
-//
-//        let requestObj = URLRequest(url: searchURL as URL)
+
         
         let myURL = URL(string:url)
         let myRequest = URLRequest(url: myURL!)
@@ -103,10 +107,7 @@ extension ViewAttachmentsVC : ShowImageViewProtocolDelegate{
     func showImage(data: ShowImageModel) {
         print(data)
         DispatchQueue.main.async {
-//            let myURL = URL(string:"https://lty-devaccount-data-s3.s3.eu-central-2.amazonaws.com/dev/app/document-store/739381bd-9412-4a93-b699-de9a336e3d0c.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231005T125019Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAUASVP7SX4UD2PHDF%2F20231005%2Feu-central-2%2Fs3%2Faws4_request&X-Amz-Signature=108ef589ecceaa65d44cfca075d89bde3522037f381552cb2c2e0f981dbb569e")
-//                   let myRequest = URLRequest(url: myURL!)
-//            self.myWebView.load(myRequest)
-            
+
             self.dawnloadStringUrl = data.data?.preSignedUrl ?? ""
             self.dsa(data.data?.preSignedUrl ?? "")
         }
@@ -202,4 +203,92 @@ extension ViewAttachmentsVC {
         task.resume()
     }
 
+}
+
+class FileDownloader {
+
+    static func loadFileSync(url: URL, completion: @escaping (String?, Error?) -> Void)
+    {
+        let documentsUrl = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
+
+        let destinationUrl = documentsUrl.appendingPathComponent(url.lastPathComponent)
+
+        if FileManager().fileExists(atPath: destinationUrl.path)
+        {
+            
+            print("File already exists [\(destinationUrl.path)]")
+            completion(destinationUrl.path, nil)
+        }
+        else if let dataFromURL = NSData(contentsOf: url)
+        {
+            if dataFromURL.write(to: destinationUrl, atomically: true)
+            {
+                print("file saved [\(destinationUrl.path)]")
+                completion(destinationUrl.path, nil)
+            }
+            else
+            {
+                print("error saving file")
+                let error = NSError(domain:"Error saving file", code:1001, userInfo:nil)
+                completion(destinationUrl.path, error)
+            }
+        }
+        else
+        {
+            let error = NSError(domain:"Error downloading file", code:1002, userInfo:nil)
+            completion(destinationUrl.path, error)
+        }
+    }
+
+    static func loadFileAsync(url: URL, completion: @escaping (String?, Error?) -> Void)
+    {
+        let documentsUrl =  FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
+
+        let destinationUrl = documentsUrl.appendingPathComponent(url.lastPathComponent)
+
+        if FileManager().fileExists(atPath: destinationUrl.path)
+        {
+            print("File already exists [\(destinationUrl.path)]")
+            completion(destinationUrl.path, nil)
+        }
+        else
+        {
+            let session = URLSession(configuration: URLSessionConfiguration.default, delegate: nil, delegateQueue: nil)
+            var request = URLRequest(url: url)
+            request.httpMethod = "GET"
+            let task = session.dataTask(with: request, completionHandler:
+            {
+                data, response, error in
+                if error == nil
+                {
+                    if let response = response as? HTTPURLResponse
+                    {
+                        if response.statusCode == 200
+                        {
+                            if let data = data
+                            {
+                                if let _ = try? data.write(to: destinationUrl, options: Data.WritingOptions.atomic)
+                                {
+                                    completion(destinationUrl.path, error)
+                                }
+                                else
+                                {
+                                    completion(destinationUrl.path, error)
+                                }
+                            }
+                            else
+                            {
+                                completion(destinationUrl.path, error)
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    completion(destinationUrl.path, error)
+                }
+            })
+            task.resume()
+        }
+    }
 }

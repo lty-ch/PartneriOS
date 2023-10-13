@@ -6,7 +6,7 @@
  "Font No."
  "Due Date"
 */
-
+"Nationality / License" = "Nationnalité";
 "Font No." = "Numéro de police";
 "Due Date" = "Date d'échéance";
 "Coverage" = "Couverture";
@@ -133,7 +133,6 @@
 
 "Basic Project Data" = "Données du projet";
 "POLICYHOLDER" = "ASSURÉ";
-"Full Name" = "Nom complet";
 "Email" = "Adresse électronique";
 "Phone Number" = "N° de téléphone";
 "Address" = "Adresse";
@@ -242,7 +241,7 @@
 "Member Information" = "Informations sur le membre";
 
 "Customer Data" = "Données du client";
-"Full Name" = "Nom complet";
+
 "Address" = "Adresse";
 "Date of Birth" = "Date de naissance";
 "Nationality/License" = "Nationalité";
@@ -342,7 +341,7 @@
 // ====================================================================================================
 
 "Customer Data"  = "Données client";
-"Full Name"  = "Nom et prénom";
+
 "Address"  = "Adresse";
 "Date of Birth"  = "Date de naissance";
 "RC complementary covers" = "Couvertures complémentaires « RC »";
@@ -437,13 +436,13 @@
 "Address"  = "Adresse";
 "Remarks"  = "Remarques";
 "Benefits"  = "Couvertures";
-"Full Name"  = "Nom et prénom";
+
 "Duration"  = "Durée";
-"Type Of Objects"  = "Genre d'objets";
-"Object Type"  = "Genre d'objet";
+"Type Of Objects"  = "Type D'objets";
+"Object Type"  = "Type D'objet";
 "Sums insured"  = "Sommes assurées";
 
-"Supporting documents/estimates of the object"  = "Pièces justificatives/estimations de l’objet";
+"Supporting documents/estimates of the object"  = "Joindre les pièces justificatives/estimations de l'objet";
 "Are you or were you in the past insured for the branches offered? If so, with which company, police no?"  = "Êtes-vous ou avez-vous été assuré dans le passé pour les branches proposées ? Si oui, avec quelle compagnie, police non ?";
 "Quiz (Concerns The Last 5 Years)"  = "Questionnaire (concerne les 5 dernières annuel)";
 "Have you suffered any claims in the proposed branches?"  = "Avez-vous subi des sinistres dans les succursales proposées ?";
@@ -550,7 +549,6 @@
 "Relation"  = "Relation";
 "insurance Type"  = "Genre d'assurance";
 "Persons to be Insured "  = "Personnes à assurer";
-"Full Name"  = "Nom complet";
 
 "Address"  = "Adresse";
 "Date of Birth"  = "Date de naissance";
@@ -576,7 +574,6 @@
 "Premium due date"  = "Date d'échéance de la prime";
 "Applicant/Tenant Data"  = "Données du demandeur/locataire";
 "Language"  = "Langue";
-"Full Name"  = "Nom complet";
 "Date of Birth"  = "Date de naissance";
 "Email"  = "Email";
 "Occupation"  = "Profession";
@@ -584,7 +581,6 @@
 "Zip Code"  = "Code postal";
 "Nationality"  = "Nationalité";
 "Residence Permit"  = "Permis de résidence";
-"Full Name"  = "Nom complet";
 "Date of Birth"  = "Date de naissance";
 "Email"  = "Email";
 "Phone Number"  = "N° de téléphone";
@@ -610,7 +606,6 @@
 "Are you currently being sued? Are other people involved in the lease currently being sued?"  = "Êtes-vous actuellement poursuivi? D’autres personnes impliquées dans le bail sont-elles actuellement poursuivies ?";
 "Pattern"  = "Motif";
 "Customer Data"  = "Données du client";
-"Full Name"  = "Nom complet";
 "Insurance coverage" = "Couvertures d'assurances";
 "Selected Products" = "Sélectionnez les produits";
 "Type of product" = "Type de produit";
@@ -715,7 +710,6 @@
 "Insurer Type" = "Genre d'assureur";
 "Personal Info" = "Informations personnelles";
 "User Type" = "Genre d'utilisateur";
-"Full Name" = "Nom complet";
 "Agent Name" = "Nom de l'Conseiller";
 "Email" = "E-mail";
 "Gender" = "Genre";

@@ -107,6 +107,7 @@ class QuotationFormVC: UIViewController {
         }else{
             floatingButton()
         }
+        setLocalization()
         leadInsuranceViewModel.quatationlDelegate = self
 
         customNavDrower.titleLabel.text = "Quotation Request Valuables".localized()
@@ -132,7 +133,7 @@ class QuotationFormVC: UIViewController {
         
         
         self.lblHeadingCustomerData.text = "Customer Data".localized()
-        self.titleLblPastInsured.text = "".localized()
+       // self.titleLblPastInsured.text = "".localized()
         self.titleLblDob.text = "Date of Birth".localized()
         self.titleLblAddress.text = "Address".localized()
         self.titleLblRemarks.text = "Remarks".localized()
