@@ -132,111 +132,93 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
         
         print("user npt")
         
-        
         if let userInfo = response.notification.request.content.userInfo as? [String:Any]{
-            let feedDataString = changeToString(value: userInfo["deepLink"])
-            //   let dataType = changeToString(value: userInfo["type"])
+            
+            let deepLink = userInfo["gcm.notification.deepLink"] as? String ?? ""
+            let email = userInfo["google.c.sender.id"] as? String ?? ""
+            let queryID = userInfo["gcm.notification.queryID"] as? String ?? ""
+            
+            print("body string: \(deepLink) \( email)")
             
             
-//            let feedData = stringJsonToObject(from: feedDataString)
-//
-//            if feedData.isEmpty { return }
-//
-//            let feed_type = changeToString(value: feedData[AppKey.kFeed_Type])
-//
-//            if feed_type == FeedType.memory {
-//                let vc = MemoriesFeedsDetailsVC.instantiateViewController(.Business)
-//                vc.memoryDetails = feedData
-//                homeInstance?.navigationController?.pushViewController(vc, animated: true)
-//
-//            }
+            DispatchQueue.main.async{
+                
+                if deepLink == "LEAD" {
+                    
+                    guard var rootViewController = (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.window?.rootViewController else {
+                        return
+                    }
+                    
+                    let storyboard = UIStoryboard(name: "LeadStoryboard", bundle: nil)
+                    
+                    
+                    if  let conversationVC = storyboard.instantiateViewController(withIdentifier: "LeadListVC") as? LeadListVC,
+                        let tabBarController = rootViewController as? UITabBarController,
+                        let navController = tabBarController.selectedViewController as? UINavigationController {
+                        
+                        navController.pushViewController(conversationVC, animated: true)
+                    }
+                    
+                }
+                else if deepLink == "USER" {
+                    
+                    guard var rootViewController = (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.window?.rootViewController else {
+                        return
+                    }
+                    
+                    let storyboard = UIStoryboard(name: "Customer", bundle: nil)
+                    
+                    
+                    if  let conversationVC = storyboard.instantiateViewController(withIdentifier: "CustomerVC") as? CustomerVC,
+                        let tabBarController = rootViewController as? UITabBarController,
+                        let navController = tabBarController.selectedViewController as? UINavigationController {
+                        
+                        navController.pushViewController(conversationVC, animated: true)
+                    }
+                    
+                }else if deepLink == "PROPOSAL" {
+                    
+                    guard var rootViewController = (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.window?.rootViewController else {
+                        return
+                    }
+                    
+                    let storyboard = UIStoryboard(name: "Proposals", bundle: nil)
+                    
+                    
+                    if  let conversationVC = storyboard.instantiateViewController(withIdentifier: "ProposalVC") as? ProposalVC,
+                        let tabBarController = rootViewController as? UITabBarController,
+                        let navController = tabBarController.selectedViewController as? UINavigationController {
+                        
+                        navController.pushViewController(conversationVC, animated: true)
+                    }
+                    
+                }
+            }
+            /*
+             else if deepLink == "PROFILE" {
+                 
+                 guard var rootViewController = (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.window?.rootViewController else {
+                     return
+                 }
+                 
+                 let storyboard = UIStoryboard(name: "LeadStoryboard", bundle: nil)
+                 
+                 
+                 if  let conversationVC = storyboard.instantiateViewController(withIdentifier: "LeadListVC") as? LeadListVC,
+                     let tabBarController = rootViewController as? UITabBarController,
+                     let navController = tabBarController.selectedViewController as? UINavigationController {
+                     
+                     navController.pushViewController(conversationVC, animated: true)
+                 }
+                 
+             }
+             */
+            
         }
-        
-
-
-        
-//        let content = response.notification.request.content.userInfo
-//           print(content)
-//           if let aps = content["aps"] as? [String: AnyObject] {
-//               let myValue = aps["deepLink"]
-//               // DO STUFF, in myValue you will find your custom data
-//           }
-//        DispatchQueue.main.async{
-//
-//            if let rootViewController = self.window?.rootViewController as? UINavigationController {
-//                let storyboard: UIStoryboard = UIStoryboard(name: "LeadStoryboard", bundle: nil) // Replace with your storyboard name
-//                if let specificViewController = storyboard.instantiateViewController(withIdentifier: "LeadListVC") as? LeadListVC {
-//                    rootViewController.pushViewController(specificViewController, animated: true)
-//                }
-//            }else{
-//
-//                guard var rootViewController = (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.window?.rootViewController else {
-//                    return
-//                }
-//
-//                let storyboard = UIStoryboard(name: "LeadStoryboard", bundle: nil)
-//
-//
-//                if  let conversationVC = storyboard.instantiateViewController(withIdentifier: "LeadListVC") as? LeadListVC,
-//                    let tabBarController = rootViewController as? UITabBarController,
-//                    let navController = tabBarController.selectedViewController as? UINavigationController {
-//
-//                    // we can modify variable of the new view controller using notification data
-//                    // (eg: title of notification)
-//                    // conversationVC.senderDisplayName = response.notification.request.content.title
-//                    // you can access custom data of the push notification by using userInfo property
-//                    // response.notification.request.content.userInfo
-//                    navController.pushViewController(conversationVC, animated: true)
-//                }
-//
-//            }
-//                /*
-//                print(" not a rootvc")
-//
-//
-//                guard let window = UIApplication.shared.keyWindow else { return }
-//
-//                let storyboard: UIStoryboard = UIStoryboard(name: "LeadStoryboard", bundle: nil)
-//                  let yourVC = storyboard.instantiateViewController(withIdentifier: "LeadListVC") as! LeadListVC
-//
-//                  let navController = UINavigationController(rootViewController: yourVC)
-//                  navController.modalPresentationStyle = .fullScreen
-//
-//                  window.rootViewController = navController
-//                  window.makeKeyAndVisible()
-//
-//            }
-//                 */
-//
-//        }
-
         completionHandler()
     }
     
-    func changeToString(value : Any?) -> String{
-        if value == nil{return ""}
-        if "\(value!)".lowercased() == "null" || "\(value!)".lowercased() == "<null>"{return ""}
-        return "\(value!)"
-    }
-    
-    func stringJsonToObject(from string: String) -> [String:Any] {
-    //    let string = "[{\"form_id\":3465,\"canonical_name\":\"df_SAWERQ\",\"form_name\":\"Activity 4 with Images\",\"form_desc\":null}]"
-        var object = [String:Any]()
-        let data = string.data(using: .utf8)!
-        do {
-            if let jsonObj = try JSONSerialization.jsonObject(with: data, options : .allowFragments) as? Dictionary<String,Any>
-            {
-                object = jsonObj
-               print(jsonObj) // use the json here
-            } else {
-                print("bad json")
-            }
-        } catch let error as NSError {
-            print(error)
-        }
-        
-        return object
-    }
+
   
 }
 
@@ -262,3 +244,51 @@ extension AppDelegate: MessagingDelegate {
     }
 }
 
+
+//*************************************
+
+/*
+ DispatchQueue.main.async{
+
+     if let rootViewController = self.window?.rootViewController as? UINavigationController {
+         let storyboard: UIStoryboard = UIStoryboard(name: "LeadStoryboard", bundle: nil) // Replace with your storyboard name
+         if let specificViewController = storyboard.instantiateViewController(withIdentifier: "LeadListVC") as? LeadListVC {
+             rootViewController.pushViewController(specificViewController, animated: true)
+         }
+     }else{
+
+         guard var rootViewController = (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.window?.rootViewController else {
+             return
+         }
+
+         let storyboard = UIStoryboard(name: "LeadStoryboard", bundle: nil)
+
+
+         if  let conversationVC = storyboard.instantiateViewController(withIdentifier: "LeadListVC") as? LeadListVC,
+             let tabBarController = rootViewController as? UITabBarController,
+             let navController = tabBarController.selectedViewController as? UINavigationController {
+
+             navController.pushViewController(conversationVC, animated: true)
+         }
+
+     }
+         /*
+         print(" not a rootvc")
+
+
+         guard let window = UIApplication.shared.keyWindow else { return }
+
+         let storyboard: UIStoryboard = UIStoryboard(name: "LeadStoryboard", bundle: nil)
+           let yourVC = storyboard.instantiateViewController(withIdentifier: "LeadListVC") as! LeadListVC
+
+           let navController = UINavigationController(rootViewController: yourVC)
+           navController.modalPresentationStyle = .fullScreen
+
+           window.rootViewController = navController
+           window.makeKeyAndVisible()
+
+     }
+          */
+
+ }
+ */
