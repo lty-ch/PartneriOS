@@ -329,6 +329,8 @@ struct LTY_AlterText{
     static let frontMessageUploadDoc = "Please upload registrationId (Front)."
     static let backMessageUploadDoc = "Please upload registrationId (Back)."
     static let insurerCompanydoc = "Please select insurer company."
+    static let gender = "Select Gender"
+    static let messagegender = "Please select your gender."
     
     static let country = "Country"
     static let messageCountry = "Please select your country."

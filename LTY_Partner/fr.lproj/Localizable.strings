@@ -3,9 +3,11 @@
   LTY_Partner
 
   Created by shashivendra sengar on 20/06/23.
- "Font No."
- "Due Date"
+
+ static let gender = "Select Gender"
+ static let messagegender = "Please select your gender."
 */
+"Insurnance Type" = "";
 "Nationality / License" = "Nationnalité";
 "Font No." = "Numéro de police";
 "Due Date" = "Date d'échéance";

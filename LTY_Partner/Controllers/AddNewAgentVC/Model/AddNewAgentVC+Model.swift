@@ -147,6 +147,7 @@ struct AddAgentParams : Encodable {
     var firstName: String = ""
     var lastName:  String = ""
     var mobile:  String = ""
+    var gender:  String = ""
     var countryCode:  String = ""
     var email:  String = ""
     var roleId:  String = ""
@@ -220,7 +221,7 @@ struct AgentDetailDataClass: Codable {
     let isMobileVerified: Bool?
     let email: String?
     let isEmailVerified: Bool?
-    let country, state, city, address: String?
+    let country, state, city, address, gender: String?
     let postCode, language, nationality: String?
     let companyDetails: CompanyDetails?
     let roleType, dob: String?
@@ -257,7 +258,7 @@ struct AgentDetailDataClass: Codable {
 struct EditAgentModel: Encodable {
     let partnerId, profilePic,profile , firstName, lastName: String?
     let mobile , countryCode, email, dob, password: String?
-    let country, state, city, address: String?
+    let country, state, city, address, gender: String?
     let postCode, language, nationality, roleType,roleId: String?
     let companyDetails: EditCompanyDetails?
     let commissionDetails: EditCommissionDetails?

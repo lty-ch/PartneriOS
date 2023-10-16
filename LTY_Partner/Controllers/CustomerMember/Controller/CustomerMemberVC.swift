@@ -119,8 +119,9 @@ class CustomerMemberVC: UIViewController, CustomerUserDocProtocolDelegate {
     
     func setUpCustomerListView() {
         imgImage.makeRounded()
+        
         if ((customerListObj?.profilePic) != nil) {
-            self.imgImage.sd_setImage(with: URL(string: customerListObj?.profilePic ?? ""), placeholderImage:UIImage(named: "user"))
+            self.imgImage.sd_setImage(with: URL(string: customerListObj?.profilePic ?? ""), placeholderImage:UIImage(named: customerListObj?.gender == "Male" ? "user_male" : "user_female"))
         }
         
         let fName = customerListObj?.firstName?.capitalized   ?? ""

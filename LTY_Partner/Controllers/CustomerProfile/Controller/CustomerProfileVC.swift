@@ -124,15 +124,13 @@ class CustomerProfileVC: UIViewController {
     }
     
     func setUpCustomerListView() {
-        if customerListObj?.gender == "Male"{
-            if ((customerListObj?.profilePic) != nil) {
-                self.imgImage.sd_setImage(with: URL(string: customerListObj?.profilePic ?? ""), placeholderImage:UIImage(named: "user_male"))
-            }
+        
+        if ((customerListObj?.profilePic) != nil) {
+            self.imgImage.sd_setImage(with: URL(string: customerListObj?.profilePic ?? ""), placeholderImage:UIImage(named: customerListObj?.gender == "Male" ? "user_male" : "user_female"))
         }else{
-            if ((customerListObj?.profilePic) != nil) {
-                self.imgImage.sd_setImage(with: URL(string: customerListObj?.profilePic ?? ""), placeholderImage:UIImage(named: "user_female"))
-            }
+            self.imgImage.sd_setImage(with: URL(string: customerListObj?.profilePic ?? ""), placeholderImage:UIImage(named: customerListObj?.gender == "Male" ? "user_male" : "user_female"))
         }
+
         let fName = customerListObj?.firstName?.capitalized   ?? ""
         let lName = customerListObj?.lastName?.capitalized   ?? ""
         self.mainNameLbl.text = fName + lName
@@ -155,15 +153,12 @@ class CustomerProfileVC: UIViewController {
     }
     
     func setUpCustomerMemberView() {
-        if memberObj?.gender == "Male"{
-            if ((memberObj?.profilePic) != nil) {
-                self.imgImage.sd_setImage(with: URL(string: memberObj?.profilePic ?? ""), placeholderImage:UIImage(named: "user_male"))
-            }
+        if ((memberObj?.profilePic) != nil) {
+            self.imgImage.sd_setImage(with: URL(string: memberObj?.profilePic ?? ""), placeholderImage:UIImage(named: memberObj?.gender == "Male" ? "user_male" : "user_female"))
         }else{
-            if ((memberObj?.profilePic) != nil) {
-                self.imgImage.sd_setImage(with: URL(string: memberObj?.profilePic ?? ""), placeholderImage:UIImage(named: "user_female"))
-            }
+            self.imgImage.sd_setImage(with: URL(string: memberObj?.profilePic ?? ""), placeholderImage:UIImage(named: memberObj?.gender == "Male" ? "user_male" : "user_female"))
         }
+        
         let fName = memberObj?.firstName?.capitalized   ?? ""
         let lName = memberObj?.lastName?.capitalized   ?? ""
         self.mainNameLbl.text = fName + lName

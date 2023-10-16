@@ -57,6 +57,7 @@ struct SignUpParams : Encodable {
     var firstName: String = ""
     var lastName:  String = ""
     var mobile:  String = ""
+    var gender:  String = ""
     var countryCode :  String = ""
     var email:  String = ""
     var country:  String = ""

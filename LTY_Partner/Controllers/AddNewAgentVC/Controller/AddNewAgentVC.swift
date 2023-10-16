@@ -14,6 +14,8 @@ import CountryPickerView
 
 class AddNewAgentVC: UIViewController , SetDrpDownText {
     
+    @IBOutlet weak var textSelectGender: CustomTextField!
+    @IBOutlet weak var lblTiltleGender: UILabel!
     //MARK:- Outlets
     @IBOutlet weak var textBankCity: CustomTextField!
     @IBOutlet weak var lblBankCity: UILabel!
@@ -225,6 +227,7 @@ class AddNewAgentVC: UIViewController , SetDrpDownText {
         addNewAgentViewModel.getCountryListApi()
         
         customNavigation.titleLabel.text = "Add Agent".localized()
+        lblTiltleGender.text = "Gender".localized()
         customNavigation.titleLabel.textAlignment = .center
         customNavigation.leftSideMenuButtonItem.setImage(Asset.Assets.backArrow.image, for: .normal)
         customNavigation.leftSideMenuButtonItem.addTarget(self, action: #selector(backActionBtn(_:)), for: .touchUpInside)
@@ -263,6 +266,33 @@ class AddNewAgentVC: UIViewController , SetDrpDownText {
 
     }
     
+    @IBAction func btnSelectGender(_ sender: UIButton) {
+        
+        let actionSheetAlertController: UIAlertController = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+        
+        let martialArr = ["Male".localized(), "Female".localized()]
+        
+        for item in martialArr {
+            
+            let action = UIAlertAction(title: item, style: .default) { (action) in
+                
+                self.textSelectGender.text = item
+            }
+            
+            //              let icon = UIImage.init(named: cat.icon)
+            
+            //              action.setValue(icon, forKey: "image")
+            action.setValue(CATextLayerAlignmentMode.center, forKey: "titleTextAlignment")
+            
+            actionSheetAlertController.addAction(action)
+        }
+        
+        let cancelActionButton = UIAlertAction(title: "Cancel".localized(), style: .cancel, handler: nil)
+        actionSheetAlertController.addAction(cancelActionButton)
+        
+        self.present(actionSheetAlertController, animated: true, completion: nil)
+        
+    }
     
     @objc func textFieldDidChange(textField: UITextField) {
         //your code
@@ -694,6 +724,12 @@ class AddNewAgentVC: UIViewController , SetDrpDownText {
         textPrivateOP.textColor             = Asset.Colors.darkGrayColor.color
         textPrivateOP.backgroundColor       = Asset.Colors.grayColor.color
         
+        lblTiltleGender.font                 = FontSize.size16
+        lblTiltleGender.textColor            = Asset.Colors.gray1.color
+        textSelectGender.font                  = FontSize.size16
+        textSelectGender.textColor             = Asset.Colors.darkGrayColor.color
+        textSelectGender.backgroundColor       = Asset.Colors.grayColor.color
+        
         
         //1
         btnPersonalInfoNext.viewCorner(8)
@@ -966,6 +1002,8 @@ class AddNewAgentVC: UIViewController , SetDrpDownText {
             self.ShowAlert(message: LTY_AlterText.messageMobile, title: LTY_AlterText.mobile)
             return
         }
+        
+        
         guard mobile.isLengthValid(minLength: 8, maxLength: 13) else  {
             self.ShowAlert(message: LTY_AlterText.messageMobileValidation, title: LTY_AlterText.mobile)
             return
@@ -987,6 +1025,11 @@ class AddNewAgentVC: UIViewController , SetDrpDownText {
             print("Contains only alphanumeric characters!")
         } else {
             self.ShowAlert(message: LTY_AlterText.messageAddress, title: LTY_AlterText.address)
+            return
+        }
+        
+        guard  let gender = textSelectGender.text, !gender.isEmpty else {
+            self.ShowAlert(message: LTY_AlterText.messagegender, title: LTY_AlterText.gender)
             return
         }
         guard  let country = textCountry.text, !country.isEmpty else {
@@ -1141,6 +1184,7 @@ class AddNewAgentVC: UIViewController , SetDrpDownText {
         let countryCode          = textPersnalInfoCCode.text ?? ""
         let country         = textCountry.text ?? ""
         let state           = textState.text ?? ""
+        let gender           = textSelectGender.text ?? ""
         let city            = textCity.text ?? ""
         let address         = textAddress.text ?? ""
         let postCode        = textPostCode.text ?? ""
@@ -1187,12 +1231,12 @@ class AddNewAgentVC: UIViewController , SetDrpDownText {
             //EditAgentModel
             //            checkNetworkUpdate(params: EditAgentModel(partnerId: partnerId, profilePic: "", profile: profile, firstName: firstName, lastName: lastName, mobile: mobile, countryCode: countryCode ,email: email, dob: dob, password: "", country: country, state: state, city: city, address: address, postCode: postCode, language: language, nationality: nationality, roleType: "",roleId:roleId, companyDetails: EditCompanyDetails.init(companyName: companyName, website: website, logo: "", finamNo: finamNo, ciceroNo: carcioNo, email: compEmail, telephone: compPhone, country: compCountry, state: compState, city:compCity, address: address, postCode: compPostCode, privateCriminalRecord: "", privateOp: "", companyPo: ""), commissionDetails: EditCommissionDetails.init(agentReserve: agentReserve, companyReserve: companyReserve, agentCommission: agentCommission), bankDetails: EditBankDetails.init(iban: iban, swift: swift, bank: bank, country:bankCountry, postCode:bankPostCode, address:bankAddress), source: sourceID))
             
-            checkNetworkUpdate(params: EditAgentModel(partnerId: partnerId, profilePic: "", profile: profile, firstName: firstName, lastName: lastName, mobile: mobile, countryCode: countryCode ,email: email, dob: dob, password: "", country: country, state: state, city: city, address: address, postCode: postCode, language: language, nationality: nationality, roleType: "",roleId:roleId, companyDetails: EditCompanyDetails.init(companyName: companyName, website: website, logo: "", finamNo: finamNo, ciceroNo: carcioNo, email: compEmail, telephone: compPhone, countryCode: "", country: compCountry, state: compState, city:compCity, address: address, postCode: compPostCode, privateCriminalRecord: "", privateOp: "", companyPo: ""), commissionDetails: EditCommissionDetails.init(agentReserve: agentReserve, companyReserve: companyReserve, agentCommission: agentCommission), bankDetails: EditBankDetails.init(iban: iban, swift: swift, bank: bank, country:bankCountry,state: bankState,city: bankCity1, postCode:bankPostCode, address:bankAddress), source: sourceID))
+            checkNetworkUpdate(params: EditAgentModel(partnerId: partnerId, profilePic: "", profile: profile, firstName: firstName, lastName: lastName, mobile: mobile, countryCode: countryCode ,email: email, dob: dob, password: "", country: country, state: state, city: city, address: address, gender: gender, postCode: postCode, language: language, nationality: nationality, roleType: "",roleId:roleId, companyDetails: EditCompanyDetails.init(companyName: companyName, website: website, logo: "", finamNo: finamNo, ciceroNo: carcioNo, email: compEmail, telephone: compPhone, countryCode: "", country: compCountry, state: compState, city:compCity, address: address, postCode: compPostCode, privateCriminalRecord: "", privateOp: "", companyPo: ""), commissionDetails: EditCommissionDetails.init(agentReserve: agentReserve, companyReserve: companyReserve, agentCommission: agentCommission), bankDetails: EditBankDetails.init(iban: iban, swift: swift, bank: bank, country:bankCountry,state: bankState,city: bankCity1, postCode:bankPostCode, address:bankAddress), source: sourceID))
             
         }
         else
         {
-            checkNetwork(params: AddAgentParams.init(type: "AGENT", subscriptionPlan: LTY_SUBSCIPTIONPLAN, source:sourceID , firstName: firstName, lastName: lastName, mobile: mobile, countryCode: countryCode ,email: email, roleId:self.roleId, country: country, state: state,city: city, address: address, postCode: postCode, language: language, nationality: nationality, dob:dob, profile: profile, companyDetails: .init(companyName: companyName, website: website, logo: "", finamNo: finamNo, ciceroNo:carcioNo, email: compEmail, telephone: compPhone, country: compCountry, state:compState, city:compCity, address: compAddress, postCode: compPostCode, privateCriminalRecord: "", privateOp: "", companyPo: ""), bankDetails:.init(iban: iban, swift: swift, bank: bank, country: bankCountry,state: bankState,city: bankCity1, postCode: bankPostCode, address:bankAddress, houseOwned: "true"),commissionDetails: .init(agentReserve:agentReserve,companyReserve: companyReserve,agentCommission:agentCommission)))
+            checkNetwork(params: AddAgentParams.init(type: "AGENT", subscriptionPlan: LTY_SUBSCIPTIONPLAN, source:sourceID , firstName: firstName, lastName: lastName, mobile: mobile,gender:gender, countryCode: countryCode ,email: email, roleId:self.roleId, country: country, state: state,city: city, address: address, postCode: postCode, language: language, nationality: nationality, dob:dob, profile: profile, companyDetails: .init(companyName: companyName, website: website, logo: "", finamNo: finamNo, ciceroNo:carcioNo, email: compEmail, telephone: compPhone, country: compCountry, state:compState, city:compCity, address: compAddress, postCode: compPostCode, privateCriminalRecord: "", privateOp: "", companyPo: ""), bankDetails:.init(iban: iban, swift: swift, bank: bank, country: bankCountry,state: bankState,city: bankCity1, postCode: bankPostCode, address:bankAddress, houseOwned: "true"),commissionDetails: .init(agentReserve:agentReserve,companyReserve: companyReserve,agentCommission:agentCommission)))
             
         }
         

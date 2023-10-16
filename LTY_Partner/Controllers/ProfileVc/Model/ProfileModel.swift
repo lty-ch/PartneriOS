@@ -91,7 +91,7 @@ struct ProfileData: Codable {
     let country, state, city, address: String?
     let postCode, language, nationality: String?
     let companyDetails: ProfileCompanyDetails?
-    let roleType, dob: String?
+    let roleType, dob,  gender: String?
     let commissionDetails: ProfileCommissionDetails?
     let bankDetails: ProfileBankDetails?
     let subscriptionPlan, password: String?

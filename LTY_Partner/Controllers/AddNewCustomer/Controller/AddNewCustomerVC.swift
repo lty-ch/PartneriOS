@@ -749,6 +749,10 @@ class AddNewCustomerVC: UIViewController, SetDrpDownText,SetInsurerList{
             self.ShowAlert(message: LTY_AlterText.maritalStatusAlert, title: LTY_AlterText.maritalStatus)
             return
         }
+        guard  let gender = textGender.text, !gender.isEmpty else {
+            self.ShowAlert(message: LTY_AlterText.messagegender, title: LTY_AlterText.gender)
+            return
+        }
         
         if agentDob == ""{
             self.ShowAlert(message: LTY_AlterText.messageDob, title: LTY_AlterText.dob)

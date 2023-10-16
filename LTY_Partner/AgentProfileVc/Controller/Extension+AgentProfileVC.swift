@@ -22,7 +22,13 @@ extension AgentProfileVC : SetAgentProfileData{
                 
                 //MARK:- persnal Details
                 
-                self.imgProfile.sd_setImage(with:URL(string: data.data?.profilePic ?? ""), placeholderImage:UIImage(named: "user"))
+                if ((data.data?.profilePic) != nil) {
+                    self.imgProfile.sd_setImage(with: URL(string: data.data?.profilePic ?? ""), placeholderImage:UIImage(named: data.data?.gender == "Male" ? "user_male" : "user_female"))
+                }else{
+                    self.imgProfile.sd_setImage(with: URL(string: data.data?.profilePic ?? ""), placeholderImage:UIImage(named: data.data?.gender == "Male" ? "user_male" : "user_female"))
+                }
+                
+//                self.imgProfile.sd_setImage(with:URL(string: data.data?.profilePic ?? ""), placeholderImage:UIImage(named: "user"))
                 self.lblCity.text = data.data?.city
                 self.lblEmail.text = data.data?.email
                 self.lblState.text = data.data?.state

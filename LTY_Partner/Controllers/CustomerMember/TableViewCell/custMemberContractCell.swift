@@ -9,6 +9,8 @@ import UIKit
 
 class custMemberContractCell: UITableViewCell {
 
+    @IBOutlet weak var lblTitleInsurnanceType: UILabel!
+    @IBOutlet weak var lblInsuranceType: UILabel!
     @IBOutlet weak var cellViewBtn: UIButton!
     @IBOutlet weak var lblDate: UILabel!
     @IBOutlet weak var lblSubCat: UILabel!
@@ -21,7 +23,7 @@ class custMemberContractCell: UITableViewCell {
     @IBOutlet weak var lblAgentName: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        lblTitleInsurnanceType.text = "Insurnance Type".localized()
     }
 
 

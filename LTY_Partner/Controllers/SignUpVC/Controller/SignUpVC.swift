@@ -12,6 +12,10 @@ import CountryPickerView
 
 class SignUpVC: UIViewController, SetDrpDownText {
   
+    
+    @IBOutlet weak var textSelectGender: CustomTextField!
+    @IBOutlet weak var lblTiltleGender: UILabel!
+    
     @IBOutlet weak var btnViewAttachment1: UIButton!
     @IBOutlet weak var btnViewAttachment2: UIButton!
     @IBOutlet weak var btnViewAttachment3: UIButton!
@@ -214,6 +218,33 @@ class SignUpVC: UIViewController, SetDrpDownText {
         signUpModelClass.getStateListApi(url: encodedURLString)
     }
     
+    @IBAction func btnSelectGender(_ sender: UIButton) {
+        
+        let actionSheetAlertController: UIAlertController = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+        
+        let martialArr = ["Male".localized(), "Female".localized()]
+        
+        for item in martialArr {
+            
+            let action = UIAlertAction(title: item, style: .default) { (action) in
+                
+                self.textSelectGender.text = item
+            }
+            
+            //              let icon = UIImage.init(named: cat.icon)
+            
+            //              action.setValue(icon, forKey: "image")
+            action.setValue(CATextLayerAlignmentMode.center, forKey: "titleTextAlignment")
+            
+            actionSheetAlertController.addAction(action)
+        }
+        
+        let cancelActionButton = UIAlertAction(title: "Cancel".localized(), style: .cancel, handler: nil)
+        actionSheetAlertController.addAction(cancelActionButton)
+        
+        self.present(actionSheetAlertController, animated: true, completion: nil)
+        
+    }
     
     func showDatePicker(){
         
@@ -296,6 +327,12 @@ class SignUpVC: UIViewController, SetDrpDownText {
     //MARK:- SetUpView
     
     func setUpView () {
+        
+        lblTiltleGender.font                 = FontSize.size16
+        lblTiltleGender.textColor            = Asset.Colors.gray1.color
+        textSelectGender.font                  = FontSize.size16
+        textSelectGender.textColor             = Asset.Colors.darkGrayColor.color
+        textSelectGender.backgroundColor       = Asset.Colors.grayColor.color
         
         personalInfoSubTitleView.isHidden = false
         companyInfoSubTitleView.isHidden  = true
@@ -856,6 +893,10 @@ class SignUpVC: UIViewController, SetDrpDownText {
             return
         }
         
+        guard  let gender = textSelectGender.text, !gender.isEmpty else {
+            self.ShowAlert(message: LTY_AlterText.messagegender, title: LTY_AlterText.gender)
+            return
+        }
         guard let state = textState.text, !state.isEmpty else {
             self.ShowAlert(message: LTY_AlterText.messageState.localized(), title: LTY_AlterText.state.localized())
             return
@@ -1044,6 +1085,7 @@ class SignUpVC: UIViewController, SetDrpDownText {
 
         
         let userDob             = agentDob
+        let gender             = textSelectGender.text ?? ""
         let countryCode           = textPersnalInfoCCode.text ?? ""
         let firstName       = textFirstName.text ?? ""
         let lastName        =  textLastName.text ?? ""
@@ -1084,7 +1126,7 @@ class SignUpVC: UIViewController, SetDrpDownText {
 
         
         
-        checkNetwork(params: SignUpParams.init(type: LTY_TYPE, subscriptionPlan: LTY_SUBSCIPTIONPLAN, source: LTY_SOURCE, firstName: firstName, lastName: lastName, mobile: CompPhone,countryCode:CompCountryCode,email: CompEmail, country: country, state: state, city: city, address: address, postCode: postCode, language: language, nationality: nationality, companyDetails: .init(companyName: companyName, website: website, logo: "", finamNo:Finam, ciceroNo: Cercio, email: email, telephone: mobile,countryCode:countryCode, country: compCountry, state: CompState, city:CompCity, address: compAddress, postCode: compPostCode, privateCriminalRecord: PrivateCRecord, privateOp: PrivateOP, companyPo:CompanyPO), bankDetails: SignUpBankDetailSubParams.init(iban: iban, swift: swift, bank: bank, country:bankCountry,state: bankState,city: bankCity, postCode: bankPost, address: bankAdd, houseOwned: ""), password: password,dob:userDob))
+        checkNetwork(params: SignUpParams.init(type: LTY_TYPE, subscriptionPlan: LTY_SUBSCIPTIONPLAN, source: LTY_SOURCE, firstName: firstName, lastName: lastName, mobile: CompPhone, gender: gender,countryCode:CompCountryCode,email: CompEmail, country: country, state: state, city: city, address: address, postCode: postCode, language: language, nationality: nationality, companyDetails: .init(companyName: companyName, website: website, logo: "", finamNo:Finam, ciceroNo: Cercio, email: email, telephone: mobile,countryCode:countryCode, country: compCountry, state: CompState, city:CompCity, address: compAddress, postCode: compPostCode, privateCriminalRecord: PrivateCRecord, privateOp: PrivateOP, companyPo:CompanyPO), bankDetails: SignUpBankDetailSubParams.init(iban: iban, swift: swift, bank: bank, country:bankCountry,state: bankState,city: bankCity, postCode: bankPost, address: bankAdd, houseOwned: ""), password: password,dob:userDob))
         
     }
     

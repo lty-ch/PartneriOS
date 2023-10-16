@@ -21,7 +21,7 @@ struct AgentViewProfileData :Codable {
     let isMobileVerified: Bool?
     let email: String?
     let isEmailVerified: Bool?
-    let country, state, city, address: String?
+    let country, state, city, address, gender: String?
     let postCode, language, nationality: String?
     let companyDetails: AgentViewProfileCompanyDetails?
     let roleType, dob: String?
